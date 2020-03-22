@@ -6,6 +6,8 @@
   "scripts": {
     "build": "node build.js"
   },
-  "author": "Simon Legner <Simon.Legner@gmail.com",
+  "homepage": "https://github.com/osmlab/tag2link",
+  "repository": "github:osmlab/tag2link",
+  "author": "Simon Legner <Simon.Legner@gmail.com>",
   "license": "ISC"
 }
