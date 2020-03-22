@@ -18,6 +18,7 @@ const data = [
   key: i.OSM_key.value,
   url: i.formatter_URL.value
 }));
+data.sort((i, j) => i.key.localeCompare(j.key));
 
 console.log(`Writing ${data.length} rules to index.json`);
 fs.writeFileSync("index.json", JSON.stringify(data, undefined, 2));
