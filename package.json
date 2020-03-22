@@ -1,0 +1,11 @@
+{
+  "name": "tag2link",
+  "version": "1.0.0",
+  "description": "Formatter URLs for OpenStreetMap tags",
+  "main": "index.json",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "author": "Simon Legner <Simon.Legner@gmail.com",
+  "license": "ISC"
+}
