@@ -9,6 +9,8 @@ This repository contains formatter URLs for OpenStreetMap keys. The data is obta
 
 Use `index.json` in your application. Replace `$1` with the tag value.
 
+You may want to obtain the package from npm: https://www.npmjs.com/package/tag2link
+
 ## Updating
 
 Run `npm build` which will update `index.json`.
