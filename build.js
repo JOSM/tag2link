@@ -19,7 +19,16 @@ const data = [
   url: i.formatter_URL.value
 }));
 
+console.log(`Writing ${data.length} rules to index.json`);
 fs.writeFileSync("index.json", JSON.stringify(data, undefined, 2));
+
+const package = JSON.parse(fs.readFileSync("package.json"));
+package.version = new Date()
+  .toISOString()
+  .substring(0, 10)
+  .replace(/-/g, ".");
+console.log(`Updating package version to ${package.version}`);
+fs.writeFileSync("package.json", JSON.stringify(package, undefined, 2));
 
 function sparql(url, filename) {
   return curl(

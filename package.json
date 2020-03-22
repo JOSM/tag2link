@@ -1,6 +1,6 @@
 {
   "name": "tag2link",
-  "version": "1.0.0",
+  "version": "2020.03.22",
   "description": "Formatter URLs for OpenStreetMap tags",
   "main": "index.json",
   "scripts": {
