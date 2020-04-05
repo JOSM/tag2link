@@ -1,6 +1,7 @@
-SELECT (CONCAT("Key:", ?permanent_key_ID) as ?OSM_key) ?formatter_URL ?rank WHERE {
+SELECT (CONCAT("Key:", ?permanent_key_ID) as ?OSM_key) ?formatter_URL ?rank ?source WHERE {
   ?item osmdt:P2 osmd:Q7.
   ?item osmdt:P16 ?permanent_key_ID.
   ?item osmp:P8 [osmps:P8 ?formatter_URL; wikibase:rank ?rank;].
+  BIND("osmwiki:P8" AS ?source ).
 }
 ORDER BY ?OSM_key ?rank ?formatter_URL

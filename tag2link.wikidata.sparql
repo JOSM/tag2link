@@ -1,11 +1,11 @@
-SELECT ?OSM_key ?formatter_URL ?rank WHERE {
+SELECT ?OSM_key ?formatter_URL ?rank ?source WHERE {
   { ?item wdt:P1282 ?OSM_key. }
   FILTER(STRSTARTS(?OSM_key, 'Key:')) .
 
   {
-    { ?item p:P1630 [ps:P1630 ?formatter_URL; wikibase:rank ?rank;]. }
+    { ?item p:P1630 [ps:P1630 ?formatter_URL; wikibase:rank ?rank;]. BIND("wikidata:P1630" AS ?source ). }
     UNION
-    { ?item p:P3303[ps:P3303 ?formatter_URL; wikibase:rank ?rank;]. }
+    { ?item p:P3303[ps:P3303 ?formatter_URL; wikibase:rank ?rank;]. BIND("wikidata:P3303" AS ?source ). }
   }
 }
 ORDER BY ?OSM_key ?rank ?formatter_URL

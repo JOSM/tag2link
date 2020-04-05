@@ -17,6 +17,7 @@ const data = [
 ].map(i => ({
   key: i.OSM_key.value,
   url: i.formatter_URL.value,
+  source: i.source.value,
   rank: {
     "http://wikiba.se/ontology#PreferredRank": "preferred",
     "http://wikiba.se/ontology#NormalRank": "normal",
