@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "array",
+  "description": "Formatter URLs for OpenStreetMap tags",
+  "items": {
+    "$ref": "#/definitions/Tag2LinkElement"
+  },
+  "definitions": {
+    "Tag2LinkElement": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "key": {
+          "type": "string",
+          "description": "OSM tag key"
+        },
+        "url": {
+          "type": "string",
+          "description": "URL template or formatter URL: replace `$1` with the tag value"
+        },
+        "source": {
+          "type": "string",
+          "description": "Source of this formatter URL"
+        },
+        "rank": {
+          "$ref": "#/definitions/Rank",
+          "description": "Rank or relative importance of this formatter URL"
+        }
+      },
+      "required": ["key", "url"],
+      "title": "Tag2LinkElement"
+    },
+    "Rank": {
+      "type": "string",
+      "enum": ["preferred", "normal", "deprecated"],
+      "title": "Rank"
+    }
+  }
+}
