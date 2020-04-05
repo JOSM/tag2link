@@ -16,7 +16,12 @@ const data = [
   ...fromSophox.results.bindings
 ].map(i => ({
   key: i.OSM_key.value,
-  url: i.formatter_URL.value
+  url: i.formatter_URL.value,
+  rank: {
+    "http://wikiba.se/ontology#PreferredRank": "preferred",
+    "http://wikiba.se/ontology#NormalRank": "normal",
+    "http://wikiba.se/ontology#DeprecatedRank": "deprecated",
+  }[i.rank.value]
 }));
 data.sort((i, j) => i.key.localeCompare(j.key));
 
