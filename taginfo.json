@@ -1,0 +1,537 @@
+{
+  "data_format": 1,
+  "data_updated": "20200405T130000Z",
+  "project": {
+    "name": "tag2link",
+    "description": "Formatter URLs for OpenStreetMap tags",
+    "project_url": "https://github.com/osmlab/tag2link",
+    "contact_name": "Simon Legner",
+    "contact_email": "Simon.Legner@gmail.com"
+  },
+  "tags": [
+    {
+      "key": "Key:3dmr",
+      "description": "https://3dmr.eu/model/$1"
+    },
+    {
+      "key": "Key:contact:Facebook",
+      "description": "https://www.facebook.com/$1"
+    },
+    {
+      "key": "Key:contact:Facebook",
+      "description": "https://www.messenger.com/t/$1"
+    },
+    {
+      "key": "Key:contact:fax",
+      "description": "tel:$1"
+    },
+    {
+      "key": "Key:contact:foursquare",
+      "description": "https://www.foursquare.com/v/$1"
+    },
+    {
+      "key": "Key:contact:google_plus",
+      "description": "https://web.archive.org/web/20190401000000/https://plus.google.com/u/0/$1"
+    },
+    {
+      "key": "Key:contact:google_plus",
+      "description": "https://web.archive.org/web/20190401000000/https://plus.google.com/$1"
+    },
+    {
+      "key": "Key:contact:instagram",
+      "description": "https://www.instagram.com/$1/"
+    },
+    {
+      "key": "Key:contact:mastodon",
+      "description": "https://tools.wmflabs.org/wikidata-externalid-url/?p=4033&id=$1"
+    },
+    {
+      "key": "Key:contact:phone",
+      "description": "tel:$1"
+    },
+    {
+      "key": "Key:contact:telegram",
+      "description": "tg://resolve?domain=$1"
+    },
+    {
+      "key": "Key:contact:telegram",
+      "description": "https://t.me/s/$1"
+    },
+    {
+      "key": "Key:contact:tripadvisor",
+      "description": "https://www.tripadvisor.com/$1"
+    },
+    {
+      "key": "Key:contact:twitter",
+      "description": "https://tools.wmflabs.org/scholia/twitter/$1"
+    },
+    {
+      "key": "Key:contact:twitter",
+      "description": "https://twitter.com/intent/user?screen_name=$1"
+    },
+    {
+      "key": "Key:contact:twitter",
+      "description": "https://twitter.com/$1"
+    },
+    {
+      "key": "Key:contact:yelp",
+      "description": "https://www.yelp.com/biz/$1"
+    },
+    {
+      "key": "Key:contact:yelp",
+      "description": "https://www.yelp.com/biz/$1"
+    },
+    {
+      "key": "Key:de:amtlicher_gemeindeschluessel",
+      "description": "http://www.statistik-portal.de/Statistik-Portal/gemeindeverz.asp?G=$1"
+    },
+    {
+      "key": "Key:de:amtlicher_gemeindeschluessel",
+      "description": "https://www.hdbg.eu/gemeinden/index.php/detail?rschl=$1"
+    },
+    {
+      "key": "Key:de:amtlicher_gemeindeschluessel",
+      "description": "https://www.statistik.bayern.de/mam/produkte/statistik_kommunal/2018/$1.pdf"
+    },
+    {
+      "key": "Key:fax",
+      "description": "tel:$1"
+    },
+    {
+      "key": "Key:fhrs:id",
+      "description": "https://ratings.food.gov.uk/business/en-GB/$1"
+    },
+    {
+      "key": "Key:flag:wikidata",
+      "description": "https://www.wikidata.org/wiki/$1"
+    },
+    {
+      "key": "Key:gnis:feature_id",
+      "description": "https://geonames.usgs.gov/apex/f?p=gnispq:3:::NO::P3_FID:$1"
+    },
+    {
+      "key": "Key:gnis:id",
+      "description": "https://geonames.usgs.gov/apex/f?p=gnispq:3:::NO::P3_FID:$1"
+    },
+    {
+      "key": "Key:GNISID",
+      "description": "https://geonames.usgs.gov/apex/f?p=gnispq:3:::NO::P3_FID:$1"
+    },
+    {
+      "key": "Key:iata",
+      "description": "http://aviation-safety.net/database/airport/airport.php?id=$1"
+    },
+    {
+      "key": "Key:iata",
+      "description": "http://uk.flightaware.com/live/airport/$1"
+    },
+    {
+      "key": "Key:iata",
+      "description": "https://flightadsb.variflight.com/airport/$1"
+    },
+    {
+      "key": "Key:iata",
+      "description": "https://www.flightradar24.com/data/airports/$1"
+    },
+    {
+      "key": "Key:iata",
+      "description": "https://www.flightradar24.com/data/airports/$1"
+    },
+    {
+      "key": "Key:iata",
+      "description": "https://www.iata.org/en/publications/directories/code-search/?airport.search=$1"
+    },
+    {
+      "key": "Key:iata",
+      "description": "https://www.iata.org/en/publications/directories/code-search/?airport.search=$1"
+    },
+    {
+      "key": "Key:icao",
+      "description": "http://uk.flightaware.com/live/airport/$1"
+    },
+    {
+      "key": "Key:icao",
+      "description": "http://worldaerodata.com/wad.cgi?airport=$1"
+    },
+    {
+      "key": "Key:icao",
+      "description": "https://www.flightradar24.com/data/airports/$1"
+    },
+    {
+      "key": "Key:icao",
+      "description": "https://www.flightradar24.com/data/airports/$1"
+    },
+    {
+      "key": "Key:image",
+      "description": "https://commons.wikimedia.org/wiki/File:$1"
+    },
+    {
+      "key": "Key:koatuu",
+      "description": "http://dovidnyk.in.ua/directories/koatuu/search=$1"
+    },
+    {
+      "key": "Key:mapillary",
+      "description": "https://www.mapillary.com/map/im/$1"
+    },
+    {
+      "key": "Key:mdb_id",
+      "description": "https://molendatabase.nl/nederland/molen.php?nummer=$1"
+    },
+    {
+      "key": "Key:nist:fips_code",
+      "description": "http://www.census.gov/quickfacts/table/PST045215/$1,00"
+    },
+    {
+      "key": "Key:nycdoitt:bin",
+      "description": "http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?bin=$1"
+    },
+    {
+      "key": "Key:openplaques:id",
+      "description": "https://openplaques.org/plaques/$1"
+    },
+    {
+      "key": "Key:phone",
+      "description": "tel:$1"
+    },
+    {
+      "key": "Key:ref:admiralty",
+      "description": "http://listoflights.org/site/search?q=$1"
+    },
+    {
+      "key": "Key:ref:arlhs",
+      "description": "http://wlol.arlhs.com/lighthouse/$1.html"
+    },
+    {
+      "key": "Key:ref:at:gkz",
+      "description": "http://www.statistik.at/blickgem/gemDetail.do?gemnr=$1"
+    },
+    {
+      "key": "Key:ref:bag",
+      "description": "https://bag.basisregistraties.overheid.nl/bag/id/pand/$1"
+    },
+    {
+      "key": "Key:ref:bag",
+      "description": "https://bagviewer.kadaster.nl/lvbag/bag-viewer/index.html#?searchQuery=$1"
+    },
+    {
+      "key": "Key:ref:bag",
+      "description": "https://bagviewer.kadaster.nl/lvbag/bag-viewer/index.html#?searchQuery=$1"
+    },
+    {
+      "key": "Key:ref:ccg",
+      "description": "http://google.com/search?q=$1+site:www.notmar.gc.ca/publications/list-livre"
+    },
+    {
+      "key": "Key:ref:crs",
+      "description": "http://ojp.nationalrail.co.uk/service/ldbboard/dep/$1"
+    },
+    {
+      "key": "Key:ref:crs",
+      "description": "http://www.nationalrail.co.uk/stations/$1/details.html"
+    },
+    {
+      "key": "Key:ref:crs",
+      "description": "http://www.realtimetrains.co.uk/search/advanced/$1"
+    },
+    {
+      "key": "Key:ref:crs",
+      "description": "https://traintimes.org.uk/live/$1"
+    },
+    {
+      "key": "Key:ref:crs",
+      "description": "https://www.northernrailway.co.uk/stations/$1"
+    },
+    {
+      "key": "Key:ref:edubase",
+      "description": "https://get-information-schools.service.gov.uk/Establishments/Establishment/Details/$1"
+    },
+    {
+      "key": "Key:ref:edubase",
+      "description": "https://www.get-information-schools.service.gov.uk/Establishments/Establishment/Details/$1"
+    },
+    {
+      "key": "Key:ref:ef",
+      "description": "http://www.marina.difesa.it/cosa-facciamo/fari/Pagine/$1.aspx"
+    },
+    {
+      "key": "Key:ref:ef",
+      "description": "http://www.marina.difesa.it/cosa-facciamo/per-la-difesa-sicurezza/fari/Pagine/$1.aspx"
+    },
+    {
+      "key": "Key:ref:FR:CEF",
+      "description": "http://egliseinfo.catholique.fr/#!lieu:$1"
+    },
+    {
+      "key": "Key:ref:FR:FINESS",
+      "description": "http://finess.sante.gouv.fr/finess/jsp/actionDetailEtablissement.do?noFiness=$1"
+    },
+    {
+      "key": "Key:ref:FR:LaPoste",
+      "description": "http://www.laposte.fr/particulier/outils/trouver-un-bureau-de-poste/bureau-detail/$1/$1"
+    },
+    {
+      "key": "Key:ref:FR:MemorialGenWeb",
+      "description": "http://www.memorialgenweb.org/memorial3/html/fr/resultcommune.php?idsource=$1"
+    },
+    {
+      "key": "Key:ref:FR:museofile",
+      "description": "https://www.pop.culture.gouv.fr/notice/museo/$1"
+    },
+    {
+      "key": "Key:ref:FR:NAF",
+      "description": "http://recherche-naf.insee.fr/SIRENET_ClassesNaf/$1.htm"
+    },
+    {
+      "key": "Key:ref:FR:SIRET",
+      "description": "https://entreprise.data.gouv.fr/etablissement/$1"
+    },
+    {
+      "key": "Key:ref:FR:SIRET",
+      "description": "https://www.infogreffe.fr/societes/entreprise-societe/$1"
+    },
+    {
+      "key": "Key:ref:gnis",
+      "description": "https://geonames.usgs.gov/apex/f?p=gnispq:3:::NO::P3_FID:$1"
+    },
+    {
+      "key": "Key:ref:INSEE",
+      "description": "http://id.eaufrance.fr/COM/$1"
+    },
+    {
+      "key": "Key:ref:INSEE",
+      "description": "http://www.amf.asso.fr/annuaire/index.asp?refer=commune&NUM_INSEE=$1"
+    },
+    {
+      "key": "Key:ref:INSEE",
+      "description": "https://dev.cadastre.openstreetmap.fr/fantoir/#insee=$1"
+    },
+    {
+      "key": "Key:ref:INSEE",
+      "description": "https://www.insee.fr/fr/statistiques/2011101?geo=COM-$1"
+    },
+    {
+      "key": "Key:ref:isil",
+      "description": "http://dispatch.opac.d-nb.de/DB=1.2/CMD?ACT=SRCHA&IKT=8529&TRM=$1"
+    },
+    {
+      "key": "Key:ref:isil",
+      "description": "http://anagrafe.iccu.sbn.it/isil/$1"
+    },
+    {
+      "key": "Key:ref:isil",
+      "description": "http://id.ndl.go.jp/vocab/isil/$1"
+    },
+    {
+      "key": "Key:ref:isil",
+      "description": "http://isil.kansalliskirjasto.fi/api/query?isil=$1"
+    },
+    {
+      "key": "Key:ref:isil",
+      "description": "http://isil.kbr.be/$1"
+    },
+    {
+      "key": "Key:ref:isil",
+      "description": "http://lobid.org/organisations/$1"
+    },
+    {
+      "key": "Key:ref:isil",
+      "description": "http://sigel.staatsbibliothek-berlin.de/nc/suche/?isil=$1"
+    },
+    {
+      "key": "Key:ref:isil",
+      "description": "http://sigel.staatsbibliothek-berlin.de/nc/suche/?isil=$1"
+    },
+    {
+      "key": "Key:ref:isil",
+      "description": "https://lobid.org/organisation/$1/about"
+    },
+    {
+      "key": "Key:ref:isil",
+      "description": "https://w3id.org/isil/$1"
+    },
+    {
+      "key": "Key:ref:isil",
+      "description": "https://w3id.org/isil/$1"
+    },
+    {
+      "key": "Key:ref:isil",
+      "description": "https://w3id.org/isil/$1"
+    },
+    {
+      "key": "Key:ref:isil",
+      "description": "https://w3id.org/isil/$1"
+    },
+    {
+      "key": "Key:ref:isil",
+      "description": "https://w3id.org/isil/AU-$1"
+    },
+    {
+      "key": "Key:ref:isil",
+      "description": "https://www.nl.go.kr/isil/search/search-f.php?libtype=&field=ISIL&keyword2=$1"
+    },
+    {
+      "key": "Key:ref:mhs",
+      "description": "http://www.culture.gouv.fr/public/mistral/merimee_fr?ACTION=CHERCHER&FIELD_1=REF&VALUE_1=$1"
+    },
+    {
+      "key": "Key:ref:mhs",
+      "description": "https://www.pop.culture.gouv.fr/notice/merimee/$1"
+    },
+    {
+      "key": "Key:ref:nga",
+      "description": "https://tools.wmflabs.org/wikidata-externalid-url/?url=https%3A%2F%2Fmsi.nga.mil%2FqueryResults%3Fpublications%2Fngalol%2Flights-buoys%3Fvolume%3D%251%26featureNumber%3D%252%26includeRemovals%3Dfalse%26output%3Dhtml&exp=(%5Cd%7B3%7D)-(.*)&id=$1"
+    },
+    {
+      "key": "Key:ref:nrhp",
+      "description": "https://npgallery.nps.gov/AssetDetail/NRIS/$1"
+    },
+    {
+      "key": "Key:ref:OnroerendErfgoed",
+      "description": "https://id.erfgoed.net/erfgoedobjecten/$1"
+    },
+    {
+      "key": "Key:ref:rce",
+      "description": "https://monumentenregister.cultureelerfgoed.nl/monumenten/pdf/$1"
+    },
+    {
+      "key": "Key:ref:rce",
+      "description": "https://monumentenregister.cultureelerfgoed.nl/monumenten/$1"
+    },
+    {
+      "key": "Key:ref:ruian:building",
+      "description": "https://vdp.cuzk.cz/vdp/ruian/stavebniobjekty/$1"
+    },
+    {
+      "key": "Key:ref:sandre",
+      "description": "http://www.sandre.eaufrance.fr/geo/CoursEau/$1"
+    },
+    {
+      "key": "Key:ref:UAI",
+      "description": "http://www.education.gouv.fr/pid24302/annuaire-resultat-recherche.html?lycee_name=$1"
+    },
+    {
+      "key": "Key:ref:uscg",
+      "description": "https://tools.wmflabs.org/wikidata-externalid-url/?url=https%3A%2F%2Fmsi.nga.mil%2FqueryResults%3Fpublications%2Fuscgll%3Fvolume%3D%251%26featureNumber%3D%252%26includeRemovals%3Dfalse%26output%3Dhtml&exp=(%5Cd)-(.*)&id=$1"
+    },
+    {
+      "key": "Key:ref:vatin",
+      "description": "https://tools.wmflabs.org/wikidata-externalid-url/?p=3608&url_prefix=http://ec.europa.eu/taxation_customs/vies/vatResponse.html?memberStateCode=&id=$1"
+    },
+    {
+      "key": "Key:ref:whc",
+      "description": "http://www.worldheritagesite.org/sites/site.php?id=$1"
+    },
+    {
+      "key": "Key:ref:whc",
+      "description": "https://whc.unesco.org/en/list/$1"
+    },
+    {
+      "key": "Key:ref:whc",
+      "description": "https://whc.unesco.org/fr/list/$1"
+    },
+    {
+      "key": "Key:ref:wigos",
+      "description": "https://oscar.wmo.int/surface/#/search/station/stationReportDetails/$1"
+    },
+    {
+      "key": "Key:ref:woonplaatscode",
+      "description": "https://bagviewer.kadaster.nl/lvbag/bag-viewer/index.html#?objectId=$1&detailsObjectId=$1"
+    },
+    {
+      "key": "Key:ref:woonplaatscode",
+      "description": "https://brt.basisregistraties.overheid.nl/top10nl/doc/plaats/$1"
+    },
+    {
+      "key": "Key:ref:woonplaatscode",
+      "description": "https://bag.basisregistraties.overheid.nl/bag/id/woonplaats/$1"
+    },
+    {
+      "key": "Key:seamark:radio_station:mmsi",
+      "description": "http://sd.ic.gc.ca/pls/engdoc_anon/mmsi_search.Ship_Search_Single?inMMSI=$1&invesname=&inname=&oinmmsi=$1&incallsign=&invesid=&ininmarsat="
+    },
+    {
+      "key": "Key:seamark:radio_station:mmsi",
+      "description": "https://www.marinetraffic.com/ais/details/ships/$1"
+    },
+    {
+      "key": "Key:seamark:virtual_aton:mmsi",
+      "description": "http://sd.ic.gc.ca/pls/engdoc_anon/mmsi_search.Ship_Search_Single?inMMSI=$1&invesname=&inname=&oinmmsi=$1&incallsign=&invesid=&ininmarsat="
+    },
+    {
+      "key": "Key:seamark:virtual_aton:mmsi",
+      "description": "https://www.marinetraffic.com/ais/details/ships/$1"
+    },
+    {
+      "key": "Key:twitter",
+      "description": "https://tools.wmflabs.org/scholia/twitter/$1"
+    },
+    {
+      "key": "Key:twitter",
+      "description": "https://twitter.com/intent/user?screen_name=$1"
+    },
+    {
+      "key": "Key:twitter",
+      "description": "https://twitter.com/$1"
+    },
+    {
+      "key": "Key:website",
+      "description": "https://web.archive.org/web/*/$1/"
+    },
+    {
+      "key": "Key:website",
+      "description": "$1"
+    },
+    {
+      "key": "Key:wikidata",
+      "description": "https://osm.wikidata.link/$1"
+    },
+    {
+      "key": "Key:wikidata",
+      "description": "https://taginfo.openstreetmap.org/tags/wikidata=$1"
+    },
+    {
+      "key": "Key:wikidata",
+      "description": "https://tools.wmflabs.org/autodesc/?q=$1&links=wikipedia&lang=en&mode=long&format=html&redlinks=reasonator"
+    },
+    {
+      "key": "Key:wikidata",
+      "description": "https://tools.wmflabs.org/portal/$1"
+    },
+    {
+      "key": "Key:wikidata",
+      "description": "https://tools.wmflabs.org/reasonator/?q=$1"
+    },
+    {
+      "key": "Key:wikidata",
+      "description": "https://tools.wmflabs.org/scholia/$1"
+    },
+    {
+      "key": "Key:wikidata",
+      "description": "https://tools.wmflabs.org/sqid/#/view?id=$1"
+    },
+    {
+      "key": "Key:wikidata",
+      "description": "https://viaf.org/processed/WKP|$1"
+    },
+    {
+      "key": "Key:wikidata",
+      "description": "https://www.wikidata.org/w/index.php?title=Special:CiteThisPage&page=$1"
+    },
+    {
+      "key": "Key:wikidata",
+      "description": "https://www.wikidata.org/wiki/$1"
+    },
+    {
+      "key": "Key:wikidata",
+      "description": "https://www.wikidata.org/wiki/Special:Nearby#/page/$1"
+    },
+    {
+      "key": "Key:woeid",
+      "description": "https://www.flickr.com/places/info/$1"
+    },
+    {
+      "key": "Key:woeid",
+      "description": "https://www.flickr.com/places/info/$1"
+    }
+  ]
+}
