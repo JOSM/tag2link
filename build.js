@@ -47,7 +47,10 @@ const taginfo = {
     contact_name: author[1],
     contact_email: author[2],
   },
-  tags: data.map(({ key, url }) => ({ key, description: url })),
+  tags: data.map(({ key, url }) => ({
+    key: key.replace(/^Key:/, ""),
+    description: url,
+  })),
 };
 console.log(`Updating taginfo.json`);
 fs.writeFileSync("taginfo.json", JSON.stringify(taginfo, undefined, 2));
