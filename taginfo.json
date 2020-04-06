@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20200405T130000Z",
+  "data_updated": "20200406T150000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -14,11 +14,11 @@
       "description": "https://3dmr.eu/model/$1"
     },
     {
-      "key": "contact:Facebook",
+      "key": "contact:facebook",
       "description": "https://www.facebook.com/$1"
     },
     {
-      "key": "contact:Facebook",
+      "key": "contact:facebook",
       "description": "https://www.messenger.com/t/$1"
     },
     {
@@ -200,6 +200,14 @@
     {
       "key": "ref:arlhs",
       "description": "http://wlol.arlhs.com/lighthouse/$1.html"
+    },
+    {
+      "key": "ref:at:bda",
+      "description": "https://tools.wmflabs.org/denkmalliste/index.php?action=EinzelID&ID=$1"
+    },
+    {
+      "key": "ref:AT:bda",
+      "description": "https://tools.wmflabs.org/denkmalliste/index.php?action=EinzelID&ID=$1"
     },
     {
       "key": "ref:at:gkz",
@@ -398,8 +406,20 @@
       "description": "https://monumentenregister.cultureelerfgoed.nl/monumenten/$1"
     },
     {
+      "key": "ref:ruian",
+      "description": "https://linked.cuzk.cz/resource/ruian/katastralni-uzemi/$1"
+    },
+    {
+      "key": "ref:ruian",
+      "description": "https://vdp.cuzk.cz/vdp/ruian/obce/$1"
+    },
+    {
       "key": "ref:ruian:building",
       "description": "https://vdp.cuzk.cz/vdp/ruian/stavebniobjekty/$1"
+    },
+    {
+      "key": "ref:ruian:street",
+      "description": "https://linked.cuzk.cz/resource/ruian/ulice/$1"
     },
     {
       "key": "ref:sandre",

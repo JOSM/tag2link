@@ -6,13 +6,13 @@
     "rank": "normal"
   },
   {
-    "key": "Key:contact:Facebook",
+    "key": "Key:contact:facebook",
     "url": "https://www.facebook.com/$1",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
   {
-    "key": "Key:contact:Facebook",
+    "key": "Key:contact:facebook",
     "url": "https://www.messenger.com/t/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
@@ -284,6 +284,18 @@
   {
     "key": "Key:ref:arlhs",
     "url": "http://wlol.arlhs.com/lighthouse/$1.html",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:at:bda",
+    "url": "https://tools.wmflabs.org/denkmalliste/index.php?action=EinzelID&ID=$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:AT:bda",
+    "url": "https://tools.wmflabs.org/denkmalliste/index.php?action=EinzelID&ID=$1",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
@@ -582,9 +594,27 @@
     "rank": "preferred"
   },
   {
+    "key": "Key:ref:ruian",
+    "url": "https://linked.cuzk.cz/resource/ruian/katastralni-uzemi/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:ruian",
+    "url": "https://vdp.cuzk.cz/vdp/ruian/obce/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
     "key": "Key:ref:ruian:building",
     "url": "https://vdp.cuzk.cz/vdp/ruian/stavebniobjekty/$1",
     "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:ruian:street",
+    "url": "https://linked.cuzk.cz/resource/ruian/ulice/$1",
+    "source": "wikidata:P1630",
     "rank": "normal"
   },
   {
