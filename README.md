@@ -14,3 +14,7 @@ You may want to obtain the package from npm: https://www.npmjs.com/package/tag2l
 ## Updating
 
 Run `npm build` which will update `index.json`.
+
+## Taginfo
+
+The extracted keys and URLs are also provided in Taginfo: https://taginfo.openstreetmap.org/projects/tag2link#tags
