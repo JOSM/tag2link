@@ -8,4 +8,4 @@ SELECT ?OSM_key ?formatter_URL ?rank ?source WHERE {
     { ?item p:P3303[ps:P3303 ?formatter_URL; wikibase:rank ?rank;]. BIND("wikidata:P3303" AS ?source ). }
   }
 }
-ORDER BY ?OSM_key ?rank ?formatter_URL
+ORDER BY ?OSM_key ?rank ?formatter_URL ?source
