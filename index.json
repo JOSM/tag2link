@@ -60,6 +60,90 @@
     "rank": "normal"
   },
   {
+    "key": "Key:contact:pinterest",
+    "url": "https://ar.pinterest.com/$1/",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:contact:pinterest",
+    "url": "https://au.pinterest.com/$1/",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:contact:pinterest",
+    "url": "https://br.pinterest.com/$1/",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:contact:pinterest",
+    "url": "https://co.pinterest.com/$1/",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:contact:pinterest",
+    "url": "https://in.pinterest.com/$1/",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:contact:pinterest",
+    "url": "https://www.pinterest.ca/$1/",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:contact:pinterest",
+    "url": "https://www.pinterest.co.uk/$1/",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:contact:pinterest",
+    "url": "https://www.pinterest.com.mx/$1/",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:contact:pinterest",
+    "url": "https://www.pinterest.com/$1/",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:contact:pinterest",
+    "url": "https://www.pinterest.de/$1/",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:contact:pinterest",
+    "url": "https://www.pinterest.es/$1/",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:contact:pinterest",
+    "url": "https://www.pinterest.fr/$1/",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:contact:pinterest",
+    "url": "https://www.pinterest.it/$1/",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:contact:pinterest",
+    "url": "https://www.pinterest.jp/$1/",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
     "key": "Key:contact:telegram",
     "url": "tg://resolve?domain=$1",
     "source": "wikidata:P3303",
@@ -218,13 +302,13 @@
   {
     "key": "Key:icao",
     "url": "https://www.flightradar24.com/data/airports/$1",
-    "source": "wikidata:P3303",
+    "source": "wikidata:P1630",
     "rank": "normal"
   },
   {
     "key": "Key:icao",
     "url": "https://www.flightradar24.com/data/airports/$1",
-    "source": "wikidata:P1630",
+    "source": "wikidata:P3303",
     "rank": "normal"
   },
   {
@@ -500,13 +584,13 @@
   {
     "key": "Key:ref:isil",
     "url": "http://sigel.staatsbibliothek-berlin.de/nc/suche/?isil=$1",
-    "source": "wikidata:P3303",
+    "source": "wikidata:P1630",
     "rank": "normal"
   },
   {
     "key": "Key:ref:isil",
     "url": "http://sigel.staatsbibliothek-berlin.de/nc/suche/?isil=$1",
-    "source": "wikidata:P1630",
+    "source": "wikidata:P3303",
     "rank": "normal"
   },
   {
@@ -518,36 +602,30 @@
   {
     "key": "Key:ref:isil",
     "url": "https://w3id.org/isil/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:isil",
+    "url": "https://w3id.org/isil/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:isil",
+    "url": "https://w3id.org/isil/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:isil",
+    "url": "https://w3id.org/isil/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
   },
   {
     "key": "Key:ref:isil",
-    "url": "https://w3id.org/isil/$1",
-    "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:ref:isil",
-    "url": "https://w3id.org/isil/$1",
-    "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:ref:isil",
-    "url": "https://w3id.org/isil/$1",
-    "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:ref:isil",
     "url": "https://w3id.org/isil/AU-$1",
-    "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:ref:isil",
-    "url": "https://www.nl.go.kr/isil/search/search-f.php?libtype=&field=ISIL&keyword2=$1",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
@@ -801,6 +879,12 @@
     "key": "Key:wikidata",
     "url": "https://www.wikidata.org/wiki/Special:Nearby#/page/$1",
     "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:wikimedia_commons",
+    "url": "https://commons.wikimedia.org/wiki/File:$1",
+    "source": "wikidata:P1630",
     "rank": "normal"
   },
   {

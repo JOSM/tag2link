@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20200406T150000Z",
+  "data_updated": "20200417T130000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -48,6 +48,62 @@
     {
       "key": "contact:phone",
       "description": "tel:$1"
+    },
+    {
+      "key": "contact:pinterest",
+      "description": "https://ar.pinterest.com/$1/"
+    },
+    {
+      "key": "contact:pinterest",
+      "description": "https://au.pinterest.com/$1/"
+    },
+    {
+      "key": "contact:pinterest",
+      "description": "https://br.pinterest.com/$1/"
+    },
+    {
+      "key": "contact:pinterest",
+      "description": "https://co.pinterest.com/$1/"
+    },
+    {
+      "key": "contact:pinterest",
+      "description": "https://in.pinterest.com/$1/"
+    },
+    {
+      "key": "contact:pinterest",
+      "description": "https://www.pinterest.ca/$1/"
+    },
+    {
+      "key": "contact:pinterest",
+      "description": "https://www.pinterest.co.uk/$1/"
+    },
+    {
+      "key": "contact:pinterest",
+      "description": "https://www.pinterest.com.mx/$1/"
+    },
+    {
+      "key": "contact:pinterest",
+      "description": "https://www.pinterest.com/$1/"
+    },
+    {
+      "key": "contact:pinterest",
+      "description": "https://www.pinterest.de/$1/"
+    },
+    {
+      "key": "contact:pinterest",
+      "description": "https://www.pinterest.es/$1/"
+    },
+    {
+      "key": "contact:pinterest",
+      "description": "https://www.pinterest.fr/$1/"
+    },
+    {
+      "key": "contact:pinterest",
+      "description": "https://www.pinterest.it/$1/"
+    },
+    {
+      "key": "contact:pinterest",
+      "description": "https://www.pinterest.jp/$1/"
     },
     {
       "key": "contact:telegram",
@@ -374,10 +430,6 @@
       "description": "https://w3id.org/isil/AU-$1"
     },
     {
-      "key": "ref:isil",
-      "description": "https://www.nl.go.kr/isil/search/search-f.php?libtype=&field=ISIL&keyword2=$1"
-    },
-    {
       "key": "ref:mhs",
       "description": "http://www.culture.gouv.fr/public/mistral/merimee_fr?ACTION=CHERCHER&FIELD_1=REF&VALUE_1=$1"
     },
@@ -544,6 +596,10 @@
     {
       "key": "wikidata",
       "description": "https://www.wikidata.org/wiki/Special:Nearby#/page/$1"
+    },
+    {
+      "key": "wikimedia_commons",
+      "description": "https://commons.wikimedia.org/wiki/File:$1"
     },
     {
       "key": "woeid",
