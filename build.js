@@ -22,9 +22,26 @@ const data = [
     "http://wikiba.se/ontology#PreferredRank": "preferred",
     "http://wikiba.se/ontology#NormalRank": "normal",
     "http://wikiba.se/ontology#DeprecatedRank": "deprecated",
-  }[i.rank.value]
+  }[i.rank.value],
 }));
-data.sort((i, j) => i.key.localeCompare(j.key));
+
+data.sort((link1, link2) => {
+  const comparators = [
+    (x) => x.key,
+    (x) =>
+      ({
+        preferred: "1",
+        normal: "2",
+        deprecated: "3",
+      }[x.rank] || "9"),
+    (x) => x.url,
+  ];
+  return (
+    comparators
+      .map((cmp) => cmp(link1).localeCompare(cmp(link2)))
+      .find((i) => i !== 0) || 0
+  );
+});
 
 console.log(`Writing ${data.length} rules to index.json`);
 fs.writeFileSync("index.json", JSON.stringify(data, undefined, 2));

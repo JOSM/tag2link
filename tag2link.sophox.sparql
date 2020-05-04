@@ -4,4 +4,3 @@ SELECT (CONCAT("Key:", ?permanent_key_ID) as ?OSM_key) ?formatter_URL ?rank ?sou
   ?item osmp:P8 [osmps:P8 ?formatter_URL; wikibase:rank ?rank;].
   BIND("osmwiki:P8" AS ?source ).
 }
-ORDER BY ?OSM_key ?rank ?formatter_URL ?source
