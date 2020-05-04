@@ -31,15 +31,15 @@
   },
   {
     "key": "Key:contact:google_plus",
-    "url": "https://web.archive.org/web/20190401000000/https://plus.google.com/u/0/$1",
-    "source": "wikidata:P1630",
-    "rank": "deprecated"
-  },
-  {
-    "key": "Key:contact:google_plus",
     "url": "https://web.archive.org/web/20190401000000/https://plus.google.com/$1",
     "source": "wikidata:P1630",
     "rank": "normal"
+  },
+  {
+    "key": "Key:contact:google_plus",
+    "url": "https://web.archive.org/web/20190401000000/https://plus.google.com/u/0/$1",
+    "source": "wikidata:P1630",
+    "rank": "deprecated"
   },
   {
     "key": "Key:contact:instagram",
@@ -145,21 +145,27 @@
   },
   {
     "key": "Key:contact:telegram",
-    "url": "tg://resolve?domain=$1",
-    "source": "wikidata:P3303",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:contact:telegram",
     "url": "https://t.me/s/$1",
     "source": "wikidata:P1630",
     "rank": "preferred"
+  },
+  {
+    "key": "Key:contact:telegram",
+    "url": "tg://resolve?domain=$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
   },
   {
     "key": "Key:contact:tripadvisor",
     "url": "https://www.tripadvisor.com/$1",
     "source": "wikidata:P1630",
     "rank": "normal"
+  },
+  {
+    "key": "Key:contact:twitter",
+    "url": "https://twitter.com/$1",
+    "source": "wikidata:P1630",
+    "rank": "preferred"
   },
   {
     "key": "Key:contact:twitter",
@@ -172,12 +178,6 @@
     "url": "https://twitter.com/intent/user?screen_name=$1",
     "source": "wikidata:P1630",
     "rank": "normal"
-  },
-  {
-    "key": "Key:contact:twitter",
-    "url": "https://twitter.com/$1",
-    "source": "wikidata:P1630",
-    "rank": "preferred"
   },
   {
     "key": "Key:contact:yelp",
@@ -247,6 +247,18 @@
   },
   {
     "key": "Key:iata",
+    "url": "https://www.iata.org/en/publications/directories/code-search/?airport.search=$1",
+    "source": "wikidata:P1630",
+    "rank": "preferred"
+  },
+  {
+    "key": "Key:iata",
+    "url": "https://www.iata.org/en/publications/directories/code-search/?airport.search=$1",
+    "source": "wikidata:P3303",
+    "rank": "preferred"
+  },
+  {
+    "key": "Key:iata",
     "url": "http://aviation-safety.net/database/airport/airport.php?id=$1",
     "source": "wikidata:P3303",
     "rank": "normal"
@@ -276,18 +288,6 @@
     "rank": "normal"
   },
   {
-    "key": "Key:iata",
-    "url": "https://www.iata.org/en/publications/directories/code-search/?airport.search=$1",
-    "source": "wikidata:P1630",
-    "rank": "preferred"
-  },
-  {
-    "key": "Key:iata",
-    "url": "https://www.iata.org/en/publications/directories/code-search/?airport.search=$1",
-    "source": "wikidata:P3303",
-    "rank": "preferred"
-  },
-  {
     "key": "Key:icao",
     "url": "http://uk.flightaware.com/live/airport/$1",
     "source": "wikidata:P3303",
@@ -302,13 +302,13 @@
   {
     "key": "Key:icao",
     "url": "https://www.flightradar24.com/data/airports/$1",
-    "source": "wikidata:P1630",
+    "source": "wikidata:P3303",
     "rank": "normal"
   },
   {
     "key": "Key:icao",
     "url": "https://www.flightradar24.com/data/airports/$1",
-    "source": "wikidata:P3303",
+    "source": "wikidata:P1630",
     "rank": "normal"
   },
   {
@@ -391,15 +391,15 @@
   },
   {
     "key": "Key:ref:bag",
-    "url": "https://bag.basisregistraties.overheid.nl/bag/id/pand/$1",
-    "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:ref:bag",
     "url": "https://bagviewer.kadaster.nl/lvbag/bag-viewer/index.html#?searchQuery=$1",
     "source": "wikidata:P1630",
     "rank": "preferred"
+  },
+  {
+    "key": "Key:ref:bag",
+    "url": "https://bag.basisregistraties.overheid.nl/bag/id/pand/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
   },
   {
     "key": "Key:ref:bag",
@@ -457,15 +457,15 @@
   },
   {
     "key": "Key:ref:ef",
-    "url": "http://www.marina.difesa.it/cosa-facciamo/fari/Pagine/$1.aspx",
-    "source": "wikidata:P1630",
-    "rank": "deprecated"
-  },
-  {
-    "key": "Key:ref:ef",
     "url": "http://www.marina.difesa.it/cosa-facciamo/per-la-difesa-sicurezza/fari/Pagine/$1.aspx",
     "source": "wikidata:P1630",
     "rank": "preferred"
+  },
+  {
+    "key": "Key:ref:ef",
+    "url": "http://www.marina.difesa.it/cosa-facciamo/fari/Pagine/$1.aspx",
+    "source": "wikidata:P1630",
+    "rank": "deprecated"
   },
   {
     "key": "Key:ref:FR:CEF",
@@ -499,9 +499,15 @@
   },
   {
     "key": "Key:ref:FR:NAF",
+    "url": "https://www.insee.fr/fr/metadonnees/nafr2?q=$1&champRecherche=true",
+    "source": "osmwiki:P8",
+    "rank": "preferred"
+  },
+  {
+    "key": "Key:ref:FR:NAF",
     "url": "http://recherche-naf.insee.fr/SIRENET_ClassesNaf/$1.htm",
     "source": "osmwiki:P8",
-    "rank": "normal"
+    "rank": "deprecated"
   },
   {
     "key": "Key:ref:FR:SIRET",
@@ -547,33 +553,9 @@
   },
   {
     "key": "Key:ref:isil",
-    "url": "http://dispatch.opac.d-nb.de/DB=1.2/CMD?ACT=SRCHA&IKT=8529&TRM=$1",
+    "url": "https://w3id.org/isil/$1",
     "source": "wikidata:P1630",
-    "rank": "deprecated"
-  },
-  {
-    "key": "Key:ref:isil",
-    "url": "http://anagrafe.iccu.sbn.it/isil/$1",
-    "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:ref:isil",
-    "url": "http://id.ndl.go.jp/vocab/isil/$1",
-    "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:ref:isil",
-    "url": "http://isil.kansalliskirjasto.fi/api/query?isil=$1",
-    "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:ref:isil",
-    "url": "http://isil.kbr.be/$1",
-    "source": "wikidata:P1630",
-    "rank": "normal"
+    "rank": "preferred"
   },
   {
     "key": "Key:ref:isil",
@@ -584,54 +566,84 @@
   {
     "key": "Key:ref:isil",
     "url": "http://sigel.staatsbibliothek-berlin.de/nc/suche/?isil=$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:isil",
+    "url": "https://tools.wmflabs.org/wikidata-externalid-url/?url=http%3A%2F%2Fwww.sudoc.abes.fr%2Fcbs%2Fxslt%2F%2FDB%3D2.2%2FCMD%3FACT%3DSRCHA%26IKT%3D8888%26SRT%3DRLV%26TRM%3D%251&exp=%5EFR-(%5Cd%7B9%7D)&id=$1",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
   {
     "key": "Key:ref:isil",
-    "url": "http://sigel.staatsbibliothek-berlin.de/nc/suche/?isil=$1",
+    "url": "https://w3id.org/isil/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
+  },
+  {
+    "key": "Key:ref:isil",
+    "url": "http://anagrafe.iccu.sbn.it/isil/$1",
+    "source": "wikidata:P1630",
+    "rank": "deprecated"
+  },
+  {
+    "key": "Key:ref:isil",
+    "url": "http://dispatch.opac.d-nb.de/DB=1.2/CMD?ACT=SRCHA&IKT=8529&TRM=$1",
+    "source": "wikidata:P1630",
+    "rank": "deprecated"
+  },
+  {
+    "key": "Key:ref:isil",
+    "url": "http://id.ndl.go.jp/vocab/isil/$1",
+    "source": "wikidata:P1630",
+    "rank": "deprecated"
+  },
+  {
+    "key": "Key:ref:isil",
+    "url": "http://isil.kansalliskirjasto.fi/api/query?isil=$1",
+    "source": "wikidata:P1630",
+    "rank": "deprecated"
+  },
+  {
+    "key": "Key:ref:isil",
+    "url": "http://isil.kbr.be/$1",
+    "source": "wikidata:P1630",
+    "rank": "deprecated"
+  },
+  {
+    "key": "Key:ref:isil",
+    "url": "http://sigel.staatsbibliothek-berlin.de/nc/suche/?isil=$1",
+    "source": "wikidata:P1630",
+    "rank": "deprecated"
   },
   {
     "key": "Key:ref:isil",
     "url": "https://lobid.org/organisation/$1/about",
     "source": "wikidata:P1630",
-    "rank": "normal"
+    "rank": "deprecated"
   },
   {
     "key": "Key:ref:isil",
     "url": "https://w3id.org/isil/$1",
     "source": "wikidata:P1630",
-    "rank": "normal"
+    "rank": "deprecated"
   },
   {
     "key": "Key:ref:isil",
     "url": "https://w3id.org/isil/$1",
     "source": "wikidata:P1630",
-    "rank": "normal"
+    "rank": "deprecated"
   },
   {
     "key": "Key:ref:isil",
     "url": "https://w3id.org/isil/$1",
     "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:ref:isil",
-    "url": "https://w3id.org/isil/$1",
-    "source": "wikidata:P3303",
-    "rank": "normal"
+    "rank": "deprecated"
   },
   {
     "key": "Key:ref:isil",
     "url": "https://w3id.org/isil/AU-$1",
-    "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:ref:mhs",
-    "url": "http://www.culture.gouv.fr/public/mistral/merimee_fr?ACTION=CHERCHER&FIELD_1=REF&VALUE_1=$1",
     "source": "wikidata:P1630",
     "rank": "deprecated"
   },
@@ -640,6 +652,12 @@
     "url": "https://www.pop.culture.gouv.fr/notice/merimee/$1",
     "source": "wikidata:P1630",
     "rank": "normal"
+  },
+  {
+    "key": "Key:ref:mhs",
+    "url": "http://www.culture.gouv.fr/public/mistral/merimee_fr?ACTION=CHERCHER&FIELD_1=REF&VALUE_1=$1",
+    "source": "wikidata:P1630",
+    "rank": "deprecated"
   },
   {
     "key": "Key:ref:nga",
@@ -661,15 +679,15 @@
   },
   {
     "key": "Key:ref:rce",
-    "url": "https://monumentenregister.cultureelerfgoed.nl/monumenten/pdf/$1",
-    "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:ref:rce",
     "url": "https://monumentenregister.cultureelerfgoed.nl/monumenten/$1",
     "source": "wikidata:P1630",
     "rank": "preferred"
+  },
+  {
+    "key": "Key:ref:rce",
+    "url": "https://monumentenregister.cultureelerfgoed.nl/monumenten/pdf/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
   },
   {
     "key": "Key:ref:ruian",
@@ -745,6 +763,12 @@
   },
   {
     "key": "Key:ref:woonplaatscode",
+    "url": "https://bag.basisregistraties.overheid.nl/bag/id/woonplaats/$1",
+    "source": "wikidata:P1630",
+    "rank": "preferred"
+  },
+  {
+    "key": "Key:ref:woonplaatscode",
     "url": "https://bagviewer.kadaster.nl/lvbag/bag-viewer/index.html#?objectId=$1&detailsObjectId=$1",
     "source": "wikidata:P1630",
     "rank": "normal"
@@ -756,34 +780,34 @@
     "rank": "normal"
   },
   {
-    "key": "Key:ref:woonplaatscode",
-    "url": "https://bag.basisregistraties.overheid.nl/bag/id/woonplaats/$1",
+    "key": "Key:seamark:radio_station:mmsi",
+    "url": "https://www.marinetraffic.com/ais/details/ships/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:seamark:radio_station:mmsi",
+    "url": "http://sd.ic.gc.ca/pls/engdoc_anon/mmsi_search.Ship_Search_Single?inMMSI=$1&invesname=&inname=&oinmmsi=$1&incallsign=&invesid=&ininmarsat=",
+    "source": "wikidata:P1630",
+    "rank": "deprecated"
+  },
+  {
+    "key": "Key:seamark:virtual_aton:mmsi",
+    "url": "https://www.marinetraffic.com/ais/details/ships/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:seamark:virtual_aton:mmsi",
+    "url": "http://sd.ic.gc.ca/pls/engdoc_anon/mmsi_search.Ship_Search_Single?inMMSI=$1&invesname=&inname=&oinmmsi=$1&incallsign=&invesid=&ininmarsat=",
+    "source": "wikidata:P1630",
+    "rank": "deprecated"
+  },
+  {
+    "key": "Key:twitter",
+    "url": "https://twitter.com/$1",
     "source": "wikidata:P1630",
     "rank": "preferred"
-  },
-  {
-    "key": "Key:seamark:radio_station:mmsi",
-    "url": "http://sd.ic.gc.ca/pls/engdoc_anon/mmsi_search.Ship_Search_Single?inMMSI=$1&invesname=&inname=&oinmmsi=$1&incallsign=&invesid=&ininmarsat=",
-    "source": "wikidata:P1630",
-    "rank": "deprecated"
-  },
-  {
-    "key": "Key:seamark:radio_station:mmsi",
-    "url": "https://www.marinetraffic.com/ais/details/ships/$1",
-    "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:seamark:virtual_aton:mmsi",
-    "url": "http://sd.ic.gc.ca/pls/engdoc_anon/mmsi_search.Ship_Search_Single?inMMSI=$1&invesname=&inname=&oinmmsi=$1&incallsign=&invesid=&ininmarsat=",
-    "source": "wikidata:P1630",
-    "rank": "deprecated"
-  },
-  {
-    "key": "Key:seamark:virtual_aton:mmsi",
-    "url": "https://www.marinetraffic.com/ais/details/ships/$1",
-    "source": "wikidata:P1630",
-    "rank": "normal"
   },
   {
     "key": "Key:twitter",
@@ -798,21 +822,15 @@
     "rank": "normal"
   },
   {
-    "key": "Key:twitter",
-    "url": "https://twitter.com/$1",
-    "source": "wikidata:P1630",
-    "rank": "preferred"
+    "key": "Key:website",
+    "url": "$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
   },
   {
     "key": "Key:website",
     "url": "https://web.archive.org/web/*/$1/",
     "source": "wikidata:P3303",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:website",
-    "url": "$1",
-    "source": "osmwiki:P8",
     "rank": "normal"
   },
   {

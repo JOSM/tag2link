@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20200417T130000Z",
+  "data_updated": "20200504T160000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -31,11 +31,11 @@
     },
     {
       "key": "contact:google_plus",
-      "description": "https://web.archive.org/web/20190401000000/https://plus.google.com/u/0/$1"
+      "description": "https://web.archive.org/web/20190401000000/https://plus.google.com/$1"
     },
     {
       "key": "contact:google_plus",
-      "description": "https://web.archive.org/web/20190401000000/https://plus.google.com/$1"
+      "description": "https://web.archive.org/web/20190401000000/https://plus.google.com/u/0/$1"
     },
     {
       "key": "contact:instagram",
@@ -107,15 +107,19 @@
     },
     {
       "key": "contact:telegram",
-      "description": "tg://resolve?domain=$1"
+      "description": "https://t.me/s/$1"
     },
     {
       "key": "contact:telegram",
-      "description": "https://t.me/s/$1"
+      "description": "tg://resolve?domain=$1"
     },
     {
       "key": "contact:tripadvisor",
       "description": "https://www.tripadvisor.com/$1"
+    },
+    {
+      "key": "contact:twitter",
+      "description": "https://twitter.com/$1"
     },
     {
       "key": "contact:twitter",
@@ -124,10 +128,6 @@
     {
       "key": "contact:twitter",
       "description": "https://twitter.com/intent/user?screen_name=$1"
-    },
-    {
-      "key": "contact:twitter",
-      "description": "https://twitter.com/$1"
     },
     {
       "key": "contact:yelp",
@@ -175,6 +175,14 @@
     },
     {
       "key": "iata",
+      "description": "https://www.iata.org/en/publications/directories/code-search/?airport.search=$1"
+    },
+    {
+      "key": "iata",
+      "description": "https://www.iata.org/en/publications/directories/code-search/?airport.search=$1"
+    },
+    {
+      "key": "iata",
       "description": "http://aviation-safety.net/database/airport/airport.php?id=$1"
     },
     {
@@ -192,14 +200,6 @@
     {
       "key": "iata",
       "description": "https://www.flightradar24.com/data/airports/$1"
-    },
-    {
-      "key": "iata",
-      "description": "https://www.iata.org/en/publications/directories/code-search/?airport.search=$1"
-    },
-    {
-      "key": "iata",
-      "description": "https://www.iata.org/en/publications/directories/code-search/?airport.search=$1"
     },
     {
       "key": "icao",
@@ -271,11 +271,11 @@
     },
     {
       "key": "ref:bag",
-      "description": "https://bag.basisregistraties.overheid.nl/bag/id/pand/$1"
+      "description": "https://bagviewer.kadaster.nl/lvbag/bag-viewer/index.html#?searchQuery=$1"
     },
     {
       "key": "ref:bag",
-      "description": "https://bagviewer.kadaster.nl/lvbag/bag-viewer/index.html#?searchQuery=$1"
+      "description": "https://bag.basisregistraties.overheid.nl/bag/id/pand/$1"
     },
     {
       "key": "ref:bag",
@@ -315,11 +315,11 @@
     },
     {
       "key": "ref:ef",
-      "description": "http://www.marina.difesa.it/cosa-facciamo/fari/Pagine/$1.aspx"
+      "description": "http://www.marina.difesa.it/cosa-facciamo/per-la-difesa-sicurezza/fari/Pagine/$1.aspx"
     },
     {
       "key": "ref:ef",
-      "description": "http://www.marina.difesa.it/cosa-facciamo/per-la-difesa-sicurezza/fari/Pagine/$1.aspx"
+      "description": "http://www.marina.difesa.it/cosa-facciamo/fari/Pagine/$1.aspx"
     },
     {
       "key": "ref:FR:CEF",
@@ -340,6 +340,10 @@
     {
       "key": "ref:FR:museofile",
       "description": "https://www.pop.culture.gouv.fr/notice/museo/$1"
+    },
+    {
+      "key": "ref:FR:NAF",
+      "description": "https://www.insee.fr/fr/metadonnees/nafr2?q=$1&champRecherche=true"
     },
     {
       "key": "ref:FR:NAF",
@@ -375,11 +379,31 @@
     },
     {
       "key": "ref:isil",
-      "description": "http://dispatch.opac.d-nb.de/DB=1.2/CMD?ACT=SRCHA&IKT=8529&TRM=$1"
+      "description": "https://w3id.org/isil/$1"
+    },
+    {
+      "key": "ref:isil",
+      "description": "http://lobid.org/organisations/$1"
+    },
+    {
+      "key": "ref:isil",
+      "description": "http://sigel.staatsbibliothek-berlin.de/nc/suche/?isil=$1"
+    },
+    {
+      "key": "ref:isil",
+      "description": "https://tools.wmflabs.org/wikidata-externalid-url/?url=http%3A%2F%2Fwww.sudoc.abes.fr%2Fcbs%2Fxslt%2F%2FDB%3D2.2%2FCMD%3FACT%3DSRCHA%26IKT%3D8888%26SRT%3DRLV%26TRM%3D%251&exp=%5EFR-(%5Cd%7B9%7D)&id=$1"
+    },
+    {
+      "key": "ref:isil",
+      "description": "https://w3id.org/isil/$1"
     },
     {
       "key": "ref:isil",
       "description": "http://anagrafe.iccu.sbn.it/isil/$1"
+    },
+    {
+      "key": "ref:isil",
+      "description": "http://dispatch.opac.d-nb.de/DB=1.2/CMD?ACT=SRCHA&IKT=8529&TRM=$1"
     },
     {
       "key": "ref:isil",
@@ -392,14 +416,6 @@
     {
       "key": "ref:isil",
       "description": "http://isil.kbr.be/$1"
-    },
-    {
-      "key": "ref:isil",
-      "description": "http://lobid.org/organisations/$1"
-    },
-    {
-      "key": "ref:isil",
-      "description": "http://sigel.staatsbibliothek-berlin.de/nc/suche/?isil=$1"
     },
     {
       "key": "ref:isil",
@@ -423,19 +439,15 @@
     },
     {
       "key": "ref:isil",
-      "description": "https://w3id.org/isil/$1"
-    },
-    {
-      "key": "ref:isil",
       "description": "https://w3id.org/isil/AU-$1"
     },
     {
       "key": "ref:mhs",
-      "description": "http://www.culture.gouv.fr/public/mistral/merimee_fr?ACTION=CHERCHER&FIELD_1=REF&VALUE_1=$1"
+      "description": "https://www.pop.culture.gouv.fr/notice/merimee/$1"
     },
     {
       "key": "ref:mhs",
-      "description": "https://www.pop.culture.gouv.fr/notice/merimee/$1"
+      "description": "http://www.culture.gouv.fr/public/mistral/merimee_fr?ACTION=CHERCHER&FIELD_1=REF&VALUE_1=$1"
     },
     {
       "key": "ref:nga",
@@ -451,11 +463,11 @@
     },
     {
       "key": "ref:rce",
-      "description": "https://monumentenregister.cultureelerfgoed.nl/monumenten/pdf/$1"
+      "description": "https://monumentenregister.cultureelerfgoed.nl/monumenten/$1"
     },
     {
       "key": "ref:rce",
-      "description": "https://monumentenregister.cultureelerfgoed.nl/monumenten/$1"
+      "description": "https://monumentenregister.cultureelerfgoed.nl/monumenten/pdf/$1"
     },
     {
       "key": "ref:ruian",
@@ -507,6 +519,10 @@
     },
     {
       "key": "ref:woonplaatscode",
+      "description": "https://bag.basisregistraties.overheid.nl/bag/id/woonplaats/$1"
+    },
+    {
+      "key": "ref:woonplaatscode",
       "description": "https://bagviewer.kadaster.nl/lvbag/bag-viewer/index.html#?objectId=$1&detailsObjectId=$1"
     },
     {
@@ -514,15 +530,15 @@
       "description": "https://brt.basisregistraties.overheid.nl/top10nl/doc/plaats/$1"
     },
     {
-      "key": "ref:woonplaatscode",
-      "description": "https://bag.basisregistraties.overheid.nl/bag/id/woonplaats/$1"
+      "key": "seamark:radio_station:mmsi",
+      "description": "https://www.marinetraffic.com/ais/details/ships/$1"
     },
     {
       "key": "seamark:radio_station:mmsi",
       "description": "http://sd.ic.gc.ca/pls/engdoc_anon/mmsi_search.Ship_Search_Single?inMMSI=$1&invesname=&inname=&oinmmsi=$1&incallsign=&invesid=&ininmarsat="
     },
     {
-      "key": "seamark:radio_station:mmsi",
+      "key": "seamark:virtual_aton:mmsi",
       "description": "https://www.marinetraffic.com/ais/details/ships/$1"
     },
     {
@@ -530,8 +546,8 @@
       "description": "http://sd.ic.gc.ca/pls/engdoc_anon/mmsi_search.Ship_Search_Single?inMMSI=$1&invesname=&inname=&oinmmsi=$1&incallsign=&invesid=&ininmarsat="
     },
     {
-      "key": "seamark:virtual_aton:mmsi",
-      "description": "https://www.marinetraffic.com/ais/details/ships/$1"
+      "key": "twitter",
+      "description": "https://twitter.com/$1"
     },
     {
       "key": "twitter",
@@ -542,16 +558,12 @@
       "description": "https://twitter.com/intent/user?screen_name=$1"
     },
     {
-      "key": "twitter",
-      "description": "https://twitter.com/$1"
+      "key": "website",
+      "description": "$1"
     },
     {
       "key": "website",
       "description": "https://web.archive.org/web/*/$1/"
-    },
-    {
-      "key": "website",
-      "description": "$1"
     },
     {
       "key": "wikidata",
