@@ -559,6 +559,12 @@
   },
   {
     "key": "Key:ref:isil",
+    "url": "https://w3id.org/isil/$1",
+    "source": "wikidata:P3303",
+    "rank": "preferred"
+  },
+  {
+    "key": "Key:ref:isil",
     "url": "http://lobid.org/organisations/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
@@ -566,18 +572,6 @@
   {
     "key": "Key:ref:isil",
     "url": "http://sigel.staatsbibliothek-berlin.de/nc/suche/?isil=$1",
-    "source": "wikidata:P3303",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:ref:isil",
-    "url": "https://tools.wmflabs.org/wikidata-externalid-url/?url=http%3A%2F%2Fwww.sudoc.abes.fr%2Fcbs%2Fxslt%2F%2FDB%3D2.2%2FCMD%3FACT%3DSRCHA%26IKT%3D8888%26SRT%3DRLV%26TRM%3D%251&exp=%5EFR-(%5Cd%7B9%7D)&id=$1",
-    "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:ref:isil",
-    "url": "https://w3id.org/isil/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
   },
@@ -620,6 +614,12 @@
   {
     "key": "Key:ref:isil",
     "url": "https://lobid.org/organisation/$1/about",
+    "source": "wikidata:P1630",
+    "rank": "deprecated"
+  },
+  {
+    "key": "Key:ref:isil",
+    "url": "https://tools.wmflabs.org/wikidata-externalid-url/?url=http%3A%2F%2Fwww.sudoc.abes.fr%2Fcbs%2Fxslt%2F%2FDB%3D2.2%2FCMD%3FACT%3DSRCHA%26IKT%3D8888%26SRT%3DRLV%26TRM%3D%251&exp=%5EFR-(%5Cd%7B9%7D)&id=$1",
     "source": "wikidata:P1630",
     "rank": "deprecated"
   },
