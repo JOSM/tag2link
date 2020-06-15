@@ -123,7 +123,7 @@
     },
     {
       "key": "contact:twitter",
-      "description": "https://tools.wmflabs.org/scholia/twitter/$1"
+      "description": "https://scholia.toolforge.org/twitter/$1"
     },
     {
       "key": "contact:twitter",
@@ -551,7 +551,7 @@
     },
     {
       "key": "twitter",
-      "description": "https://tools.wmflabs.org/scholia/twitter/$1"
+      "description": "https://scholia.toolforge.org/twitter/$1"
     },
     {
       "key": "twitter",
@@ -595,7 +595,7 @@
     },
     {
       "key": "wikidata",
-      "description": "https://tools.wmflabs.org/scholia/$1"
+      "description": "https://scholia.toolforge.org/$1"
     },
     {
       "key": "wikidata",
