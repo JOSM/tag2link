@@ -169,7 +169,7 @@
   },
   {
     "key": "Key:contact:twitter",
-    "url": "https://tools.wmflabs.org/scholia/twitter/$1",
+    "url": "https://scholia.toolforge.org/twitter/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
   },
@@ -811,7 +811,7 @@
   },
   {
     "key": "Key:twitter",
-    "url": "https://tools.wmflabs.org/scholia/twitter/$1",
+    "url": "https://scholia.toolforge.org/twitter/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
   },
@@ -877,7 +877,7 @@
   },
   {
     "key": "Key:wikidata",
-    "url": "https://tools.wmflabs.org/scholia/$1",
+    "url": "https://scholia.toolforge.org/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
   },
