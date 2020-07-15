@@ -7,6 +7,12 @@
   },
   {
     "key": "Key:contact:facebook",
+    "url": "https://unavatar.now.sh/facebook/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:contact:facebook",
     "url": "https://www.facebook.com/$1",
     "source": "wikidata:P1630",
     "rank": "normal"
@@ -40,6 +46,12 @@
     "url": "https://web.archive.org/web/20190401000000/https://plus.google.com/u/0/$1",
     "source": "wikidata:P1630",
     "rank": "deprecated"
+  },
+  {
+    "key": "Key:contact:instagram",
+    "url": "https://unavatar.now.sh/instagram/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
   },
   {
     "key": "Key:contact:instagram",
@@ -169,7 +181,7 @@
   },
   {
     "key": "Key:contact:twitter",
-    "url": "https://tools.wmflabs.org/scholia/twitter/$1",
+    "url": "https://scholia.toolforge.org/twitter/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
   },
@@ -177,6 +189,12 @@
     "key": "Key:contact:twitter",
     "url": "https://twitter.com/intent/user?screen_name=$1",
     "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:contact:twitter",
+    "url": "https://unavatar.now.sh/twitter/$1",
+    "source": "wikidata:P3303",
     "rank": "normal"
   },
   {
@@ -229,18 +247,6 @@
   },
   {
     "key": "Key:gnis:feature_id",
-    "url": "https://geonames.usgs.gov/apex/f?p=gnispq:3:::NO::P3_FID:$1",
-    "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:gnis:id",
-    "url": "https://geonames.usgs.gov/apex/f?p=gnispq:3:::NO::P3_FID:$1",
-    "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:GNISID",
     "url": "https://geonames.usgs.gov/apex/f?p=gnispq:3:::NO::P3_FID:$1",
     "source": "wikidata:P1630",
     "rank": "normal"
@@ -373,13 +379,13 @@
   },
   {
     "key": "Key:ref:at:bda",
-    "url": "https://tools.wmflabs.org/denkmalliste/index.php?action=EinzelID&ID=$1",
+    "url": "https://denkmalliste.toolforge.org/index.php?action=EinzelID&ID=$1",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
   {
     "key": "Key:ref:AT:bda",
-    "url": "https://tools.wmflabs.org/denkmalliste/index.php?action=EinzelID&ID=$1",
+    "url": "https://denkmalliste.toolforge.org/index.php?action=EinzelID&ID=$1",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
@@ -468,6 +474,12 @@
     "rank": "deprecated"
   },
   {
+    "key": "Key:ref:FR:Allocine",
+    "url": "https://www.allocine.fr/seance/salle_gen_csalle=$1.html",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
     "key": "Key:ref:FR:CEF",
     "url": "http://egliseinfo.catholique.fr/#!lieu:$1",
     "source": "osmwiki:P8",
@@ -510,6 +522,12 @@
     "rank": "deprecated"
   },
   {
+    "key": "Key:ref:FR:prix-carburants",
+    "url": "https://www.prix-carburants.gouv.fr/itineraire/print/pdv/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
     "key": "Key:ref:FR:SIRET",
     "url": "https://entreprise.data.gouv.fr/etablissement/$1",
     "source": "wikidata:P1630",
@@ -519,12 +537,6 @@
     "key": "Key:ref:FR:SIRET",
     "url": "https://www.infogreffe.fr/societes/entreprise-societe/$1",
     "source": "wikidata:P3303",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:ref:gnis",
-    "url": "https://geonames.usgs.gov/apex/f?p=gnispq:3:::NO::P3_FID:$1",
-    "source": "wikidata:P1630",
     "rank": "normal"
   },
   {
@@ -554,13 +566,13 @@
   {
     "key": "Key:ref:isil",
     "url": "https://w3id.org/isil/$1",
-    "source": "wikidata:P1630",
+    "source": "wikidata:P3303",
     "rank": "preferred"
   },
   {
     "key": "Key:ref:isil",
     "url": "https://w3id.org/isil/$1",
-    "source": "wikidata:P3303",
+    "source": "wikidata:P1630",
     "rank": "preferred"
   },
   {
@@ -619,12 +631,6 @@
   },
   {
     "key": "Key:ref:isil",
-    "url": "https://tools.wmflabs.org/wikidata-externalid-url/?url=http%3A%2F%2Fwww.sudoc.abes.fr%2Fcbs%2Fxslt%2F%2FDB%3D2.2%2FCMD%3FACT%3DSRCHA%26IKT%3D8888%26SRT%3DRLV%26TRM%3D%251&exp=%5EFR-(%5Cd%7B9%7D)&id=$1",
-    "source": "wikidata:P1630",
-    "rank": "deprecated"
-  },
-  {
-    "key": "Key:ref:isil",
     "url": "https://w3id.org/isil/$1",
     "source": "wikidata:P1630",
     "rank": "deprecated"
@@ -644,6 +650,12 @@
   {
     "key": "Key:ref:isil",
     "url": "https://w3id.org/isil/AU-$1",
+    "source": "wikidata:P1630",
+    "rank": "deprecated"
+  },
+  {
+    "key": "Key:ref:isil",
+    "url": "https://wikidata-externalid-url.toolforge.org/?url=http%3A%2F%2Fwww.sudoc.abes.fr%2Fcbs%2Fxslt%2F%2FDB%3D2.2%2FCMD%3FACT%3DSRCHA%26IKT%3D8888%26SRT%3DRLV%26TRM%3D%251&exp=%5EFR-(%5Cd%7B9%7D)&id=$1",
     "source": "wikidata:P1630",
     "rank": "deprecated"
   },
@@ -721,9 +733,39 @@
   },
   {
     "key": "Key:ref:UAI",
-    "url": "http://www.education.gouv.fr/pid24302/annuaire-resultat-recherche.html?lycee_name=$1",
-    "source": "osmwiki:P8",
+    "url": "http://bibliotheques.enseignementsup-recherche.gouv.fr/FR/annuaire/siege/$1/",
+    "source": "wikidata:P3303",
     "rank": "normal"
+  },
+  {
+    "key": "Key:ref:UAI",
+    "url": "http://www.education.gouv.fr/annuaire/uai/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:UAI",
+    "url": "http://www.internat.education.gouv.fr/ConsultationAnnuaireInternat/ficheDetail.do?method=initForIntranet&etab=$1&uai=true",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:UAI",
+    "url": "http://www.internat.education.gouv.fr/ConsultationAnnuaireInternat/ficheDetail.do?method=initForIntranet&etab=$1&uai=true&internatSeul=true",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:UAI",
+    "url": "https://www.journaldesfemmes.fr/maman/ecole/etablissement-$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:UAI",
+    "url": "http://educ.gouv.fr/annuaire/uai/$1",
+    "source": "wikidata:P1630",
+    "rank": "deprecated"
   },
   {
     "key": "Key:ref:uscg",
@@ -811,7 +853,7 @@
   },
   {
     "key": "Key:twitter",
-    "url": "https://tools.wmflabs.org/scholia/twitter/$1",
+    "url": "https://scholia.toolforge.org/twitter/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
   },
@@ -819,6 +861,18 @@
     "key": "Key:twitter",
     "url": "https://twitter.com/intent/user?screen_name=$1",
     "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:twitter",
+    "url": "https://unavatar.now.sh/twitter/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:uic_ref",
+    "url": "https://www.kapella2.hu/ehuszfelulet/?infra_id=21943&taf_id=$1",
+    "source": "wikidata:P3303",
     "rank": "normal"
   },
   {
@@ -909,6 +963,12 @@
     "key": "Key:wikidata",
     "url": "https://www.wikidata.org/wiki/Special:Nearby#/page/$1",
     "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:wikimedia_commons",
+    "url": "https://commons.wikimedia.org/wiki/Category:$1",
+    "source": "wikidata:P1630",
     "rank": "normal"
   },
   {

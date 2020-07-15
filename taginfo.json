@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20200516T210000Z",
+  "data_updated": "20200715T180000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -12,6 +12,10 @@
     {
       "key": "3dmr",
       "description": "https://3dmr.eu/model/$1"
+    },
+    {
+      "key": "contact:facebook",
+      "description": "https://unavatar.now.sh/facebook/$1"
     },
     {
       "key": "contact:facebook",
@@ -36,6 +40,10 @@
     {
       "key": "contact:google_plus",
       "description": "https://web.archive.org/web/20190401000000/https://plus.google.com/u/0/$1"
+    },
+    {
+      "key": "contact:instagram",
+      "description": "https://unavatar.now.sh/instagram/$1"
     },
     {
       "key": "contact:instagram",
@@ -123,11 +131,15 @@
     },
     {
       "key": "contact:twitter",
-      "description": "https://tools.wmflabs.org/scholia/twitter/$1"
+      "description": "https://scholia.toolforge.org/twitter/$1"
     },
     {
       "key": "contact:twitter",
       "description": "https://twitter.com/intent/user?screen_name=$1"
+    },
+    {
+      "key": "contact:twitter",
+      "description": "https://unavatar.now.sh/twitter/$1"
     },
     {
       "key": "contact:yelp",
@@ -163,14 +175,6 @@
     },
     {
       "key": "gnis:feature_id",
-      "description": "https://geonames.usgs.gov/apex/f?p=gnispq:3:::NO::P3_FID:$1"
-    },
-    {
-      "key": "gnis:id",
-      "description": "https://geonames.usgs.gov/apex/f?p=gnispq:3:::NO::P3_FID:$1"
-    },
-    {
-      "key": "GNISID",
       "description": "https://geonames.usgs.gov/apex/f?p=gnispq:3:::NO::P3_FID:$1"
     },
     {
@@ -259,11 +263,11 @@
     },
     {
       "key": "ref:at:bda",
-      "description": "https://tools.wmflabs.org/denkmalliste/index.php?action=EinzelID&ID=$1"
+      "description": "https://denkmalliste.toolforge.org/index.php?action=EinzelID&ID=$1"
     },
     {
       "key": "ref:AT:bda",
-      "description": "https://tools.wmflabs.org/denkmalliste/index.php?action=EinzelID&ID=$1"
+      "description": "https://denkmalliste.toolforge.org/index.php?action=EinzelID&ID=$1"
     },
     {
       "key": "ref:at:gkz",
@@ -322,6 +326,10 @@
       "description": "http://www.marina.difesa.it/cosa-facciamo/fari/Pagine/$1.aspx"
     },
     {
+      "key": "ref:FR:Allocine",
+      "description": "https://www.allocine.fr/seance/salle_gen_csalle=$1.html"
+    },
+    {
       "key": "ref:FR:CEF",
       "description": "http://egliseinfo.catholique.fr/#!lieu:$1"
     },
@@ -350,16 +358,16 @@
       "description": "http://recherche-naf.insee.fr/SIRENET_ClassesNaf/$1.htm"
     },
     {
+      "key": "ref:FR:prix-carburants",
+      "description": "https://www.prix-carburants.gouv.fr/itineraire/print/pdv/$1"
+    },
+    {
       "key": "ref:FR:SIRET",
       "description": "https://entreprise.data.gouv.fr/etablissement/$1"
     },
     {
       "key": "ref:FR:SIRET",
       "description": "https://www.infogreffe.fr/societes/entreprise-societe/$1"
-    },
-    {
-      "key": "ref:gnis",
-      "description": "https://geonames.usgs.gov/apex/f?p=gnispq:3:::NO::P3_FID:$1"
     },
     {
       "key": "ref:INSEE",
@@ -423,10 +431,6 @@
     },
     {
       "key": "ref:isil",
-      "description": "https://tools.wmflabs.org/wikidata-externalid-url/?url=http%3A%2F%2Fwww.sudoc.abes.fr%2Fcbs%2Fxslt%2F%2FDB%3D2.2%2FCMD%3FACT%3DSRCHA%26IKT%3D8888%26SRT%3DRLV%26TRM%3D%251&exp=%5EFR-(%5Cd%7B9%7D)&id=$1"
-    },
-    {
-      "key": "ref:isil",
       "description": "https://w3id.org/isil/$1"
     },
     {
@@ -440,6 +444,10 @@
     {
       "key": "ref:isil",
       "description": "https://w3id.org/isil/AU-$1"
+    },
+    {
+      "key": "ref:isil",
+      "description": "https://wikidata-externalid-url.toolforge.org/?url=http%3A%2F%2Fwww.sudoc.abes.fr%2Fcbs%2Fxslt%2F%2FDB%3D2.2%2FCMD%3FACT%3DSRCHA%26IKT%3D8888%26SRT%3DRLV%26TRM%3D%251&exp=%5EFR-(%5Cd%7B9%7D)&id=$1"
     },
     {
       "key": "ref:mhs",
@@ -491,7 +499,27 @@
     },
     {
       "key": "ref:UAI",
-      "description": "http://www.education.gouv.fr/pid24302/annuaire-resultat-recherche.html?lycee_name=$1"
+      "description": "http://bibliotheques.enseignementsup-recherche.gouv.fr/FR/annuaire/siege/$1/"
+    },
+    {
+      "key": "ref:UAI",
+      "description": "http://www.education.gouv.fr/annuaire/uai/$1"
+    },
+    {
+      "key": "ref:UAI",
+      "description": "http://www.internat.education.gouv.fr/ConsultationAnnuaireInternat/ficheDetail.do?method=initForIntranet&etab=$1&uai=true"
+    },
+    {
+      "key": "ref:UAI",
+      "description": "http://www.internat.education.gouv.fr/ConsultationAnnuaireInternat/ficheDetail.do?method=initForIntranet&etab=$1&uai=true&internatSeul=true"
+    },
+    {
+      "key": "ref:UAI",
+      "description": "https://www.journaldesfemmes.fr/maman/ecole/etablissement-$1"
+    },
+    {
+      "key": "ref:UAI",
+      "description": "http://educ.gouv.fr/annuaire/uai/$1"
     },
     {
       "key": "ref:uscg",
@@ -551,11 +579,19 @@
     },
     {
       "key": "twitter",
-      "description": "https://tools.wmflabs.org/scholia/twitter/$1"
+      "description": "https://scholia.toolforge.org/twitter/$1"
     },
     {
       "key": "twitter",
       "description": "https://twitter.com/intent/user?screen_name=$1"
+    },
+    {
+      "key": "twitter",
+      "description": "https://unavatar.now.sh/twitter/$1"
+    },
+    {
+      "key": "uic_ref",
+      "description": "https://www.kapella2.hu/ehuszfelulet/?infra_id=21943&taf_id=$1"
     },
     {
       "key": "website",
@@ -616,6 +652,10 @@
     {
       "key": "wikidata",
       "description": "https://www.wikidata.org/wiki/Special:Nearby#/page/$1"
+    },
+    {
+      "key": "wikimedia_commons",
+      "description": "https://commons.wikimedia.org/wiki/Category:$1"
     },
     {
       "key": "wikimedia_commons",
