@@ -631,7 +631,7 @@
     },
     {
       "key": "wikidata",
-      "description": "https://tools.wmflabs.org/scholia/$1"
+      "description": "https://scholia.toolforge.org/$1"
     },
     {
       "key": "wikidata",
