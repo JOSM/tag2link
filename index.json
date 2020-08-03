@@ -6,6 +6,24 @@
     "rank": "normal"
   },
   {
+    "key": "Key:architect:wikidata",
+    "url": "http://www.wikidata.org/entity/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:artist:wikidata",
+    "url": "http://www.wikidata.org/entity/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:brand:wikidata",
+    "url": "http://www.wikidata.org/entity/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
     "key": "Key:contact:facebook",
     "url": "https://unavatar.now.sh/facebook/$1",
     "source": "wikidata:P3303",
@@ -181,7 +199,19 @@
   },
   {
     "key": "Key:contact:twitter",
+    "url": "https://nitter.net/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:contact:twitter",
     "url": "https://scholia.toolforge.org/twitter/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:contact:twitter",
+    "url": "https://threadreaderapp.com/user/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
   },
@@ -241,7 +271,13 @@
   },
   {
     "key": "Key:flag:wikidata",
-    "url": "https://www.wikidata.org/wiki/$1",
+    "url": "http://www.wikidata.org/entity/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:genus:wikidata",
+    "url": "http://www.wikidata.org/entity/$1",
     "source": "osmwiki:P8",
     "rank": "normal"
   },
@@ -342,6 +378,18 @@
     "rank": "normal"
   },
   {
+    "key": "Key:name:etymology:wikidata",
+    "url": "http://www.wikidata.org/entity/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:network:wikidata",
+    "url": "http://www.wikidata.org/entity/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
     "key": "Key:nist:fips_code",
     "url": "http://www.census.gov/quickfacts/table/PST045215/$1,00",
     "source": "wikidata:P1630",
@@ -354,9 +402,21 @@
     "rank": "normal"
   },
   {
+    "key": "Key:opening_hours",
+    "url": "https://openingh.openstreetmap.de/evaluation_tool/?EXP=$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
     "key": "Key:openplaques:id",
     "url": "https://openplaques.org/plaques/$1",
     "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:operator:wikidata",
+    "url": "http://www.wikidata.org/entity/$1",
+    "source": "osmwiki:P8",
     "rank": "normal"
   },
   {
@@ -475,6 +535,12 @@
   },
   {
     "key": "Key:ref:FR:Allocine",
+    "url": "http://www.allocine.fr/seance/salle_gen_csalle=$1.html",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:FR:Allocine",
     "url": "https://www.allocine.fr/seance/salle_gen_csalle=$1.html",
     "source": "wikidata:P1630",
     "rank": "normal"
@@ -566,13 +632,13 @@
   {
     "key": "Key:ref:isil",
     "url": "https://w3id.org/isil/$1",
-    "source": "wikidata:P3303",
+    "source": "wikidata:P1630",
     "rank": "preferred"
   },
   {
     "key": "Key:ref:isil",
     "url": "https://w3id.org/isil/$1",
-    "source": "wikidata:P1630",
+    "source": "wikidata:P3303",
     "rank": "preferred"
   },
   {
@@ -798,6 +864,12 @@
     "rank": "normal"
   },
   {
+    "key": "Key:ref:wien:kultur",
+    "url": "https://www.wien.gv.at/kulturportal/public/grafik.aspx?FeatureByID=$1&FeatureClass=kunstkultur&ThemePage=4",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
     "key": "Key:ref:wigos",
     "url": "https://oscar.wmo.int/surface/#/search/station/stationReportDetails/$1",
     "source": "wikidata:P1630",
@@ -846,6 +918,18 @@
     "rank": "deprecated"
   },
   {
+    "key": "Key:species:wikidata",
+    "url": "http://www.wikidata.org/entity/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:subject:wikidata",
+    "url": "http://www.wikidata.org/entity/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
     "key": "Key:twitter",
     "url": "https://twitter.com/$1",
     "source": "wikidata:P1630",
@@ -853,7 +937,19 @@
   },
   {
     "key": "Key:twitter",
+    "url": "https://nitter.net/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:twitter",
     "url": "https://scholia.toolforge.org/twitter/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:twitter",
+    "url": "https://threadreaderapp.com/user/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
   },
@@ -885,6 +981,12 @@
     "key": "Key:website",
     "url": "https://web.archive.org/web/*/$1/",
     "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:wikidata",
+    "url": "http://www.wikidata.org/entity/$1",
+    "source": "osmwiki:P8",
     "rank": "normal"
   },
   {
