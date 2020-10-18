@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20200803T180000Z",
+  "data_updated": "20201018T110000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -14,6 +14,10 @@
       "description": "https://3dmr.eu/model/$1"
     },
     {
+      "key": "addr:street:wikidata",
+      "description": "http://www.wikidata.org/entity/$1"
+    },
+    {
       "key": "architect:wikidata",
       "description": "http://www.wikidata.org/entity/$1"
     },
@@ -23,6 +27,18 @@
     },
     {
       "key": "brand:wikidata",
+      "description": "http://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "building:architecture:wikidata",
+      "description": "http://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "buried:wikidata",
+      "description": "http://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "commemorates:wikidata",
       "description": "http://www.wikidata.org/entity/$1"
     },
     {
@@ -131,6 +147,10 @@
     },
     {
       "key": "contact:telegram",
+      "description": "https://unavatar.now.sh/telegram/$1"
+    },
+    {
+      "key": "contact:telegram",
       "description": "tg://resolve?domain=$1"
     },
     {
@@ -140,6 +160,10 @@
     {
       "key": "contact:twitter",
       "description": "https://twitter.com/$1"
+    },
+    {
+      "key": "contact:twitter",
+      "description": "https://keybase.io/_/api/1.0/user/lookup.json?twitter=$1"
     },
     {
       "key": "contact:twitter",
@@ -162,6 +186,10 @@
       "description": "https://unavatar.now.sh/twitter/$1"
     },
     {
+      "key": "contact:website",
+      "description": "https://web.archive.org/web/*/$1/"
+    },
+    {
       "key": "contact:yelp",
       "description": "https://www.yelp.com/biz/$1"
     },
@@ -182,6 +210,38 @@
       "description": "https://www.statistik.bayern.de/mam/produkte/statistik_kommunal/2018/$1.pdf"
     },
     {
+      "key": "destination:ref:wikidata",
+      "description": "http://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "destination:ref:wikidata:lanes",
+      "description": "http://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "disused:brand:wikidata",
+      "description": "http://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "esr:user",
+      "description": "http://tr4.info/station/$1"
+    },
+    {
+      "key": "esr:user",
+      "description": "http://tr4.info/railway/$1"
+    },
+    {
+      "key": "esr:user",
+      "description": "http://tr4.info/station/$1"
+    },
+    {
+      "key": "etymology:wikidata",
+      "description": "http://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "faa",
+      "description": "https://nfdc.faa.gov/nfdcApps/services/ajv5/airportDisplay.jsp?airportId=$1"
+    },
+    {
       "key": "fax",
       "description": "tel:$1"
     },
@@ -194,12 +254,124 @@
       "description": "http://www.wikidata.org/entity/$1"
     },
     {
+      "key": "former_operator:wikidata",
+      "description": "http://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "franchise:wikidata",
+      "description": "http://www.wikidata.org/entity/$1"
+    },
+    {
       "key": "genus:wikidata",
       "description": "http://www.wikidata.org/entity/$1"
     },
     {
       "key": "gnis:feature_id",
       "description": "https://geonames.usgs.gov/apex/f?p=gnispq:3:::NO::P3_FID:$1"
+    },
+    {
+      "key": "hashtags",
+      "description": "http://seiga.nicovideo.jp/tag/$1"
+    },
+    {
+      "key": "hashtags",
+      "description": "https://d.tube/#!/t/$1"
+    },
+    {
+      "key": "hashtags",
+      "description": "https://facebook.com/hashtag/$1"
+    },
+    {
+      "key": "hashtags",
+      "description": "https://gfycat.com/gifs/tag/$1"
+    },
+    {
+      "key": "hashtags",
+      "description": "https://github.com/topics/$1"
+    },
+    {
+      "key": "hashtags",
+      "description": "https://hashtags-hub.toolforge.org/$1"
+    },
+    {
+      "key": "hashtags",
+      "description": "https://hashtags.wmflabs.org/?query=$1"
+    },
+    {
+      "key": "hashtags",
+      "description": "https://joindiaspora.com/tags/$1"
+    },
+    {
+      "key": "hashtags",
+      "description": "https://mastodon.social/tags/$1"
+    },
+    {
+      "key": "hashtags",
+      "description": "https://peertube.social/search?tagsOneOf=$1"
+    },
+    {
+      "key": "hashtags",
+      "description": "https://pixelfed.fr/discover/tags/$1"
+    },
+    {
+      "key": "hashtags",
+      "description": "https://s.weibo.com/weibo/%23$1%23"
+    },
+    {
+      "key": "hashtags",
+      "description": "https://soundcloud.com/tags/$1"
+    },
+    {
+      "key": "hashtags",
+      "description": "https://twitter.com/hashtag/$1"
+    },
+    {
+      "key": "hashtags",
+      "description": "https://unsplash.com/s/photos/$1"
+    },
+    {
+      "key": "hashtags",
+      "description": "https://www.deviantart.com/tag/$1"
+    },
+    {
+      "key": "hashtags",
+      "description": "https://www.flickr.com/photos/tags/$1"
+    },
+    {
+      "key": "hashtags",
+      "description": "https://www.instagram.com/explore/tags/$1"
+    },
+    {
+      "key": "hashtags",
+      "description": "https://www.pixiv.net/tags/$1"
+    },
+    {
+      "key": "hashtags",
+      "description": "https://www.tiktok.com/tag/$1"
+    },
+    {
+      "key": "hashtags",
+      "description": "https://www.tumblr.com/tagged/$1"
+    },
+    {
+      "key": "hashtags",
+      "description": "https://www.youtube.com/results?search_query=%23$1"
+    },
+    {
+      "key": "HE_ref",
+      "description": "https://historicengland.org.uk/listing/the-list/list-entry/$1"
+    },
+    {
+      "key": "HE_ref",
+      "description": "https://www.historicengland.org.uk/listing/the-list/list-entry/$1"
+    },
+    {
+      "key": "heritage:operator:wikidata",
+      "description": "http://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "home_club:wikidata",
+      "description": "http://www.wikidata.org/entity/$1"
     },
     {
       "key": "iata",
@@ -250,8 +422,20 @@
       "description": "https://commons.wikimedia.org/wiki/File:$1"
     },
     {
+      "key": "image:0 Vaux-le-Vicomte - Alfred Sommier (2).JPG",
+      "description": "https://commons.wikimedia.org/wiki/File:$1"
+    },
+    {
+      "key": "internet_access:operator:wikidata",
+      "description": "http://www.wikidata.org/entity/$1"
+    },
+    {
       "key": "koatuu",
       "description": "http://dovidnyk.in.ua/directories/koatuu/search=$1"
+    },
+    {
+      "key": "manufacturer:wikidata",
+      "description": "http://www.wikidata.org/entity/$1"
     },
     {
       "key": "mapillary",
@@ -266,6 +450,14 @@
       "description": "http://www.wikidata.org/entity/$1"
     },
     {
+      "key": "name:start_date:source:wikidata",
+      "description": "http://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "name:wikidata",
+      "description": "http://www.wikidata.org/entity/$1"
+    },
+    {
       "key": "network:wikidata",
       "description": "http://www.wikidata.org/entity/$1"
     },
@@ -274,8 +466,20 @@
       "description": "http://www.census.gov/quickfacts/table/PST045215/$1,00"
     },
     {
+      "key": "notable_tenant:wikidata",
+      "description": "http://www.wikidata.org/entity/$1"
+    },
+    {
       "key": "nycdoitt:bin",
       "description": "http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?bin=$1"
+    },
+    {
+      "key": "old_name:etymology:wikidata",
+      "description": "http://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "old_name:source:wikidata",
+      "description": "http://www.wikidata.org/entity/$1"
     },
     {
       "key": "opening_hours",
@@ -292,6 +496,10 @@
     {
       "key": "phone",
       "description": "tel:$1"
+    },
+    {
+      "key": "railway:ref",
+      "description": "https://iris.noncd.db.de/wbt/js/index.html?bhf=$1"
     },
     {
       "key": "ref:admiralty",
@@ -311,7 +519,7 @@
     },
     {
       "key": "ref:at:gkz",
-      "description": "http://www.statistik.at/blickgem/gemDetail.do?gemnr=$1"
+      "description": "https://www.statistik.at/blickgem/gemDetail.do?gemnr=$1"
     },
     {
       "key": "ref:bag",
@@ -391,6 +599,10 @@
     },
     {
       "key": "ref:FR:museofile",
+      "description": "https://pop.culture.gouv.fr/notice/museo/$1"
+    },
+    {
+      "key": "ref:FR:museofile",
       "description": "https://www.pop.culture.gouv.fr/notice/museo/$1"
     },
     {
@@ -412,6 +624,10 @@
     {
       "key": "ref:FR:SIRET",
       "description": "https://www.infogreffe.fr/societes/entreprise-societe/$1"
+    },
+    {
+      "key": "ref:gss",
+      "description": "http://statistics.data.gov.uk/atlas/resource?uri=http://statistics.data.gov.uk/id/statistical-geography/$1"
     },
     {
       "key": "ref:INSEE",
@@ -494,6 +710,10 @@
       "description": "https://wikidata-externalid-url.toolforge.org/?url=http%3A%2F%2Fwww.sudoc.abes.fr%2Fcbs%2Fxslt%2F%2FDB%3D2.2%2FCMD%3FACT%3DSRCHA%26IKT%3D8888%26SRT%3DRLV%26TRM%3D%251&exp=%5EFR-(%5Cd%7B9%7D)&id=$1"
     },
     {
+      "key": "ref:LOCODE",
+      "description": "http://unlocode.rkbexplorer.com/id/$1"
+    },
+    {
       "key": "ref:mhs",
       "description": "https://www.pop.culture.gouv.fr/notice/merimee/$1"
     },
@@ -542,6 +762,14 @@
       "description": "http://www.sandre.eaufrance.fr/geo/CoursEau/$1"
     },
     {
+      "key": "ref:sandre",
+      "description": "http://www.services.eaufrance.fr/donnees/service/$1"
+    },
+    {
+      "key": "ref:train",
+      "description": "https://iris.noncd.db.de/wbt/js/index.html?bhf=$1"
+    },
+    {
       "key": "ref:UAI",
       "description": "http://bibliotheques.enseignementsup-recherche.gouv.fr/FR/annuaire/siege/$1/"
     },
@@ -575,15 +803,15 @@
     },
     {
       "key": "ref:whc",
-      "description": "http://www.worldheritagesite.org/sites/site.php?id=$1"
-    },
-    {
-      "key": "ref:whc",
       "description": "https://whc.unesco.org/en/list/$1"
     },
     {
       "key": "ref:whc",
       "description": "https://whc.unesco.org/fr/list/$1"
+    },
+    {
+      "key": "ref:whc",
+      "description": "https://www.worldheritagesite.org/list/id/$1"
     },
     {
       "key": "ref:wien:kultur",
@@ -606,6 +834,18 @@
       "description": "https://brt.basisregistraties.overheid.nl/top10nl/doc/plaats/$1"
     },
     {
+      "key": "ref:wpi",
+      "description": "https://msi.nga.mil/queryBreakout?publications/world-port-index?indexNumber=$1&output=html"
+    },
+    {
+      "key": "religion:wikidata",
+      "description": "http://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "royal_cypher:wikidata",
+      "description": "http://www.wikidata.org/entity/$1"
+    },
+    {
       "key": "seamark:radio_station:mmsi",
       "description": "https://www.marinetraffic.com/ais/details/ships/$1"
     },
@@ -620,6 +860,10 @@
     {
       "key": "seamark:virtual_aton:mmsi",
       "description": "http://sd.ic.gc.ca/pls/engdoc_anon/mmsi_search.Ship_Search_Single?inMMSI=$1&invesname=&inname=&oinmmsi=$1&incallsign=&invesid=&ininmarsat="
+    },
+    {
+      "key": "snowplowing:operator:wikidata",
+      "description": "http://www.wikidata.org/entity/$1"
     },
     {
       "key": "species:wikidata",
@@ -632,6 +876,10 @@
     {
       "key": "twitter",
       "description": "https://twitter.com/$1"
+    },
+    {
+      "key": "twitter",
+      "description": "https://keybase.io/_/api/1.0/user/lookup.json?twitter=$1"
     },
     {
       "key": "twitter",
@@ -658,6 +906,10 @@
       "description": "https://www.kapella2.hu/ehuszfelulet/?infra_id=21943&taf_id=$1"
     },
     {
+      "key": "was:brand:wikidata",
+      "description": "http://www.wikidata.org/entity/$1"
+    },
+    {
       "key": "website",
       "description": "$1"
     },
@@ -671,6 +923,14 @@
     },
     {
       "key": "wikidata",
+      "description": "https://autodesc.toolforge.org/?q=$1&links=wikipedia&lang=en&mode=long&format=html&redlinks=reasonator"
+    },
+    {
+      "key": "wikidata",
+      "description": "https://hub.toolforge.org/$1"
+    },
+    {
+      "key": "wikidata",
       "description": "https://inventaire.io/entity/wd:$1"
     },
     {
@@ -679,31 +939,23 @@
     },
     {
       "key": "wikidata",
+      "description": "https://portal.toolforge.org/$1"
+    },
+    {
+      "key": "wikidata",
+      "description": "https://reasonator.toolforge.org/?q=$1"
+    },
+    {
+      "key": "wikidata",
+      "description": "https://scholia.toolforge.org/$1"
+    },
+    {
+      "key": "wikidata",
+      "description": "https://sqid.toolforge.org/#/view?id=$1"
+    },
+    {
+      "key": "wikidata",
       "description": "https://taginfo.openstreetmap.org/tags/wikidata=$1"
-    },
-    {
-      "key": "wikidata",
-      "description": "https://tools.wmflabs.org/autodesc/?q=$1&links=wikipedia&lang=en&mode=long&format=html&redlinks=reasonator"
-    },
-    {
-      "key": "wikidata",
-      "description": "https://tools.wmflabs.org/hub/$1"
-    },
-    {
-      "key": "wikidata",
-      "description": "https://tools.wmflabs.org/portal/$1"
-    },
-    {
-      "key": "wikidata",
-      "description": "https://tools.wmflabs.org/reasonator/?q=$1"
-    },
-    {
-      "key": "wikidata",
-      "description": "https://tools.wmflabs.org/scholia/$1"
-    },
-    {
-      "key": "wikidata",
-      "description": "https://tools.wmflabs.org/sqid/#/view?id=$1"
     },
     {
       "key": "wikidata",
