@@ -205,6 +205,12 @@
   },
   {
     "key": "Key:contact:telegram",
+    "url": "https://telegram.dog/s/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:contact:telegram",
     "url": "https://unavatar.now.sh/telegram/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
@@ -229,6 +235,12 @@
   },
   {
     "key": "Key:contact:twitter",
+    "url": "http://3nzoldnxplag42gqjs23xvghtzf6t6yzssrtytnntc6ppc7xxuoneoad.onion/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:contact:twitter",
     "url": "https://keybase.io/_/api/1.0/user/lookup.json?twitter=$1",
     "source": "wikidata:P3303",
     "rank": "normal"
@@ -236,6 +248,12 @@
   {
     "key": "Key:contact:twitter",
     "url": "https://nitter.net/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:contact:twitter",
+    "url": "https://nitter.snopyta.org/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
   },
@@ -283,13 +301,19 @@
   },
   {
     "key": "Key:de:amtlicher_gemeindeschluessel",
-    "url": "http://www.statistik-portal.de/Statistik-Portal/gemeindeverz.asp?G=$1",
+    "url": "https://dd.eionet.europa.eu/vocabularyconcept/lau2/de/$1",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
   {
     "key": "Key:de:amtlicher_gemeindeschluessel",
     "url": "https://www.hdbg.eu/gemeinden/index.php/detail?rschl=$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:de:amtlicher_gemeindeschluessel",
+    "url": "https://www.statistik-bw.de/Service/Gemeindeverzeichnis/Gem.jsp?G=$1",
     "source": "wikidata:P3303",
     "rank": "normal"
   },
@@ -390,6 +414,12 @@
     "rank": "normal"
   },
   {
+    "key": "Key:happycow:id",
+    "url": "https://www.happycow.net/reviews/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
     "key": "Key:hashtags",
     "url": "http://seiga.nicovideo.jp/tag/$1",
     "source": "wikidata:P3303",
@@ -428,6 +458,12 @@
   {
     "key": "Key:hashtags",
     "url": "https://hashtags.wmflabs.org/?query=$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:hashtags",
+    "url": "https://imgur.com/t/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
   },
@@ -499,6 +535,12 @@
   },
   {
     "key": "Key:hashtags",
+    "url": "https://www.linkedin.com/feed/hashtag/?keywords=$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:hashtags",
     "url": "https://www.pixiv.net/tags/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
@@ -523,14 +565,20 @@
   },
   {
     "key": "Key:HE_ref",
+    "url": "https://www.historicengland.org.uk/listing/the-list/list-entry/$1",
+    "source": "wikidata:P1630",
+    "rank": "preferred"
+  },
+  {
+    "key": "Key:HE_ref",
     "url": "https://historicengland.org.uk/listing/the-list/list-entry/$1",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
   {
     "key": "Key:HE_ref",
-    "url": "https://www.historicengland.org.uk/listing/the-list/list-entry/$1",
-    "source": "wikidata:P1630",
+    "url": "https://www.heritagegateway.org.uk/Gateway/Results_Single.aspx?uid=$1&resourceID=5",
+    "source": "wikidata:P3303",
     "rank": "normal"
   },
   {
@@ -553,12 +601,6 @@
   },
   {
     "key": "Key:iata",
-    "url": "https://www.iata.org/en/publications/directories/code-search/?airport.search=$1",
-    "source": "wikidata:P3303",
-    "rank": "preferred"
-  },
-  {
-    "key": "Key:iata",
     "url": "http://aviation-safety.net/database/airport/airport.php?id=$1",
     "source": "wikidata:P3303",
     "rank": "normal"
@@ -573,12 +615,6 @@
     "key": "Key:iata",
     "url": "https://flightadsb.variflight.com/airport/$1",
     "source": "wikidata:P3303",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:iata",
-    "url": "https://www.flightradar24.com/data/airports/$1",
-    "source": "wikidata:P1630",
     "rank": "normal"
   },
   {
@@ -613,12 +649,6 @@
   },
   {
     "key": "Key:image",
-    "url": "https://commons.wikimedia.org/wiki/File:$1",
-    "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:image:0 Vaux-le-Vicomte - Alfred Sommier (2).JPG",
     "url": "https://commons.wikimedia.org/wiki/File:$1",
     "source": "wikidata:P1630",
     "rank": "normal"
@@ -768,6 +798,12 @@
     "rank": "normal"
   },
   {
+    "key": "Key:ref:at:wis",
+    "url": "https://wis.tirol.gv.at/wisSrvPublic/wis/wbo_wb_auszug.aspx?ANL_ID=$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
     "key": "Key:ref:bag",
     "url": "https://bagviewer.kadaster.nl/lvbag/bag-viewer/index.html#?searchQuery=$1",
     "source": "wikidata:P1630",
@@ -912,16 +948,94 @@
     "rank": "normal"
   },
   {
-    "key": "Key:ref:FR:SIRET",
+    "key": "Key:ref:FR:RNA",
     "url": "https://entreprise.data.gouv.fr/etablissement/$1",
     "source": "wikidata:P1630",
+    "rank": "preferred"
+  },
+  {
+    "key": "Key:ref:FR:RNA",
+    "url": "http://stmaur.cquest.org:1901/rna?rna=$1",
+    "source": "wikidata:P3303",
     "rank": "normal"
+  },
+  {
+    "key": "Key:ref:FR:RNA",
+    "url": "https://bazasso.fr/association/waldec/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:FR:RNA",
+    "url": "https://www.journal-officiel.gouv.fr/association/index.php?ACTION=Rechercher&JTY_WALDEC=$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:FR:SIREN",
+    "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/$1",
+    "source": "wikidata:P1630",
+    "rank": "preferred"
+  },
+  {
+    "key": "Key:ref:FR:SIREN",
+    "url": "https://data.inpi.fr/entreprises/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:FR:SIREN",
+    "url": "https://entreprise.data.gouv.fr/sirene/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:FR:SIREN",
+    "url": "https://opencorporates.com/companies/fr/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:FR:SIREN",
+    "url": "https://scanr.enseignementsup-recherche.gouv.fr/structure/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:FR:SIREN",
+    "url": "https://www.infogreffe.fr/infogreffe/ficheIdentite.do?siren=$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:FR:SIREN",
+    "url": "https://www.infogreffe.fr/societes/entreprise-societe/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:FR:SIRET",
+    "url": "https://www.sirene.fr/sirene/public/recherche?recherche.sirenSiret=$1",
+    "source": "wikidata:P1630",
+    "rank": "preferred"
   },
   {
     "key": "Key:ref:FR:SIRET",
     "url": "https://www.infogreffe.fr/societes/entreprise-societe/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
+  },
+  {
+    "key": "Key:ref:FR:SIRET",
+    "url": "https://annuaire-entreprises.data.gouv.fr/etablissement/$1",
+    "source": "wikidata:P1630",
+    "rank": "deprecated"
+  },
+  {
+    "key": "Key:ref:FR:SIRET",
+    "url": "https://entreprise.data.gouv.fr/etablissement/$1",
+    "source": "wikidata:P1630",
+    "rank": "deprecated"
   },
   {
     "key": "Key:ref:gss",
@@ -943,7 +1057,7 @@
   },
   {
     "key": "Key:ref:INSEE",
-    "url": "https://dev.cadastre.openstreetmap.fr/fantoir/#insee=$1",
+    "url": "https://bano.openstreetmap.fr/fantoir/#insee=$1",
     "source": "wikidata:P3303",
     "rank": "normal"
   },
@@ -1056,6 +1170,12 @@
     "rank": "normal"
   },
   {
+    "key": "Key:ref:LOCODE",
+    "url": "https://www.portofantwerp.com/autocomplete/connectivity/maritime_port?term=$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
     "key": "Key:ref:mhs",
     "url": "https://www.pop.culture.gouv.fr/notice/merimee/$1",
     "source": "wikidata:P1630",
@@ -1110,6 +1230,12 @@
     "rank": "normal"
   },
   {
+    "key": "Key:ref:ruian",
+    "url": "https://www.kamsnim.cz/?municipality=cz_obce_$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
     "key": "Key:ref:ruian:building",
     "url": "https://vdp.cuzk.cz/vdp/ruian/stavebniobjekty/$1",
     "source": "osmwiki:P8",
@@ -1147,12 +1273,6 @@
   },
   {
     "key": "Key:ref:UAI",
-    "url": "http://www.education.gouv.fr/annuaire/uai/$1",
-    "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:ref:UAI",
     "url": "http://www.internat.education.gouv.fr/ConsultationAnnuaireInternat/ficheDetail.do?method=initForIntranet&etab=$1&uai=true",
     "source": "wikidata:P3303",
     "rank": "normal"
@@ -1176,9 +1296,15 @@
     "rank": "deprecated"
   },
   {
-    "key": "Key:ref:uscg",
-    "url": "https://wikidata-externalid-url.toolforge.org/?url=https%3A%2F%2Fmsi.nga.mil%2FqueryResults%3Fpublications%2Fuscgll%3Fvolume%3D%251%26featureNumber%3D%252%26includeRemovals%3Dfalse%26output%3Dhtml&exp=(%5Cd)-(.*)&id=$1",
+    "key": "Key:ref:UAI",
+    "url": "http://www.education.gouv.fr/annuaire/uai/$1",
     "source": "wikidata:P1630",
+    "rank": "deprecated"
+  },
+  {
+    "key": "Key:ref:vatin",
+    "url": "https://adisreg.mfcr.cz/adistc/adis/irs/irep_dph/dphInputForm.faces?form:dt:0:inputDic=$1",
+    "source": "wikidata:P3303",
     "rank": "normal"
   },
   {
@@ -1257,6 +1383,12 @@
     "key": "Key:seamark:radio_station:mmsi",
     "url": "https://www.marinetraffic.com/ais/details/ships/$1",
     "source": "wikidata:P1630",
+    "rank": "preferred"
+  },
+  {
+    "key": "Key:seamark:radio_station:mmsi",
+    "url": "https://www.fleetmon.com/vessels/?s=$1",
+    "source": "wikidata:P1630",
     "rank": "normal"
   },
   {
@@ -1268,6 +1400,12 @@
   {
     "key": "Key:seamark:virtual_aton:mmsi",
     "url": "https://www.marinetraffic.com/ais/details/ships/$1",
+    "source": "wikidata:P1630",
+    "rank": "preferred"
+  },
+  {
+    "key": "Key:seamark:virtual_aton:mmsi",
+    "url": "https://www.fleetmon.com/vessels/?s=$1",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
@@ -1303,6 +1441,12 @@
   },
   {
     "key": "Key:twitter",
+    "url": "http://3nzoldnxplag42gqjs23xvghtzf6t6yzssrtytnntc6ppc7xxuoneoad.onion/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:twitter",
     "url": "https://keybase.io/_/api/1.0/user/lookup.json?twitter=$1",
     "source": "wikidata:P3303",
     "rank": "normal"
@@ -1310,6 +1454,12 @@
   {
     "key": "Key:twitter",
     "url": "https://nitter.net/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:twitter",
+    "url": "https://nitter.snopyta.org/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
   },

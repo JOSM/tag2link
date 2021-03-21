@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20201018T110000Z",
+  "data_updated": "20210321T140000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -147,6 +147,10 @@
     },
     {
       "key": "contact:telegram",
+      "description": "https://telegram.dog/s/$1"
+    },
+    {
+      "key": "contact:telegram",
       "description": "https://unavatar.now.sh/telegram/$1"
     },
     {
@@ -163,11 +167,19 @@
     },
     {
       "key": "contact:twitter",
+      "description": "http://3nzoldnxplag42gqjs23xvghtzf6t6yzssrtytnntc6ppc7xxuoneoad.onion/$1"
+    },
+    {
+      "key": "contact:twitter",
       "description": "https://keybase.io/_/api/1.0/user/lookup.json?twitter=$1"
     },
     {
       "key": "contact:twitter",
       "description": "https://nitter.net/$1"
+    },
+    {
+      "key": "contact:twitter",
+      "description": "https://nitter.snopyta.org/$1"
     },
     {
       "key": "contact:twitter",
@@ -199,11 +211,15 @@
     },
     {
       "key": "de:amtlicher_gemeindeschluessel",
-      "description": "http://www.statistik-portal.de/Statistik-Portal/gemeindeverz.asp?G=$1"
+      "description": "https://dd.eionet.europa.eu/vocabularyconcept/lau2/de/$1"
     },
     {
       "key": "de:amtlicher_gemeindeschluessel",
       "description": "https://www.hdbg.eu/gemeinden/index.php/detail?rschl=$1"
+    },
+    {
+      "key": "de:amtlicher_gemeindeschluessel",
+      "description": "https://www.statistik-bw.de/Service/Gemeindeverzeichnis/Gem.jsp?G=$1"
     },
     {
       "key": "de:amtlicher_gemeindeschluessel",
@@ -270,6 +286,10 @@
       "description": "https://geonames.usgs.gov/apex/f?p=gnispq:3:::NO::P3_FID:$1"
     },
     {
+      "key": "happycow:id",
+      "description": "https://www.happycow.net/reviews/$1"
+    },
+    {
       "key": "hashtags",
       "description": "http://seiga.nicovideo.jp/tag/$1"
     },
@@ -296,6 +316,10 @@
     {
       "key": "hashtags",
       "description": "https://hashtags.wmflabs.org/?query=$1"
+    },
+    {
+      "key": "hashtags",
+      "description": "https://imgur.com/t/$1"
     },
     {
       "key": "hashtags",
@@ -343,6 +367,10 @@
     },
     {
       "key": "hashtags",
+      "description": "https://www.linkedin.com/feed/hashtag/?keywords=$1"
+    },
+    {
+      "key": "hashtags",
       "description": "https://www.pixiv.net/tags/$1"
     },
     {
@@ -359,11 +387,15 @@
     },
     {
       "key": "HE_ref",
+      "description": "https://www.historicengland.org.uk/listing/the-list/list-entry/$1"
+    },
+    {
+      "key": "HE_ref",
       "description": "https://historicengland.org.uk/listing/the-list/list-entry/$1"
     },
     {
       "key": "HE_ref",
-      "description": "https://www.historicengland.org.uk/listing/the-list/list-entry/$1"
+      "description": "https://www.heritagegateway.org.uk/Gateway/Results_Single.aspx?uid=$1&resourceID=5"
     },
     {
       "key": "heritage:operator:wikidata",
@@ -372,10 +404,6 @@
     {
       "key": "home_club:wikidata",
       "description": "http://www.wikidata.org/entity/$1"
-    },
-    {
-      "key": "iata",
-      "description": "https://www.iata.org/en/publications/directories/code-search/?airport.search=$1"
     },
     {
       "key": "iata",
@@ -392,10 +420,6 @@
     {
       "key": "iata",
       "description": "https://flightadsb.variflight.com/airport/$1"
-    },
-    {
-      "key": "iata",
-      "description": "https://www.flightradar24.com/data/airports/$1"
     },
     {
       "key": "iata",
@@ -419,10 +443,6 @@
     },
     {
       "key": "image",
-      "description": "https://commons.wikimedia.org/wiki/File:$1"
-    },
-    {
-      "key": "image:0 Vaux-le-Vicomte - Alfred Sommier (2).JPG",
       "description": "https://commons.wikimedia.org/wiki/File:$1"
     },
     {
@@ -522,6 +542,10 @@
       "description": "https://www.statistik.at/blickgem/gemDetail.do?gemnr=$1"
     },
     {
+      "key": "ref:at:wis",
+      "description": "https://wis.tirol.gv.at/wisSrvPublic/wis/wbo_wb_auszug.aspx?ANL_ID=$1"
+    },
+    {
       "key": "ref:bag",
       "description": "https://bagviewer.kadaster.nl/lvbag/bag-viewer/index.html#?searchQuery=$1"
     },
@@ -618,12 +642,64 @@
       "description": "https://www.prix-carburants.gouv.fr/itineraire/print/pdv/$1"
     },
     {
-      "key": "ref:FR:SIRET",
+      "key": "ref:FR:RNA",
       "description": "https://entreprise.data.gouv.fr/etablissement/$1"
+    },
+    {
+      "key": "ref:FR:RNA",
+      "description": "http://stmaur.cquest.org:1901/rna?rna=$1"
+    },
+    {
+      "key": "ref:FR:RNA",
+      "description": "https://bazasso.fr/association/waldec/$1"
+    },
+    {
+      "key": "ref:FR:RNA",
+      "description": "https://www.journal-officiel.gouv.fr/association/index.php?ACTION=Rechercher&JTY_WALDEC=$1"
+    },
+    {
+      "key": "ref:FR:SIREN",
+      "description": "https://annuaire-entreprises.data.gouv.fr/entreprise/$1"
+    },
+    {
+      "key": "ref:FR:SIREN",
+      "description": "https://data.inpi.fr/entreprises/$1"
+    },
+    {
+      "key": "ref:FR:SIREN",
+      "description": "https://entreprise.data.gouv.fr/sirene/$1"
+    },
+    {
+      "key": "ref:FR:SIREN",
+      "description": "https://opencorporates.com/companies/fr/$1"
+    },
+    {
+      "key": "ref:FR:SIREN",
+      "description": "https://scanr.enseignementsup-recherche.gouv.fr/structure/$1"
+    },
+    {
+      "key": "ref:FR:SIREN",
+      "description": "https://www.infogreffe.fr/infogreffe/ficheIdentite.do?siren=$1"
+    },
+    {
+      "key": "ref:FR:SIREN",
+      "description": "https://www.infogreffe.fr/societes/entreprise-societe/$1"
+    },
+    {
+      "key": "ref:FR:SIRET",
+      "description": "https://www.sirene.fr/sirene/public/recherche?recherche.sirenSiret=$1"
     },
     {
       "key": "ref:FR:SIRET",
       "description": "https://www.infogreffe.fr/societes/entreprise-societe/$1"
+    },
+    {
+      "key": "ref:FR:SIRET",
+      "description": "https://annuaire-entreprises.data.gouv.fr/etablissement/$1"
+    },
+    {
+      "key": "ref:FR:SIRET",
+      "description": "https://entreprise.data.gouv.fr/etablissement/$1"
     },
     {
       "key": "ref:gss",
@@ -639,7 +715,7 @@
     },
     {
       "key": "ref:INSEE",
-      "description": "https://dev.cadastre.openstreetmap.fr/fantoir/#insee=$1"
+      "description": "https://bano.openstreetmap.fr/fantoir/#insee=$1"
     },
     {
       "key": "ref:INSEE",
@@ -714,6 +790,10 @@
       "description": "http://unlocode.rkbexplorer.com/id/$1"
     },
     {
+      "key": "ref:LOCODE",
+      "description": "https://www.portofantwerp.com/autocomplete/connectivity/maritime_port?term=$1"
+    },
+    {
       "key": "ref:mhs",
       "description": "https://www.pop.culture.gouv.fr/notice/merimee/$1"
     },
@@ -750,6 +830,10 @@
       "description": "https://vdp.cuzk.cz/vdp/ruian/obce/$1"
     },
     {
+      "key": "ref:ruian",
+      "description": "https://www.kamsnim.cz/?municipality=cz_obce_$1"
+    },
+    {
       "key": "ref:ruian:building",
       "description": "https://vdp.cuzk.cz/vdp/ruian/stavebniobjekty/$1"
     },
@@ -775,10 +859,6 @@
     },
     {
       "key": "ref:UAI",
-      "description": "http://www.education.gouv.fr/annuaire/uai/$1"
-    },
-    {
-      "key": "ref:UAI",
       "description": "http://www.internat.education.gouv.fr/ConsultationAnnuaireInternat/ficheDetail.do?method=initForIntranet&etab=$1&uai=true"
     },
     {
@@ -794,8 +874,12 @@
       "description": "http://educ.gouv.fr/annuaire/uai/$1"
     },
     {
-      "key": "ref:uscg",
-      "description": "https://wikidata-externalid-url.toolforge.org/?url=https%3A%2F%2Fmsi.nga.mil%2FqueryResults%3Fpublications%2Fuscgll%3Fvolume%3D%251%26featureNumber%3D%252%26includeRemovals%3Dfalse%26output%3Dhtml&exp=(%5Cd)-(.*)&id=$1"
+      "key": "ref:UAI",
+      "description": "http://www.education.gouv.fr/annuaire/uai/$1"
+    },
+    {
+      "key": "ref:vatin",
+      "description": "https://adisreg.mfcr.cz/adistc/adis/irs/irep_dph/dphInputForm.faces?form:dt:0:inputDic=$1"
     },
     {
       "key": "ref:vatin",
@@ -851,11 +935,19 @@
     },
     {
       "key": "seamark:radio_station:mmsi",
+      "description": "https://www.fleetmon.com/vessels/?s=$1"
+    },
+    {
+      "key": "seamark:radio_station:mmsi",
       "description": "http://sd.ic.gc.ca/pls/engdoc_anon/mmsi_search.Ship_Search_Single?inMMSI=$1&invesname=&inname=&oinmmsi=$1&incallsign=&invesid=&ininmarsat="
     },
     {
       "key": "seamark:virtual_aton:mmsi",
       "description": "https://www.marinetraffic.com/ais/details/ships/$1"
+    },
+    {
+      "key": "seamark:virtual_aton:mmsi",
+      "description": "https://www.fleetmon.com/vessels/?s=$1"
     },
     {
       "key": "seamark:virtual_aton:mmsi",
@@ -879,11 +971,19 @@
     },
     {
       "key": "twitter",
+      "description": "http://3nzoldnxplag42gqjs23xvghtzf6t6yzssrtytnntc6ppc7xxuoneoad.onion/$1"
+    },
+    {
+      "key": "twitter",
       "description": "https://keybase.io/_/api/1.0/user/lookup.json?twitter=$1"
     },
     {
       "key": "twitter",
       "description": "https://nitter.net/$1"
+    },
+    {
+      "key": "twitter",
+      "description": "https://nitter.snopyta.org/$1"
     },
     {
       "key": "twitter",
