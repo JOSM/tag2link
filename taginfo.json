@@ -667,10 +667,6 @@
     },
     {
       "key": "ref:FR:SIREN",
-      "description": "https://entreprise.data.gouv.fr/sirene/$1"
-    },
-    {
-      "key": "ref:FR:SIREN",
       "description": "https://opencorporates.com/companies/fr/$1"
     },
     {
@@ -678,28 +674,12 @@
       "description": "https://scanr.enseignementsup-recherche.gouv.fr/structure/$1"
     },
     {
-      "key": "ref:FR:SIREN",
-      "description": "https://www.infogreffe.fr/infogreffe/ficheIdentite.do?siren=$1"
-    },
-    {
-      "key": "ref:FR:SIREN",
-      "description": "https://www.infogreffe.fr/societes/entreprise-societe/$1"
-    },
-    {
       "key": "ref:FR:SIRET",
       "description": "https://www.sirene.fr/sirene/public/recherche?recherche.sirenSiret=$1"
     },
     {
       "key": "ref:FR:SIRET",
-      "description": "https://www.infogreffe.fr/societes/entreprise-societe/$1"
-    },
-    {
-      "key": "ref:FR:SIRET",
       "description": "https://annuaire-entreprises.data.gouv.fr/etablissement/$1"
-    },
-    {
-      "key": "ref:FR:SIRET",
-      "description": "https://entreprise.data.gouv.fr/etablissement/$1"
     },
     {
       "key": "ref:gss",
