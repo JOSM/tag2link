@@ -7,4 +7,6 @@ SELECT ?OSM_key ?formatter_URL ?rank ?source WHERE {
     UNION
     { ?item p:P3303[ps:P3303 ?formatter_URL; wikibase:rank ?rank;]. BIND("wikidata:P3303" AS ?source ). }
   }
+  FILTER (?rank != wikibase:DeprecatedRank)
 }
+ORDER BY ?OSM_key DESC(?rank)
