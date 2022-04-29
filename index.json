@@ -1618,5 +1618,11 @@
     "url": "https://www.flickr.com/places/info/$1",
     "source": "osmwiki:P8",
     "rank": "normal"
+  },
+  {
+    "key": "ref:FR:ANFR",
+    "url": "https://data.anfr.fr/anfr/visualisation/map/?id=observatoire_2g_3g_4g&q=SUP_ID%3D$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
   }
 ]
