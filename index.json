@@ -1621,7 +1621,7 @@
   },
   {
     "key": "ref:FR:ANFR",
-    "url": "https://data.anfr.fr/anfr/visualisation/map/?id=observatoire_2g_3g_4g&q=SUP_ID%3D$1",
+    "url": "https://data.anfr.fr/anfr/visualisation/map/?id=observatoire_2g_3g_4g&refine.SUP_ID=$1",
     "source": "osmwiki:P8",
     "rank": "normal"
   }
