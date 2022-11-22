@@ -752,13 +752,13 @@
   {
     "key": "Key:ref:edubase",
     "url": "https://www.get-information-schools.service.gov.uk/Establishments/Establishment/Details/$1",
-    "source": "wikidata:P1630",
+    "source": "osmwiki:P8",
     "rank": "normal"
   },
   {
     "key": "Key:ref:edubase",
     "url": "https://www.get-information-schools.service.gov.uk/Establishments/Establishment/Details/$1",
-    "source": "osmwiki:P8",
+    "source": "wikidata:P1630",
     "rank": "normal"
   },
   {
@@ -770,13 +770,13 @@
   {
     "key": "Key:ref:EU:ENTSOE_EIC",
     "url": "https://transparency.ontotext.com/resource/eic/$1",
-    "source": "wikidata:P3303",
+    "source": "wikidata:P1630",
     "rank": "normal"
   },
   {
     "key": "Key:ref:EU:ENTSOE_EIC",
     "url": "https://transparency.ontotext.com/resource/eic/$1",
-    "source": "wikidata:P1630",
+    "source": "wikidata:P3303",
     "rank": "normal"
   },
   {
@@ -956,13 +956,13 @@
   {
     "key": "Key:ref:isil",
     "url": "https://w3id.org/isil/$1",
-    "source": "wikidata:P3303",
+    "source": "wikidata:P1630",
     "rank": "preferred"
   },
   {
     "key": "Key:ref:isil",
     "url": "https://w3id.org/isil/$1",
-    "source": "wikidata:P1630",
+    "source": "wikidata:P3303",
     "rank": "preferred"
   },
   {

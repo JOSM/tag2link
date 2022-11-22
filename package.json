@@ -11,10 +11,14 @@
   ],
   "main": "index.json",
   "scripts": {
-    "build": "node build.js"
+    "build": "npx ts-node build.ts"
   },
   "homepage": "https://github.com/osmlab/tag2link",
   "repository": "github:osmlab/tag2link",
   "author": "Simon Legner <Simon.Legner@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "ts-node": "^10.9.1"
+  }
 }
