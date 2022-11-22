@@ -1,53 +1,5 @@
 [
   {
-    "key": "Key:3dmr",
-    "url": "https://3dmr.eu/model/$1",
-    "source": "osmwiki:P8",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:addr:street:wikidata",
-    "url": "http://www.wikidata.org/entity/$1",
-    "source": "osmwiki:P8",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:architect:wikidata",
-    "url": "http://www.wikidata.org/entity/$1",
-    "source": "osmwiki:P8",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:artist:wikidata",
-    "url": "http://www.wikidata.org/entity/$1",
-    "source": "osmwiki:P8",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:brand:wikidata",
-    "url": "http://www.wikidata.org/entity/$1",
-    "source": "osmwiki:P8",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:building:architecture:wikidata",
-    "url": "http://www.wikidata.org/entity/$1",
-    "source": "osmwiki:P8",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:buried:wikidata",
-    "url": "http://www.wikidata.org/entity/$1",
-    "source": "osmwiki:P8",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:commemorates:wikidata",
-    "url": "http://www.wikidata.org/entity/$1",
-    "source": "osmwiki:P8",
-    "rank": "normal"
-  },
-  {
     "key": "Key:contact:facebook",
     "url": "https://unavatar.now.sh/facebook/$1",
     "source": "wikidata:P3303",
@@ -84,12 +36,6 @@
     "rank": "normal"
   },
   {
-    "key": "Key:contact:google_plus",
-    "url": "https://web.archive.org/web/20190401000000/https://plus.google.com/u/0/$1",
-    "source": "wikidata:P1630",
-    "rank": "deprecated"
-  },
-  {
     "key": "Key:contact:instagram",
     "url": "https://unavatar.now.sh/instagram/$1",
     "source": "wikidata:P3303",
@@ -105,6 +51,12 @@
     "key": "Key:contact:mastodon",
     "url": "https://wikidata-externalid-url.toolforge.org/?p=4033&id=$1",
     "source": "wikidata:P1630",
+    "rank": "preferred"
+  },
+  {
+    "key": "Key:contact:mastodon",
+    "url": "https://mastodon.social/@$1",
+    "source": "wikidata:P1630",
     "rank": "normal"
   },
   {
@@ -112,6 +64,12 @@
     "url": "tel:$1",
     "source": "wikidata:P1630",
     "rank": "normal"
+  },
+  {
+    "key": "Key:contact:pinterest",
+    "url": "https://www.pinterest.com/$1/",
+    "source": "wikidata:P1630",
+    "rank": "preferred"
   },
   {
     "key": "Key:contact:pinterest",
@@ -163,12 +121,6 @@
   },
   {
     "key": "Key:contact:pinterest",
-    "url": "https://www.pinterest.com/$1/",
-    "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:contact:pinterest",
     "url": "https://www.pinterest.de/$1/",
     "source": "wikidata:P1630",
     "rank": "normal"
@@ -199,7 +151,7 @@
   },
   {
     "key": "Key:contact:telegram",
-    "url": "https://t.me/s/$1",
+    "url": "https://t.me/$1",
     "source": "wikidata:P1630",
     "rank": "preferred"
   },
@@ -271,6 +223,12 @@
   },
   {
     "key": "Key:contact:twitter",
+    "url": "https://twilog.org/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:contact:twitter",
     "url": "https://twitter.com/intent/user?screen_name=$1",
     "source": "wikidata:P1630",
     "rank": "normal"
@@ -282,8 +240,26 @@
     "rank": "normal"
   },
   {
+    "key": "Key:contact:twitter",
+    "url": "https://www.trendsmap.com/twitter/user/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:contact:website",
+    "url": "$1",
+    "source": "wikidata:P3303",
+    "rank": "preferred"
+  },
+  {
     "key": "Key:contact:website",
     "url": "https://web.archive.org/web/*/$1/",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:contact:website",
+    "url": "https://webcache.googleusercontent.com/search?q=cache:$1",
     "source": "wikidata:P3303",
     "rank": "normal"
   },
@@ -291,12 +267,6 @@
     "key": "Key:contact:yelp",
     "url": "https://www.yelp.com/biz/$1",
     "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:contact:yelp",
-    "url": "https://www.yelp.com/biz/$1",
-    "source": "osmwiki:P8",
     "rank": "normal"
   },
   {
@@ -324,45 +294,9 @@
     "rank": "normal"
   },
   {
-    "key": "Key:destination:ref:wikidata",
-    "url": "http://www.wikidata.org/entity/$1",
-    "source": "osmwiki:P8",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:destination:ref:wikidata:lanes",
-    "url": "http://www.wikidata.org/entity/$1",
-    "source": "osmwiki:P8",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:disused:brand:wikidata",
-    "url": "http://www.wikidata.org/entity/$1",
-    "source": "osmwiki:P8",
-    "rank": "normal"
-  },
-  {
     "key": "Key:esr:user",
-    "url": "http://tr4.info/station/$1",
+    "url": "https://tr4.info/station/$1",
     "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:esr:user",
-    "url": "http://tr4.info/railway/$1",
-    "source": "wikidata:P1630",
-    "rank": "deprecated"
-  },
-  {
-    "key": "Key:esr:user",
-    "url": "http://tr4.info/station/$1",
-    "source": "wikidata:P1630",
-    "rank": "deprecated"
-  },
-  {
-    "key": "Key:etymology:wikidata",
-    "url": "http://www.wikidata.org/entity/$1",
-    "source": "osmwiki:P8",
     "rank": "normal"
   },
   {
@@ -378,44 +312,14 @@
     "rank": "normal"
   },
   {
-    "key": "Key:fhrs:id",
-    "url": "https://ratings.food.gov.uk/business/en-GB/$1",
-    "source": "osmwiki:P8",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:flag:wikidata",
-    "url": "http://www.wikidata.org/entity/$1",
-    "source": "osmwiki:P8",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:former_operator:wikidata",
-    "url": "http://www.wikidata.org/entity/$1",
-    "source": "osmwiki:P8",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:franchise:wikidata",
-    "url": "http://www.wikidata.org/entity/$1",
-    "source": "osmwiki:P8",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:genus:wikidata",
-    "url": "http://www.wikidata.org/entity/$1",
-    "source": "osmwiki:P8",
-    "rank": "normal"
-  },
-  {
     "key": "Key:gnis:feature_id",
-    "url": "https://geonames.usgs.gov/apex/f?p=gnispq:3:::NO::P3_FID:$1",
+    "url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/$1",
     "source": "wikidata:P1630",
-    "rank": "normal"
+    "rank": "preferred"
   },
   {
-    "key": "Key:happycow:id",
-    "url": "https://www.happycow.net/reviews/$1",
+    "key": "Key:GNS:id",
+    "url": "https://geonames.nga.mil/gn-ags/rest/services/RESEARCH/GIS_OUTPUT/MapServer/0/query?outFields=*&where=ufi+%3D+$1",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
@@ -445,6 +349,12 @@
   },
   {
     "key": "Key:hashtags",
+    "url": "https://giphy.com/explore/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:hashtags",
     "url": "https://github.com/topics/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
@@ -457,7 +367,19 @@
   },
   {
     "key": "Key:hashtags",
+    "url": "https://hashtags.wmcloud.org/?query=$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:hashtags",
     "url": "https://hashtags.wmflabs.org/?query=$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:hashtags",
+    "url": "https://ifunny.co/tags/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
   },
@@ -481,12 +403,6 @@
   },
   {
     "key": "Key:hashtags",
-    "url": "https://peertube.social/search?tagsOneOf=$1",
-    "source": "wikidata:P3303",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:hashtags",
     "url": "https://pixelfed.fr/discover/tags/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
@@ -499,7 +415,19 @@
   },
   {
     "key": "Key:hashtags",
+    "url": "https://sepiasearch.org/search?tagsOneOf=$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:hashtags",
     "url": "https://soundcloud.com/tags/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:hashtags",
+    "url": "https://truthsocial.com/tags/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
   },
@@ -512,6 +440,12 @@
   {
     "key": "Key:hashtags",
     "url": "https://unsplash.com/s/photos/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:hashtags",
+    "url": "https://www.depop.com/search/?q=%23$1",
     "source": "wikidata:P3303",
     "rank": "normal"
   },
@@ -541,7 +475,19 @@
   },
   {
     "key": "Key:hashtags",
+    "url": "https://www.pinte%72est.com/search/pins/?q=%23$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:hashtags",
     "url": "https://www.pixiv.net/tags/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:hashtags",
+    "url": "https://www.thingiverse.com/tag:$1",
     "source": "wikidata:P3303",
     "rank": "normal"
   },
@@ -559,7 +505,19 @@
   },
   {
     "key": "Key:hashtags",
+    "url": "https://www.youtube.com/hashtag/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:hashtags",
     "url": "https://www.youtube.com/results?search_query=%23$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:hashtags",
+    "url": "https://yandex.com/games/tag/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
   },
@@ -579,18 +537,6 @@
     "key": "Key:HE_ref",
     "url": "https://www.heritagegateway.org.uk/Gateway/Results_Single.aspx?uid=$1&resourceID=5",
     "source": "wikidata:P3303",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:heritage:operator:wikidata",
-    "url": "http://www.wikidata.org/entity/$1",
-    "source": "osmwiki:P8",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:home_club:wikidata",
-    "url": "http://www.wikidata.org/entity/$1",
-    "source": "osmwiki:P8",
     "rank": "normal"
   },
   {
@@ -631,7 +577,7 @@
   },
   {
     "key": "Key:icao",
-    "url": "http://worldaerodata.com/wad.cgi?airport=$1",
+    "url": "https://tools-static.wmflabs.org/mormegil/propertylinker/vfrmanual.htm?icao=$1",
     "source": "wikidata:P3303",
     "rank": "normal"
   },
@@ -643,8 +589,8 @@
   },
   {
     "key": "Key:icao",
-    "url": "https://www.flightradar24.com/data/airports/$1",
-    "source": "wikidata:P1630",
+    "url": "https://www.jetphotos.com/registration/$1",
+    "source": "wikidata:P3303",
     "rank": "normal"
   },
   {
@@ -654,26 +600,20 @@
     "rank": "normal"
   },
   {
-    "key": "Key:internet_access:operator:wikidata",
-    "url": "http://www.wikidata.org/entity/$1",
-    "source": "osmwiki:P8",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:koatuu",
-    "url": "http://dovidnyk.in.ua/directories/koatuu/search=$1",
+    "key": "Key:kartaview",
+    "url": "https://commons.wikimedia.org/wiki/File:$1",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
   {
-    "key": "Key:manufacturer:wikidata",
-    "url": "http://www.wikidata.org/entity/$1",
-    "source": "osmwiki:P8",
+    "key": "Key:mapillary",
+    "url": "https://commons.wikimedia.org/wiki/File:$1",
+    "source": "wikidata:P1630",
     "rank": "normal"
   },
   {
     "key": "Key:mapillary",
-    "url": "https://www.mapillary.com/map/im/$1",
+    "url": "https://www.mapillary.com/app/?pKey=$1",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
@@ -684,39 +624,9 @@
     "rank": "normal"
   },
   {
-    "key": "Key:name:etymology:wikidata",
-    "url": "http://www.wikidata.org/entity/$1",
-    "source": "osmwiki:P8",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:name:start_date:source:wikidata",
-    "url": "http://www.wikidata.org/entity/$1",
-    "source": "osmwiki:P8",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:name:wikidata",
-    "url": "http://www.wikidata.org/entity/$1",
-    "source": "osmwiki:P8",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:network:wikidata",
-    "url": "http://www.wikidata.org/entity/$1",
-    "source": "osmwiki:P8",
-    "rank": "normal"
-  },
-  {
     "key": "Key:nist:fips_code",
     "url": "http://www.census.gov/quickfacts/table/PST045215/$1,00",
     "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:notable_tenant:wikidata",
-    "url": "http://www.wikidata.org/entity/$1",
-    "source": "osmwiki:P8",
     "rank": "normal"
   },
   {
@@ -726,33 +636,9 @@
     "rank": "normal"
   },
   {
-    "key": "Key:old_name:etymology:wikidata",
-    "url": "http://www.wikidata.org/entity/$1",
-    "source": "osmwiki:P8",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:old_name:source:wikidata",
-    "url": "http://www.wikidata.org/entity/$1",
-    "source": "osmwiki:P8",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:opening_hours",
-    "url": "https://openingh.openstreetmap.de/evaluation_tool/?EXP=$1",
-    "source": "osmwiki:P8",
-    "rank": "normal"
-  },
-  {
     "key": "Key:openplaques:id",
     "url": "https://openplaques.org/plaques/$1",
     "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:operator:wikidata",
-    "url": "http://www.wikidata.org/entity/$1",
-    "source": "osmwiki:P8",
     "rank": "normal"
   },
   {
@@ -763,7 +649,7 @@
   },
   {
     "key": "Key:railway:ref",
-    "url": "https://iris.noncd.db.de/wbt/js/index.html?bhf=$1",
+    "url": "http://www.adif.es/AdifWeb/estacion_mostrar.jsp?e=$1&i=ca_ES",
     "source": "wikidata:P3303",
     "rank": "normal"
   },
@@ -798,6 +684,12 @@
     "rank": "normal"
   },
   {
+    "key": "Key:ref:at:tkk",
+    "url": "https://gis.tirol.gv.at/kunstkatasterpdf/pdf/$1.pdf",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
     "key": "Key:ref:at:wis",
     "url": "https://wis.tirol.gv.at/wisSrvPublic/wis/wbo_wb_auszug.aspx?ANL_ID=$1",
     "source": "wikidata:P1630",
@@ -822,8 +714,8 @@
     "rank": "normal"
   },
   {
-    "key": "Key:ref:ccg",
-    "url": "http://google.com/search?q=$1+site:www.notmar.gc.ca/publications/list-livre",
+    "key": "Key:ref:bic",
+    "url": "https://heritage.toolforge.org/api/api.php?action=search&srcountry=es&format=html&srid=$1",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
@@ -859,7 +751,7 @@
   },
   {
     "key": "Key:ref:edubase",
-    "url": "https://get-information-schools.service.gov.uk/Establishments/Establishment/Details/$1",
+    "url": "https://www.get-information-schools.service.gov.uk/Establishments/Establishment/Details/$1",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
@@ -876,10 +768,16 @@
     "rank": "preferred"
   },
   {
-    "key": "Key:ref:ef",
-    "url": "http://www.marina.difesa.it/cosa-facciamo/fari/Pagine/$1.aspx",
+    "key": "Key:ref:EU:ENTSOE_EIC",
+    "url": "https://transparency.ontotext.com/resource/eic/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:EU:ENTSOE_EIC",
+    "url": "https://transparency.ontotext.com/resource/eic/$1",
     "source": "wikidata:P1630",
-    "rank": "deprecated"
+    "rank": "normal"
   },
   {
     "key": "Key:ref:FR:Allocine",
@@ -906,9 +804,9 @@
     "rank": "normal"
   },
   {
-    "key": "Key:ref:FR:LaPoste",
-    "url": "http://www.laposte.fr/particulier/outils/trouver-un-bureau-de-poste/bureau-detail/$1/$1",
-    "source": "osmwiki:P8",
+    "key": "Key:ref:FR:INPN",
+    "url": "https://inpn.mnhn.fr/espace/protege/$1",
+    "source": "wikidata:P1630",
     "rank": "normal"
   },
   {
@@ -928,18 +826,6 @@
     "url": "https://www.pop.culture.gouv.fr/notice/museo/$1",
     "source": "osmwiki:P8",
     "rank": "normal"
-  },
-  {
-    "key": "Key:ref:FR:NAF",
-    "url": "https://www.insee.fr/fr/metadonnees/nafr2?q=$1&champRecherche=true",
-    "source": "osmwiki:P8",
-    "rank": "preferred"
-  },
-  {
-    "key": "Key:ref:FR:NAF",
-    "url": "http://recherche-naf.insee.fr/SIRENET_ClassesNaf/$1.htm",
-    "source": "osmwiki:P8",
-    "rank": "deprecated"
   },
   {
     "key": "Key:ref:FR:prix-carburants",
@@ -985,12 +871,6 @@
   },
   {
     "key": "Key:ref:FR:SIREN",
-    "url": "https://entreprise.data.gouv.fr/sirene/$1",
-    "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:ref:FR:SIREN",
     "url": "https://opencorporates.com/companies/fr/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
@@ -1015,7 +895,7 @@
   },
   {
     "key": "Key:ref:FR:SIRET",
-    "url": "https://www.sirene.fr/sirene/public/recherche?recherche.sirenSiret=$1",
+    "url": "https://annuaire-entreprises.data.gouv.fr/etablissement/$1",
     "source": "wikidata:P1630",
     "rank": "preferred"
   },
@@ -1027,19 +907,25 @@
   },
   {
     "key": "Key:ref:FR:SIRET",
-    "url": "https://annuaire-entreprises.data.gouv.fr/etablissement/$1",
+    "url": "https://www.sirene.fr/sirene/public/recherche?recherche.sirenSiret=$1",
     "source": "wikidata:P1630",
-    "rank": "deprecated"
-  },
-  {
-    "key": "Key:ref:FR:SIRET",
-    "url": "https://entreprise.data.gouv.fr/etablissement/$1",
-    "source": "wikidata:P1630",
-    "rank": "deprecated"
+    "rank": "normal"
   },
   {
     "key": "Key:ref:gss",
-    "url": "http://statistics.data.gov.uk/atlas/resource?uri=http://statistics.data.gov.uk/id/statistical-geography/$1",
+    "url": "https://statistics.data.gov.uk/atlas/resource?uri=http://statistics.data.gov.uk/id/statistical-geography/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:hmdb",
+    "url": "https://www.hmdb.org/m.asp?m=$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:ine",
+    "url": "http://www.ine.es/nomen2/inicio_a.do?accion=busquedaAvanzada&inicio=inicio_a&subaccion=&botonBusquedaAvanzada=Consultar+selecci%C3%B3n&numPag=0&ordenAnios=ASC&comunidad=00&entidad_amb=no&poblacion_amb=T&poblacion_op=%3D&poblacion_txt=&denominacion_op=like&denominacion_txt=&codProv=$1&codMuni=$2&codEC=$3&codES=$4&codNUC=$5",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
@@ -1093,86 +979,14 @@
   },
   {
     "key": "Key:ref:isil",
-    "url": "http://anagrafe.iccu.sbn.it/isil/$1",
-    "source": "wikidata:P1630",
-    "rank": "deprecated"
-  },
-  {
-    "key": "Key:ref:isil",
-    "url": "http://dispatch.opac.d-nb.de/DB=1.2/CMD?ACT=SRCHA&IKT=8529&TRM=$1",
-    "source": "wikidata:P1630",
-    "rank": "deprecated"
-  },
-  {
-    "key": "Key:ref:isil",
-    "url": "http://id.ndl.go.jp/vocab/isil/$1",
-    "source": "wikidata:P1630",
-    "rank": "deprecated"
-  },
-  {
-    "key": "Key:ref:isil",
-    "url": "http://isil.kansalliskirjasto.fi/api/query?isil=$1",
-    "source": "wikidata:P1630",
-    "rank": "deprecated"
-  },
-  {
-    "key": "Key:ref:isil",
-    "url": "http://isil.kbr.be/$1",
-    "source": "wikidata:P1630",
-    "rank": "deprecated"
-  },
-  {
-    "key": "Key:ref:isil",
-    "url": "http://sigel.staatsbibliothek-berlin.de/nc/suche/?isil=$1",
-    "source": "wikidata:P1630",
-    "rank": "deprecated"
-  },
-  {
-    "key": "Key:ref:isil",
-    "url": "https://lobid.org/organisation/$1/about",
-    "source": "wikidata:P1630",
-    "rank": "deprecated"
-  },
-  {
-    "key": "Key:ref:isil",
-    "url": "https://w3id.org/isil/$1",
-    "source": "wikidata:P1630",
-    "rank": "deprecated"
-  },
-  {
-    "key": "Key:ref:isil",
-    "url": "https://w3id.org/isil/$1",
-    "source": "wikidata:P1630",
-    "rank": "deprecated"
-  },
-  {
-    "key": "Key:ref:isil",
-    "url": "https://w3id.org/isil/$1",
-    "source": "wikidata:P1630",
-    "rank": "deprecated"
-  },
-  {
-    "key": "Key:ref:isil",
-    "url": "https://w3id.org/isil/AU-$1",
-    "source": "wikidata:P1630",
-    "rank": "deprecated"
-  },
-  {
-    "key": "Key:ref:isil",
-    "url": "https://wikidata-externalid-url.toolforge.org/?url=http%3A%2F%2Fwww.sudoc.abes.fr%2Fcbs%2Fxslt%2F%2FDB%3D2.2%2FCMD%3FACT%3DSRCHA%26IKT%3D8888%26SRT%3DRLV%26TRM%3D%251&exp=%5EFR-(%5Cd%7B9%7D)&id=$1",
-    "source": "wikidata:P1630",
-    "rank": "deprecated"
-  },
-  {
-    "key": "Key:ref:LOCODE",
-    "url": "http://unlocode.rkbexplorer.com/id/$1",
+    "url": "https://culture.ld.admin.ch/isil/$1",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
   {
     "key": "Key:ref:LOCODE",
-    "url": "https://www.portofantwerp.com/autocomplete/connectivity/maritime_port?term=$1",
-    "source": "wikidata:P3303",
+    "url": "https://locode.info/$1",
+    "source": "wikidata:P1630",
     "rank": "normal"
   },
   {
@@ -1180,12 +994,6 @@
     "url": "https://www.pop.culture.gouv.fr/notice/merimee/$1",
     "source": "wikidata:P1630",
     "rank": "normal"
-  },
-  {
-    "key": "Key:ref:mhs",
-    "url": "http://www.culture.gouv.fr/public/mistral/merimee_fr?ACTION=CHERCHER&FIELD_1=REF&VALUE_1=$1",
-    "source": "wikidata:P1630",
-    "rank": "deprecated"
   },
   {
     "key": "Key:ref:nga",
@@ -1218,6 +1026,12 @@
     "rank": "normal"
   },
   {
+    "key": "Key:ref:refuges.info",
+    "url": "https://www.refuges.info/point/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
     "key": "Key:ref:ruian",
     "url": "https://linked.cuzk.cz/resource/ruian/katastralni-uzemi/$1",
     "source": "wikidata:P1630",
@@ -1233,12 +1047,6 @@
     "key": "Key:ref:ruian",
     "url": "https://www.kamsnim.cz/?municipality=cz_obce_$1",
     "source": "wikidata:P3303",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:ref:ruian:building",
-    "url": "https://vdp.cuzk.cz/vdp/ruian/stavebniobjekty/$1",
-    "source": "osmwiki:P8",
     "rank": "normal"
   },
   {
@@ -1261,7 +1069,7 @@
   },
   {
     "key": "Key:ref:train",
-    "url": "https://iris.noncd.db.de/wbt/js/index.html?bhf=$1",
+    "url": "http://www.adif.es/AdifWeb/estacion_mostrar.jsp?e=$1&i=ca_ES",
     "source": "wikidata:P3303",
     "rank": "normal"
   },
@@ -1285,21 +1093,21 @@
   },
   {
     "key": "Key:ref:UAI",
-    "url": "https://www.journaldesfemmes.fr/maman/ecole/etablissement-$1",
+    "url": "https://$1-education.net/pronote/?login=true",
     "source": "wikidata:P3303",
     "rank": "normal"
   },
   {
     "key": "Key:ref:UAI",
-    "url": "http://educ.gouv.fr/annuaire/uai/$1",
-    "source": "wikidata:P1630",
-    "rank": "deprecated"
+    "url": "https://www.journaldesfemmes.fr/maman/ecole/etablissement-$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
   },
   {
-    "key": "Key:ref:UAI",
-    "url": "http://www.education.gouv.fr/annuaire/uai/$1",
+    "key": "Key:ref:US:EIA",
+    "url": "https://www.eia.gov/electricity/data/browser/#/plant/$1",
     "source": "wikidata:P1630",
-    "rank": "deprecated"
+    "rank": "normal"
   },
   {
     "key": "Key:ref:vatin",
@@ -1317,11 +1125,23 @@
     "key": "Key:ref:whc",
     "url": "https://whc.unesco.org/en/list/$1",
     "source": "wikidata:P1630",
-    "rank": "normal"
+    "rank": "preferred"
   },
   {
     "key": "Key:ref:whc",
     "url": "https://whc.unesco.org/fr/list/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:whc",
+    "url": "https://whc.unesco.org/ru/list/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:whc",
+    "url": "https://whc.unesco.org/zh/list/$1",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
@@ -1368,18 +1188,6 @@
     "rank": "normal"
   },
   {
-    "key": "Key:religion:wikidata",
-    "url": "http://www.wikidata.org/entity/$1",
-    "source": "osmwiki:P8",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:royal_cypher:wikidata",
-    "url": "http://www.wikidata.org/entity/$1",
-    "source": "osmwiki:P8",
-    "rank": "normal"
-  },
-  {
     "key": "Key:seamark:radio_station:mmsi",
     "url": "https://www.marinetraffic.com/ais/details/ships/$1",
     "source": "wikidata:P1630",
@@ -1387,15 +1195,15 @@
   },
   {
     "key": "Key:seamark:radio_station:mmsi",
-    "url": "https://www.fleetmon.com/vessels/?s=$1",
+    "url": "https://sd.ic.gc.ca/pls/frndoc_anon/mmsi_search.Ship_Search?inMMSI=$1&inVesName=&inName=&inCallsign=&inVesId=",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
   {
     "key": "Key:seamark:radio_station:mmsi",
-    "url": "http://sd.ic.gc.ca/pls/engdoc_anon/mmsi_search.Ship_Search_Single?inMMSI=$1&invesname=&inname=&oinmmsi=$1&incallsign=&invesid=&ininmarsat=",
+    "url": "https://www.fleetmon.com/vessels/?s=$1",
     "source": "wikidata:P1630",
-    "rank": "deprecated"
+    "rank": "normal"
   },
   {
     "key": "Key:seamark:virtual_aton:mmsi",
@@ -1405,32 +1213,14 @@
   },
   {
     "key": "Key:seamark:virtual_aton:mmsi",
-    "url": "https://www.fleetmon.com/vessels/?s=$1",
+    "url": "https://sd.ic.gc.ca/pls/frndoc_anon/mmsi_search.Ship_Search?inMMSI=$1&inVesName=&inName=&inCallsign=&inVesId=",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
   {
     "key": "Key:seamark:virtual_aton:mmsi",
-    "url": "http://sd.ic.gc.ca/pls/engdoc_anon/mmsi_search.Ship_Search_Single?inMMSI=$1&invesname=&inname=&oinmmsi=$1&incallsign=&invesid=&ininmarsat=",
+    "url": "https://www.fleetmon.com/vessels/?s=$1",
     "source": "wikidata:P1630",
-    "rank": "deprecated"
-  },
-  {
-    "key": "Key:snowplowing:operator:wikidata",
-    "url": "http://www.wikidata.org/entity/$1",
-    "source": "osmwiki:P8",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:species:wikidata",
-    "url": "http://www.wikidata.org/entity/$1",
-    "source": "osmwiki:P8",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:subject:wikidata",
-    "url": "http://www.wikidata.org/entity/$1",
-    "source": "osmwiki:P8",
     "rank": "normal"
   },
   {
@@ -1477,6 +1267,12 @@
   },
   {
     "key": "Key:twitter",
+    "url": "https://twilog.org/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:twitter",
     "url": "https://twitter.com/intent/user?screen_name=$1",
     "source": "wikidata:P1630",
     "rank": "normal"
@@ -1488,22 +1284,34 @@
     "rank": "normal"
   },
   {
+    "key": "Key:twitter",
+    "url": "https://www.trendsmap.com/twitter/user/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:uic_ref",
+    "url": "https://irail.be/stations/NMBS/00$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:uic_ref",
+    "url": "https://www.cd.cz/stanice/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
     "key": "Key:uic_ref",
     "url": "https://www.kapella2.hu/ehuszfelulet/?infra_id=21943&taf_id=$1",
     "source": "wikidata:P3303",
     "rank": "normal"
   },
   {
-    "key": "Key:was:brand:wikidata",
-    "url": "http://www.wikidata.org/entity/$1",
-    "source": "osmwiki:P8",
-    "rank": "normal"
-  },
-  {
     "key": "Key:website",
     "url": "$1",
-    "source": "osmwiki:P8",
-    "rank": "normal"
+    "source": "wikidata:P3303",
+    "rank": "preferred"
   },
   {
     "key": "Key:website",
@@ -1512,9 +1320,9 @@
     "rank": "normal"
   },
   {
-    "key": "Key:wikidata",
-    "url": "http://www.wikidata.org/entity/$1",
-    "source": "osmwiki:P8",
+    "key": "Key:website",
+    "url": "https://webcache.googleusercontent.com/search?q=cache:$1",
+    "source": "wikidata:P3303",
     "rank": "normal"
   },
   {
@@ -1611,12 +1419,6 @@
     "key": "Key:woeid",
     "url": "https://www.flickr.com/places/info/$1",
     "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:woeid",
-    "url": "https://www.flickr.com/places/info/$1",
-    "source": "osmwiki:P8",
     "rank": "normal"
   }
 ]
