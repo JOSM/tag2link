@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20221128T140000Z",
+  "data_updated": "20221221T080000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -227,6 +227,10 @@
     },
     {
       "key": "hashtags",
+      "description": "^https:\\/\\/www\\.readtheplaque\\.com\\/tag\\/$1"
+    },
+    {
+      "key": "hashtags",
       "description": "http://seiga.nicovideo.jp/tag/$1"
     },
     {
@@ -395,6 +399,18 @@
     },
     {
       "key": "icao",
+      "description": "https://airportnavfinder.com/airport/$1/"
+    },
+    {
+      "key": "icao",
+      "description": "https://aviation-safety.net/database/airport/airport.php?id=$1"
+    },
+    {
+      "key": "icao",
+      "description": "https://ourairports.com/airports/$1/"
+    },
+    {
+      "key": "icao",
       "description": "https://tools-static.wmflabs.org/mormegil/propertylinker/vfrmanual.htm?icao=$1"
     },
     {
@@ -404,6 +420,10 @@
     {
       "key": "icao",
       "description": "https://www.jetphotos.com/registration/$1"
+    },
+    {
+      "key": "icao",
+      "description": "https://www.radarbox.com/data/airports/$1"
     },
     {
       "key": "image",

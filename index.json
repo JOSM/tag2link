@@ -325,6 +325,12 @@
   },
   {
     "key": "Key:hashtags",
+    "url": "^https:\\/\\/www\\.readtheplaque\\.com\\/tag\\/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:hashtags",
     "url": "http://seiga.nicovideo.jp/tag/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
@@ -577,6 +583,24 @@
   },
   {
     "key": "Key:icao",
+    "url": "https://airportnavfinder.com/airport/$1/",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:icao",
+    "url": "https://aviation-safety.net/database/airport/airport.php?id=$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:icao",
+    "url": "https://ourairports.com/airports/$1/",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:icao",
     "url": "https://tools-static.wmflabs.org/mormegil/propertylinker/vfrmanual.htm?icao=$1",
     "source": "wikidata:P3303",
     "rank": "normal"
@@ -590,6 +614,12 @@
   {
     "key": "Key:icao",
     "url": "https://www.jetphotos.com/registration/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:icao",
+    "url": "https://www.radarbox.com/data/airports/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
   },
