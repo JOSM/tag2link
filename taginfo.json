@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20221221T080000Z",
+  "data_updated": "20230121T080000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -43,11 +43,11 @@
     },
     {
       "key": "contact:mastodon",
-      "description": "https://wikidata-externalid-url.toolforge.org/?p=4033&id=$1"
+      "description": "https://mastodon.social/@$1"
     },
     {
       "key": "contact:mastodon",
-      "description": "https://mastodon.social/@$1"
+      "description": "https://wikidata-externalid-url.toolforge.org/?p=4033&id=$1"
     },
     {
       "key": "contact:phone",
@@ -151,6 +151,10 @@
     },
     {
       "key": "contact:twitter",
+      "description": "https://rattibha.com/$1"
+    },
+    {
+      "key": "contact:twitter",
       "description": "https://scholia.toolforge.org/twitter/$1"
     },
     {
@@ -227,10 +231,6 @@
     },
     {
       "key": "hashtags",
-      "description": "^https:\\/\\/www\\.readtheplaque\\.com\\/tag\\/$1"
-    },
-    {
-      "key": "hashtags",
       "description": "http://seiga.nicovideo.jp/tag/$1"
     },
     {
@@ -280,6 +280,10 @@
     {
       "key": "hashtags",
       "description": "https://mastodon.social/tags/$1"
+    },
+    {
+      "key": "hashtags",
+      "description": "https://openbenches.org/tag/$1"
     },
     {
       "key": "hashtags",
@@ -336,6 +340,10 @@
     {
       "key": "hashtags",
       "description": "https://www.pixiv.net/tags/$1"
+    },
+    {
+      "key": "hashtags",
+      "description": "https://www.readtheplaque.com/tag/$1"
     },
     {
       "key": "hashtags",
@@ -686,6 +694,10 @@
       "description": "https://culture.ld.admin.ch/isil/$1"
     },
     {
+      "key": "ref:linz:place_id",
+      "description": "https://gazetteer.linz.govt.nz/place/$1"
+    },
+    {
       "key": "ref:LOCODE",
       "description": "https://locode.info/$1"
     },
@@ -728,6 +740,10 @@
     {
       "key": "ref:ruian",
       "description": "https://www.kamsnim.cz/?municipality=cz_obce_$1"
+    },
+    {
+      "key": "ref:ruian:building",
+      "description": "https://vdp.cuzk.cz/vdp/ruian/stavebniobjekty/$1"
     },
     {
       "key": "ref:ruian:street",
@@ -864,6 +880,10 @@
     {
       "key": "twitter",
       "description": "https://nitter.snopyta.org/$1"
+    },
+    {
+      "key": "twitter",
+      "description": "https://rattibha.com/$1"
     },
     {
       "key": "twitter",

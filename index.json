@@ -49,13 +49,13 @@
   },
   {
     "key": "Key:contact:mastodon",
-    "url": "https://wikidata-externalid-url.toolforge.org/?p=4033&id=$1",
+    "url": "https://mastodon.social/@$1",
     "source": "wikidata:P1630",
     "rank": "preferred"
   },
   {
     "key": "Key:contact:mastodon",
-    "url": "https://mastodon.social/@$1",
+    "url": "https://wikidata-externalid-url.toolforge.org/?p=4033&id=$1",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
@@ -211,6 +211,12 @@
   },
   {
     "key": "Key:contact:twitter",
+    "url": "https://rattibha.com/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:contact:twitter",
     "url": "https://scholia.toolforge.org/twitter/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
@@ -325,12 +331,6 @@
   },
   {
     "key": "Key:hashtags",
-    "url": "^https:\\/\\/www\\.readtheplaque\\.com\\/tag\\/$1",
-    "source": "wikidata:P3303",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:hashtags",
     "url": "http://seiga.nicovideo.jp/tag/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
@@ -404,6 +404,12 @@
   {
     "key": "Key:hashtags",
     "url": "https://mastodon.social/tags/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:hashtags",
+    "url": "https://openbenches.org/tag/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
   },
@@ -488,6 +494,12 @@
   {
     "key": "Key:hashtags",
     "url": "https://www.pixiv.net/tags/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:hashtags",
+    "url": "https://www.readtheplaque.com/tag/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
   },
@@ -1014,6 +1026,12 @@
     "rank": "normal"
   },
   {
+    "key": "Key:ref:linz:place_id",
+    "url": "https://gazetteer.linz.govt.nz/place/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
     "key": "Key:ref:LOCODE",
     "url": "https://locode.info/$1",
     "source": "wikidata:P1630",
@@ -1077,6 +1095,12 @@
     "key": "Key:ref:ruian",
     "url": "https://www.kamsnim.cz/?municipality=cz_obce_$1",
     "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:ruian:building",
+    "url": "https://vdp.cuzk.cz/vdp/ruian/stavebniobjekty/$1",
+    "source": "wikidata:P1630",
     "rank": "normal"
   },
   {
@@ -1280,6 +1304,12 @@
   {
     "key": "Key:twitter",
     "url": "https://nitter.snopyta.org/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:twitter",
+    "url": "https://rattibha.com/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
   },
