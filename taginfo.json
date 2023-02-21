@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20230121T080000Z",
+  "data_updated": "20230221T080000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -35,19 +35,23 @@
     },
     {
       "key": "contact:instagram",
+      "description": "https://www.instagram.com/$1/"
+    },
+    {
+      "key": "contact:instagram",
       "description": "https://unavatar.now.sh/instagram/$1"
     },
     {
       "key": "contact:instagram",
-      "description": "https://www.instagram.com/$1/"
-    },
-    {
-      "key": "contact:mastodon",
-      "description": "https://mastodon.social/@$1"
+      "description": "https://www.instagram.com/_u/$1/"
     },
     {
       "key": "contact:mastodon",
       "description": "https://wikidata-externalid-url.toolforge.org/?p=4033&id=$1"
+    },
+    {
+      "key": "contact:mastodon",
+      "description": "https://mastodon.social/@$1"
     },
     {
       "key": "contact:phone",
@@ -454,6 +458,10 @@
       "description": "https://molendatabase.nl/nederland/molen.php?nummer=$1"
     },
     {
+      "key": "MOE:id",
+      "description": "https://www.educationcounts.govt.nz/find-school/school/profile?school=$1"
+    },
+    {
       "key": "nist:fips_code",
       "description": "http://www.census.gov/quickfacts/table/PST045215/$1,00"
     },
@@ -519,11 +527,11 @@
     },
     {
       "key": "ref:crs",
-      "description": "http://ojp.nationalrail.co.uk/service/ldbboard/dep/$1"
+      "description": "http://www.nationalrail.co.uk/stations/$1/details.html"
     },
     {
       "key": "ref:crs",
-      "description": "http://www.nationalrail.co.uk/stations/$1/details.html"
+      "description": "http://ojp.nationalrail.co.uk/service/ldbboard/dep/$1"
     },
     {
       "key": "ref:crs",
@@ -712,6 +720,10 @@
     {
       "key": "ref:nrhp",
       "description": "https://npgallery.nps.gov/AssetDetail/NRIS/$1"
+    },
+    {
+      "key": "ref:nz:heritage",
+      "description": "https://www.heritage.org.nz/the-list/details/$1"
     },
     {
       "key": "ref:OnroerendErfgoed",
@@ -920,6 +932,18 @@
     {
       "key": "uic_ref",
       "description": "https://www.kapella2.hu/ehuszfelulet/?infra_id=21943&taf_id=$1"
+    },
+    {
+      "key": "vessel:mmsi",
+      "description": "https://www.marinetraffic.com/ais/details/ships/$1"
+    },
+    {
+      "key": "vessel:mmsi",
+      "description": "https://sd.ic.gc.ca/pls/frndoc_anon/mmsi_search.Ship_Search?inMMSI=$1&inVesName=&inName=&inCallsign=&inVesId="
+    },
+    {
+      "key": "vessel:mmsi",
+      "description": "https://www.fleetmon.com/vessels/?s=$1"
     },
     {
       "key": "website",

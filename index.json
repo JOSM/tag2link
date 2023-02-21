@@ -37,25 +37,31 @@
   },
   {
     "key": "Key:contact:instagram",
+    "url": "https://www.instagram.com/$1/",
+    "source": "wikidata:P1630",
+    "rank": "preferred"
+  },
+  {
+    "key": "Key:contact:instagram",
     "url": "https://unavatar.now.sh/instagram/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
   },
   {
     "key": "Key:contact:instagram",
-    "url": "https://www.instagram.com/$1/",
+    "url": "https://www.instagram.com/_u/$1/",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
   {
     "key": "Key:contact:mastodon",
-    "url": "https://mastodon.social/@$1",
+    "url": "https://wikidata-externalid-url.toolforge.org/?p=4033&id=$1",
     "source": "wikidata:P1630",
     "rank": "preferred"
   },
   {
     "key": "Key:contact:mastodon",
-    "url": "https://wikidata-externalid-url.toolforge.org/?p=4033&id=$1",
+    "url": "https://mastodon.social/@$1",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
@@ -666,6 +672,12 @@
     "rank": "normal"
   },
   {
+    "key": "Key:MOE:id",
+    "url": "https://www.educationcounts.govt.nz/find-school/school/profile?school=$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
     "key": "Key:nist:fips_code",
     "url": "http://www.census.gov/quickfacts/table/PST045215/$1,00",
     "source": "wikidata:P1630",
@@ -763,13 +775,13 @@
   },
   {
     "key": "Key:ref:crs",
-    "url": "http://ojp.nationalrail.co.uk/service/ldbboard/dep/$1",
+    "url": "http://www.nationalrail.co.uk/stations/$1/details.html",
     "source": "wikidata:P1630",
-    "rank": "normal"
+    "rank": "preferred"
   },
   {
     "key": "Key:ref:crs",
-    "url": "http://www.nationalrail.co.uk/stations/$1/details.html",
+    "url": "http://ojp.nationalrail.co.uk/service/ldbboard/dep/$1",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
@@ -1052,6 +1064,12 @@
   {
     "key": "Key:ref:nrhp",
     "url": "https://npgallery.nps.gov/AssetDetail/NRIS/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:nz:heritage",
+    "url": "https://www.heritage.org.nz/the-list/details/$1",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
@@ -1365,6 +1383,24 @@
     "key": "Key:uic_ref",
     "url": "https://www.kapella2.hu/ehuszfelulet/?infra_id=21943&taf_id=$1",
     "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:vessel:mmsi",
+    "url": "https://www.marinetraffic.com/ais/details/ships/$1",
+    "source": "wikidata:P1630",
+    "rank": "preferred"
+  },
+  {
+    "key": "Key:vessel:mmsi",
+    "url": "https://sd.ic.gc.ca/pls/frndoc_anon/mmsi_search.Ship_Search?inMMSI=$1&inVesName=&inName=&inCallsign=&inVesId=",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:vessel:mmsi",
+    "url": "https://www.fleetmon.com/vessels/?s=$1",
+    "source": "wikidata:P1630",
     "rank": "normal"
   },
   {
