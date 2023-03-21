@@ -254,7 +254,7 @@
   {
     "key": "Key:contact:twitter",
     "url": "https://www.trendsmap.com/twitter/user/$1",
-    "source": "wikidata:P1630",
+    "source": "wikidata:P3303",
     "rank": "normal"
   },
   {
@@ -679,7 +679,7 @@
   },
   {
     "key": "Key:nist:fips_code",
-    "url": "http://www.census.gov/quickfacts/table/PST045215/$1,00",
+    "url": "https://www.census.gov/quickfacts/table/PST045215/$1,00",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
@@ -699,12 +699,6 @@
     "key": "Key:phone",
     "url": "tel:$1",
     "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:railway:ref",
-    "url": "http://www.adif.es/AdifWeb/estacion_mostrar.jsp?e=$1&i=ca_ES",
-    "source": "wikidata:P3303",
     "rank": "normal"
   },
   {
@@ -770,6 +764,12 @@
   {
     "key": "Key:ref:bic",
     "url": "https://heritage.toolforge.org/api/api.php?action=search&srcountry=es&format=html&srid=$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:camptocamp",
+    "url": "https://www.camptocamp.org/waypoints/$1",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
@@ -1069,6 +1069,12 @@
   },
   {
     "key": "Key:ref:nz:heritage",
+    "url": "https://www.heritage.org.nz/list-details/$1/$1",
+    "source": "wikidata:P1630",
+    "rank": "preferred"
+  },
+  {
+    "key": "Key:ref:nz:heritage",
     "url": "https://www.heritage.org.nz/the-list/details/$1",
     "source": "wikidata:P1630",
     "rank": "normal"
@@ -1137,12 +1143,6 @@
     "key": "Key:ref:sandre",
     "url": "http://www.services.eaufrance.fr/donnees/service/$1",
     "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:ref:train",
-    "url": "http://www.adif.es/AdifWeb/estacion_mostrar.jsp?e=$1&i=ca_ES",
-    "source": "wikidata:P3303",
     "rank": "normal"
   },
   {
@@ -1364,7 +1364,7 @@
   {
     "key": "Key:twitter",
     "url": "https://www.trendsmap.com/twitter/user/$1",
-    "source": "wikidata:P1630",
+    "source": "wikidata:P3303",
     "rank": "normal"
   },
   {

@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20230221T080000Z",
+  "data_updated": "20230321T080000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -463,7 +463,7 @@
     },
     {
       "key": "nist:fips_code",
-      "description": "http://www.census.gov/quickfacts/table/PST045215/$1,00"
+      "description": "https://www.census.gov/quickfacts/table/PST045215/$1,00"
     },
     {
       "key": "nycdoitt:bin",
@@ -476,10 +476,6 @@
     {
       "key": "phone",
       "description": "tel:$1"
-    },
-    {
-      "key": "railway:ref",
-      "description": "http://www.adif.es/AdifWeb/estacion_mostrar.jsp?e=$1&i=ca_ES"
     },
     {
       "key": "ref:admiralty",
@@ -524,6 +520,10 @@
     {
       "key": "ref:bic",
       "description": "https://heritage.toolforge.org/api/api.php?action=search&srcountry=es&format=html&srid=$1"
+    },
+    {
+      "key": "ref:camptocamp",
+      "description": "https://www.camptocamp.org/waypoints/$1"
     },
     {
       "key": "ref:crs",
@@ -723,6 +723,10 @@
     },
     {
       "key": "ref:nz:heritage",
+      "description": "https://www.heritage.org.nz/list-details/$1/$1"
+    },
+    {
+      "key": "ref:nz:heritage",
       "description": "https://www.heritage.org.nz/the-list/details/$1"
     },
     {
@@ -768,10 +772,6 @@
     {
       "key": "ref:sandre",
       "description": "http://www.services.eaufrance.fr/donnees/service/$1"
-    },
-    {
-      "key": "ref:train",
-      "description": "http://www.adif.es/AdifWeb/estacion_mostrar.jsp?e=$1&i=ca_ES"
     },
     {
       "key": "ref:UAI",
