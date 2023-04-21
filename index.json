@@ -846,12 +846,6 @@
     "rank": "normal"
   },
   {
-    "key": "Key:ref:FR:CEF",
-    "url": "http://egliseinfo.catholique.fr/#!lieu:$1",
-    "source": "osmwiki:P8",
-    "rank": "normal"
-  },
-  {
     "key": "Key:ref:FR:FINESS",
     "url": "http://finess.sante.gouv.fr/finess/jsp/actionDetailEtablissement.do?noFiness=$1",
     "source": "wikidata:P1630",
@@ -889,7 +883,7 @@
   },
   {
     "key": "Key:ref:FR:RNA",
-    "url": "https://entreprise.data.gouv.fr/etablissement/$1",
+    "url": "https://www.data-asso.fr/annuaire/association/$1",
     "source": "wikidata:P1630",
     "rank": "preferred"
   },
@@ -1237,13 +1231,13 @@
   },
   {
     "key": "Key:ref:woonplaatscode",
-    "url": "https://bag.basisregistraties.overheid.nl/bag/id/woonplaats/$1",
+    "url": "https://bagviewer.kadaster.nl/lvbag/bag-viewer/index.html#?objectId=$1&detailsObjectId=$1",
     "source": "wikidata:P1630",
     "rank": "preferred"
   },
   {
     "key": "Key:ref:woonplaatscode",
-    "url": "https://bagviewer.kadaster.nl/lvbag/bag-viewer/index.html#?objectId=$1&detailsObjectId=$1",
+    "url": "https://bag.basisregistraties.overheid.nl/bag/id/woonplaats/$1",
     "source": "wikidata:P1630",
     "rank": "normal"
   },

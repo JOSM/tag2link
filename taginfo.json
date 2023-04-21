@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20230321T080000Z",
+  "data_updated": "20230421T080000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -574,10 +574,6 @@
       "description": "https://www.allocine.fr/seance/salle_gen_csalle=$1.html"
     },
     {
-      "key": "ref:FR:CEF",
-      "description": "http://egliseinfo.catholique.fr/#!lieu:$1"
-    },
-    {
       "key": "ref:FR:FINESS",
       "description": "http://finess.sante.gouv.fr/finess/jsp/actionDetailEtablissement.do?noFiness=$1"
     },
@@ -603,7 +599,7 @@
     },
     {
       "key": "ref:FR:RNA",
-      "description": "https://entreprise.data.gouv.fr/etablissement/$1"
+      "description": "https://www.data-asso.fr/annuaire/association/$1"
     },
     {
       "key": "ref:FR:RNA",
@@ -835,11 +831,11 @@
     },
     {
       "key": "ref:woonplaatscode",
-      "description": "https://bag.basisregistraties.overheid.nl/bag/id/woonplaats/$1"
+      "description": "https://bagviewer.kadaster.nl/lvbag/bag-viewer/index.html#?objectId=$1&detailsObjectId=$1"
     },
     {
       "key": "ref:woonplaatscode",
-      "description": "https://bagviewer.kadaster.nl/lvbag/bag-viewer/index.html#?objectId=$1&detailsObjectId=$1"
+      "description": "https://bag.basisregistraties.overheid.nl/bag/id/woonplaats/$1"
     },
     {
       "key": "ref:woonplaatscode",
