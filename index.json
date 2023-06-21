@@ -846,12 +846,6 @@
     "rank": "normal"
   },
   {
-    "key": "Key:ref:FR:FINESS",
-    "url": "https://finess.esante.gouv.fr/fininter/jsp/actionDetailEntiteEtablissement.do?noFiness=$1",
-    "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
     "key": "Key:ref:FR:INPN",
     "url": "https://inpn.mnhn.fr/espace/protege/$1",
     "source": "wikidata:P1630",
@@ -1038,6 +1032,12 @@
     "rank": "normal"
   },
   {
+    "key": "Key:ref:lfd",
+    "url": "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
     "key": "Key:ref:linz:place_id",
     "url": "https://gazetteer.linz.govt.nz/place/$1",
     "source": "wikidata:P1630",
@@ -1206,8 +1206,14 @@
     "rank": "normal"
   },
   {
-    "key": "Key:ref:vatin",
-    "url": "https://wikidata-externalid-url.toolforge.org/?p=3608&url_prefix=http://ec.europa.eu/taxation_customs/vies/vatResponse.html?memberStateCode=&id=$1",
+    "key": "Key:ref:WDPA",
+    "url": "https://eunis.eea.europa.eu/sites/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:WDPA",
+    "url": "https://protectedplanet.net/$1",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
@@ -1442,18 +1448,6 @@
   {
     "key": "Key:vessel:mmsi",
     "url": "https://www.fleetmon.com/vessels/?s=$1",
-    "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:WDPA_ID:ref",
-    "url": "https://eunis.eea.europa.eu/sites/$1",
-    "source": "wikidata:P3303",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:WDPA_ID:ref",
-    "url": "https://protectedplanet.net/$1",
     "source": "wikidata:P1630",
     "rank": "normal"
   },

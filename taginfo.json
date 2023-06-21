@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20230521T080000Z",
+  "data_updated": "20230621T080000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -574,10 +574,6 @@
       "description": "https://www.allocine.fr/seance/salle_gen_csalle=$1.html"
     },
     {
-      "key": "ref:FR:FINESS",
-      "description": "https://finess.esante.gouv.fr/fininter/jsp/actionDetailEntiteEtablissement.do?noFiness=$1"
-    },
-    {
       "key": "ref:FR:INPN",
       "description": "https://inpn.mnhn.fr/espace/protege/$1"
     },
@@ -702,6 +698,10 @@
       "description": "https://culture.ld.admin.ch/isil/$1"
     },
     {
+      "key": "ref:lfd",
+      "description": "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=$1"
+    },
+    {
       "key": "ref:linz:place_id",
       "description": "https://gazetteer.linz.govt.nz/place/$1"
     },
@@ -814,8 +814,12 @@
       "description": "https://adisreg.mfcr.cz/adistc/adis/irs/irep_dph/dphInputForm.faces?form:dt:0:inputDic=$1"
     },
     {
-      "key": "ref:vatin",
-      "description": "https://wikidata-externalid-url.toolforge.org/?p=3608&url_prefix=http://ec.europa.eu/taxation_customs/vies/vatResponse.html?memberStateCode=&id=$1"
+      "key": "ref:WDPA",
+      "description": "https://eunis.eea.europa.eu/sites/$1"
+    },
+    {
+      "key": "ref:WDPA",
+      "description": "https://protectedplanet.net/$1"
     },
     {
       "key": "ref:whc",
@@ -972,14 +976,6 @@
     {
       "key": "vessel:mmsi",
       "description": "https://www.fleetmon.com/vessels/?s=$1"
-    },
-    {
-      "key": "WDPA_ID:ref",
-      "description": "https://eunis.eea.europa.eu/sites/$1"
-    },
-    {
-      "key": "WDPA_ID:ref",
-      "description": "https://protectedplanet.net/$1"
     },
     {
       "key": "website",
