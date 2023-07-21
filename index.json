@@ -43,13 +43,13 @@
   },
   {
     "key": "Key:contact:instagram",
-    "url": "https://unavatar.now.sh/instagram/$1",
-    "source": "wikidata:P3303",
+    "url": "https://www.instagram.com/_u/$1/",
+    "source": "wikidata:P1630",
     "rank": "normal"
   },
   {
     "key": "Key:contact:instagram",
-    "url": "https://www.instagram.com/_u/$1/",
+    "url": "https://www.threads.net/@$1",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
@@ -229,6 +229,12 @@
   },
   {
     "key": "Key:contact:twitter",
+    "url": "https://syndication.twitter.com/srv/timeline-profile/screen-name/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:contact:twitter",
     "url": "https://threadreaderapp.com/user/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
@@ -320,6 +326,12 @@
   {
     "key": "Key:fax",
     "url": "tel:$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:fcc:unique_system_identifier",
+    "url": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=$1",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
@@ -648,6 +660,24 @@
     "rank": "normal"
   },
   {
+    "key": "Key:instagram",
+    "url": "https://www.instagram.com/$1/",
+    "source": "wikidata:P1630",
+    "rank": "preferred"
+  },
+  {
+    "key": "Key:instagram",
+    "url": "https://www.instagram.com/_u/$1/",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:instagram",
+    "url": "https://www.threads.net/@$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
     "key": "Key:kartaview",
     "url": "https://commons.wikimedia.org/wiki/File:$1",
     "source": "wikidata:P1630",
@@ -663,12 +693,6 @@
     "key": "Key:mapillary",
     "url": "https://www.mapillary.com/app/?pKey=$1",
     "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:mdb_id",
-    "url": "https://molendatabase.nl/nederland/molen.php?nummer=$1",
-    "source": "osmwiki:P8",
     "rank": "normal"
   },
   {
@@ -774,6 +798,12 @@
     "rank": "normal"
   },
   {
+    "key": "Key:ref:clochers.org",
+    "url": "http://www.clochers.org/Fichiers_HTML/Accueil/Accueil_clochers/$1.htm",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
     "key": "Key:ref:crs",
     "url": "http://www.nationalrail.co.uk/stations/$1/details.html",
     "source": "wikidata:P1630",
@@ -842,6 +872,12 @@
   {
     "key": "Key:ref:FR:Allocine",
     "url": "https://www.allocine.fr/seance/salle_gen_csalle=$1.html",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:FR:FINESS",
+    "url": "http://finess.esante.gouv.fr/finess/jsp/actionDetailEtablissement.do?noFiness=$1",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
@@ -1383,6 +1419,12 @@
     "key": "Key:twitter",
     "url": "https://scholia.toolforge.org/twitter/$1",
     "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:twitter",
+    "url": "https://syndication.twitter.com/srv/timeline-profile/screen-name/$1",
+    "source": "wikidata:P1630",
     "rank": "normal"
   },
   {

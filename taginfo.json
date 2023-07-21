@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20230621T080000Z",
+  "data_updated": "20230721T080000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -39,11 +39,11 @@
     },
     {
       "key": "contact:instagram",
-      "description": "https://unavatar.now.sh/instagram/$1"
+      "description": "https://www.instagram.com/_u/$1/"
     },
     {
       "key": "contact:instagram",
-      "description": "https://www.instagram.com/_u/$1/"
+      "description": "https://www.threads.net/@$1"
     },
     {
       "key": "contact:mastodon",
@@ -163,6 +163,10 @@
     },
     {
       "key": "contact:twitter",
+      "description": "https://syndication.twitter.com/srv/timeline-profile/screen-name/$1"
+    },
+    {
+      "key": "contact:twitter",
       "description": "https://threadreaderapp.com/user/$1"
     },
     {
@@ -224,6 +228,10 @@
     {
       "key": "fax",
       "description": "tel:$1"
+    },
+    {
+      "key": "fcc:unique_system_identifier",
+      "description": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=$1"
     },
     {
       "key": "gnis:feature_id",
@@ -442,6 +450,18 @@
       "description": "https://commons.wikimedia.org/wiki/File:$1"
     },
     {
+      "key": "instagram",
+      "description": "https://www.instagram.com/$1/"
+    },
+    {
+      "key": "instagram",
+      "description": "https://www.instagram.com/_u/$1/"
+    },
+    {
+      "key": "instagram",
+      "description": "https://www.threads.net/@$1"
+    },
+    {
       "key": "kartaview",
       "description": "https://commons.wikimedia.org/wiki/File:$1"
     },
@@ -452,10 +472,6 @@
     {
       "key": "mapillary",
       "description": "https://www.mapillary.com/app/?pKey=$1"
-    },
-    {
-      "key": "mdb_id",
-      "description": "https://molendatabase.nl/nederland/molen.php?nummer=$1"
     },
     {
       "key": "MOE:id",
@@ -526,6 +542,10 @@
       "description": "https://www.camptocamp.org/waypoints/$1"
     },
     {
+      "key": "ref:clochers.org",
+      "description": "http://www.clochers.org/Fichiers_HTML/Accueil/Accueil_clochers/$1.htm"
+    },
+    {
       "key": "ref:crs",
       "description": "http://www.nationalrail.co.uk/stations/$1/details.html"
     },
@@ -572,6 +592,10 @@
     {
       "key": "ref:FR:Allocine",
       "description": "https://www.allocine.fr/seance/salle_gen_csalle=$1.html"
+    },
+    {
+      "key": "ref:FR:FINESS",
+      "description": "http://finess.esante.gouv.fr/finess/jsp/actionDetailEtablissement.do?noFiness=$1"
     },
     {
       "key": "ref:FR:INPN",
@@ -932,6 +956,10 @@
     {
       "key": "twitter",
       "description": "https://scholia.toolforge.org/twitter/$1"
+    },
+    {
+      "key": "twitter",
+      "description": "https://syndication.twitter.com/srv/timeline-profile/screen-name/$1"
     },
     {
       "key": "twitter",
