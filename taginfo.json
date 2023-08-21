@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20230721T080000Z",
+  "data_updated": "20230821T080000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -175,6 +175,14 @@
     },
     {
       "key": "contact:twitter",
+      "description": "https://twitter.com/@$1"
+    },
+    {
+      "key": "contact:twitter",
+      "description": "https://twitter.com/#!/$1"
+    },
+    {
+      "key": "contact:twitter",
       "description": "https://twitter.com/intent/user?screen_name=$1"
     },
     {
@@ -184,6 +192,10 @@
     {
       "key": "contact:twitter",
       "description": "https://www.trendsmap.com/twitter/user/$1"
+    },
+    {
+      "key": "contact:twitter",
+      "description": "https://x.com/$1"
     },
     {
       "key": "contact:website",
@@ -530,10 +542,6 @@
       "description": "https://bag.basisregistraties.overheid.nl/bag/id/pand/$1"
     },
     {
-      "key": "ref:bag",
-      "description": "https://bagviewer.kadaster.nl/lvbag/bag-viewer/index.html#?searchQuery=$1"
-    },
-    {
       "key": "ref:bic",
       "description": "https://heritage.toolforge.org/api/api.php?action=search&srcountry=es&format=html&srid=$1"
     },
@@ -583,11 +591,19 @@
     },
     {
       "key": "ref:EU:ENTSOE_EIC",
-      "description": "https://transparency.ontotext.com/resource/eic/$1"
+      "description": "http://energy.referencedata.eu/EIC/$1.jsonld"
     },
     {
-      "key": "ref:FR:Allocine",
-      "description": "http://www.allocine.fr/seance/salle_gen_csalle=$1.html"
+      "key": "ref:EU:ENTSOE_EIC",
+      "description": "http://energy.referencedata.eu/EIC/$1.rdf"
+    },
+    {
+      "key": "ref:EU:ENTSOE_EIC",
+      "description": "http://energy.referencedata.eu/EIC/$1.ttl"
+    },
+    {
+      "key": "ref:EU:ENTSOE_EIC",
+      "description": "https://transparency.ontotext.com/resource/eic/$1"
     },
     {
       "key": "ref:FR:Allocine",
@@ -600,10 +616,6 @@
     {
       "key": "ref:FR:INPN",
       "description": "https://inpn.mnhn.fr/espace/protege/$1"
-    },
-    {
-      "key": "ref:FR:MemorialGenWeb",
-      "description": "http://www.memorialgenweb.org/memorial3/html/fr/resultcommune.php?idsource=$1"
     },
     {
       "key": "ref:FR:MemorialGenWeb",
@@ -674,16 +686,24 @@
       "description": "https://www.sirene.fr/sirene/public/recherche?recherche.sirenSiret=$1"
     },
     {
+      "key": "ref:GB:nhle",
+      "description": "https://www.historicengland.org.uk/listing/the-list/list-entry/$1"
+    },
+    {
+      "key": "ref:GB:nhle",
+      "description": "https://historicengland.org.uk/listing/the-list/list-entry/$1"
+    },
+    {
+      "key": "ref:GB:nhle",
+      "description": "https://www.heritagegateway.org.uk/Gateway/Results_Single.aspx?uid=$1&resourceID=5"
+    },
+    {
       "key": "ref:gss",
       "description": "https://statistics.data.gov.uk/atlas/resource?uri=http://statistics.data.gov.uk/id/statistical-geography/$1"
     },
     {
       "key": "ref:hmdb",
       "description": "https://www.hmdb.org/m.asp?m=$1"
-    },
-    {
-      "key": "ref:ine",
-      "description": "http://www.ine.es/nomen2/inicio_a.do?accion=busquedaAvanzada&inicio=inicio_a&subaccion=&botonBusquedaAvanzada=Consultar+selecci%C3%B3n&numPag=0&ordenAnios=ASC&comunidad=00&entidad_amb=no&poblacion_amb=T&poblacion_op=%3D&poblacion_txt=&denominacion_op=like&denominacion_txt=&codProv=$1&codMuni=$2&codEC=$3&codES=$4&codNUC=$5"
     },
     {
       "key": "ref:INSEE",
@@ -831,6 +851,10 @@
     },
     {
       "key": "ref:US:EIA",
+      "description": "https://www.datacommons.org/browser/eia/pp/$1"
+    },
+    {
+      "key": "ref:US:EIA",
       "description": "https://www.eia.gov/electricity/data/browser/#/plant/$1"
     },
     {
@@ -971,6 +995,14 @@
     },
     {
       "key": "twitter",
+      "description": "https://twitter.com/@$1"
+    },
+    {
+      "key": "twitter",
+      "description": "https://twitter.com/#!/$1"
+    },
+    {
+      "key": "twitter",
       "description": "https://twitter.com/intent/user?screen_name=$1"
     },
     {
@@ -980,6 +1012,10 @@
     {
       "key": "twitter",
       "description": "https://www.trendsmap.com/twitter/user/$1"
+    },
+    {
+      "key": "twitter",
+      "description": "https://x.com/$1"
     },
     {
       "key": "uic_ref",
@@ -1020,6 +1056,10 @@
     {
       "key": "wikidata",
       "description": "https://autodesc.toolforge.org/?q=$1&links=wikipedia&lang=en&mode=long&format=html&redlinks=reasonator"
+    },
+    {
+      "key": "wikidata",
+      "description": "https://bionomia.net/$1"
     },
     {
       "key": "wikidata",

@@ -247,6 +247,18 @@
   },
   {
     "key": "Key:contact:twitter",
+    "url": "https://twitter.com/@$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:contact:twitter",
+    "url": "https://twitter.com/#!/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:contact:twitter",
     "url": "https://twitter.com/intent/user?screen_name=$1",
     "source": "wikidata:P1630",
     "rank": "normal"
@@ -261,6 +273,12 @@
     "key": "Key:contact:twitter",
     "url": "https://www.trendsmap.com/twitter/user/$1",
     "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:contact:twitter",
+    "url": "https://x.com/$1",
+    "source": "wikidata:P1630",
     "rank": "normal"
   },
   {
@@ -780,12 +798,6 @@
     "rank": "normal"
   },
   {
-    "key": "Key:ref:bag",
-    "url": "https://bagviewer.kadaster.nl/lvbag/bag-viewer/index.html#?searchQuery=$1",
-    "source": "osmwiki:P8",
-    "rank": "normal"
-  },
-  {
     "key": "Key:ref:bic",
     "url": "https://heritage.toolforge.org/api/api.php?action=search&srcountry=es&format=html&srid=$1",
     "source": "wikidata:P1630",
@@ -855,18 +867,30 @@
     "key": "Key:ref:EU:ENTSOE_EIC",
     "url": "https://transparency.ontotext.com/resource/eic/$1",
     "source": "wikidata:P1630",
+    "rank": "preferred"
+  },
+  {
+    "key": "Key:ref:EU:ENTSOE_EIC",
+    "url": "http://energy.referencedata.eu/EIC/$1.jsonld",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:EU:ENTSOE_EIC",
+    "url": "http://energy.referencedata.eu/EIC/$1.rdf",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:EU:ENTSOE_EIC",
+    "url": "http://energy.referencedata.eu/EIC/$1.ttl",
+    "source": "wikidata:P1630",
     "rank": "normal"
   },
   {
     "key": "Key:ref:EU:ENTSOE_EIC",
     "url": "https://transparency.ontotext.com/resource/eic/$1",
     "source": "wikidata:P3303",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:ref:FR:Allocine",
-    "url": "http://www.allocine.fr/seance/salle_gen_csalle=$1.html",
-    "source": "osmwiki:P8",
     "rank": "normal"
   },
   {
@@ -885,12 +909,6 @@
     "key": "Key:ref:FR:INPN",
     "url": "https://inpn.mnhn.fr/espace/protege/$1",
     "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:ref:FR:MemorialGenWeb",
-    "url": "http://www.memorialgenweb.org/memorial3/html/fr/resultcommune.php?idsource=$1",
-    "source": "osmwiki:P8",
     "rank": "normal"
   },
   {
@@ -996,6 +1014,24 @@
     "rank": "normal"
   },
   {
+    "key": "Key:ref:GB:nhle",
+    "url": "https://www.historicengland.org.uk/listing/the-list/list-entry/$1",
+    "source": "wikidata:P1630",
+    "rank": "preferred"
+  },
+  {
+    "key": "Key:ref:GB:nhle",
+    "url": "https://historicengland.org.uk/listing/the-list/list-entry/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:GB:nhle",
+    "url": "https://www.heritagegateway.org.uk/Gateway/Results_Single.aspx?uid=$1&resourceID=5",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
     "key": "Key:ref:gss",
     "url": "https://statistics.data.gov.uk/atlas/resource?uri=http://statistics.data.gov.uk/id/statistical-geography/$1",
     "source": "wikidata:P1630",
@@ -1004,12 +1040,6 @@
   {
     "key": "Key:ref:hmdb",
     "url": "https://www.hmdb.org/m.asp?m=$1",
-    "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:ref:ine",
-    "url": "http://www.ine.es/nomen2/inicio_a.do?accion=busquedaAvanzada&inicio=inicio_a&subaccion=&botonBusquedaAvanzada=Consultar+selecci%C3%B3n&numPag=0&ordenAnios=ASC&comunidad=00&entidad_amb=no&poblacion_amb=T&poblacion_op=%3D&poblacion_txt=&denominacion_op=like&denominacion_txt=&codProv=$1&codMuni=$2&codEC=$3&codES=$4&codNUC=$5",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
@@ -1231,6 +1261,12 @@
   },
   {
     "key": "Key:ref:US:EIA",
+    "url": "https://www.datacommons.org/browser/eia/pp/$1",
+    "source": "wikidata:P1630",
+    "rank": "preferred"
+  },
+  {
+    "key": "Key:ref:US:EIA",
     "url": "https://www.eia.gov/electricity/data/browser/#/plant/$1",
     "source": "wikidata:P1630",
     "rank": "normal"
@@ -1441,6 +1477,18 @@
   },
   {
     "key": "Key:twitter",
+    "url": "https://twitter.com/@$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:twitter",
+    "url": "https://twitter.com/#!/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:twitter",
     "url": "https://twitter.com/intent/user?screen_name=$1",
     "source": "wikidata:P1630",
     "rank": "normal"
@@ -1455,6 +1503,12 @@
     "key": "Key:twitter",
     "url": "https://www.trendsmap.com/twitter/user/$1",
     "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:twitter",
+    "url": "https://x.com/$1",
+    "source": "wikidata:P1630",
     "rank": "normal"
   },
   {
@@ -1514,6 +1568,12 @@
   {
     "key": "Key:wikidata",
     "url": "https://autodesc.toolforge.org/?q=$1&links=wikipedia&lang=en&mode=long&format=html&redlinks=reasonator",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:wikidata",
+    "url": "https://bionomia.net/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
   },
