@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20230821T080000Z",
+  "data_updated": "20230921T080000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -175,18 +175,6 @@
     },
     {
       "key": "contact:twitter",
-      "description": "https://twitter.com/@$1"
-    },
-    {
-      "key": "contact:twitter",
-      "description": "https://twitter.com/#!/$1"
-    },
-    {
-      "key": "contact:twitter",
-      "description": "https://twitter.com/intent/user?screen_name=$1"
-    },
-    {
-      "key": "contact:twitter",
       "description": "https://unavatar.now.sh/twitter/$1"
     },
     {
@@ -195,7 +183,19 @@
     },
     {
       "key": "contact:twitter",
+      "description": "https://x.com/@$1"
+    },
+    {
+      "key": "contact:twitter",
+      "description": "https://x.com/#!/$1"
+    },
+    {
+      "key": "contact:twitter",
       "description": "https://x.com/$1"
+    },
+    {
+      "key": "contact:twitter",
+      "description": "https://x.com/intent/user?screen_name=$1"
     },
     {
       "key": "contact:website",
@@ -248,6 +248,10 @@
     {
       "key": "gnis:feature_id",
       "description": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/$1"
+    },
+    {
+      "key": "gnis:feature_id",
+      "description": "http://gnis-ld.org/lod/gnis/feature/$1"
     },
     {
       "key": "GNS:id",
@@ -995,18 +999,6 @@
     },
     {
       "key": "twitter",
-      "description": "https://twitter.com/@$1"
-    },
-    {
-      "key": "twitter",
-      "description": "https://twitter.com/#!/$1"
-    },
-    {
-      "key": "twitter",
-      "description": "https://twitter.com/intent/user?screen_name=$1"
-    },
-    {
-      "key": "twitter",
       "description": "https://unavatar.now.sh/twitter/$1"
     },
     {
@@ -1015,11 +1007,27 @@
     },
     {
       "key": "twitter",
+      "description": "https://x.com/@$1"
+    },
+    {
+      "key": "twitter",
+      "description": "https://x.com/#!/$1"
+    },
+    {
+      "key": "twitter",
       "description": "https://x.com/$1"
+    },
+    {
+      "key": "twitter",
+      "description": "https://x.com/intent/user?screen_name=$1"
     },
     {
       "key": "uic_ref",
       "description": "https://irail.be/stations/NMBS/00$1"
+    },
+    {
+      "key": "uic_ref",
+      "description": "https://kdypojedevlak.cz/Transits/Nearest/$1"
     },
     {
       "key": "uic_ref",

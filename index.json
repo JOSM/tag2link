@@ -247,24 +247,6 @@
   },
   {
     "key": "Key:contact:twitter",
-    "url": "https://twitter.com/@$1",
-    "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:contact:twitter",
-    "url": "https://twitter.com/#!/$1",
-    "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:contact:twitter",
-    "url": "https://twitter.com/intent/user?screen_name=$1",
-    "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:contact:twitter",
     "url": "https://unavatar.now.sh/twitter/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
@@ -277,7 +259,25 @@
   },
   {
     "key": "Key:contact:twitter",
+    "url": "https://x.com/@$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:contact:twitter",
+    "url": "https://x.com/#!/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:contact:twitter",
     "url": "https://x.com/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:contact:twitter",
+    "url": "https://x.com/intent/user?screen_name=$1",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
@@ -358,6 +358,12 @@
     "url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/$1",
     "source": "wikidata:P1630",
     "rank": "preferred"
+  },
+  {
+    "key": "Key:gnis:feature_id",
+    "url": "http://gnis-ld.org/lod/gnis/feature/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
   },
   {
     "key": "Key:GNS:id",
@@ -1477,24 +1483,6 @@
   },
   {
     "key": "Key:twitter",
-    "url": "https://twitter.com/@$1",
-    "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:twitter",
-    "url": "https://twitter.com/#!/$1",
-    "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:twitter",
-    "url": "https://twitter.com/intent/user?screen_name=$1",
-    "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:twitter",
     "url": "https://unavatar.now.sh/twitter/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
@@ -1507,13 +1495,37 @@
   },
   {
     "key": "Key:twitter",
+    "url": "https://x.com/@$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:twitter",
+    "url": "https://x.com/#!/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:twitter",
     "url": "https://x.com/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:twitter",
+    "url": "https://x.com/intent/user?screen_name=$1",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
   {
     "key": "Key:uic_ref",
     "url": "https://irail.be/stations/NMBS/00$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:uic_ref",
+    "url": "https://kdypojedevlak.cz/Transits/Nearest/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
   },
