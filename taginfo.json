@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20230921T080000Z",
+  "data_updated": "20231021T080000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -702,12 +702,32 @@
       "description": "https://www.heritagegateway.org.uk/Gateway/Results_Single.aspx?uid=$1&resourceID=5"
     },
     {
+      "key": "ref:GB:uprn",
+      "description": "https://uprn.uk/$1"
+    },
+    {
+      "key": "ref:GB:uprn",
+      "description": "https://www.findmystreet.co.uk/map?usrn=$1"
+    },
+    {
+      "key": "ref:GB:usrn",
+      "description": "https://uprn.uk/usrn/$1"
+    },
+    {
       "key": "ref:gss",
       "description": "https://statistics.data.gov.uk/atlas/resource?uri=http://statistics.data.gov.uk/id/statistical-geography/$1"
     },
     {
       "key": "ref:hmdb",
       "description": "https://www.hmdb.org/m.asp?m=$1"
+    },
+    {
+      "key": "ref:INEP",
+      "description": "https://culturaeduca.cc/equipamento/escola_detalhe/$1"
+    },
+    {
+      "key": "ref:INEP",
+      "description": "https://inepdata.inep.gov.br/analytics/saw.dll?Dashboard&NQUser=inepdata&NQPassword=Inep2014&PortalPath=/shared/Censo da Educação Básica/_portal/Catálogo de Escolas&Page=Detalhamento Escola&Action=Navigate&P0=1&P1=eq&P2=\"F - Catalogo Escola\".\"Código Entidade\"&P3=\"$1\""
     },
     {
       "key": "ref:INSEE",
@@ -860,6 +880,10 @@
     {
       "key": "ref:US:EIA",
       "description": "https://www.eia.gov/electricity/data/browser/#/plant/$1"
+    },
+    {
+      "key": "ref:US:NID",
+      "description": "https://nid.sec.usace.army.mil/#/dams/system/$1/summary"
     },
     {
       "key": "ref:vatin",

@@ -1038,6 +1038,24 @@
     "rank": "normal"
   },
   {
+    "key": "Key:ref:GB:uprn",
+    "url": "https://uprn.uk/$1",
+    "source": "wikidata:P1630",
+    "rank": "preferred"
+  },
+  {
+    "key": "Key:ref:GB:uprn",
+    "url": "https://www.findmystreet.co.uk/map?usrn=$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:GB:usrn",
+    "url": "https://uprn.uk/usrn/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
     "key": "Key:ref:gss",
     "url": "https://statistics.data.gov.uk/atlas/resource?uri=http://statistics.data.gov.uk/id/statistical-geography/$1",
     "source": "wikidata:P1630",
@@ -1046,6 +1064,18 @@
   {
     "key": "Key:ref:hmdb",
     "url": "https://www.hmdb.org/m.asp?m=$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:INEP",
+    "url": "https://culturaeduca.cc/equipamento/escola_detalhe/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:INEP",
+    "url": "https://inepdata.inep.gov.br/analytics/saw.dll?Dashboard&NQUser=inepdata&NQPassword=Inep2014&PortalPath=/shared/Censo da Educação Básica/_portal/Catálogo de Escolas&Page=Detalhamento Escola&Action=Navigate&P0=1&P1=eq&P2=\"F - Catalogo Escola\".\"Código Entidade\"&P3=\"$1\"",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
@@ -1274,6 +1304,12 @@
   {
     "key": "Key:ref:US:EIA",
     "url": "https://www.eia.gov/electricity/data/browser/#/plant/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:US:NID",
+    "url": "https://nid.sec.usace.army.mil/#/dams/system/$1/summary",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
