@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20231021T080000Z",
+  "data_updated": "20231103T110000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -9,6 +9,42 @@
     "contact_email": "Simon.Legner@gmail.com"
   },
   "tags": [
+    {
+      "key": "3dmr",
+      "description": "https://3dmr.eu/model/$1"
+    },
+    {
+      "key": "addr:postcode",
+      "description": "https://ratings.food.gov.uk/enhanced-search/en-GB/%5E/$1/Relevance/0/%5E/%5E/0/1/10"
+    },
+    {
+      "key": "addr:street:wikidata",
+      "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "architect:wikidata",
+      "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "artist:wikidata",
+      "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "brand:wikidata",
+      "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "building:architecture:wikidata",
+      "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "buried:wikidata",
+      "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "commemorates:wikidata",
+      "description": "https://www.wikidata.org/entity/$1"
+    },
     {
       "key": "contact:facebook",
       "description": "https://unavatar.now.sh/facebook/$1"
@@ -214,6 +250,10 @@
       "description": "https://www.yelp.com/biz/$1"
     },
     {
+      "key": "contact:yelp",
+      "description": "https://www.yelp.com/biz/$1"
+    },
+    {
       "key": "de:amtlicher_gemeindeschluessel",
       "description": "https://dd.eionet.europa.eu/vocabularyconcept/lau2/de/$1"
     },
@@ -230,8 +270,32 @@
       "description": "https://www.statistik.bayern.de/mam/produkte/statistik_kommunal/2018/$1.pdf"
     },
     {
+      "key": "destination:ref:wikidata",
+      "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "destination:ref:wikidata:lanes",
+      "description": "http://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "destination:wikidata",
+      "description": "https://www.wikidata.org/wiki/$1"
+    },
+    {
+      "key": "dhm_id",
+      "description": "https://www.molens.nl/molen/zoek-een-molen/molendetail/?molenid=$1"
+    },
+    {
+      "key": "disused:brand:wikidata",
+      "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
       "key": "esr:user",
       "description": "https://tr4.info/station/$1"
+    },
+    {
+      "key": "etymology:wikidata",
+      "description": "https://www.wikidata.org/entity/$1"
     },
     {
       "key": "faa",
@@ -244,6 +308,26 @@
     {
       "key": "fcc:unique_system_identifier",
       "description": "https://wireless2.fcc.gov/UlsApp/AsrSearch/asrRegistration.jsp?regKey=$1"
+    },
+    {
+      "key": "fhrs:id",
+      "description": "https://ratings.food.gov.uk/business/en-GB/$1"
+    },
+    {
+      "key": "flag:wikidata",
+      "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "former_operator:wikidata",
+      "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "franchise:wikidata",
+      "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "genus:wikidata",
+      "description": "https://www.wikidata.org/entity/$1"
     },
     {
       "key": "gnis:feature_id",
@@ -407,7 +491,19 @@
     },
     {
       "key": "HE_ref",
+      "description": "https://historicengland.org.uk/listing/the-list/list-entry/$1"
+    },
+    {
+      "key": "HE_ref",
       "description": "https://www.heritagegateway.org.uk/Gateway/Results_Single.aspx?uid=$1&resourceID=5"
+    },
+    {
+      "key": "heritage:operator:wikidata",
+      "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "home_club:wikidata",
+      "description": "https://www.wikidata.org/entity/$1"
     },
     {
       "key": "iata",
@@ -428,6 +524,10 @@
     {
       "key": "iata",
       "description": "https://www.flightradar24.com/data/airports/$1"
+    },
+    {
+      "key": "IBGE:GEOCODIGO",
+      "description": "https://cidades.ibge.gov.br/xtras/perfil.php?codmun=$1"
     },
     {
       "key": "icao",
@@ -478,8 +578,24 @@
       "description": "https://www.threads.net/@$1"
     },
     {
+      "key": "internet_access:operator:wikidata",
+      "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
       "key": "kartaview",
       "description": "https://commons.wikimedia.org/wiki/File:$1"
+    },
+    {
+      "key": "KKR:code",
+      "description": "https://keskkonnaportaal.ee/register?kkr_kood=$1"
+    },
+    {
+      "key": "koes_id",
+      "description": "https://samlingen.koes.dk/vaerker-i-det-offentlige-rum/$1"
+    },
+    {
+      "key": "manufacturer:wikidata",
+      "description": "https://www.wikidata.org/entity/$1"
     },
     {
       "key": "mapillary",
@@ -490,20 +606,76 @@
       "description": "https://www.mapillary.com/app/?pKey=$1"
     },
     {
+      "key": "mapillary",
+      "description": "https://www.mapillary.com/app/?pKey=$1"
+    },
+    {
+      "key": "mdb_id",
+      "description": "https://molendatabase.nl/nederland/molen.php?nummer=$1"
+    },
+    {
       "key": "MOE:id",
       "description": "https://www.educationcounts.govt.nz/find-school/school/profile?school=$1"
+    },
+    {
+      "key": "name:etymology:wikidata",
+      "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "name:start_date:source:wikidata",
+      "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "name:wikidata",
+      "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "network:wikidata",
+      "description": "https://www.wikidata.org/entity/$1"
     },
     {
       "key": "nist:fips_code",
       "description": "https://www.census.gov/quickfacts/table/PST045215/$1,00"
     },
     {
+      "key": "notable_tenant:wikidata",
+      "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
       "key": "nycdoitt:bin",
       "description": "http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?bin=$1"
     },
     {
+      "key": "old_name:etymology:wikidata",
+      "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "old_name:source:wikidata",
+      "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "openbenches:id",
+      "description": "https://openbenches.org/bench/$1"
+    },
+    {
+      "key": "opening_hours",
+      "description": "https://openingh.openstreetmap.de/evaluation_tool/?EXP=$1"
+    },
+    {
       "key": "openplaques:id",
       "description": "https://openplaques.org/plaques/$1"
+    },
+    {
+      "key": "openplaques:id",
+      "description": "https://openplaques.org/plaques/$1"
+    },
+    {
+      "key": "operator:wikidata",
+      "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "panoramax",
+      "description": "https://panoramax.openstreetmap.fr/#focus=pic&pic=$1"
     },
     {
       "key": "phone",
@@ -546,6 +718,10 @@
       "description": "https://bag.basisregistraties.overheid.nl/bag/id/pand/$1"
     },
     {
+      "key": "ref:bag",
+      "description": "https://bagviewer.kadaster.nl/lvbag/bag-viewer/index.html#?searchQuery=$1"
+    },
+    {
       "key": "ref:bic",
       "description": "https://heritage.toolforge.org/api/api.php?action=search&srcountry=es&format=html&srid=$1"
     },
@@ -576,6 +752,10 @@
     {
       "key": "ref:crs",
       "description": "https://www.northernrailway.co.uk/stations/$1"
+    },
+    {
+      "key": "ref:doc",
+      "description": "https://www.doc.govt.nz/search-results/?query=$1"
     },
     {
       "key": "ref:edubase",
@@ -614,6 +794,18 @@
       "description": "https://www.allocine.fr/seance/salle_gen_csalle=$1.html"
     },
     {
+      "key": "ref:FR:Allocine",
+      "description": "https://www.allocine.fr/seance/salle_gen_csalle=$1.html"
+    },
+    {
+      "key": "ref:FR:ANFR",
+      "description": "https://data.anfr.fr/anfr/visualisation/map/?id=observatoire_2g_3g_4g&refine.SUP_ID=$1"
+    },
+    {
+      "key": "ref:FR:CEF",
+      "description": "https://messes.info/lieu/$1"
+    },
+    {
       "key": "ref:FR:FINESS",
       "description": "http://finess.esante.gouv.fr/finess/jsp/actionDetailEtablissement.do?noFiness=$1"
     },
@@ -622,8 +814,20 @@
       "description": "https://inpn.mnhn.fr/espace/protege/$1"
     },
     {
+      "key": "ref:FR:Joconde",
+      "description": "https://www.pop.culture.gouv.fr/notice/joconde/$1"
+    },
+    {
+      "key": "ref:FR:LaPoste",
+      "description": "http://www.laposte.fr/particulier/outils/trouver-un-bureau-de-poste/bureau-detail/$1/$1"
+    },
+    {
       "key": "ref:FR:MemorialGenWeb",
       "description": "http://www.memorialgenweb.org/memorial3/html/fr/resultcommune.php?idsource=$1"
+    },
+    {
+      "key": "ref:FR:MemorialGenWeb",
+      "description": "https://www.memorialgenweb.org/memorial3/html/fr/resultcommune.php?idsource=$1"
     },
     {
       "key": "ref:FR:museofile",
@@ -632,6 +836,10 @@
     {
       "key": "ref:FR:museofile",
       "description": "https://www.pop.culture.gouv.fr/notice/museo/$1"
+    },
+    {
+      "key": "ref:FR:NAF",
+      "description": "https://www.insee.fr/fr/metadonnees/nafr2?q=$1"
     },
     {
       "key": "ref:FR:prix-carburants",
@@ -683,7 +891,15 @@
     },
     {
       "key": "ref:FR:SIRET",
+      "description": "https://annuaire-entreprises.data.gouv.fr/etablissement/$1"
+    },
+    {
+      "key": "ref:FR:SIRET",
       "description": "https://www.infogreffe.fr/societes/entreprise-societe/$1"
+    },
+    {
+      "key": "ref:FR:SIRET",
+      "description": "https://www.sirene.fr/sirene/public/recherche?recherche.sirenSiret=$1"
     },
     {
       "key": "ref:FR:SIRET",
@@ -707,11 +923,23 @@
     },
     {
       "key": "ref:GB:uprn",
+      "description": "https://uprn.uk/$1"
+    },
+    {
+      "key": "ref:GB:uprn",
       "description": "https://www.findmystreet.co.uk/map?usrn=$1"
     },
     {
       "key": "ref:GB:usrn",
       "description": "https://uprn.uk/usrn/$1"
+    },
+    {
+      "key": "ref:GB:usrn",
+      "description": "https://uprn.uk/usrn/$1"
+    },
+    {
+      "key": "ref:gemeentecode",
+      "description": "https://identifier.overheid.nl/tooi/id/gemeente/gm$1"
     },
     {
       "key": "ref:gss",
@@ -720,6 +948,10 @@
     {
       "key": "ref:hmdb",
       "description": "https://www.hmdb.org/m.asp?m=$1"
+    },
+    {
+      "key": "ref:INEP",
+      "description": "https://culturaeduca.cc/equipamento/escola_detalhe/$1"
     },
     {
       "key": "ref:INEP",
@@ -802,6 +1034,10 @@
       "description": "https://npgallery.nps.gov/AssetDetail/NRIS/$1"
     },
     {
+      "key": "ref:nrhp",
+      "description": "https://npgallery.nps.gov/AssetDetail/NRIS/$1"
+    },
+    {
       "key": "ref:nz:heritage",
       "description": "https://www.heritage.org.nz/list-details/$1/$1"
     },
@@ -812,6 +1048,10 @@
     {
       "key": "ref:OnroerendErfgoed",
       "description": "https://id.erfgoed.net/erfgoedobjecten/$1"
+    },
+    {
+      "key": "ref:raa",
+      "description": "https://kulturarvsdata.se/raa/fmi/html/$1"
     },
     {
       "key": "ref:rce",
@@ -836,6 +1076,10 @@
     {
       "key": "ref:ruian",
       "description": "https://www.kamsnim.cz/?municipality=cz_obce_$1"
+    },
+    {
+      "key": "ref:ruian:building",
+      "description": "https://vdp.cuzk.cz/vdp/ruian/stavebniobjekty/$1"
     },
     {
       "key": "ref:ruian:building",
@@ -880,6 +1124,14 @@
     {
       "key": "ref:US:EIA",
       "description": "https://www.eia.gov/electricity/data/browser/#/plant/$1"
+    },
+    {
+      "key": "ref:US:EPA",
+      "description": "https://frs-public.epa.gov/ords/frs_public2/fii_query_detail.disp_program_facility?p_registry_id=$1"
+    },
+    {
+      "key": "ref:US:NID",
+      "description": "https://nid.sec.usace.army.mil/#/dams/system/$1/summary"
     },
     {
       "key": "ref:US:NID",
@@ -951,6 +1203,10 @@
     },
     {
       "key": "ref:woonplaatscode",
+      "description": "https://bag.basisregistraties.overheid.nl/bag/id/woonplaats/$1"
+    },
+    {
+      "key": "ref:woonplaatscode",
       "description": "https://brt.basisregistraties.overheid.nl/top10nl/doc/plaats/$1"
     },
     {
@@ -958,6 +1214,14 @@
       "description": "https://msi.nga.mil/queryBreakout?publications/world-port-index?indexNumber=$1&output=html"
     },
     {
+      "key": "religion:wikidata",
+      "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "royal_cypher:wikidata",
+      "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
       "key": "seamark:radio_station:mmsi",
       "description": "https://www.marinetraffic.com/ais/details/ships/$1"
     },
@@ -980,6 +1244,18 @@
     {
       "key": "seamark:virtual_aton:mmsi",
       "description": "https://www.fleetmon.com/vessels/?s=$1"
+    },
+    {
+      "key": "snowplowing:operator:wikidata",
+      "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "species:wikidata",
+      "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "subject:wikidata",
+      "description": "https://www.wikidata.org/entity/$1"
     },
     {
       "key": "twitter",
@@ -1074,6 +1350,14 @@
       "description": "https://www.fleetmon.com/vessels/?s=$1"
     },
     {
+      "key": "was:brand:wikidata",
+      "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "website",
+      "description": "$1"
+    },
+    {
       "key": "website",
       "description": "$1"
     },
@@ -1084,6 +1368,10 @@
     {
       "key": "website",
       "description": "https://webcache.googleusercontent.com/search?q=cache:$1"
+    },
+    {
+      "key": "wiki:symbol",
+      "description": "https://wiki.openstreetmap.org/wiki/File:$1"
     },
     {
       "key": "wikidata",
@@ -1131,6 +1419,10 @@
     },
     {
       "key": "wikidata",
+      "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "wikidata",
       "description": "https://www.wikidata.org/w/index.php?title=Special:CiteThisPage&page=$1"
     },
     {
@@ -1148,6 +1440,14 @@
     {
       "key": "wikimedia_commons",
       "description": "https://commons.wikimedia.org/wiki/File:$1"
+    },
+    {
+      "key": "wikipedia",
+      "description": "https://wikipedia.org/wiki/$1"
+    },
+    {
+      "key": "woeid",
+      "description": "https://www.flickr.com/places/info/$1"
     },
     {
       "key": "woeid",

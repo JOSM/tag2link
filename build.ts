@@ -1,7 +1,7 @@
 #!/usr/bin/env node
-import * as child_process from "child_process";
-import * as fs from "fs";
 import { isDeepStrictEqual } from "util";
+import { existsSync, readFileSync, writeFileSync } from "fs";
+import { execFileSync } from "child_process";
 
 interface SparkQLBinding {
   type: string;
@@ -36,19 +36,28 @@ interface IndexData {
   rank: string;
 }
 
-function writeWikidataSophoxRules(): [Array<IndexData>, boolean] {
-  const fromWikidata = sparql(
+async function parse_osm_wikidata(): Promise<SparkQL> {
+  const text = readFileSync("wikidata.json", "utf8");
+  const osm_wikidata = JSON.parse(text);
+  const bindings = osm_wikidata.map((x) =>
+    Object.fromEntries(Object.entries(x).map(([k, v]) => [k, { value: v }])),
+  );
+  return { head: [], results: { bindings: bindings } };
+}
+
+async function writeWikidataSophoxRules(): Promise<
+  [Array<IndexData>, boolean]
+> {
+  const osm_wikidata = await parse_osm_wikidata();
+  const fromWikidata = await sparql(
     "https://query.wikidata.org/sparql",
-    "tag2link.wikidata.sparql"
+    "tag2link.wikidata.sparql",
   );
-  const fromSophox = sparql(
-    "https://sophox.org/sparql",
-    "tag2link.sophox.sparql"
-  );
+  // we used to have sparql("https://sophox.org/sparql", "tag2link.sophox.sparql"), but that was extremely outdated
 
   const data = [
     ...fromWikidata.results.bindings,
-    ...fromSophox.results.bindings,
+    ...osm_wikidata.results.bindings,
   ].map(
     (i) =>
       ({
@@ -60,7 +69,7 @@ function writeWikidataSophoxRules(): [Array<IndexData>, boolean] {
           "http://wikiba.se/ontology#NormalRank": "normal",
           "http://wikiba.se/ontology#DeprecatedRank": "deprecated",
         }[i.rank.value],
-      } as IndexData)
+      }) as IndexData,
   );
 
   data.sort((link1, link2) => {
@@ -71,7 +80,7 @@ function writeWikidataSophoxRules(): [Array<IndexData>, boolean] {
           preferred: "1",
           normal: "2",
           deprecated: "3",
-        }[x.rank] || "9"),
+        })[x.rank] || "9",
       (x) => x.url,
       (x) => x.source,
     ];
@@ -81,11 +90,13 @@ function writeWikidataSophoxRules(): [Array<IndexData>, boolean] {
         .find((i) => i !== 0) || 0
     );
   });
-  const original = fs.existsSync("index.json") ? JSON.parse(fs.readFileSync("index.json").toString()) : {};
+  const original = existsSync("index.json")
+    ? JSON.parse(readFileSync("index.json").toString())
+    : {};
   const changed = !isDeepStrictEqual(original, data);
   if (changed) {
     console.log(`Writing ${data.length} rules to index.json`);
-    fs.writeFileSync("index.json", JSON.stringify(data, undefined, 2));
+    writeFileSync("index.json", JSON.stringify(data, undefined, 2));
   } else {
     console.log(`index.json did not need to be updated`);
   }
@@ -93,17 +104,17 @@ function writeWikidataSophoxRules(): [Array<IndexData>, boolean] {
 }
 
 function updatePackageVersion(now: Date): PackageJson {
-  const packageJson = JSON.parse(fs.readFileSync("package.json").toString());
+  const packageJson = JSON.parse(readFileSync("package.json").toString());
   packageJson.version = now.toISOString().substring(0, 10).replace(/-/g, ".");
   console.log(`Updating package version to ${packageJson.version}`);
-  fs.writeFileSync("package.json", JSON.stringify(packageJson, undefined, 2));
+  writeFileSync("package.json", JSON.stringify(packageJson, undefined, 2));
   return packageJson;
 }
 
 function updateTag2Link(
   tag2linkPackage: PackageJson,
   data: Array<IndexData>,
-  now: Date
+  now: Date,
 ): void {
   const packageAuthor = tag2linkPackage.author.match(/(.*) <(.*)>/);
   if (packageAuthor == null) {
@@ -125,11 +136,11 @@ function updateTag2Link(
     })),
   };
   console.log(`Updating taginfo.json`);
-  fs.writeFileSync("taginfo.json", JSON.stringify(taginfo, undefined, 2));
+  writeFileSync("taginfo.json", JSON.stringify(taginfo, undefined, 2));
 }
 
-function main(): void {
-  const [data, indexChanged] = writeWikidataSophoxRules();
+async function main(): Promise<void> {
+  const [data, indexChanged] = await writeWikidataSophoxRules();
 
   if (indexChanged) {
     const now = new Date();
@@ -139,7 +150,7 @@ function main(): void {
   }
 }
 
-function sparql(url, filename): SparkQL {
+async function sparql(url: string, filename: string): Promise<SparkQL> {
   return JSON.parse(
     curl(
       "--request",
@@ -148,13 +159,13 @@ function sparql(url, filename): SparkQL {
       "Accept:application/json",
       "--data-urlencode",
       "query@" + filename,
-      url
-    )
+      url,
+    ),
   );
 }
 
 function curl(...args: string[]): string {
-  return child_process.execFileSync("curl", ["--silent", ...args]).toString();
+  return execFileSync("curl", ["--silent", ...args]).toString();
 }
 
-main();
+main().catch((error) => console.log(error));

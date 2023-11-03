@@ -1,0 +1,8 @@
+SELECT (CONCAT("Key:", ?permanent_key_ID) as ?OSM_key) ?formatter_URL ?rank ?source WHERE {
+  ?item wdt:P2 wd:Q7.
+  ?item wdt:P16 ?permanent_key_ID.
+  ?item p:P8 [ps:P8 ?formatter_URL; wikibase:rank ?rank;].
+  BIND("osmwiki:P8" AS ?source ).
+  FILTER (?rank != wikibase:DeprecatedRank)
+}
+ORDER BY ?OSM_key DESC(?rank)
