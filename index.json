@@ -6,6 +6,12 @@
     "rank": "normal"
   },
   {
+    "key": "Key:abandoned:wikipedia",
+    "url": "https://wikipedia.org/wiki/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
     "key": "Key:addr:postcode",
     "url": "https://ratings.food.gov.uk/enhanced-search/en-GB/%5E/$1/Relevance/0/%5E/%5E/0/1/10",
     "source": "osmwiki:P8",
@@ -18,8 +24,26 @@
     "rank": "normal"
   },
   {
+    "key": "Key:amenity:wikipedia",
+    "url": "https://wikipedia.org/wiki/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
     "key": "Key:architect:wikidata",
     "url": "https://www.wikidata.org/entity/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:architect:wikipedia",
+    "url": "https://wikipedia.org/wiki/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:artist_name:wikipedia",
+    "url": "https://wikipedia.org/wiki/$1",
     "source": "osmwiki:P8",
     "rank": "normal"
   },
@@ -30,8 +54,38 @@
     "rank": "normal"
   },
   {
+    "key": "Key:artist:wikipedia",
+    "url": "https://wikipedia.org/wiki/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:author:wikipedia",
+    "url": "https://wikipedia.org/wiki/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:branch:wikipedia",
+    "url": "https://wikipedia.org/wiki/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
     "key": "Key:brand:wikidata",
     "url": "https://www.wikidata.org/entity/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:brand:wikipedia",
+    "url": "https://wikipedia.org/wiki/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:bridge:wikipedia",
+    "url": "https://wikipedia.org/wiki/$1",
     "source": "osmwiki:P8",
     "rank": "normal"
   },
@@ -42,8 +96,20 @@
     "rank": "normal"
   },
   {
+    "key": "Key:building:wikipedia",
+    "url": "https://wikipedia.org/wiki/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
     "key": "Key:buried:wikidata",
     "url": "https://www.wikidata.org/entity/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:buried:wikipedia",
+    "url": "https://wikipedia.org/wiki/$1",
     "source": "osmwiki:P8",
     "rank": "normal"
   },
@@ -420,6 +486,18 @@
     "rank": "normal"
   },
   {
+    "key": "Key:disused:brand:wikipedia",
+    "url": "https://wikipedia.org/wiki/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:disused:wikipedia",
+    "url": "https://wikipedia.org/wiki/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
     "key": "Key:esr:user",
     "url": "https://tr4.info/station/$1",
     "source": "wikidata:P1630",
@@ -456,14 +534,32 @@
     "rank": "normal"
   },
   {
+    "key": "Key:fixme:wikipedia",
+    "url": "https://wikipedia.org/wiki/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
     "key": "Key:flag:wikidata",
     "url": "https://www.wikidata.org/entity/$1",
     "source": "osmwiki:P8",
     "rank": "normal"
   },
   {
+    "key": "Key:flag:wikipedia",
+    "url": "https://wikipedia.org/wiki/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
     "key": "Key:former_operator:wikidata",
     "url": "https://www.wikidata.org/entity/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:founder:wikipedia",
+    "url": "https://wikipedia.org/wiki/$1",
     "source": "osmwiki:P8",
     "rank": "normal"
   },
@@ -476,6 +572,12 @@
   {
     "key": "Key:genus:wikidata",
     "url": "https://www.wikidata.org/entity/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:genus:wikipedia",
+    "url": "https://wikipedia.org/wiki/$1",
     "source": "osmwiki:P8",
     "rank": "normal"
   },
@@ -738,6 +840,12 @@
     "rank": "normal"
   },
   {
+    "key": "Key:heritage:wikipedia",
+    "url": "https://wikipedia.org/wiki/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
     "key": "Key:home_club:wikidata",
     "url": "https://www.wikidata.org/entity/$1",
     "source": "osmwiki:P8",
@@ -828,12 +936,6 @@
     "rank": "normal"
   },
   {
-    "key": "Key:image",
-    "url": "https://commons.wikimedia.org/wiki/File:$1",
-    "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
     "key": "Key:instagram",
     "url": "https://www.instagram.com/$1/",
     "source": "wikidata:P1630",
@@ -858,12 +960,6 @@
     "rank": "normal"
   },
   {
-    "key": "Key:kartaview",
-    "url": "https://commons.wikimedia.org/wiki/File:$1",
-    "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
     "key": "Key:KKR:code",
     "url": "https://keskkonnaportaal.ee/register?kkr_kood=$1",
     "source": "osmwiki:P8",
@@ -882,9 +978,9 @@
     "rank": "normal"
   },
   {
-    "key": "Key:mapillary",
-    "url": "https://commons.wikimedia.org/wiki/File:$1",
-    "source": "wikidata:P1630",
+    "key": "Key:manufacturer:wikipedia",
+    "url": "https://wikipedia.org/wiki/$1",
+    "source": "osmwiki:P8",
     "rank": "normal"
   },
   {
@@ -906,6 +1002,18 @@
     "rank": "normal"
   },
   {
+    "key": "Key:memorial:wikipedia",
+    "url": "https://wikipedia.org/wiki/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:model:wikipedia",
+    "url": "https://wikipedia.org/wiki/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
     "key": "Key:MOE:id",
     "url": "https://www.educationcounts.govt.nz/find-school/school/profile?school=$1",
     "source": "wikidata:P1630",
@@ -914,6 +1022,12 @@
   {
     "key": "Key:name:etymology:wikidata",
     "url": "https://www.wikidata.org/entity/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:name:etymology:wikipedia",
+    "url": "https://wikipedia.org/wiki/$1",
     "source": "osmwiki:P8",
     "rank": "normal"
   },
@@ -936,6 +1050,12 @@
     "rank": "normal"
   },
   {
+    "key": "Key:network:wikipedia",
+    "url": "https://wikipedia.org/wiki/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
     "key": "Key:nist:fips_code",
     "url": "https://www.census.gov/quickfacts/table/PST045215/$1,00",
     "source": "wikidata:P1630",
@@ -951,6 +1071,12 @@
     "key": "Key:nycdoitt:bin",
     "url": "http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?bin=$1",
     "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:official_name:etymology:wikipedia",
+    "url": "https://wikipedia.org/wiki/$1",
+    "source": "osmwiki:P8",
     "rank": "normal"
   },
   {
@@ -996,8 +1122,26 @@
     "rank": "normal"
   },
   {
+    "key": "Key:operator:wikipedia",
+    "url": "https://wikipedia.org/wiki/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:owner:wikipedia",
+    "url": "https://wikipedia.org/wiki/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
     "key": "Key:panoramax",
     "url": "https://panoramax.openstreetmap.fr/#focus=pic&pic=$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:parish:wikipedia",
+    "url": "https://wikipedia.org/wiki/$1",
     "source": "osmwiki:P8",
     "rank": "normal"
   },
@@ -1005,6 +1149,18 @@
     "key": "Key:phone",
     "url": "tel:$1",
     "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:railway:wikipedia",
+    "url": "https://wikipedia.org/wiki/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:razed:wikipedia",
+    "url": "https://wikipedia.org/wiki/$1",
+    "source": "osmwiki:P8",
     "rank": "normal"
   },
   {
@@ -1138,6 +1294,30 @@
     "url": "http://www.marina.difesa.it/cosa-facciamo/per-la-difesa-sicurezza/fari/Pagine/$1.aspx",
     "source": "wikidata:P1630",
     "rank": "preferred"
+  },
+  {
+    "key": "Key:ref:EU:bwid",
+    "url": "https://badplatsen.havochvatten.se/badplatsen/api/detail/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:EU:bwid",
+    "url": "https://badplatsen.havochvatten.se/badplatsen/api/testlocationprofile/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:EU:bwid",
+    "url": "https://badplatsen.havochvatten.se/badplatsen/karta/#/bath/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:EU:bwid",
+    "url": "https://dd.eionet.europa.eu/vocabularyconcept/wise/WFDProtectedArea/euProtectedAreaCode.$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
   },
   {
     "key": "Key:ref:EU:ENTSOE_EIC",
@@ -1407,6 +1587,12 @@
     "key": "Key:ref:hmdb",
     "url": "https://www.hmdb.org/m.asp?m=$1",
     "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:hr:uzkb",
+    "url": "https://registar.kulturnadobra.hr/#/details/$1",
+    "source": "osmwiki:P8",
     "rank": "normal"
   },
   {
@@ -1806,8 +1992,26 @@
     "rank": "normal"
   },
   {
+    "key": "Key:reg_name:wikipedia",
+    "url": "https://wikipedia.org/wiki/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:related:wikipedia",
+    "url": "https://wikipedia.org/wiki/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
     "key": "Key:religion:wikidata",
     "url": "https://www.wikidata.org/entity/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:removed:wikipedia",
+    "url": "https://wikipedia.org/wiki/$1",
     "source": "osmwiki:P8",
     "rank": "normal"
   },
@@ -1866,8 +2070,32 @@
     "rank": "normal"
   },
   {
+    "key": "Key:species:wikipedia",
+    "url": "https://wikipedia.org/wiki/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
     "key": "Key:subject:wikidata",
     "url": "https://www.wikidata.org/entity/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:subject:wikipedia",
+    "url": "https://wikipedia.org/wiki/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:taxon:wikipedia",
+    "url": "https://wikipedia.org/wiki/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:tunnel:wikipedia",
+    "url": "https://wiki.openstreetmap.org/wiki/Item:Q15509",
     "source": "osmwiki:P8",
     "rank": "normal"
   },
@@ -1989,6 +2217,12 @@
     "key": "Key:uic_ref",
     "url": "https://www.kapella2.hu/ehuszfelulet/?infra_id=21943&taf_id=$1",
     "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:vehicle:wikipedia",
+    "url": "https://wikipedia.org/wiki/$1",
+    "source": "osmwiki:P8",
     "rank": "normal"
   },
   {
@@ -2137,13 +2371,13 @@
   },
   {
     "key": "Key:wikimedia_commons",
-    "url": "https://commons.wikimedia.org/wiki/Category:$1",
+    "url": "https://commons.wikimedia.org/wiki/$1",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
   {
     "key": "Key:wikimedia_commons",
-    "url": "https://commons.wikimedia.org/wiki/File:$1",
+    "url": "https://commons.wikimedia.org/wiki/Category:$1",
     "source": "wikidata:P1630",
     "rank": "normal"
   },

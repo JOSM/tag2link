@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20231103T110000Z",
+  "data_updated": "20231121T120000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -14,6 +14,10 @@
       "description": "https://3dmr.eu/model/$1"
     },
     {
+      "key": "abandoned:wikipedia",
+      "description": "https://wikipedia.org/wiki/$1"
+    },
+    {
       "key": "addr:postcode",
       "description": "https://ratings.food.gov.uk/enhanced-search/en-GB/%5E/$1/Relevance/0/%5E/%5E/0/1/10"
     },
@@ -22,24 +26,64 @@
       "description": "https://www.wikidata.org/entity/$1"
     },
     {
+      "key": "amenity:wikipedia",
+      "description": "https://wikipedia.org/wiki/$1"
+    },
+    {
       "key": "architect:wikidata",
       "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "architect:wikipedia",
+      "description": "https://wikipedia.org/wiki/$1"
+    },
+    {
+      "key": "artist_name:wikipedia",
+      "description": "https://wikipedia.org/wiki/$1"
     },
     {
       "key": "artist:wikidata",
       "description": "https://www.wikidata.org/entity/$1"
     },
     {
+      "key": "artist:wikipedia",
+      "description": "https://wikipedia.org/wiki/$1"
+    },
+    {
+      "key": "author:wikipedia",
+      "description": "https://wikipedia.org/wiki/$1"
+    },
+    {
+      "key": "branch:wikipedia",
+      "description": "https://wikipedia.org/wiki/$1"
+    },
+    {
       "key": "brand:wikidata",
       "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "brand:wikipedia",
+      "description": "https://wikipedia.org/wiki/$1"
+    },
+    {
+      "key": "bridge:wikipedia",
+      "description": "https://wikipedia.org/wiki/$1"
     },
     {
       "key": "building:architecture:wikidata",
       "description": "https://www.wikidata.org/entity/$1"
     },
     {
+      "key": "building:wikipedia",
+      "description": "https://wikipedia.org/wiki/$1"
+    },
+    {
       "key": "buried:wikidata",
       "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "buried:wikipedia",
+      "description": "https://wikipedia.org/wiki/$1"
     },
     {
       "key": "commemorates:wikidata",
@@ -290,6 +334,14 @@
       "description": "https://www.wikidata.org/entity/$1"
     },
     {
+      "key": "disused:brand:wikipedia",
+      "description": "https://wikipedia.org/wiki/$1"
+    },
+    {
+      "key": "disused:wikipedia",
+      "description": "https://wikipedia.org/wiki/$1"
+    },
+    {
       "key": "esr:user",
       "description": "https://tr4.info/station/$1"
     },
@@ -314,12 +366,24 @@
       "description": "https://ratings.food.gov.uk/business/en-GB/$1"
     },
     {
+      "key": "fixme:wikipedia",
+      "description": "https://wikipedia.org/wiki/$1"
+    },
+    {
       "key": "flag:wikidata",
       "description": "https://www.wikidata.org/entity/$1"
     },
     {
+      "key": "flag:wikipedia",
+      "description": "https://wikipedia.org/wiki/$1"
+    },
+    {
       "key": "former_operator:wikidata",
       "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "founder:wikipedia",
+      "description": "https://wikipedia.org/wiki/$1"
     },
     {
       "key": "franchise:wikidata",
@@ -328,6 +392,10 @@
     {
       "key": "genus:wikidata",
       "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "genus:wikipedia",
+      "description": "https://wikipedia.org/wiki/$1"
     },
     {
       "key": "gnis:feature_id",
@@ -502,6 +570,10 @@
       "description": "https://www.wikidata.org/entity/$1"
     },
     {
+      "key": "heritage:wikipedia",
+      "description": "https://wikipedia.org/wiki/$1"
+    },
+    {
       "key": "home_club:wikidata",
       "description": "https://www.wikidata.org/entity/$1"
     },
@@ -562,10 +634,6 @@
       "description": "https://www.radarbox.com/data/airports/$1"
     },
     {
-      "key": "image",
-      "description": "https://commons.wikimedia.org/wiki/File:$1"
-    },
-    {
       "key": "instagram",
       "description": "https://www.instagram.com/$1/"
     },
@@ -582,10 +650,6 @@
       "description": "https://www.wikidata.org/entity/$1"
     },
     {
-      "key": "kartaview",
-      "description": "https://commons.wikimedia.org/wiki/File:$1"
-    },
-    {
       "key": "KKR:code",
       "description": "https://keskkonnaportaal.ee/register?kkr_kood=$1"
     },
@@ -598,8 +662,8 @@
       "description": "https://www.wikidata.org/entity/$1"
     },
     {
-      "key": "mapillary",
-      "description": "https://commons.wikimedia.org/wiki/File:$1"
+      "key": "manufacturer:wikipedia",
+      "description": "https://wikipedia.org/wiki/$1"
     },
     {
       "key": "mapillary",
@@ -614,12 +678,24 @@
       "description": "https://molendatabase.nl/nederland/molen.php?nummer=$1"
     },
     {
+      "key": "memorial:wikipedia",
+      "description": "https://wikipedia.org/wiki/$1"
+    },
+    {
+      "key": "model:wikipedia",
+      "description": "https://wikipedia.org/wiki/$1"
+    },
+    {
       "key": "MOE:id",
       "description": "https://www.educationcounts.govt.nz/find-school/school/profile?school=$1"
     },
     {
       "key": "name:etymology:wikidata",
       "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "name:etymology:wikipedia",
+      "description": "https://wikipedia.org/wiki/$1"
     },
     {
       "key": "name:start_date:source:wikidata",
@@ -634,6 +710,10 @@
       "description": "https://www.wikidata.org/entity/$1"
     },
     {
+      "key": "network:wikipedia",
+      "description": "https://wikipedia.org/wiki/$1"
+    },
+    {
       "key": "nist:fips_code",
       "description": "https://www.census.gov/quickfacts/table/PST045215/$1,00"
     },
@@ -644,6 +724,10 @@
     {
       "key": "nycdoitt:bin",
       "description": "http://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?bin=$1"
+    },
+    {
+      "key": "official_name:etymology:wikipedia",
+      "description": "https://wikipedia.org/wiki/$1"
     },
     {
       "key": "old_name:etymology:wikidata",
@@ -674,12 +758,32 @@
       "description": "https://www.wikidata.org/entity/$1"
     },
     {
+      "key": "operator:wikipedia",
+      "description": "https://wikipedia.org/wiki/$1"
+    },
+    {
+      "key": "owner:wikipedia",
+      "description": "https://wikipedia.org/wiki/$1"
+    },
+    {
       "key": "panoramax",
       "description": "https://panoramax.openstreetmap.fr/#focus=pic&pic=$1"
     },
     {
+      "key": "parish:wikipedia",
+      "description": "https://wikipedia.org/wiki/$1"
+    },
+    {
       "key": "phone",
       "description": "tel:$1"
+    },
+    {
+      "key": "railway:wikipedia",
+      "description": "https://wikipedia.org/wiki/$1"
+    },
+    {
+      "key": "razed:wikipedia",
+      "description": "https://wikipedia.org/wiki/$1"
     },
     {
       "key": "ref:admiralty",
@@ -768,6 +872,22 @@
     {
       "key": "ref:ef",
       "description": "http://www.marina.difesa.it/cosa-facciamo/per-la-difesa-sicurezza/fari/Pagine/$1.aspx"
+    },
+    {
+      "key": "ref:EU:bwid",
+      "description": "https://badplatsen.havochvatten.se/badplatsen/api/detail/$1"
+    },
+    {
+      "key": "ref:EU:bwid",
+      "description": "https://badplatsen.havochvatten.se/badplatsen/api/testlocationprofile/$1"
+    },
+    {
+      "key": "ref:EU:bwid",
+      "description": "https://badplatsen.havochvatten.se/badplatsen/karta/#/bath/$1"
+    },
+    {
+      "key": "ref:EU:bwid",
+      "description": "https://dd.eionet.europa.eu/vocabularyconcept/wise/WFDProtectedArea/euProtectedAreaCode.$1"
     },
     {
       "key": "ref:EU:ENTSOE_EIC",
@@ -948,6 +1068,10 @@
     {
       "key": "ref:hmdb",
       "description": "https://www.hmdb.org/m.asp?m=$1"
+    },
+    {
+      "key": "ref:hr:uzkb",
+      "description": "https://registar.kulturnadobra.hr/#/details/$1"
     },
     {
       "key": "ref:INEP",
@@ -1214,8 +1338,20 @@
       "description": "https://msi.nga.mil/queryBreakout?publications/world-port-index?indexNumber=$1&output=html"
     },
     {
+      "key": "reg_name:wikipedia",
+      "description": "https://wikipedia.org/wiki/$1"
+    },
+    {
+      "key": "related:wikipedia",
+      "description": "https://wikipedia.org/wiki/$1"
+    },
+    {
       "key": "religion:wikidata",
       "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "removed:wikipedia",
+      "description": "https://wikipedia.org/wiki/$1"
     },
     {
       "key": "royal_cypher:wikidata",
@@ -1254,8 +1390,24 @@
       "description": "https://www.wikidata.org/entity/$1"
     },
     {
+      "key": "species:wikipedia",
+      "description": "https://wikipedia.org/wiki/$1"
+    },
+    {
       "key": "subject:wikidata",
       "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "subject:wikipedia",
+      "description": "https://wikipedia.org/wiki/$1"
+    },
+    {
+      "key": "taxon:wikipedia",
+      "description": "https://wikipedia.org/wiki/$1"
+    },
+    {
+      "key": "tunnel:wikipedia",
+      "description": "https://wiki.openstreetmap.org/wiki/Item:Q15509"
     },
     {
       "key": "twitter",
@@ -1336,6 +1488,10 @@
     {
       "key": "uic_ref",
       "description": "https://www.kapella2.hu/ehuszfelulet/?infra_id=21943&taf_id=$1"
+    },
+    {
+      "key": "vehicle:wikipedia",
+      "description": "https://wikipedia.org/wiki/$1"
     },
     {
       "key": "vessel:mmsi",
@@ -1435,11 +1591,11 @@
     },
     {
       "key": "wikimedia_commons",
-      "description": "https://commons.wikimedia.org/wiki/Category:$1"
+      "description": "https://commons.wikimedia.org/wiki/$1"
     },
     {
       "key": "wikimedia_commons",
-      "description": "https://commons.wikimedia.org/wiki/File:$1"
+      "description": "https://commons.wikimedia.org/wiki/Category:$1"
     },
     {
       "key": "wikipedia",

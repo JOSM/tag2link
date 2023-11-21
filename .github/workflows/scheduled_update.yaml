@@ -11,6 +11,14 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 20
+      - uses: actions/setup-python@v4
+        with:
+          cache: 'pip'
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 20
+      - run: pip install rdflib requests
+      - run: python3 osm_wikidata.py
       - run: npm install
       - run: npm run build
       - run: |
