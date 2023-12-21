@@ -157,15 +157,9 @@
   },
   {
     "key": "Key:contact:instagram",
-    "url": "https://www.instagram.com/$1/",
+    "url": "https://www.instagram.com/$1",
     "source": "wikidata:P1630",
     "rank": "preferred"
-  },
-  {
-    "key": "Key:contact:instagram",
-    "url": "https://www.instagram.com/_u/$1/",
-    "source": "wikidata:P1630",
-    "rank": "normal"
   },
   {
     "key": "Key:contact:instagram",
@@ -937,15 +931,9 @@
   },
   {
     "key": "Key:instagram",
-    "url": "https://www.instagram.com/$1/",
+    "url": "https://www.instagram.com/$1",
     "source": "wikidata:P1630",
     "rank": "preferred"
-  },
-  {
-    "key": "Key:instagram",
-    "url": "https://www.instagram.com/_u/$1/",
-    "source": "wikidata:P1630",
-    "rank": "normal"
   },
   {
     "key": "Key:instagram",
@@ -1234,6 +1222,12 @@
     "url": "https://www.camptocamp.org/waypoints/$1",
     "source": "wikidata:P1630",
     "rank": "normal"
+  },
+  {
+    "key": "Key:ref:clochers.org",
+    "url": "https://www.clochers.org/Fichiers_HTML/Accueil/Accueil_clochers/$1.htm",
+    "source": "wikidata:P1630",
+    "rank": "preferred"
   },
   {
     "key": "Key:ref:clochers.org",
@@ -1880,6 +1874,12 @@
   {
     "key": "Key:ref:vatin",
     "url": "https://adisreg.mfcr.cz/adistc/adis/irs/irep_dph/dphInputForm.faces?form:dt:0:inputDic=$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:vatin",
+    "url": "https://www.fatturatoitalia.it/cerca.php?cerca=$1",
     "source": "wikidata:P3303",
     "rank": "normal"
   },

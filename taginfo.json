@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20231121T120000Z",
+  "data_updated": "20231221T080000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -115,11 +115,7 @@
     },
     {
       "key": "contact:instagram",
-      "description": "https://www.instagram.com/$1/"
-    },
-    {
-      "key": "contact:instagram",
-      "description": "https://www.instagram.com/_u/$1/"
+      "description": "https://www.instagram.com/$1"
     },
     {
       "key": "contact:instagram",
@@ -635,11 +631,7 @@
     },
     {
       "key": "instagram",
-      "description": "https://www.instagram.com/$1/"
-    },
-    {
-      "key": "instagram",
-      "description": "https://www.instagram.com/_u/$1/"
+      "description": "https://www.instagram.com/$1"
     },
     {
       "key": "instagram",
@@ -832,6 +824,10 @@
     {
       "key": "ref:camptocamp",
       "description": "https://www.camptocamp.org/waypoints/$1"
+    },
+    {
+      "key": "ref:clochers.org",
+      "description": "https://www.clochers.org/Fichiers_HTML/Accueil/Accueil_clochers/$1.htm"
     },
     {
       "key": "ref:clochers.org",
@@ -1264,6 +1260,10 @@
     {
       "key": "ref:vatin",
       "description": "https://adisreg.mfcr.cz/adistc/adis/irs/irep_dph/dphInputForm.faces?form:dt:0:inputDic=$1"
+    },
+    {
+      "key": "ref:vatin",
+      "description": "https://www.fatturatoitalia.it/cerca.php?cerca=$1"
     },
     {
       "key": "ref:WDPA",
