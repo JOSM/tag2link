@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20231221T080000Z",
+  "data_updated": "20240121T080000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -76,10 +76,6 @@
     {
       "key": "building:wikipedia",
       "description": "https://wikipedia.org/wiki/$1"
-    },
-    {
-      "key": "buried:wikidata",
-      "description": "https://www.wikidata.org/entity/$1"
     },
     {
       "key": "buried:wikipedia",
@@ -455,11 +451,11 @@
     },
     {
       "key": "hashtags",
-      "description": "https://mastodon.social/tags/$1"
+      "description": "https://openbenches.org/tag/$1"
     },
     {
       "key": "hashtags",
-      "description": "https://openbenches.org/tag/$1"
+      "description": "https://pinboard.in/t:$1/"
     },
     {
       "key": "hashtags",
@@ -915,7 +911,7 @@
     },
     {
       "key": "ref:FR:ANFR",
-      "description": "https://data.anfr.fr/anfr/visualisation/map/?id=observatoire_2g_3g_4g&refine.SUP_ID=$1"
+      "description": "https://data.anfr.fr/visualisation/map/?id=observatoire_2g_3g_4g&refine.SUP_ID=$1"
     },
     {
       "key": "ref:FR:CEF",
@@ -1043,6 +1039,10 @@
     },
     {
       "key": "ref:GB:uprn",
+      "description": "https://www.findmystreet.co.uk/map?usrn=$1"
+    },
+    {
+      "key": "ref:GB:usrn",
       "description": "https://www.findmystreet.co.uk/map?usrn=$1"
     },
     {

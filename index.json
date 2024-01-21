@@ -102,12 +102,6 @@
     "rank": "normal"
   },
   {
-    "key": "Key:buried:wikidata",
-    "url": "https://www.wikidata.org/entity/$1",
-    "source": "osmwiki:P8",
-    "rank": "normal"
-  },
-  {
     "key": "Key:buried:wikipedia",
     "url": "https://wikipedia.org/wiki/$1",
     "source": "osmwiki:P8",
@@ -667,13 +661,13 @@
   },
   {
     "key": "Key:hashtags",
-    "url": "https://mastodon.social/tags/$1",
+    "url": "https://openbenches.org/tag/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
   },
   {
     "key": "Key:hashtags",
-    "url": "https://openbenches.org/tag/$1",
+    "url": "https://pinboard.in/t:$1/",
     "source": "wikidata:P3303",
     "rank": "normal"
   },
@@ -1357,7 +1351,7 @@
   },
   {
     "key": "Key:ref:FR:ANFR",
-    "url": "https://data.anfr.fr/anfr/visualisation/map/?id=observatoire_2g_3g_4g&refine.SUP_ID=$1",
+    "url": "https://data.anfr.fr/visualisation/map/?id=observatoire_2g_3g_4g&refine.SUP_ID=$1",
     "source": "osmwiki:P8",
     "rank": "normal"
   },
@@ -1552,6 +1546,12 @@
     "url": "https://www.findmystreet.co.uk/map?usrn=$1",
     "source": "wikidata:P1630",
     "rank": "normal"
+  },
+  {
+    "key": "Key:ref:GB:usrn",
+    "url": "https://www.findmystreet.co.uk/map?usrn=$1",
+    "source": "wikidata:P1630",
+    "rank": "preferred"
   },
   {
     "key": "Key:ref:GB:usrn",
