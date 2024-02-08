@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20240121T080000Z",
+  "data_updated": "20240208T200000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -42,6 +42,10 @@
       "description": "https://wikipedia.org/wiki/$1"
     },
     {
+      "key": "artist:website",
+      "description": "$1"
+    },
+    {
       "key": "artist:wikidata",
       "description": "https://www.wikidata.org/entity/$1"
     },
@@ -54,8 +58,16 @@
       "description": "https://wikipedia.org/wiki/$1"
     },
     {
+      "key": "blind:website:lg",
+      "description": "$1"
+    },
+    {
       "key": "branch:wikipedia",
       "description": "https://wikipedia.org/wiki/$1"
+    },
+    {
+      "key": "brand:website",
+      "description": "$1"
     },
     {
       "key": "brand:wikidata",
@@ -78,12 +90,20 @@
       "description": "https://wikipedia.org/wiki/$1"
     },
     {
+      "key": "buried:wikidata",
+      "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
       "key": "buried:wikipedia",
       "description": "https://wikipedia.org/wiki/$1"
     },
     {
       "key": "commemorates:wikidata",
       "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "construction:website",
+      "description": "$1"
     },
     {
       "key": "contact:facebook",
@@ -247,6 +267,18 @@
     },
     {
       "key": "contact:twitter",
+      "description": "https://twitter.com/@$1"
+    },
+    {
+      "key": "contact:twitter",
+      "description": "https://twitter.com/#!/$1"
+    },
+    {
+      "key": "contact:twitter",
+      "description": "https://twitter.com/intent/user?screen_name=$1"
+    },
+    {
+      "key": "contact:twitter",
       "description": "https://unavatar.now.sh/twitter/$1"
     },
     {
@@ -259,15 +291,11 @@
     },
     {
       "key": "contact:twitter",
-      "description": "https://x.com/#!/$1"
-    },
-    {
-      "key": "contact:twitter",
       "description": "https://x.com/$1"
     },
     {
-      "key": "contact:twitter",
-      "description": "https://x.com/intent/user?screen_name=$1"
+      "key": "contact:website",
+      "description": "$1"
     },
     {
       "key": "contact:website",
@@ -371,6 +399,10 @@
     },
     {
       "key": "former_operator:wikidata",
+      "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "former_operator:wikipedia",
       "description": "https://www.wikidata.org/entity/$1"
     },
     {
@@ -543,7 +575,7 @@
     },
     {
       "key": "HE_ref",
-      "description": "https://www.historicengland.org.uk/listing/the-list/list-entry/$1"
+      "description": "https://historicengland.org.uk/listing/the-list/list-entry/$1"
     },
     {
       "key": "HE_ref",
@@ -560,6 +592,18 @@
     {
       "key": "heritage:operator:wikidata",
       "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "heritage:website",
+      "description": "$1"
+    },
+    {
+      "key": "heritage:website:arqueologia",
+      "description": "$1"
+    },
+    {
+      "key": "heritage:website:sipa",
+      "description": "$1"
     },
     {
       "key": "heritage:wikipedia",
@@ -666,8 +710,16 @@
       "description": "https://molendatabase.nl/nederland/molen.php?nummer=$1"
     },
     {
+      "key": "memorial:website",
+      "description": "$1"
+    },
+    {
       "key": "memorial:wikipedia",
       "description": "https://wikipedia.org/wiki/$1"
+    },
+    {
+      "key": "model:wikidata",
+      "description": "https://www.wikidata.org/entity/$1"
     },
     {
       "key": "model:wikipedia",
@@ -692,6 +744,10 @@
     {
       "key": "name:wikidata",
       "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "name:wikipedia",
+      "description": "https://wikipedia.org/wiki/$1"
     },
     {
       "key": "network:wikidata",
@@ -734,12 +790,20 @@
       "description": "https://openingh.openstreetmap.de/evaluation_tool/?EXP=$1"
     },
     {
+      "key": "opening_hours:url",
+      "description": "$1"
+    },
+    {
       "key": "openplaques:id",
       "description": "https://openplaques.org/plaques/$1"
     },
     {
       "key": "openplaques:id",
       "description": "https://openplaques.org/plaques/$1"
+    },
+    {
+      "key": "operator:website",
+      "description": "$1"
     },
     {
       "key": "operator:wikidata",
@@ -762,8 +826,16 @@
       "description": "https://wikipedia.org/wiki/$1"
     },
     {
+      "key": "payment:website",
+      "description": "$1"
+    },
+    {
       "key": "phone",
       "description": "tel:$1"
+    },
+    {
+      "key": "piste:website",
+      "description": "$1"
     },
     {
       "key": "railway:wikipedia",
@@ -1019,7 +1091,7 @@
     },
     {
       "key": "ref:GB:nhle",
-      "description": "https://www.historicengland.org.uk/listing/the-list/list-entry/$1"
+      "description": "https://historicengland.org.uk/listing/the-list/list-entry/$1"
     },
     {
       "key": "ref:GB:nhle",
@@ -1338,6 +1410,10 @@
       "description": "https://msi.nga.mil/queryBreakout?publications/world-port-index?indexNumber=$1&output=html"
     },
     {
+      "key": "reference:water_level:website",
+      "description": "$1"
+    },
+    {
       "key": "reg_name:wikipedia",
       "description": "https://wikipedia.org/wiki/$1"
     },
@@ -1384,6 +1460,10 @@
     {
       "key": "snowplowing:operator:wikidata",
       "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "source:website",
+      "description": "$1"
     },
     {
       "key": "species:wikidata",
@@ -1451,6 +1531,18 @@
     },
     {
       "key": "twitter",
+      "description": "https://twitter.com/@$1"
+    },
+    {
+      "key": "twitter",
+      "description": "https://twitter.com/#!/$1"
+    },
+    {
+      "key": "twitter",
+      "description": "https://twitter.com/intent/user?screen_name=$1"
+    },
+    {
+      "key": "twitter",
       "description": "https://unavatar.now.sh/twitter/$1"
     },
     {
@@ -1463,15 +1555,7 @@
     },
     {
       "key": "twitter",
-      "description": "https://x.com/#!/$1"
-    },
-    {
-      "key": "twitter",
       "description": "https://x.com/$1"
-    },
-    {
-      "key": "twitter",
-      "description": "https://x.com/intent/user?screen_name=$1"
     },
     {
       "key": "uic_ref",
@@ -1488,6 +1572,10 @@
     {
       "key": "uic_ref",
       "description": "https://www.kapella2.hu/ehuszfelulet/?infra_id=21943&taf_id=$1"
+    },
+    {
+      "key": "url:bathing_water",
+      "description": "$1"
     },
     {
       "key": "vehicle:wikipedia",
@@ -1510,6 +1598,10 @@
       "description": "https://www.wikidata.org/entity/$1"
     },
     {
+      "key": "was:brand:wikipedia",
+      "description": "https://wikipedia.org/wiki/$1"
+    },
+    {
       "key": "website",
       "description": "$1"
     },
@@ -1524,6 +1616,66 @@
     {
       "key": "website",
       "description": "https://webcache.googleusercontent.com/search?q=cache:$1"
+    },
+    {
+      "key": "website:booking",
+      "description": "$1"
+    },
+    {
+      "key": "website:de",
+      "description": "$1"
+    },
+    {
+      "key": "website:en",
+      "description": "$1"
+    },
+    {
+      "key": "website:facebook",
+      "description": "$1"
+    },
+    {
+      "key": "website:map",
+      "description": "$1"
+    },
+    {
+      "key": "website:menu",
+      "description": "$1"
+    },
+    {
+      "key": "website:network",
+      "description": "$1"
+    },
+    {
+      "key": "website:official",
+      "description": "$1"
+    },
+    {
+      "key": "website:operator",
+      "description": "$1"
+    },
+    {
+      "key": "website:orders",
+      "description": "$1"
+    },
+    {
+      "key": "website:regulation",
+      "description": "$1"
+    },
+    {
+      "key": "website:ru",
+      "description": "$1"
+    },
+    {
+      "key": "website:source",
+      "description": "$1"
+    },
+    {
+      "key": "website:stock",
+      "description": "$1"
+    },
+    {
+      "key": "website:tripadvisor",
+      "description": "$1"
     },
     {
       "key": "wiki:symbol",
@@ -1588,6 +1740,10 @@
     {
       "key": "wikidata",
       "description": "https://www.wikidata.org/wiki/Special:Nearby#/page/$1"
+    },
+    {
+      "key": "wikimedia_commons",
+      "description": "https://commons.wikimedia.org/wiki/$1"
     },
     {
       "key": "wikimedia_commons",

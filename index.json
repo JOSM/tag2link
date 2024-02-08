@@ -48,6 +48,12 @@
     "rank": "normal"
   },
   {
+    "key": "Key:artist:website",
+    "url": "$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
     "key": "Key:artist:wikidata",
     "url": "https://www.wikidata.org/entity/$1",
     "source": "osmwiki:P8",
@@ -66,8 +72,20 @@
     "rank": "normal"
   },
   {
+    "key": "Key:blind:website:lg",
+    "url": "$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
     "key": "Key:branch:wikipedia",
     "url": "https://wikipedia.org/wiki/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:brand:website",
+    "url": "$1",
     "source": "osmwiki:P8",
     "rank": "normal"
   },
@@ -102,6 +120,12 @@
     "rank": "normal"
   },
   {
+    "key": "Key:buried:wikidata",
+    "url": "https://www.wikidata.org/entity/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
     "key": "Key:buried:wikipedia",
     "url": "https://wikipedia.org/wiki/$1",
     "source": "osmwiki:P8",
@@ -110,6 +134,12 @@
   {
     "key": "Key:commemorates:wikidata",
     "url": "https://www.wikidata.org/entity/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:construction:website",
+    "url": "$1",
     "source": "osmwiki:P8",
     "rank": "normal"
   },
@@ -355,6 +385,24 @@
   },
   {
     "key": "Key:contact:twitter",
+    "url": "https://twitter.com/@$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:contact:twitter",
+    "url": "https://twitter.com/#!/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:contact:twitter",
+    "url": "https://twitter.com/intent/user?screen_name=$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:contact:twitter",
     "url": "https://unavatar.now.sh/twitter/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
@@ -373,19 +421,7 @@
   },
   {
     "key": "Key:contact:twitter",
-    "url": "https://x.com/#!/$1",
-    "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:contact:twitter",
     "url": "https://x.com/$1",
-    "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:contact:twitter",
-    "url": "https://x.com/intent/user?screen_name=$1",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
@@ -394,6 +430,12 @@
     "url": "$1",
     "source": "wikidata:P3303",
     "rank": "preferred"
+  },
+  {
+    "key": "Key:contact:website",
+    "url": "$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
   },
   {
     "key": "Key:contact:website",
@@ -541,6 +583,12 @@
   },
   {
     "key": "Key:former_operator:wikidata",
+    "url": "https://www.wikidata.org/entity/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:former_operator:wikipedia",
     "url": "https://www.wikidata.org/entity/$1",
     "source": "osmwiki:P8",
     "rank": "normal"
@@ -799,7 +847,7 @@
   },
   {
     "key": "Key:HE_ref",
-    "url": "https://www.historicengland.org.uk/listing/the-list/list-entry/$1",
+    "url": "https://historicengland.org.uk/listing/the-list/list-entry/$1",
     "source": "wikidata:P1630",
     "rank": "preferred"
   },
@@ -824,6 +872,24 @@
   {
     "key": "Key:heritage:operator:wikidata",
     "url": "https://www.wikidata.org/entity/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:heritage:website",
+    "url": "$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:heritage:website:arqueologia",
+    "url": "$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:heritage:website:sipa",
+    "url": "$1",
     "source": "osmwiki:P8",
     "rank": "normal"
   },
@@ -984,8 +1050,20 @@
     "rank": "normal"
   },
   {
+    "key": "Key:memorial:website",
+    "url": "$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
     "key": "Key:memorial:wikipedia",
     "url": "https://wikipedia.org/wiki/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:model:wikidata",
+    "url": "https://www.wikidata.org/entity/$1",
     "source": "osmwiki:P8",
     "rank": "normal"
   },
@@ -1022,6 +1100,12 @@
   {
     "key": "Key:name:wikidata",
     "url": "https://www.wikidata.org/entity/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:name:wikipedia",
+    "url": "https://wikipedia.org/wiki/$1",
     "source": "osmwiki:P8",
     "rank": "normal"
   },
@@ -1086,6 +1170,12 @@
     "rank": "normal"
   },
   {
+    "key": "Key:opening_hours:url",
+    "url": "$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
     "key": "Key:openplaques:id",
     "url": "https://openplaques.org/plaques/$1",
     "source": "osmwiki:P8",
@@ -1095,6 +1185,12 @@
     "key": "Key:openplaques:id",
     "url": "https://openplaques.org/plaques/$1",
     "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:operator:website",
+    "url": "$1",
+    "source": "osmwiki:P8",
     "rank": "normal"
   },
   {
@@ -1128,9 +1224,21 @@
     "rank": "normal"
   },
   {
+    "key": "Key:payment:website",
+    "url": "$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
     "key": "Key:phone",
     "url": "tel:$1",
     "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:piste:website",
+    "url": "$1",
+    "source": "osmwiki:P8",
     "rank": "normal"
   },
   {
@@ -1513,7 +1621,7 @@
   },
   {
     "key": "Key:ref:GB:nhle",
-    "url": "https://www.historicengland.org.uk/listing/the-list/list-entry/$1",
+    "url": "https://historicengland.org.uk/listing/the-list/list-entry/$1",
     "source": "wikidata:P1630",
     "rank": "preferred"
   },
@@ -1992,6 +2100,12 @@
     "rank": "normal"
   },
   {
+    "key": "Key:reference:water_level:website",
+    "url": "$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
     "key": "Key:reg_name:wikipedia",
     "url": "https://wikipedia.org/wiki/$1",
     "source": "osmwiki:P8",
@@ -2060,6 +2174,12 @@
   {
     "key": "Key:snowplowing:operator:wikidata",
     "url": "https://www.wikidata.org/entity/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:source:website",
+    "url": "$1",
     "source": "osmwiki:P8",
     "rank": "normal"
   },
@@ -2161,6 +2281,24 @@
   },
   {
     "key": "Key:twitter",
+    "url": "https://twitter.com/@$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:twitter",
+    "url": "https://twitter.com/#!/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:twitter",
+    "url": "https://twitter.com/intent/user?screen_name=$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:twitter",
     "url": "https://unavatar.now.sh/twitter/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
@@ -2179,19 +2317,7 @@
   },
   {
     "key": "Key:twitter",
-    "url": "https://x.com/#!/$1",
-    "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:twitter",
     "url": "https://x.com/$1",
-    "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:twitter",
-    "url": "https://x.com/intent/user?screen_name=$1",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
@@ -2217,6 +2343,12 @@
     "key": "Key:uic_ref",
     "url": "https://www.kapella2.hu/ehuszfelulet/?infra_id=21943&taf_id=$1",
     "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:url:bathing_water",
+    "url": "$1",
+    "source": "osmwiki:P8",
     "rank": "normal"
   },
   {
@@ -2250,6 +2382,12 @@
     "rank": "normal"
   },
   {
+    "key": "Key:was:brand:wikipedia",
+    "url": "https://wikipedia.org/wiki/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
     "key": "Key:website",
     "url": "$1",
     "source": "wikidata:P3303",
@@ -2271,6 +2409,96 @@
     "key": "Key:website",
     "url": "https://webcache.googleusercontent.com/search?q=cache:$1",
     "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:website:booking",
+    "url": "$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:website:de",
+    "url": "$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:website:en",
+    "url": "$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:website:facebook",
+    "url": "$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:website:map",
+    "url": "$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:website:menu",
+    "url": "$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:website:network",
+    "url": "$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:website:official",
+    "url": "$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:website:operator",
+    "url": "$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:website:orders",
+    "url": "$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:website:regulation",
+    "url": "$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:website:ru",
+    "url": "$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:website:source",
+    "url": "$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:website:stock",
+    "url": "$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:website:tripadvisor",
+    "url": "$1",
+    "source": "osmwiki:P8",
     "rank": "normal"
   },
   {
@@ -2367,6 +2595,12 @@
     "key": "Key:wikidata",
     "url": "https://www.wikidata.org/wiki/Special:Nearby#/page/$1",
     "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:wikimedia_commons",
+    "url": "https://commons.wikimedia.org/wiki/$1",
+    "source": "osmwiki:P8",
     "rank": "normal"
   },
   {
