@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20240208T200000Z",
+  "data_updated": "20240221T080000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -427,7 +427,19 @@
     },
     {
       "key": "gnis:feature_id",
+      "description": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/$1"
+    },
+    {
+      "key": "gnis:feature_id",
       "description": "http://gnis-ld.org/lod/gnis/feature/$1"
+    },
+    {
+      "key": "gnis:feature_id",
+      "description": "http://gnis-ld.org/lod/gnis/feature/$1"
+    },
+    {
+      "key": "gnis:feature_id",
+      "description": "https://www.wikidata.org/w/index.php?search=haswbstatement%3A%22P590%3D$1%22&ns0=1&ns120=1"
     },
     {
       "key": "GNS:id",
@@ -819,7 +831,7 @@
     },
     {
       "key": "panoramax",
-      "description": "https://panoramax.openstreetmap.fr/#focus=pic&pic=$1"
+      "description": "https://api.panoramax.xyz/#focus=pic&pic=$1"
     },
     {
       "key": "parish:wikipedia",
@@ -1140,6 +1152,10 @@
     {
       "key": "ref:hr:uzkb",
       "description": "https://registar.kulturnadobra.hr/#/details/$1"
+    },
+    {
+      "key": "ref:IFOPT",
+      "description": "https://www.fahrplanauskunft-mv.de/vmvsl3plus/departureMonitor?formik=origin%3D$1&lng=en"
     },
     {
       "key": "ref:INEP",

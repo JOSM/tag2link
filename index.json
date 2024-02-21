@@ -158,7 +158,7 @@
   {
     "key": "Key:contact:facebook",
     "url": "https://www.messenger.com/t/$1",
-    "source": "wikidata:P3303",
+    "source": "wikidata:P1630",
     "rank": "normal"
   },
   {
@@ -620,13 +620,31 @@
   {
     "key": "Key:gnis:feature_id",
     "url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/$1",
+    "source": "osmwiki:P8",
+    "rank": "preferred"
+  },
+  {
+    "key": "Key:gnis:feature_id",
+    "url": "https://edits.nationalmap.gov/apps/gaz-domestic/public/summary/$1",
     "source": "wikidata:P1630",
     "rank": "preferred"
   },
   {
     "key": "Key:gnis:feature_id",
     "url": "http://gnis-ld.org/lod/gnis/feature/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:gnis:feature_id",
+    "url": "http://gnis-ld.org/lod/gnis/feature/$1",
     "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:gnis:feature_id",
+    "url": "https://www.wikidata.org/w/index.php?search=haswbstatement%3A%22P590%3D$1%22&ns0=1&ns120=1",
+    "source": "osmwiki:P8",
     "rank": "normal"
   },
   {
@@ -1213,7 +1231,7 @@
   },
   {
     "key": "Key:panoramax",
-    "url": "https://panoramax.openstreetmap.fr/#focus=pic&pic=$1",
+    "url": "https://api.panoramax.xyz/#focus=pic&pic=$1",
     "source": "osmwiki:P8",
     "rank": "normal"
   },
@@ -1695,6 +1713,12 @@
     "key": "Key:ref:hr:uzkb",
     "url": "https://registar.kulturnadobra.hr/#/details/$1",
     "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:IFOPT",
+    "url": "https://www.fahrplanauskunft-mv.de/vmvsl3plus/departureMonitor?formik=origin%3D$1&lng=en",
+    "source": "wikidata:P1630",
     "rank": "normal"
   },
   {
