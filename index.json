@@ -145,14 +145,14 @@
   },
   {
     "key": "Key:contact:facebook",
-    "url": "https://unavatar.now.sh/facebook/$1",
-    "source": "wikidata:P3303",
-    "rank": "normal"
+    "url": "https://www.facebook.com/$1",
+    "source": "wikidata:P1630",
+    "rank": "preferred"
   },
   {
     "key": "Key:contact:facebook",
-    "url": "https://www.facebook.com/$1",
-    "source": "wikidata:P1630",
+    "url": "https://unavatar.now.sh/facebook/$1",
+    "source": "wikidata:P3303",
     "rank": "normal"
   },
   {
@@ -1278,6 +1278,12 @@
     "rank": "normal"
   },
   {
+    "key": "Key:ref:AQ:apa",
+    "url": "https://www.ats.aq/devph/en/apa-database/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
     "key": "Key:ref:arlhs",
     "url": "http://wlol.arlhs.com/lighthouse/$1.html",
     "source": "wikidata:P1630",
@@ -1435,7 +1441,7 @@
   },
   {
     "key": "Key:ref:EU:ENTSOE_EIC",
-    "url": "https://transparency.ontotext.com/resource/eic/$1",
+    "url": "https://explore.data.gouv.fr/fr/tableau?url=https%3A%2F%2Fwww.data.gouv.fr%2Ffr%2Fdatasets%2Fr%2Fc14e5a7d-2ca6-4ad8-bc61-93889d13fc25&codeeicresourceobject__exact=$1",
     "source": "wikidata:P1630",
     "rank": "preferred"
   },
@@ -1771,26 +1777,86 @@
   },
   {
     "key": "Key:ref:isil",
-    "url": "https://w3id.org/isil/$1",
-    "source": "wikidata:P3303",
-    "rank": "preferred"
+    "url": "http://anagrafe.iccu.sbn.it/isil/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
   },
   {
     "key": "Key:ref:isil",
-    "url": "http://lobid.org/organisations/$1",
-    "source": "wikidata:P3303",
+    "url": "http://dispatch.opac.d-nb.de/DB=1.2/CMD?ACT=SRCHA&IKT=8529&TRM=$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:isil",
+    "url": "http://id.ndl.go.jp/vocab/isil/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:isil",
+    "url": "http://isil.kansalliskirjasto.fi/api/query?isil=$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:isil",
+    "url": "http://isil.kbr.be/$1",
+    "source": "wikidata:P1630",
     "rank": "normal"
   },
   {
     "key": "Key:ref:isil",
     "url": "http://sigel.staatsbibliothek-berlin.de/nc/suche/?isil=$1",
-    "source": "wikidata:P3303",
+    "source": "wikidata:P1630",
     "rank": "normal"
   },
   {
     "key": "Key:ref:isil",
     "url": "https://culture.ld.admin.ch/isil/$1",
     "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:isil",
+    "url": "https://lobid.org/organisation/$1/about",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:isil",
+    "url": "https://w3id.org/isil/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:isil",
+    "url": "https://w3id.org/isil/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:isil",
+    "url": "https://w3id.org/isil/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:isil",
+    "url": "https://w3id.org/isil/AU-$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:isil",
+    "url": "https://wikidata-externalid-url.toolforge.org/?url=http%3A%2F%2Fwww.sudoc.abes.fr%2Fcbs%2Fxslt%2F%2FDB%3D2.2%2FCMD%3FACT%3DSRCHA%26IKT%3D8888%26SRT%3DRLV%26TRM%3D%251&exp=%5EFR-(%5Cd%7B9%7D)&id=$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:kozterkep",
+    "url": "https://www.kozterkep.hu/$1",
+    "source": "osmwiki:P8",
     "rank": "normal"
   },
   {
@@ -1802,12 +1868,6 @@
   {
     "key": "Key:ref:linz:place_id",
     "url": "https://gazetteer.linz.govt.nz/place/$1",
-    "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:ref:LOCODE",
-    "url": "https://locode.info/$1",
     "source": "wikidata:P1630",
     "rank": "normal"
   },

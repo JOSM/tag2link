@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20240221T080000Z",
+  "data_updated": "20240321T080000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -107,11 +107,11 @@
     },
     {
       "key": "contact:facebook",
-      "description": "https://unavatar.now.sh/facebook/$1"
+      "description": "https://www.facebook.com/$1"
     },
     {
       "key": "contact:facebook",
-      "description": "https://www.facebook.com/$1"
+      "description": "https://unavatar.now.sh/facebook/$1"
     },
     {
       "key": "contact:facebook",
@@ -862,6 +862,10 @@
       "description": "http://listoflights.org/site/search?q=$1"
     },
     {
+      "key": "ref:AQ:apa",
+      "description": "https://www.ats.aq/devph/en/apa-database/$1"
+    },
+    {
       "key": "ref:arlhs",
       "description": "http://wlol.arlhs.com/lighthouse/$1.html"
     },
@@ -967,7 +971,7 @@
     },
     {
       "key": "ref:EU:ENTSOE_EIC",
-      "description": "https://transparency.ontotext.com/resource/eic/$1"
+      "description": "https://explore.data.gouv.fr/fr/tableau?url=https%3A%2F%2Fwww.data.gouv.fr%2Ffr%2Fdatasets%2Fr%2Fc14e5a7d-2ca6-4ad8-bc61-93889d13fc25&codeeicresourceobject__exact=$1"
     },
     {
       "key": "ref:EU:ENTSOE_EIC",
@@ -1191,11 +1195,23 @@
     },
     {
       "key": "ref:isil",
-      "description": "https://w3id.org/isil/$1"
+      "description": "http://anagrafe.iccu.sbn.it/isil/$1"
     },
     {
       "key": "ref:isil",
-      "description": "http://lobid.org/organisations/$1"
+      "description": "http://dispatch.opac.d-nb.de/DB=1.2/CMD?ACT=SRCHA&IKT=8529&TRM=$1"
+    },
+    {
+      "key": "ref:isil",
+      "description": "http://id.ndl.go.jp/vocab/isil/$1"
+    },
+    {
+      "key": "ref:isil",
+      "description": "http://isil.kansalliskirjasto.fi/api/query?isil=$1"
+    },
+    {
+      "key": "ref:isil",
+      "description": "http://isil.kbr.be/$1"
     },
     {
       "key": "ref:isil",
@@ -1206,16 +1222,40 @@
       "description": "https://culture.ld.admin.ch/isil/$1"
     },
     {
+      "key": "ref:isil",
+      "description": "https://lobid.org/organisation/$1/about"
+    },
+    {
+      "key": "ref:isil",
+      "description": "https://w3id.org/isil/$1"
+    },
+    {
+      "key": "ref:isil",
+      "description": "https://w3id.org/isil/$1"
+    },
+    {
+      "key": "ref:isil",
+      "description": "https://w3id.org/isil/$1"
+    },
+    {
+      "key": "ref:isil",
+      "description": "https://w3id.org/isil/AU-$1"
+    },
+    {
+      "key": "ref:isil",
+      "description": "https://wikidata-externalid-url.toolforge.org/?url=http%3A%2F%2Fwww.sudoc.abes.fr%2Fcbs%2Fxslt%2F%2FDB%3D2.2%2FCMD%3FACT%3DSRCHA%26IKT%3D8888%26SRT%3DRLV%26TRM%3D%251&exp=%5EFR-(%5Cd%7B9%7D)&id=$1"
+    },
+    {
+      "key": "ref:kozterkep",
+      "description": "https://www.kozterkep.hu/$1"
+    },
+    {
       "key": "ref:lfd",
       "description": "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=$1"
     },
     {
       "key": "ref:linz:place_id",
       "description": "https://gazetteer.linz.govt.nz/place/$1"
-    },
-    {
-      "key": "ref:LOCODE",
-      "description": "https://locode.info/$1"
     },
     {
       "key": "ref:mhs",
