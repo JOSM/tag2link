@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20240321T080000Z",
+  "data_updated": "20240421T080000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -16,10 +16,6 @@
     {
       "key": "abandoned:wikipedia",
       "description": "https://wikipedia.org/wiki/$1"
-    },
-    {
-      "key": "addr:postcode",
-      "description": "https://ratings.food.gov.uk/enhanced-search/en-GB/%5E/$1/Relevance/0/%5E/%5E/0/1/10"
     },
     {
       "key": "addr:street:wikidata",
@@ -131,7 +127,7 @@
     },
     {
       "key": "contact:instagram",
-      "description": "https://www.instagram.com/$1"
+      "description": "https://www.instagram.com/$1/"
     },
     {
       "key": "contact:instagram",
@@ -140,10 +136,6 @@
     {
       "key": "contact:mastodon",
       "description": "https://wikidata-externalid-url.toolforge.org/?p=4033&id=$1"
-    },
-    {
-      "key": "contact:mastodon",
-      "description": "https://mastodon.social/@$1"
     },
     {
       "key": "contact:phone",
@@ -383,6 +375,10 @@
     },
     {
       "key": "fhrs:id",
+      "description": "https://ratings.food.gov.uk/business/$1"
+    },
+    {
+      "key": "fhrs:id",
       "description": "https://ratings.food.gov.uk/business/en-GB/$1"
     },
     {
@@ -440,6 +436,10 @@
     {
       "key": "gnis:feature_id",
       "description": "https://www.wikidata.org/w/index.php?search=haswbstatement%3A%22P590%3D$1%22&ns0=1&ns120=1"
+    },
+    {
+      "key": "GNS:id",
+      "description": "https://geonames.nga.mil/geon-ags/rest/services/RESEARCH/GIS_OUTPUT/MapServer/0/query?outFields=*&where=ufi+%3D+$1"
     },
     {
       "key": "GNS:id",
@@ -683,7 +683,7 @@
     },
     {
       "key": "instagram",
-      "description": "https://www.instagram.com/$1"
+      "description": "https://www.instagram.com/$1/"
     },
     {
       "key": "instagram",
@@ -1246,6 +1246,10 @@
       "description": "https://wikidata-externalid-url.toolforge.org/?url=http%3A%2F%2Fwww.sudoc.abes.fr%2Fcbs%2Fxslt%2F%2FDB%3D2.2%2FCMD%3FACT%3DSRCHA%26IKT%3D8888%26SRT%3DRLV%26TRM%3D%251&exp=%5EFR-(%5Cd%7B9%7D)&id=$1"
     },
     {
+      "key": "ref:kons",
+      "description": "http://aplikacija.kons.gov.ba/kons/public/nacionalnispomenici/show/$1"
+    },
+    {
       "key": "ref:kozterkep",
       "description": "https://www.kozterkep.hu/$1"
     },
@@ -1371,6 +1375,14 @@
     },
     {
       "key": "ref:US:EIA",
+      "description": "https://www.datacommons.org/browser/eia/pp/$1"
+    },
+    {
+      "key": "ref:US:EIA",
+      "description": "https://www.eia.gov/electricity/data/browser/#/plant/$1"
+    },
+    {
+      "key": "ref:US:EIA",
       "description": "https://www.eia.gov/electricity/data/browser/#/plant/$1"
     },
     {
@@ -1384,6 +1396,10 @@
     {
       "key": "ref:US:NID",
       "description": "https://nid.sec.usace.army.mil/#/dams/system/$1/summary"
+    },
+    {
+      "key": "ref:US:NLD",
+      "description": "https://levees.sec.usace.army.mil/levees/$1"
     },
     {
       "key": "ref:vatin",

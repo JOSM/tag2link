@@ -12,12 +12,6 @@
     "rank": "normal"
   },
   {
-    "key": "Key:addr:postcode",
-    "url": "https://ratings.food.gov.uk/enhanced-search/en-GB/%5E/$1/Relevance/0/%5E/%5E/0/1/10",
-    "source": "osmwiki:P8",
-    "rank": "normal"
-  },
-  {
     "key": "Key:addr:street:wikidata",
     "url": "https://www.wikidata.org/entity/$1",
     "source": "osmwiki:P8",
@@ -181,7 +175,7 @@
   },
   {
     "key": "Key:contact:instagram",
-    "url": "https://www.instagram.com/$1",
+    "url": "https://www.instagram.com/$1/",
     "source": "wikidata:P1630",
     "rank": "preferred"
   },
@@ -194,12 +188,6 @@
   {
     "key": "Key:contact:mastodon",
     "url": "https://wikidata-externalid-url.toolforge.org/?p=4033&id=$1",
-    "source": "wikidata:P1630",
-    "rank": "preferred"
-  },
-  {
-    "key": "Key:contact:mastodon",
-    "url": "https://mastodon.social/@$1",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
@@ -559,6 +547,12 @@
   },
   {
     "key": "Key:fhrs:id",
+    "url": "https://ratings.food.gov.uk/business/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:fhrs:id",
     "url": "https://ratings.food.gov.uk/business/en-GB/$1",
     "source": "osmwiki:P8",
     "rank": "normal"
@@ -646,6 +640,12 @@
     "url": "https://www.wikidata.org/w/index.php?search=haswbstatement%3A%22P590%3D$1%22&ns0=1&ns120=1",
     "source": "osmwiki:P8",
     "rank": "normal"
+  },
+  {
+    "key": "Key:GNS:id",
+    "url": "https://geonames.nga.mil/geon-ags/rest/services/RESEARCH/GIS_OUTPUT/MapServer/0/query?outFields=*&where=ufi+%3D+$1",
+    "source": "wikidata:P1630",
+    "rank": "preferred"
   },
   {
     "key": "Key:GNS:id",
@@ -1009,7 +1009,7 @@
   },
   {
     "key": "Key:instagram",
-    "url": "https://www.instagram.com/$1",
+    "url": "https://www.instagram.com/$1/",
     "source": "wikidata:P1630",
     "rank": "preferred"
   },
@@ -1854,6 +1854,12 @@
     "rank": "normal"
   },
   {
+    "key": "Key:ref:kons",
+    "url": "http://aplikacija.kons.gov.ba/kons/public/nacionalnispomenici/show/$1",
+    "source": "osmwiki:P8",
+    "rank": "preferred"
+  },
+  {
     "key": "Key:ref:kozterkep",
     "url": "https://www.kozterkep.hu/$1",
     "source": "osmwiki:P8",
@@ -2036,8 +2042,20 @@
   {
     "key": "Key:ref:US:EIA",
     "url": "https://www.datacommons.org/browser/eia/pp/$1",
+    "source": "osmwiki:P8",
+    "rank": "preferred"
+  },
+  {
+    "key": "Key:ref:US:EIA",
+    "url": "https://www.datacommons.org/browser/eia/pp/$1",
     "source": "wikidata:P1630",
     "rank": "preferred"
+  },
+  {
+    "key": "Key:ref:US:EIA",
+    "url": "https://www.eia.gov/electricity/data/browser/#/plant/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
   },
   {
     "key": "Key:ref:US:EIA",
@@ -2061,6 +2079,12 @@
     "key": "Key:ref:US:NID",
     "url": "https://nid.sec.usace.army.mil/#/dams/system/$1/summary",
     "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:US:NLD",
+    "url": "https://levees.sec.usace.army.mil/levees/$1",
+    "source": "osmwiki:P8",
     "rank": "normal"
   },
   {
