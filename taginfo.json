@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20240421T080000Z",
+  "data_updated": "20240521T080000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -219,7 +219,7 @@
     },
     {
       "key": "contact:twitter",
-      "description": "https://twitter.com/$1"
+      "description": "https://x.com/$1"
     },
     {
       "key": "contact:twitter",
@@ -267,6 +267,10 @@
     },
     {
       "key": "contact:twitter",
+      "description": "https://twitter.com/$1"
+    },
+    {
+      "key": "contact:twitter",
       "description": "https://twitter.com/intent/user?screen_name=$1"
     },
     {
@@ -280,10 +284,6 @@
     {
       "key": "contact:twitter",
       "description": "https://x.com/@$1"
-    },
-    {
-      "key": "contact:twitter",
-      "description": "https://x.com/$1"
     },
     {
       "key": "contact:website",
@@ -492,6 +492,10 @@
     {
       "key": "hashtags",
       "description": "https://joindiaspora.com/tags/$1"
+    },
+    {
+      "key": "hashtags",
+      "description": "https://note.com/hashtag/$1"
     },
     {
       "key": "hashtags",
@@ -1004,10 +1008,6 @@
     {
       "key": "ref:FR:CEF",
       "description": "https://messes.info/lieu/$1"
-    },
-    {
-      "key": "ref:FR:FINESS",
-      "description": "http://finess.esante.gouv.fr/finess/jsp/actionDetailEtablissement.do?noFiness=$1"
     },
     {
       "key": "ref:FR:INPN",
@@ -1563,7 +1563,7 @@
     },
     {
       "key": "twitter",
-      "description": "https://twitter.com/$1"
+      "description": "https://x.com/$1"
     },
     {
       "key": "twitter",
@@ -1611,6 +1611,10 @@
     },
     {
       "key": "twitter",
+      "description": "https://twitter.com/$1"
+    },
+    {
+      "key": "twitter",
       "description": "https://twitter.com/intent/user?screen_name=$1"
     },
     {
@@ -1624,10 +1628,6 @@
     {
       "key": "twitter",
       "description": "https://x.com/@$1"
-    },
-    {
-      "key": "twitter",
-      "description": "https://x.com/$1"
     },
     {
       "key": "uic_ref",
