@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20240521T080000Z",
+  "data_updated": "20240621T080000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -132,6 +132,10 @@
     {
       "key": "contact:instagram",
       "description": "https://www.threads.net/@$1"
+    },
+    {
+      "key": "contact:mastodon",
+      "description": "https://fedirect.toolforge.org/?id=$1"
     },
     {
       "key": "contact:mastodon",
@@ -802,10 +806,6 @@
       "description": "https://openbenches.org/bench/$1"
     },
     {
-      "key": "opening_hours",
-      "description": "https://openingh.openstreetmap.de/evaluation_tool/?EXP=$1"
-    },
-    {
       "key": "opening_hours:url",
       "description": "$1"
     },
@@ -1407,6 +1407,10 @@
     },
     {
       "key": "ref:vatin",
+      "description": "https://wikidata-externalid-url.toolforge.org/index.php?url=https%3A%2F%2Fec.europa.eu%2Ftaxation_customs%2Fvies%2Frest-api%2Fms%2F%251%2Fvat%2F%252&exp=(%5BA-Z%5D%5BA-Z%5D)(.*)&id=$1"
+    },
+    {
+      "key": "ref:vatin",
       "description": "https://www.fatturatoitalia.it/cerca.php?cerca=$1"
     },
     {
@@ -1507,7 +1511,7 @@
     },
     {
       "key": "seamark:radio_station:mmsi",
-      "description": "https://www.marinetraffic.com/ais/details/ships/$1"
+      "description": "https://sd.ic.gc.ca/pls/engdoc_anon/mmsi_search.Ship_Search?inMMSI=$1&inVesName=&inName=&inCallsign=&inVesId="
     },
     {
       "key": "seamark:radio_station:mmsi",
@@ -1518,8 +1522,16 @@
       "description": "https://www.fleetmon.com/vessels/?s=$1"
     },
     {
+      "key": "seamark:radio_station:mmsi",
+      "description": "https://www.marinetraffic.com/en/ais/details/ships/mmsi:$1/"
+    },
+    {
+      "key": "seamark:radio_station:mmsi",
+      "description": "https://www.vesselfinder.com/vessels/details/$1"
+    },
+    {
       "key": "seamark:virtual_aton:mmsi",
-      "description": "https://www.marinetraffic.com/ais/details/ships/$1"
+      "description": "https://sd.ic.gc.ca/pls/engdoc_anon/mmsi_search.Ship_Search?inMMSI=$1&inVesName=&inName=&inCallsign=&inVesId="
     },
     {
       "key": "seamark:virtual_aton:mmsi",
@@ -1528,6 +1540,14 @@
     {
       "key": "seamark:virtual_aton:mmsi",
       "description": "https://www.fleetmon.com/vessels/?s=$1"
+    },
+    {
+      "key": "seamark:virtual_aton:mmsi",
+      "description": "https://www.marinetraffic.com/en/ais/details/ships/mmsi:$1/"
+    },
+    {
+      "key": "seamark:virtual_aton:mmsi",
+      "description": "https://www.vesselfinder.com/vessels/details/$1"
     },
     {
       "key": "snowplowing:operator:wikidata",
@@ -1631,6 +1651,18 @@
     },
     {
       "key": "uic_ref",
+      "description": "http://nrwbahnarchiv.bplaced.net/bf/$1.htm"
+    },
+    {
+      "key": "uic_ref",
+      "description": "http://www.stationsdatenbank.bayern-takt.de/StationsdatenbankBEG/Steckbrief.html?efz=$1"
+    },
+    {
+      "key": "uic_ref",
+      "description": "https://api3.geo.admin.ch/rest/services/ech/MapServer/ch.bav.haltestellen-oev/$1/extendedHtmlPopup"
+    },
+    {
+      "key": "uic_ref",
       "description": "https://irail.be/stations/NMBS/00$1"
     },
     {
@@ -1639,7 +1671,31 @@
     },
     {
       "key": "uic_ref",
+      "description": "https://reiseauskunft.bahn.de/bin/bhftafel.exe/?input=$1&boardType=arr&time=actual&productsDefault=1111101&start=yes"
+    },
+    {
+      "key": "uic_ref",
+      "description": "https://reiseauskunft.bahn.de/bin/bhftafel.exe/?input=$1&boardType=dep&time=actual&productsDefault=1111101&start=yes"
+    },
+    {
+      "key": "uic_ref",
+      "description": "https://reiseauskunft.bahn.de/bin/bhftafel.exe/en?input=$1&boardType=arr&time=actual&productsDefault=1111101&start=yes"
+    },
+    {
+      "key": "uic_ref",
+      "description": "https://reiseauskunft.bahn.de/bin/bhftafel.exe/en?input=$1&boardType=dep&time=actual&productsDefault=1111101&start=yes"
+    },
+    {
+      "key": "uic_ref",
+      "description": "https://reiseauskunft.bahn.de/bin/bhftafel.exe/en?input=$1&boardType=dep&time=actual&productsDefault=1111101&start=yes"
+    },
+    {
+      "key": "uic_ref",
       "description": "https://www.cd.cz/stanice/$1"
+    },
+    {
+      "key": "uic_ref",
+      "description": "https://www.dbbahnpark.de/content/fahrplanauskunft/bahnpark/pdf/$1.pdf"
     },
     {
       "key": "uic_ref",
@@ -1655,7 +1711,7 @@
     },
     {
       "key": "vessel:mmsi",
-      "description": "https://www.marinetraffic.com/ais/details/ships/$1"
+      "description": "https://sd.ic.gc.ca/pls/engdoc_anon/mmsi_search.Ship_Search?inMMSI=$1&inVesName=&inName=&inCallsign=&inVesId="
     },
     {
       "key": "vessel:mmsi",
@@ -1664,6 +1720,14 @@
     {
       "key": "vessel:mmsi",
       "description": "https://www.fleetmon.com/vessels/?s=$1"
+    },
+    {
+      "key": "vessel:mmsi",
+      "description": "https://www.marinetraffic.com/en/ais/details/ships/mmsi:$1/"
+    },
+    {
+      "key": "vessel:mmsi",
+      "description": "https://www.vesselfinder.com/vessels/details/$1"
     },
     {
       "key": "was:brand:wikidata",
@@ -1755,6 +1819,10 @@
     },
     {
       "key": "wikidata",
+      "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "wikidata",
       "description": "https://autodesc.toolforge.org/?q=$1&links=wikipedia&lang=en&mode=long&format=html&redlinks=reasonator"
     },
     {
@@ -1796,10 +1864,6 @@
     {
       "key": "wikidata",
       "description": "https://viaf.org/processed/WKP|$1"
-    },
-    {
-      "key": "wikidata",
-      "description": "https://www.wikidata.org/entity/$1"
     },
     {
       "key": "wikidata",

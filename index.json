@@ -187,6 +187,12 @@
   },
   {
     "key": "Key:contact:mastodon",
+    "url": "https://fedirect.toolforge.org/?id=$1",
+    "source": "wikidata:P1630",
+    "rank": "preferred"
+  },
+  {
+    "key": "Key:contact:mastodon",
     "url": "https://wikidata-externalid-url.toolforge.org/?p=4033&id=$1",
     "source": "wikidata:P1630",
     "rank": "normal"
@@ -1188,12 +1194,6 @@
     "rank": "normal"
   },
   {
-    "key": "Key:opening_hours",
-    "url": "https://openingh.openstreetmap.de/evaluation_tool/?EXP=$1",
-    "source": "osmwiki:P8",
-    "rank": "normal"
-  },
-  {
     "key": "Key:opening_hours:url",
     "url": "$1",
     "source": "osmwiki:P8",
@@ -2095,6 +2095,12 @@
   },
   {
     "key": "Key:ref:vatin",
+    "url": "https://wikidata-externalid-url.toolforge.org/index.php?url=https%3A%2F%2Fec.europa.eu%2Ftaxation_customs%2Fvies%2Frest-api%2Fms%2F%251%2Fvat%2F%252&exp=(%5BA-Z%5D%5BA-Z%5D)(.*)&id=$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:vatin",
     "url": "https://www.fatturatoitalia.it/cerca.php?cerca=$1",
     "source": "wikidata:P3303",
     "rank": "normal"
@@ -2245,9 +2251,9 @@
   },
   {
     "key": "Key:seamark:radio_station:mmsi",
-    "url": "https://www.marinetraffic.com/ais/details/ships/$1",
+    "url": "https://sd.ic.gc.ca/pls/engdoc_anon/mmsi_search.Ship_Search?inMMSI=$1&inVesName=&inName=&inCallsign=&inVesId=",
     "source": "wikidata:P1630",
-    "rank": "preferred"
+    "rank": "normal"
   },
   {
     "key": "Key:seamark:radio_station:mmsi",
@@ -2262,10 +2268,22 @@
     "rank": "normal"
   },
   {
-    "key": "Key:seamark:virtual_aton:mmsi",
-    "url": "https://www.marinetraffic.com/ais/details/ships/$1",
+    "key": "Key:seamark:radio_station:mmsi",
+    "url": "https://www.marinetraffic.com/en/ais/details/ships/mmsi:$1/",
     "source": "wikidata:P1630",
-    "rank": "preferred"
+    "rank": "normal"
+  },
+  {
+    "key": "Key:seamark:radio_station:mmsi",
+    "url": "https://www.vesselfinder.com/vessels/details/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:seamark:virtual_aton:mmsi",
+    "url": "https://sd.ic.gc.ca/pls/engdoc_anon/mmsi_search.Ship_Search?inMMSI=$1&inVesName=&inName=&inCallsign=&inVesId=",
+    "source": "wikidata:P1630",
+    "rank": "normal"
   },
   {
     "key": "Key:seamark:virtual_aton:mmsi",
@@ -2276,6 +2294,18 @@
   {
     "key": "Key:seamark:virtual_aton:mmsi",
     "url": "https://www.fleetmon.com/vessels/?s=$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:seamark:virtual_aton:mmsi",
+    "url": "https://www.marinetraffic.com/en/ais/details/ships/mmsi:$1/",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:seamark:virtual_aton:mmsi",
+    "url": "https://www.vesselfinder.com/vessels/details/$1",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
@@ -2431,6 +2461,24 @@
   },
   {
     "key": "Key:uic_ref",
+    "url": "http://nrwbahnarchiv.bplaced.net/bf/$1.htm",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:uic_ref",
+    "url": "http://www.stationsdatenbank.bayern-takt.de/StationsdatenbankBEG/Steckbrief.html?efz=$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:uic_ref",
+    "url": "https://api3.geo.admin.ch/rest/services/ech/MapServer/ch.bav.haltestellen-oev/$1/extendedHtmlPopup",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:uic_ref",
     "url": "https://irail.be/stations/NMBS/00$1",
     "source": "wikidata:P3303",
     "rank": "normal"
@@ -2443,7 +2491,43 @@
   },
   {
     "key": "Key:uic_ref",
+    "url": "https://reiseauskunft.bahn.de/bin/bhftafel.exe/?input=$1&boardType=arr&time=actual&productsDefault=1111101&start=yes",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:uic_ref",
+    "url": "https://reiseauskunft.bahn.de/bin/bhftafel.exe/?input=$1&boardType=dep&time=actual&productsDefault=1111101&start=yes",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:uic_ref",
+    "url": "https://reiseauskunft.bahn.de/bin/bhftafel.exe/en?input=$1&boardType=arr&time=actual&productsDefault=1111101&start=yes",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:uic_ref",
+    "url": "https://reiseauskunft.bahn.de/bin/bhftafel.exe/en?input=$1&boardType=dep&time=actual&productsDefault=1111101&start=yes",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:uic_ref",
+    "url": "https://reiseauskunft.bahn.de/bin/bhftafel.exe/en?input=$1&boardType=dep&time=actual&productsDefault=1111101&start=yes",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:uic_ref",
     "url": "https://www.cd.cz/stanice/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:uic_ref",
+    "url": "https://www.dbbahnpark.de/content/fahrplanauskunft/bahnpark/pdf/$1.pdf",
     "source": "wikidata:P3303",
     "rank": "normal"
   },
@@ -2467,9 +2551,9 @@
   },
   {
     "key": "Key:vessel:mmsi",
-    "url": "https://www.marinetraffic.com/ais/details/ships/$1",
+    "url": "https://sd.ic.gc.ca/pls/engdoc_anon/mmsi_search.Ship_Search?inMMSI=$1&inVesName=&inName=&inCallsign=&inVesId=",
     "source": "wikidata:P1630",
-    "rank": "preferred"
+    "rank": "normal"
   },
   {
     "key": "Key:vessel:mmsi",
@@ -2480,6 +2564,18 @@
   {
     "key": "Key:vessel:mmsi",
     "url": "https://www.fleetmon.com/vessels/?s=$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:vessel:mmsi",
+    "url": "https://www.marinetraffic.com/en/ais/details/ships/mmsi:$1/",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:vessel:mmsi",
+    "url": "https://www.vesselfinder.com/vessels/details/$1",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
@@ -2617,6 +2713,12 @@
   },
   {
     "key": "Key:wikidata",
+    "url": "https://www.wikidata.org/entity/$1",
+    "source": "osmwiki:P8",
+    "rank": "preferred"
+  },
+  {
+    "key": "Key:wikidata",
     "url": "https://autodesc.toolforge.org/?q=$1&links=wikipedia&lang=en&mode=long&format=html&redlinks=reasonator",
     "source": "wikidata:P3303",
     "rank": "normal"
@@ -2679,12 +2781,6 @@
     "key": "Key:wikidata",
     "url": "https://viaf.org/processed/WKP|$1",
     "source": "wikidata:P3303",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:wikidata",
-    "url": "https://www.wikidata.org/entity/$1",
-    "source": "osmwiki:P8",
     "rank": "normal"
   },
   {
