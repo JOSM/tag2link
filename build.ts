@@ -105,7 +105,7 @@ async function writeWikidataSophoxRules(): Promise<
 
 function updatePackageVersion(now: Date): PackageJson {
   const packageJson = JSON.parse(readFileSync("package.json").toString());
-  packageJson.version = now.toISOString().substring(0, 10).replace(/-/g, ".");
+  packageJson.version = now.getUTCFullYear() + '.' + (now.getUTCMonth() + 1) + '.' + now.getUTCDate();
   console.log(`Updating package version to ${packageJson.version}`);
   writeFileSync("package.json", JSON.stringify(packageJson, undefined, 2));
   return packageJson;
