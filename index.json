@@ -667,6 +667,12 @@
   },
   {
     "key": "Key:hashtags",
+    "url": "https://bsky.app/search?q=%23$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:hashtags",
     "url": "https://d.tube/#!/t/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
@@ -1350,6 +1356,12 @@
     "rank": "normal"
   },
   {
+    "key": "Key:ref:bkk",
+    "url": "https://go.bkk.hu/stop/BKK_$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
     "key": "Key:ref:camptocamp",
     "url": "https://www.camptocamp.org/waypoints/$1",
     "source": "wikidata:P1630",
@@ -1999,15 +2011,9 @@
   },
   {
     "key": "Key:ref:sandre",
-    "url": "http://www.sandre.eaufrance.fr/geo/CoursEau/$1",
+    "url": "https://www.sandre.eaufrance.fr/geo/CoursEau_Carthage2017/$1",
     "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:ref:sandre",
-    "url": "http://www.services.eaufrance.fr/donnees/service/$1",
-    "source": "wikidata:P1630",
-    "rank": "normal"
+    "rank": "preferred"
   },
   {
     "key": "Key:ref:UAI",
@@ -2533,7 +2539,7 @@
   },
   {
     "key": "Key:uic_ref",
-    "url": "https://www.kapella2.hu/ehuszfelulet/?infra_id=21943&taf_id=$1",
+    "url": "https://www.kapella2.hu/ehuszfelulet/szolghelyadatok?infra_id=114593&taf_id=$1",
     "source": "wikidata:P3303",
     "rank": "normal"
   },

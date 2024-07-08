@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20240621T080000Z",
+  "data_updated": "20240708T160000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -452,6 +452,10 @@
     {
       "key": "hashtags",
       "description": "http://seiga.nicovideo.jp/tag/$1"
+    },
+    {
+      "key": "hashtags",
+      "description": "https://bsky.app/search?q=%23$1"
     },
     {
       "key": "hashtags",
@@ -910,6 +914,10 @@
       "description": "https://heritage.toolforge.org/api/api.php?action=search&srcountry=es&format=html&srid=$1"
     },
     {
+      "key": "ref:bkk",
+      "description": "https://go.bkk.hu/stop/BKK_$1"
+    },
+    {
       "key": "ref:camptocamp",
       "description": "https://www.camptocamp.org/waypoints/$1"
     },
@@ -1343,11 +1351,7 @@
     },
     {
       "key": "ref:sandre",
-      "description": "http://www.sandre.eaufrance.fr/geo/CoursEau/$1"
-    },
-    {
-      "key": "ref:sandre",
-      "description": "http://www.services.eaufrance.fr/donnees/service/$1"
+      "description": "https://www.sandre.eaufrance.fr/geo/CoursEau_Carthage2017/$1"
     },
     {
       "key": "ref:UAI",
@@ -1699,7 +1703,7 @@
     },
     {
       "key": "uic_ref",
-      "description": "https://www.kapella2.hu/ehuszfelulet/?infra_id=21943&taf_id=$1"
+      "description": "https://www.kapella2.hu/ehuszfelulet/szolghelyadatok?infra_id=114593&taf_id=$1"
     },
     {
       "key": "url:bathing_water",
