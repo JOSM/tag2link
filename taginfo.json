@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20240708T170000Z",
+  "data_updated": "20240721T080000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -128,6 +128,10 @@
     {
       "key": "contact:instagram",
       "description": "https://www.instagram.com/$1/"
+    },
+    {
+      "key": "contact:instagram",
+      "description": "https://imginn.com/$1"
     },
     {
       "key": "contact:instagram",
@@ -595,6 +599,18 @@
     },
     {
       "key": "hashtags",
+      "description": "https://www.youtube.com/results?search_query=%23$1"
+    },
+    {
+      "key": "hashtags",
+      "description": "https://x.com/hashtag/$1"
+    },
+    {
+      "key": "hashtags",
+      "description": "https://x.com/search?q=%23$1"
+    },
+    {
+      "key": "hashtags",
       "description": "https://yandex.com/games/tag/$1"
     },
     {
@@ -696,6 +712,10 @@
     {
       "key": "instagram",
       "description": "https://www.instagram.com/$1/"
+    },
+    {
+      "key": "instagram",
+      "description": "https://imginn.com/$1"
     },
     {
       "key": "instagram",
@@ -896,6 +916,10 @@
     {
       "key": "ref:at:wis",
       "description": "https://wis.tirol.gv.at/wisSrvPublic/wis/wbo_wb_auszug.aspx?ANL_ID=$1"
+    },
+    {
+      "key": "ref:AU-NSW:mooring",
+      "description": "https://mooringonline.onegov.nsw.gov.au/pwl/getstarted/$1"
     },
     {
       "key": "ref:bag",
@@ -1675,6 +1699,14 @@
     },
     {
       "key": "uic_ref",
+      "description": "https://meine.oebb.at/abfahrtankunft/arrival?evaNr=$1"
+    },
+    {
+      "key": "uic_ref",
+      "description": "https://meine.oebb.at/abfahrtankunft/departure?evaNr=$1"
+    },
+    {
+      "key": "uic_ref",
       "description": "https://reiseauskunft.bahn.de/bin/bhftafel.exe/?input=$1&boardType=arr&time=actual&productsDefault=1111101&start=yes"
     },
     {
@@ -1704,6 +1736,10 @@
     {
       "key": "uic_ref",
       "description": "https://www.kapella2.hu/ehuszfelulet/szolghelyadatok?infra_id=114593&taf_id=$1"
+    },
+    {
+      "key": "uic_ref",
+      "description": "https://www.sbb.ch/en/travel-information/stations/find-station/station.$1.html"
     },
     {
       "key": "url:bathing_water",

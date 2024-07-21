@@ -181,6 +181,12 @@
   },
   {
     "key": "Key:contact:instagram",
+    "url": "https://imginn.com/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:contact:instagram",
     "url": "https://www.threads.net/@$1",
     "source": "wikidata:P1630",
     "rank": "normal"
@@ -877,6 +883,24 @@
   },
   {
     "key": "Key:hashtags",
+    "url": "https://www.youtube.com/results?search_query=%23$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:hashtags",
+    "url": "https://x.com/hashtag/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:hashtags",
+    "url": "https://x.com/search?q=%23$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:hashtags",
     "url": "https://yandex.com/games/tag/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
@@ -1030,6 +1054,12 @@
     "url": "https://www.instagram.com/$1/",
     "source": "wikidata:P1630",
     "rank": "preferred"
+  },
+  {
+    "key": "Key:instagram",
+    "url": "https://imginn.com/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
   },
   {
     "key": "Key:instagram",
@@ -1329,6 +1359,12 @@
     "key": "Key:ref:at:wis",
     "url": "https://wis.tirol.gv.at/wisSrvPublic/wis/wbo_wb_auszug.aspx?ANL_ID=$1",
     "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:AU-NSW:mooring",
+    "url": "https://mooringonline.onegov.nsw.gov.au/pwl/getstarted/$1",
+    "source": "osmwiki:P8",
     "rank": "normal"
   },
   {
@@ -2497,6 +2533,18 @@
   },
   {
     "key": "Key:uic_ref",
+    "url": "https://meine.oebb.at/abfahrtankunft/arrival?evaNr=$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:uic_ref",
+    "url": "https://meine.oebb.at/abfahrtankunft/departure?evaNr=$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:uic_ref",
     "url": "https://reiseauskunft.bahn.de/bin/bhftafel.exe/?input=$1&boardType=arr&time=actual&productsDefault=1111101&start=yes",
     "source": "wikidata:P3303",
     "rank": "normal"
@@ -2540,6 +2588,12 @@
   {
     "key": "Key:uic_ref",
     "url": "https://www.kapella2.hu/ehuszfelulet/szolghelyadatok?infra_id=114593&taf_id=$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:uic_ref",
+    "url": "https://www.sbb.ch/en/travel-information/stations/find-station/station.$1.html",
     "source": "wikidata:P3303",
     "rank": "normal"
   },
