@@ -14,7 +14,10 @@
     "build": "npx ts-node build.ts"
   },
   "homepage": "https://github.com/osmlab/tag2link",
-  "repository": "github:osmlab/tag2link",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osmlab/tag2link.git"
+  },
   "author": "Simon Legner <Simon.Legner@gmail.com>",
   "license": "ISC",
   "devDependencies": {
