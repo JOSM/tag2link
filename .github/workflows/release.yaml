@@ -19,30 +19,34 @@ jobs:
       - run: python3 osm_wikidata.py
       - run: npm install
       - run: npm run build
+      - run: git diff
+      - run: exit $(git diff --numstat | wc -l)
 
-  publish-npm-registry:
+  publish-npm-registry-npmjs:
     needs: build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          cache: 'pip'
       - uses: actions/setup-node@v4
         with:
           node-version: 20
           registry-url: 'https://registry.npmjs.org'
-      - run: pip install rdflib requests
-      - run: python3 osm_wikidata.py
       - run: npm install
       - run: npm run build
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+  publish-npm-registry-github:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 20
           registry-url: 'https://npm.pkg.github.com'
+      - run: npm install
+      - run: npm run build
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
