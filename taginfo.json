@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20240721T080000Z",
+  "data_updated": "20240812T170000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -726,6 +726,10 @@
       "description": "https://www.wikidata.org/entity/$1"
     },
     {
+      "key": "kartaview",
+      "description": "https://kartaview.org/details/$1/track-info"
+    },
+    {
       "key": "KKR:code",
       "description": "https://keskkonnaportaal.ee/register?kkr_kood=$1"
     },
@@ -1188,6 +1192,50 @@
     {
       "key": "ref:hr:uzkb",
       "description": "https://registar.kulturnadobra.hr/#/details/$1"
+    },
+    {
+      "key": "ref:ibnr",
+      "description": "http://nrwbahnarchiv.bplaced.net/bf/$1.htm"
+    },
+    {
+      "key": "ref:ibnr",
+      "description": "http://www.stationsdatenbank.bayern-takt.de/StationsdatenbankBEG/Steckbrief.html?efz=$1"
+    },
+    {
+      "key": "ref:ibnr",
+      "description": "https://api3.geo.admin.ch/rest/services/ech/MapServer/ch.bav.haltestellen-oev/$1/extendedHtmlPopup"
+    },
+    {
+      "key": "ref:ibnr",
+      "description": "https://meine.oebb.at/abfahrtankunft/arrival?evaNr=$1"
+    },
+    {
+      "key": "ref:ibnr",
+      "description": "https://meine.oebb.at/abfahrtankunft/departure?evaNr=$1"
+    },
+    {
+      "key": "ref:ibnr",
+      "description": "https://reiseauskunft.bahn.de/bin/bhftafel.exe/?input=$1&boardType=arr&time=actual&productsDefault=1111101&start=yes"
+    },
+    {
+      "key": "ref:ibnr",
+      "description": "https://reiseauskunft.bahn.de/bin/bhftafel.exe/?input=$1&boardType=dep&time=actual&productsDefault=1111101&start=yes"
+    },
+    {
+      "key": "ref:ibnr",
+      "description": "https://reiseauskunft.bahn.de/bin/bhftafel.exe/en?input=$1&boardType=arr&time=actual&productsDefault=1111101&start=yes"
+    },
+    {
+      "key": "ref:ibnr",
+      "description": "https://reiseauskunft.bahn.de/bin/bhftafel.exe/en?input=$1&boardType=dep&time=actual&productsDefault=1111101&start=yes"
+    },
+    {
+      "key": "ref:ibnr",
+      "description": "https://reiseauskunft.bahn.de/bin/bhftafel.exe/en?input=$1&boardType=dep&time=actual&productsDefault=1111101&start=yes"
+    },
+    {
+      "key": "ref:ibnr",
+      "description": "https://www.dbbahnpark.de/content/fahrplanauskunft/bahnpark/pdf/$1.pdf"
     },
     {
       "key": "ref:IFOPT",

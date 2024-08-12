@@ -1074,6 +1074,12 @@
     "rank": "normal"
   },
   {
+    "key": "Key:kartaview",
+    "url": "https://kartaview.org/details/$1/track-info",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
     "key": "Key:KKR:code",
     "url": "https://keskkonnaportaal.ee/register?kkr_kood=$1",
     "source": "osmwiki:P8",
@@ -1767,6 +1773,72 @@
     "key": "Key:ref:hr:uzkb",
     "url": "https://registar.kulturnadobra.hr/#/details/$1",
     "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:ibnr",
+    "url": "http://nrwbahnarchiv.bplaced.net/bf/$1.htm",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:ibnr",
+    "url": "http://www.stationsdatenbank.bayern-takt.de/StationsdatenbankBEG/Steckbrief.html?efz=$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:ibnr",
+    "url": "https://api3.geo.admin.ch/rest/services/ech/MapServer/ch.bav.haltestellen-oev/$1/extendedHtmlPopup",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:ibnr",
+    "url": "https://meine.oebb.at/abfahrtankunft/arrival?evaNr=$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:ibnr",
+    "url": "https://meine.oebb.at/abfahrtankunft/departure?evaNr=$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:ibnr",
+    "url": "https://reiseauskunft.bahn.de/bin/bhftafel.exe/?input=$1&boardType=arr&time=actual&productsDefault=1111101&start=yes",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:ibnr",
+    "url": "https://reiseauskunft.bahn.de/bin/bhftafel.exe/?input=$1&boardType=dep&time=actual&productsDefault=1111101&start=yes",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:ibnr",
+    "url": "https://reiseauskunft.bahn.de/bin/bhftafel.exe/en?input=$1&boardType=arr&time=actual&productsDefault=1111101&start=yes",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:ibnr",
+    "url": "https://reiseauskunft.bahn.de/bin/bhftafel.exe/en?input=$1&boardType=dep&time=actual&productsDefault=1111101&start=yes",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:ibnr",
+    "url": "https://reiseauskunft.bahn.de/bin/bhftafel.exe/en?input=$1&boardType=dep&time=actual&productsDefault=1111101&start=yes",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:ibnr",
+    "url": "https://www.dbbahnpark.de/content/fahrplanauskunft/bahnpark/pdf/$1.pdf",
+    "source": "wikidata:P3303",
     "rank": "normal"
   },
   {
