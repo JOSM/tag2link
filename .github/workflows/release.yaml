@@ -52,5 +52,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: echo curl "https://www.webjars.org/deploy?webJarType=npm&nameOrUrlish=tag2link&version=$(cat package.json | jq -r '.version')"
+      - run: echo curl "https://www.webjars.org/deploy?webJarType=npm&nameOrUrlish=tag2link&version=$(jq -r '.version' package.json)"
 

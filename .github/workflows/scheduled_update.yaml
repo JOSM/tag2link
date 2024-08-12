@@ -27,4 +27,10 @@ jobs:
           git config --global user.email 'tsmock@users.noreply.github.com'
           git commit -am "Automated update"
           git push
-
+  tag:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: git tag $(jq -r '.version' package.json) -sm $(jq -r '.version' package.json)
+      - run: git push -u origin
+      - run: gh release create $(jq -r '.version' package.json) --generate-notes
