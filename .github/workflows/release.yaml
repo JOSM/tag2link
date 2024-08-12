@@ -25,6 +25,9 @@ jobs:
   publish-npm-registry-npmjs:
     needs: build
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      attestations: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -37,6 +40,10 @@ jobs:
   publish-npm-registry-github:
     needs: build
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      attestations: write
+      packages: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
