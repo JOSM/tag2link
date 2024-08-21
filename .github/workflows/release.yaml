@@ -2,11 +2,14 @@ name: NPM CI release
 on:
   release:
     types: [created]
+  workflow_call:
 
 jobs:
   build:
     name: build
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -26,8 +29,9 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     permissions:
-      id-token: write
       attestations: write
+      contents: read
+      id-token: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -41,8 +45,9 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     permissions:
-      id-token: write
       attestations: write
+      contents: read
+      id-token: write
       packages: write
     steps:
       - uses: actions/checkout@v4
@@ -50,14 +55,16 @@ jobs:
         with:
           node-version: 20
           registry-url: 'https://npm.pkg.github.com'
-      - run: npm publish --provenance
+      - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  publish-webjar-test-echo:
-    needs: publish-npm-registry
+  publish-webjar:
+    needs: publish-npm-registry-npmjs
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - uses: actions/checkout@v4
-      - run: echo curl "https://www.webjars.org/deploy?webJarType=npm&nameOrUrlish=tag2link&version=$(jq -r '.version' package.json)"
+      - run: curl "https://www.webjars.org/deploy?webJarType=npm&nameOrUrlish=tag2link&version=$(jq -r '.version' package.json)"
 

@@ -9,6 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    outputs:
+      sha: ${{ steps.git-push.outputs.sha }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -24,17 +26,79 @@ jobs:
       - run: python3 osm_wikidata.py
       - run: npm install
       - run: npm run build
-      - run: |
-          git config --global user.name 'Github tag2link Action'
-          git config --global user.email 'tsmock@users.noreply.github.com'
-          git commit -am "Automated update"
-          git push
+      - id: git-push
+        run: |
+          set -ex
+          git diff --name-only
+          if [ $(git diff --name-only | wc -l) -gt 0 ]; then
+            tag=$(jq -r '.version' package.json)
+            # The GH api only allows for single file commits right now
+            for file in $(git diff --name-only); do
+              gh api --method PUT -H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-11-28" \
+                "/repos/${{ github.repository }}/contents/$file" \
+                --field "message=Automatic update for ${tag}: ${file}" \
+                --field "encoding=base64" \
+                --field "branch=${{ github.ref_name }}" \
+                --field "content=$(base64 -i "${file}")" \
+                --field "sha=$(git rev-parse "${{ github.ref_name }}:${file}")" | \
+              jq -r '.commit.sha' | sed '1s@^@sha=@' >> "$GITHUB_OUTPUT"
+            done
+          fi
+        env:
+          GH_TOKEN: ${{ github.token }}
   tag:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    needs: update
+    env:
+      GH_TOKEN: ${{ github.token }}
+    outputs:
+      release_needed: ${{ steps.tag.outputs.release_needed }}
     steps:
       - uses: actions/checkout@v4
-      - run: git tag $(jq -r '.version' package.json) -sm $(jq -r '.version' package.json)
-      - run: git push -u origin
-      - run: gh release create $(jq -r '.version' package.json) --generate-notes
+        with:
+          fetch-depth: 0
+      - id: tag
+        run: |
+          gh repo sync
+          tag=$(git describe --tags --abbrev=0) || release_needed="true"
+          sha=${{ needs.update.outputs.sha }}
+          if [ -z "${sha}" ]; then sha="HEAD"; fi
+          for file in $(git diff ${tag}..${sha} --name-only); do
+            if [ $file == "taginfo.json" ] || [ $file == "index.json" ] || [ $file == "package.json"] ; then
+              release_needed="true"
+              break
+            fi
+          done
+          if [ $release_needed == "true" ]; then
+            tag=$(jq -r '.version' package.json)
+            object=$(git rev-parse --verify ${sha})
+            gh api --method POST -H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-11-28" \
+              /repos/${{ github.repository }}/git/tags \
+              --field "tag=${tag}" \
+              --field "message=${tag}" \
+              --field "object=${object}" \
+              --field "type=commit" \
+              --field "tagger[name]=github-actions[bot]" \
+              --field "tagger[email]=41898282+github-actions[bot]@users.noreply.github.com" \
+              --field "tagger[date]=$(date --iso-8601=seconds)"
+            gh api --method POST -H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-11-28" \
+              /repos/${{ github.repository }}/git/refs \
+              --field "ref=refs/tags/${tag}" \
+              --field "sha=${object}"
+            gh release create ${tag} --generate-notes
+            echo "release_needed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "release_needed=false" >> "$GITHUB_OUTPUT"
+          fi
+  publish:
+    needs: tag
+    if: needs.tag.outputs.release_needed
+    uses: ./.github/workflows/release.yaml
+    secrets: inherit
+    permissions:
+      attestations: write
+      contents: read
+      id-token: write
+      packages: write
