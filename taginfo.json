@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20240812T170000Z",
+  "data_updated": "20240821T080000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -1328,6 +1328,10 @@
     {
       "key": "ref:kons",
       "description": "http://aplikacija.kons.gov.ba/kons/public/nacionalnispomenici/show/$1"
+    },
+    {
+      "key": "ref:kozterkep",
+      "description": "https://www.kozterkep.hu/$1"
     },
     {
       "key": "ref:kozterkep",

@@ -1986,6 +1986,12 @@
     "rank": "normal"
   },
   {
+    "key": "Key:ref:kozterkep",
+    "url": "https://www.kozterkep.hu/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
     "key": "Key:ref:lfd",
     "url": "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=$1",
     "source": "wikidata:P1630",
