@@ -2125,7 +2125,7 @@
   },
   {
     "key": "Key:ref:sandre",
-    "url": "https://www.sandre.eaufrance.fr/geo/CoursEau_Carthage2017/$1",
+    "url": "https://id.eaufrance.fr/SysTraitementEauxUsees/$1",
     "source": "wikidata:P1630",
     "rank": "preferred"
   },
