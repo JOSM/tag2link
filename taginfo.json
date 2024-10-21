@@ -1,10 +1,10 @@
 {
   "data_format": 1,
-  "data_updated": "20240821T160000Z",
+  "data_updated": "20241021T160000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
-    "project_url": "https://github.com/osmlab/tag2link",
+    "project_url": "https://github.com/JOSM/tag2link",
     "contact_name": "Simon Legner",
     "contact_email": "Simon.Legner@gmail.com"
   },
@@ -710,6 +710,14 @@
       "description": "https://www.radarbox.com/data/airports/$1"
     },
     {
+      "key": "INEGI:cve_loc",
+      "description": "https://www.inegi.org.mx/app/areasgeograficas/?ag=$1"
+    },
+    {
+      "key": "INEGI:MUNID",
+      "description": "https://www.inegi.org.mx/app/areasgeograficas/?ag=$1"
+    },
+    {
       "key": "instagram",
       "description": "https://www.instagram.com/$1/"
     },
@@ -882,6 +890,10 @@
       "description": "$1"
     },
     {
+      "key": "protection_title:wikidata",
+      "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
       "key": "railway:wikipedia",
       "description": "https://wikipedia.org/wiki/$1"
     },
@@ -992,6 +1004,10 @@
     {
       "key": "ref:ef",
       "description": "http://www.marina.difesa.it/cosa-facciamo/per-la-difesa-sicurezza/fari/Pagine/$1.aspx"
+    },
+    {
+      "key": "ref:EGID",
+      "description": "https://api.geo.admin.ch/rest/services/ech/MapServer/ch.bfs.gebaeude_wohnungs_register/$1_0/extendedHtmlPopup"
     },
     {
       "key": "ref:EU:bwid",
@@ -1242,6 +1258,10 @@
       "description": "https://www.fahrplanauskunft-mv.de/vmvsl3plus/departureMonitor?formik=origin%3D$1&lng=en"
     },
     {
+      "key": "ref:IL:inature",
+      "description": "https://www.inature.info/wiki/$1"
+    },
+    {
       "key": "ref:INEP",
       "description": "https://culturaeduca.cc/equipamento/escola_detalhe/$1"
     },
@@ -1295,7 +1315,7 @@
     },
     {
       "key": "ref:isil",
-      "description": "http://sigel.staatsbibliothek-berlin.de/nc/suche/?isil=$1"
+      "description": "http://sigel.staatsbibliothek-berlin.de/suche/?isil=$1"
     },
     {
       "key": "ref:isil",
@@ -1324,6 +1344,18 @@
     {
       "key": "ref:isil",
       "description": "https://wikidata-externalid-url.toolforge.org/?url=http%3A%2F%2Fwww.sudoc.abes.fr%2Fcbs%2Fxslt%2F%2FDB%3D2.2%2FCMD%3FACT%3DSRCHA%26IKT%3D8888%26SRT%3DRLV%26TRM%3D%251&exp=%5EFR-(%5Cd%7B9%7D)&id=$1"
+    },
+    {
+      "key": "ref:KGS-PBC",
+      "description": "https://wikidata-externalid-url.toolforge.org/?url=https%3A%2F%2Fheritage.toolforge.org%2Fapi%2Fapi.php%3Faction%3Dsearch%26format%3Dhtml%26srcountry%3Dch%26srid%3D%251&exp=0*(.*)&id=$1"
+    },
+    {
+      "key": "ref:KGS-PBC",
+      "description": "https://heritage.toolforge.org/api/api.php?action=search&format=html&srcountry=ch&srid=$1"
+    },
+    {
+      "key": "ref:KGS-PBC",
+      "description": "https://heritage.toolforge.org/api/api.php?action=search&format=html&srcountry=ch&srid=$1"
     },
     {
       "key": "ref:kons",
@@ -1430,6 +1462,10 @@
       "description": "https://www.sandre.eaufrance.fr/geo/CoursEau_Carthage2017/$1"
     },
     {
+      "key": "ref:sandre",
+      "description": "https://id.eaufrance.fr/SysTraitementEauxUsees/$1"
+    },
+    {
       "key": "ref:UAI",
       "description": "http://bibliotheques.enseignementsup-recherche.gouv.fr/FR/annuaire/siege/$1/"
     },
@@ -1448,6 +1484,10 @@
     {
       "key": "ref:UAI",
       "description": "https://www.journaldesfemmes.fr/maman/ecole/etablissement-$1"
+    },
+    {
+      "key": "ref:US-MA:mhc",
+      "description": "https://mhc-macris.net/details?mhcid=$1"
     },
     {
       "key": "ref:US:EIA",
