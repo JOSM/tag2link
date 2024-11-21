@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20241021T160000Z",
+  "data_updated": "20241121T080000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -127,11 +127,19 @@
     },
     {
       "key": "contact:instagram",
+      "description": "https://www.instagram.com/$1"
+    },
+    {
+      "key": "contact:instagram",
       "description": "https://www.instagram.com/$1/"
     },
     {
       "key": "contact:instagram",
       "description": "https://imginn.com/$1"
+    },
+    {
+      "key": "contact:instagram",
+      "description": "https://www.threads.com/$1"
     },
     {
       "key": "contact:instagram",
@@ -226,6 +234,10 @@
       "description": "https://www.tripadvisor.com/$1"
     },
     {
+      "key": "contact:tripadvisor",
+      "description": "https://www.tripadvisor.com/$1"
+    },
+    {
       "key": "contact:twitter",
       "description": "https://x.com/$1"
     },
@@ -292,6 +304,10 @@
     {
       "key": "contact:twitter",
       "description": "https://x.com/@$1"
+    },
+    {
+      "key": "contact:twitter",
+      "description": "https://x.com/$1"
     },
     {
       "key": "contact:website",
@@ -456,6 +472,10 @@
     {
       "key": "hashtags",
       "description": "http://seiga.nicovideo.jp/tag/$1"
+    },
+    {
+      "key": "hashtags",
+      "description": "https://bsky.app/hashtag/$1"
     },
     {
       "key": "hashtags",
@@ -708,14 +728,6 @@
     {
       "key": "icao",
       "description": "https://www.radarbox.com/data/airports/$1"
-    },
-    {
-      "key": "INEGI:cve_loc",
-      "description": "https://www.inegi.org.mx/app/areasgeograficas/?ag=$1"
-    },
-    {
-      "key": "INEGI:MUNID",
-      "description": "https://www.inegi.org.mx/app/areasgeograficas/?ag=$1"
     },
     {
       "key": "instagram",
@@ -1027,7 +1039,7 @@
     },
     {
       "key": "ref:EU:ENTSOE_EIC",
-      "description": "https://explore.data.gouv.fr/fr/tableau?url=https%3A%2F%2Fwww.data.gouv.fr%2Ffr%2Fdatasets%2Fr%2Fc14e5a7d-2ca6-4ad8-bc61-93889d13fc25&codeeicresourceobject__exact=$1"
+      "description": "http://energy.referencedata.eu/EIC/$1.ttl"
     },
     {
       "key": "ref:EU:ENTSOE_EIC",
@@ -1039,7 +1051,7 @@
     },
     {
       "key": "ref:EU:ENTSOE_EIC",
-      "description": "http://energy.referencedata.eu/EIC/$1.ttl"
+      "description": "https://explore.data.gouv.fr/fr/tableau?url=https%3A%2F%2Fwww.data.gouv.fr%2Ffr%2Fdatasets%2Fr%2Fc14e5a7d-2ca6-4ad8-bc61-93889d13fc25&codeeicresourceobject__exact=$1"
     },
     {
       "key": "ref:EU:ENTSOE_EIC",
@@ -1263,7 +1275,7 @@
     },
     {
       "key": "ref:INEP",
-      "description": "https://culturaeduca.cc/equipamento/escola_detalhe/$1"
+      "description": "https://anonymousdata.inep.gov.br/analytics/saw.dll?Dashboard&PortalPath=/shared/Censo da Educação Básica/_portal/Catálogo de Escolas&Page=Detalhamento Escola&Action=Navigate&P0=1&P1=eq&P2=\"F - Catalogo Escola\".\"Código Entidade\"&P3=\"$1\""
     },
     {
       "key": "ref:INEP",
@@ -1271,7 +1283,7 @@
     },
     {
       "key": "ref:INEP",
-      "description": "https://inepdata.inep.gov.br/analytics/saw.dll?Dashboard&NQUser=inepdata&NQPassword=Inep2014&PortalPath=/shared/Censo da Educação Básica/_portal/Catálogo de Escolas&Page=Detalhamento Escola&Action=Navigate&P0=1&P1=eq&P2=\"F - Catalogo Escola\".\"Código Entidade\"&P3=\"$1\""
+      "description": "https://culturaeduca.cc/equipamento/escola_detalhe/$1"
     },
     {
       "key": "ref:INSEE",
@@ -1388,6 +1400,10 @@
     {
       "key": "ref:natura2000",
       "description": "http://eunis.eea.europa.eu/sites/$1"
+    },
+    {
+      "key": "ref:natura2000",
+      "description": "https://biodiversity.europa.eu/sites/natura2000/$1"
     },
     {
       "key": "ref:natura2000",
@@ -1631,6 +1647,10 @@
     },
     {
       "key": "seamark:radio_station:mmsi",
+      "description": "https://www.vesselfinder.com/vessels/details/$1"
+    },
+    {
+      "key": "seamark:radio_station:mmsi",
       "description": "https://sd.ic.gc.ca/pls/engdoc_anon/mmsi_search.Ship_Search?inMMSI=$1&inVesName=&inName=&inCallsign=&inVesId="
     },
     {
@@ -1639,14 +1659,10 @@
     },
     {
       "key": "seamark:radio_station:mmsi",
-      "description": "https://www.fleetmon.com/vessels/?s=$1"
-    },
-    {
-      "key": "seamark:radio_station:mmsi",
       "description": "https://www.marinetraffic.com/en/ais/details/ships/mmsi:$1/"
     },
     {
-      "key": "seamark:radio_station:mmsi",
+      "key": "seamark:virtual_aton:mmsi",
       "description": "https://www.vesselfinder.com/vessels/details/$1"
     },
     {
@@ -1659,15 +1675,7 @@
     },
     {
       "key": "seamark:virtual_aton:mmsi",
-      "description": "https://www.fleetmon.com/vessels/?s=$1"
-    },
-    {
-      "key": "seamark:virtual_aton:mmsi",
       "description": "https://www.marinetraffic.com/en/ais/details/ships/mmsi:$1/"
-    },
-    {
-      "key": "seamark:virtual_aton:mmsi",
-      "description": "https://www.vesselfinder.com/vessels/details/$1"
     },
     {
       "key": "snowplowing:operator:wikidata",
@@ -1843,6 +1851,10 @@
     },
     {
       "key": "vessel:mmsi",
+      "description": "https://www.vesselfinder.com/vessels/details/$1"
+    },
+    {
+      "key": "vessel:mmsi",
       "description": "https://sd.ic.gc.ca/pls/engdoc_anon/mmsi_search.Ship_Search?inMMSI=$1&inVesName=&inName=&inCallsign=&inVesId="
     },
     {
@@ -1851,15 +1863,7 @@
     },
     {
       "key": "vessel:mmsi",
-      "description": "https://www.fleetmon.com/vessels/?s=$1"
-    },
-    {
-      "key": "vessel:mmsi",
       "description": "https://www.marinetraffic.com/en/ais/details/ships/mmsi:$1/"
-    },
-    {
-      "key": "vessel:mmsi",
-      "description": "https://www.vesselfinder.com/vessels/details/$1"
     },
     {
       "key": "was:brand:wikidata",
@@ -2024,6 +2028,10 @@
     {
       "key": "wikipedia",
       "description": "https://wikipedia.org/wiki/$1"
+    },
+    {
+      "key": "woeid",
+      "description": "https://www.flickr.com/places/$1"
     },
     {
       "key": "woeid",
