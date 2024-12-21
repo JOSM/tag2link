@@ -307,7 +307,7 @@
   },
   {
     "key": "Key:contact:telegram",
-    "url": "https://t.me/$1",
+    "url": "https://t.me/s/$1",
     "source": "wikidata:P1630",
     "rank": "preferred"
   },
@@ -812,6 +812,18 @@
   {
     "key": "Key:hashtags",
     "url": "https://soundcloud.com/tags/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:hashtags",
+    "url": "https://stackexchange.com/questions/tagged/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:hashtags",
+    "url": "https://stackoverflow.com/questions/tagged/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
   },
@@ -1488,6 +1500,12 @@
     "rank": "normal"
   },
   {
+    "key": "Key:ref:crs",
+    "url": "https://www.railwaydata.co.uk/stations/overview/?TLC=$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
     "key": "Key:ref:doc",
     "url": "https://www.doc.govt.nz/search-results/?query=$1",
     "source": "osmwiki:P8",
@@ -1884,8 +1902,20 @@
     "rank": "normal"
   },
   {
+    "key": "Key:ref:IE:niah",
+    "url": "https://maps.archaeology.ie/historicenvironment/?REG_NO=$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:IE:smr",
+    "url": "https://maps.archaeology.ie/HistoricEnvironment/?query=NationalMonuments_7120,SMRS,$1",
+    "source": "wikidata:P1630",
+    "rank": "preferred"
+  },
+  {
     "key": "Key:ref:IFOPT",
-    "url": "https://www.fahrplanauskunft-mv.de/vmvsl3plus/departureMonitor?formik=origin%3D$1&lng=en",
+    "url": "https://transmodel-ids.toolforge.org/ifopt/$1",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
@@ -2066,6 +2096,12 @@
   {
     "key": "Key:ref:linz:place_id",
     "url": "https://gazetteer.linz.govt.nz/place/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:mav",
+    "url": "https://utas.hu/stop/mav_$1",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
