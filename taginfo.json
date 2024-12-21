@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20241121T080000Z",
+  "data_updated": "20241221T080000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -215,7 +215,7 @@
     },
     {
       "key": "contact:telegram",
-      "description": "https://t.me/$1"
+      "description": "https://t.me/s/$1"
     },
     {
       "key": "contact:telegram",
@@ -552,6 +552,14 @@
     {
       "key": "hashtags",
       "description": "https://soundcloud.com/tags/$1"
+    },
+    {
+      "key": "hashtags",
+      "description": "https://stackexchange.com/questions/tagged/$1"
+    },
+    {
+      "key": "hashtags",
+      "description": "https://stackoverflow.com/questions/tagged/$1"
     },
     {
       "key": "hashtags",
@@ -1002,6 +1010,10 @@
       "description": "https://www.northernrailway.co.uk/stations/$1"
     },
     {
+      "key": "ref:crs",
+      "description": "https://www.railwaydata.co.uk/stations/overview/?TLC=$1"
+    },
+    {
       "key": "ref:doc",
       "description": "https://www.doc.govt.nz/search-results/?query=$1"
     },
@@ -1266,8 +1278,16 @@
       "description": "https://www.dbbahnpark.de/content/fahrplanauskunft/bahnpark/pdf/$1.pdf"
     },
     {
+      "key": "ref:IE:niah",
+      "description": "https://maps.archaeology.ie/historicenvironment/?REG_NO=$1"
+    },
+    {
+      "key": "ref:IE:smr",
+      "description": "https://maps.archaeology.ie/HistoricEnvironment/?query=NationalMonuments_7120,SMRS,$1"
+    },
+    {
       "key": "ref:IFOPT",
-      "description": "https://www.fahrplanauskunft-mv.de/vmvsl3plus/departureMonitor?formik=origin%3D$1&lng=en"
+      "description": "https://transmodel-ids.toolforge.org/ifopt/$1"
     },
     {
       "key": "ref:IL:inature",
@@ -1388,6 +1408,10 @@
     {
       "key": "ref:linz:place_id",
       "description": "https://gazetteer.linz.govt.nz/place/$1"
+    },
+    {
+      "key": "ref:mav",
+      "description": "https://utas.hu/stop/mav_$1"
     },
     {
       "key": "ref:mhs",
