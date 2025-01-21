@@ -330,6 +330,18 @@
     "rank": "normal"
   },
   {
+    "key": "Key:contact:tiktok",
+    "url": "https://www.tiktok.com/@$1",
+    "source": "wikidata:P1630",
+    "rank": "preferred"
+  },
+  {
+    "key": "Key:contact:tiktok",
+    "url": "https://proxitok.pabloferreiro.es/@$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
     "key": "Key:contact:tripadvisor",
     "url": "https://www.tripadvisor.com/$1",
     "source": "osmwiki:P8",
@@ -482,6 +494,12 @@
   {
     "key": "Key:contact:yelp",
     "url": "https://www.yelp.com/biz/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:de:amtlicher_gemeindeschluessel",
+    "url": "http://dcat-ap.de/def/politicalGeocoding/municipalityKey/$1",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
@@ -1695,7 +1713,7 @@
     "key": "Key:ref:FR:SIREN",
     "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/$1",
     "source": "wikidata:P1630",
-    "rank": "preferred"
+    "rank": "normal"
   },
   {
     "key": "Key:ref:FR:SIREN",
@@ -1855,6 +1873,12 @@
   },
   {
     "key": "Key:ref:ibnr",
+    "url": "https://fahrplan.oebb.at/bin/stboard.exe/en?input=$1&start=yes",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:ibnr",
     "url": "https://meine.oebb.at/abfahrtankunft/arrival?evaNr=$1",
     "source": "wikidata:P3303",
     "rank": "normal"
@@ -1881,12 +1905,6 @@
     "key": "Key:ref:ibnr",
     "url": "https://reiseauskunft.bahn.de/bin/bhftafel.exe/en?input=$1&boardType=arr&time=actual&productsDefault=1111101&start=yes",
     "source": "wikidata:P3303",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:ref:ibnr",
-    "url": "https://reiseauskunft.bahn.de/bin/bhftafel.exe/en?input=$1&boardType=dep&time=actual&productsDefault=1111101&start=yes",
-    "source": "wikidata:P1630",
     "rank": "normal"
   },
   {
@@ -2240,6 +2258,12 @@
   {
     "key": "Key:ref:sandre",
     "url": "https://id.eaufrance.fr/SysTraitementEauxUsees/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:sipca",
+    "url": "http://www.sipca.es/censo/$1/.html",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
@@ -2689,24 +2713,6 @@
   },
   {
     "key": "Key:uic_ref",
-    "url": "http://nrwbahnarchiv.bplaced.net/bf/$1.htm",
-    "source": "wikidata:P3303",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:uic_ref",
-    "url": "http://www.stationsdatenbank.bayern-takt.de/StationsdatenbankBEG/Steckbrief.html?efz=$1",
-    "source": "wikidata:P3303",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:uic_ref",
-    "url": "https://api3.geo.admin.ch/rest/services/ech/MapServer/ch.bav.haltestellen-oev/$1/extendedHtmlPopup",
-    "source": "wikidata:P3303",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:uic_ref",
     "url": "https://irail.be/stations/NMBS/00$1",
     "source": "wikidata:P3303",
     "rank": "normal"
@@ -2719,55 +2725,7 @@
   },
   {
     "key": "Key:uic_ref",
-    "url": "https://meine.oebb.at/abfahrtankunft/arrival?evaNr=$1",
-    "source": "wikidata:P3303",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:uic_ref",
-    "url": "https://meine.oebb.at/abfahrtankunft/departure?evaNr=$1",
-    "source": "wikidata:P3303",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:uic_ref",
-    "url": "https://reiseauskunft.bahn.de/bin/bhftafel.exe/?input=$1&boardType=arr&time=actual&productsDefault=1111101&start=yes",
-    "source": "wikidata:P3303",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:uic_ref",
-    "url": "https://reiseauskunft.bahn.de/bin/bhftafel.exe/?input=$1&boardType=dep&time=actual&productsDefault=1111101&start=yes",
-    "source": "wikidata:P3303",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:uic_ref",
-    "url": "https://reiseauskunft.bahn.de/bin/bhftafel.exe/en?input=$1&boardType=arr&time=actual&productsDefault=1111101&start=yes",
-    "source": "wikidata:P3303",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:uic_ref",
-    "url": "https://reiseauskunft.bahn.de/bin/bhftafel.exe/en?input=$1&boardType=dep&time=actual&productsDefault=1111101&start=yes",
-    "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:uic_ref",
-    "url": "https://reiseauskunft.bahn.de/bin/bhftafel.exe/en?input=$1&boardType=dep&time=actual&productsDefault=1111101&start=yes",
-    "source": "wikidata:P3303",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:uic_ref",
     "url": "https://www.cd.cz/stanice/$1",
-    "source": "wikidata:P3303",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:uic_ref",
-    "url": "https://www.dbbahnpark.de/content/fahrplanauskunft/bahnpark/pdf/$1.pdf",
     "source": "wikidata:P3303",
     "rank": "normal"
   },
