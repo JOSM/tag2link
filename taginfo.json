@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20241221T080000Z",
+  "data_updated": "20250121T080000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -230,6 +230,14 @@
       "description": "tg://resolve?domain=$1"
     },
     {
+      "key": "contact:tiktok",
+      "description": "https://www.tiktok.com/@$1"
+    },
+    {
+      "key": "contact:tiktok",
+      "description": "https://proxitok.pabloferreiro.es/@$1"
+    },
+    {
       "key": "contact:tripadvisor",
       "description": "https://www.tripadvisor.com/$1"
     },
@@ -332,6 +340,10 @@
     {
       "key": "contact:yelp",
       "description": "https://www.yelp.com/biz/$1"
+    },
+    {
+      "key": "de:amtlicher_gemeindeschluessel",
+      "description": "http://dcat-ap.de/def/politicalGeocoding/municipalityKey/$1"
     },
     {
       "key": "de:amtlicher_gemeindeschluessel",
@@ -1247,6 +1259,10 @@
     },
     {
       "key": "ref:ibnr",
+      "description": "https://fahrplan.oebb.at/bin/stboard.exe/en?input=$1&start=yes"
+    },
+    {
+      "key": "ref:ibnr",
       "description": "https://meine.oebb.at/abfahrtankunft/arrival?evaNr=$1"
     },
     {
@@ -1264,10 +1280,6 @@
     {
       "key": "ref:ibnr",
       "description": "https://reiseauskunft.bahn.de/bin/bhftafel.exe/en?input=$1&boardType=arr&time=actual&productsDefault=1111101&start=yes"
-    },
-    {
-      "key": "ref:ibnr",
-      "description": "https://reiseauskunft.bahn.de/bin/bhftafel.exe/en?input=$1&boardType=dep&time=actual&productsDefault=1111101&start=yes"
     },
     {
       "key": "ref:ibnr",
@@ -1504,6 +1516,10 @@
     {
       "key": "ref:sandre",
       "description": "https://id.eaufrance.fr/SysTraitementEauxUsees/$1"
+    },
+    {
+      "key": "ref:sipca",
+      "description": "http://www.sipca.es/censo/$1/.html"
     },
     {
       "key": "ref:UAI",
@@ -1803,18 +1819,6 @@
     },
     {
       "key": "uic_ref",
-      "description": "http://nrwbahnarchiv.bplaced.net/bf/$1.htm"
-    },
-    {
-      "key": "uic_ref",
-      "description": "http://www.stationsdatenbank.bayern-takt.de/StationsdatenbankBEG/Steckbrief.html?efz=$1"
-    },
-    {
-      "key": "uic_ref",
-      "description": "https://api3.geo.admin.ch/rest/services/ech/MapServer/ch.bav.haltestellen-oev/$1/extendedHtmlPopup"
-    },
-    {
-      "key": "uic_ref",
       "description": "https://irail.be/stations/NMBS/00$1"
     },
     {
@@ -1823,39 +1827,7 @@
     },
     {
       "key": "uic_ref",
-      "description": "https://meine.oebb.at/abfahrtankunft/arrival?evaNr=$1"
-    },
-    {
-      "key": "uic_ref",
-      "description": "https://meine.oebb.at/abfahrtankunft/departure?evaNr=$1"
-    },
-    {
-      "key": "uic_ref",
-      "description": "https://reiseauskunft.bahn.de/bin/bhftafel.exe/?input=$1&boardType=arr&time=actual&productsDefault=1111101&start=yes"
-    },
-    {
-      "key": "uic_ref",
-      "description": "https://reiseauskunft.bahn.de/bin/bhftafel.exe/?input=$1&boardType=dep&time=actual&productsDefault=1111101&start=yes"
-    },
-    {
-      "key": "uic_ref",
-      "description": "https://reiseauskunft.bahn.de/bin/bhftafel.exe/en?input=$1&boardType=arr&time=actual&productsDefault=1111101&start=yes"
-    },
-    {
-      "key": "uic_ref",
-      "description": "https://reiseauskunft.bahn.de/bin/bhftafel.exe/en?input=$1&boardType=dep&time=actual&productsDefault=1111101&start=yes"
-    },
-    {
-      "key": "uic_ref",
-      "description": "https://reiseauskunft.bahn.de/bin/bhftafel.exe/en?input=$1&boardType=dep&time=actual&productsDefault=1111101&start=yes"
-    },
-    {
-      "key": "uic_ref",
       "description": "https://www.cd.cz/stanice/$1"
-    },
-    {
-      "key": "uic_ref",
-      "description": "https://www.dbbahnpark.de/content/fahrplanauskunft/bahnpark/pdf/$1.pdf"
     },
     {
       "key": "uic_ref",
