@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20250121T080000Z",
+  "data_updated": "20250221T080000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -236,6 +236,10 @@
     {
       "key": "contact:tiktok",
       "description": "https://proxitok.pabloferreiro.es/@$1"
+    },
+    {
+      "key": "contact:tiktok",
+      "description": "https://www.tiktok.com/@$1"
     },
     {
       "key": "contact:tripadvisor",
@@ -750,18 +754,6 @@
       "description": "https://www.radarbox.com/data/airports/$1"
     },
     {
-      "key": "instagram",
-      "description": "https://www.instagram.com/$1/"
-    },
-    {
-      "key": "instagram",
-      "description": "https://imginn.com/$1"
-    },
-    {
-      "key": "instagram",
-      "description": "https://www.threads.net/@$1"
-    },
-    {
       "key": "internet_access:operator:wikidata",
       "description": "https://www.wikidata.org/entity/$1"
     },
@@ -943,7 +935,7 @@
     },
     {
       "key": "ref:arlhs",
-      "description": "http://wlol.arlhs.com/lighthouse/$1.html"
+      "description": "https://wlol.arlhs.com/lighthouse/$1.html"
     },
     {
       "key": "ref:at:bda",
@@ -1039,7 +1031,7 @@
     },
     {
       "key": "ref:ef",
-      "description": "http://www.marina.difesa.it/cosa-facciamo/per-la-difesa-sicurezza/fari/Pagine/$1.aspx"
+      "description": "https://www.marina.difesa.it/cosa-facciamo/per-la-difesa-sicurezza/fari/Pagine/$1.aspx"
     },
     {
       "key": "ref:EGID",
@@ -1163,15 +1155,11 @@
     },
     {
       "key": "ref:FR:SIREN",
-      "description": "https://scanr.enseignementsup-recherche.gouv.fr/structure/$1"
+      "description": "https://scanr.enseignementsup-recherche.gouv.fr/organizations/$1"
     },
     {
       "key": "ref:FR:SIREN",
-      "description": "https://www.infogreffe.fr/infogreffe/ficheIdentite.do?siren=$1"
-    },
-    {
-      "key": "ref:FR:SIREN",
-      "description": "https://www.infogreffe.fr/societes/entreprise-societe/$1"
+      "description": "https://www.infogreffe.fr/entreprise/$1"
     },
     {
       "key": "ref:FR:SIRET",
@@ -1180,10 +1168,6 @@
     {
       "key": "ref:FR:SIRET",
       "description": "https://annuaire-entreprises.data.gouv.fr/etablissement/$1"
-    },
-    {
-      "key": "ref:FR:SIRET",
-      "description": "https://www.infogreffe.fr/societes/entreprise-societe/$1"
     },
     {
       "key": "ref:FR:SIRET",
@@ -1523,23 +1507,7 @@
     },
     {
       "key": "ref:UAI",
-      "description": "http://bibliotheques.enseignementsup-recherche.gouv.fr/FR/annuaire/siege/$1/"
-    },
-    {
-      "key": "ref:UAI",
-      "description": "http://www.internat.education.gouv.fr/ConsultationAnnuaireInternat/ficheDetail.do?method=initForIntranet&etab=$1&uai=true"
-    },
-    {
-      "key": "ref:UAI",
-      "description": "http://www.internat.education.gouv.fr/ConsultationAnnuaireInternat/ficheDetail.do?method=initForIntranet&etab=$1&uai=true&internatSeul=true"
-    },
-    {
-      "key": "ref:UAI",
-      "description": "https://$1-education.net/pronote/?login=true"
-    },
-    {
-      "key": "ref:UAI",
-      "description": "https://www.journaldesfemmes.fr/maman/ecole/etablissement-$1"
+      "description": "https://data.education.gouv.fr/explore/dataset/fr-en-annuaire-education/map/?q=$1"
     },
     {
       "key": "ref:US-MA:mhc",
