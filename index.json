@@ -342,6 +342,12 @@
     "rank": "normal"
   },
   {
+    "key": "Key:contact:tiktok",
+    "url": "https://www.tiktok.com/@$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
     "key": "Key:contact:tripadvisor",
     "url": "https://www.tripadvisor.com/$1",
     "source": "osmwiki:P8",
@@ -1110,24 +1116,6 @@
     "rank": "normal"
   },
   {
-    "key": "Key:instagram",
-    "url": "https://www.instagram.com/$1/",
-    "source": "wikidata:P1630",
-    "rank": "preferred"
-  },
-  {
-    "key": "Key:instagram",
-    "url": "https://imginn.com/$1",
-    "source": "wikidata:P3303",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:instagram",
-    "url": "https://www.threads.net/@$1",
-    "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
     "key": "Key:internet_access:operator:wikidata",
     "url": "https://www.wikidata.org/entity/$1",
     "source": "osmwiki:P8",
@@ -1399,7 +1387,7 @@
   },
   {
     "key": "Key:ref:arlhs",
-    "url": "http://wlol.arlhs.com/lighthouse/$1.html",
+    "url": "https://wlol.arlhs.com/lighthouse/$1.html",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
@@ -1543,7 +1531,7 @@
   },
   {
     "key": "Key:ref:ef",
-    "url": "http://www.marina.difesa.it/cosa-facciamo/per-la-difesa-sicurezza/fari/Pagine/$1.aspx",
+    "url": "https://www.marina.difesa.it/cosa-facciamo/per-la-difesa-sicurezza/fari/Pagine/$1.aspx",
     "source": "wikidata:P1630",
     "rank": "preferred"
   },
@@ -1729,19 +1717,13 @@
   },
   {
     "key": "Key:ref:FR:SIREN",
-    "url": "https://scanr.enseignementsup-recherche.gouv.fr/structure/$1",
+    "url": "https://scanr.enseignementsup-recherche.gouv.fr/organizations/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
   },
   {
     "key": "Key:ref:FR:SIREN",
-    "url": "https://www.infogreffe.fr/infogreffe/ficheIdentite.do?siren=$1",
-    "source": "wikidata:P3303",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:ref:FR:SIREN",
-    "url": "https://www.infogreffe.fr/societes/entreprise-societe/$1",
+    "url": "https://www.infogreffe.fr/entreprise/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
   },
@@ -1755,12 +1737,6 @@
     "key": "Key:ref:FR:SIRET",
     "url": "https://annuaire-entreprises.data.gouv.fr/etablissement/$1",
     "source": "osmwiki:P8",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:ref:FR:SIRET",
-    "url": "https://www.infogreffe.fr/societes/entreprise-societe/$1",
-    "source": "wikidata:P3303",
     "rank": "normal"
   },
   {
@@ -2269,33 +2245,9 @@
   },
   {
     "key": "Key:ref:UAI",
-    "url": "http://bibliotheques.enseignementsup-recherche.gouv.fr/FR/annuaire/siege/$1/",
+    "url": "https://data.education.gouv.fr/explore/dataset/fr-en-annuaire-education/map/?q=$1",
     "source": "wikidata:P3303",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:ref:UAI",
-    "url": "http://www.internat.education.gouv.fr/ConsultationAnnuaireInternat/ficheDetail.do?method=initForIntranet&etab=$1&uai=true",
-    "source": "wikidata:P3303",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:ref:UAI",
-    "url": "http://www.internat.education.gouv.fr/ConsultationAnnuaireInternat/ficheDetail.do?method=initForIntranet&etab=$1&uai=true&internatSeul=true",
-    "source": "wikidata:P3303",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:ref:UAI",
-    "url": "https://$1-education.net/pronote/?login=true",
-    "source": "wikidata:P3303",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:ref:UAI",
-    "url": "https://www.journaldesfemmes.fr/maman/ecole/etablissement-$1",
-    "source": "wikidata:P3303",
-    "rank": "normal"
+    "rank": "preferred"
   },
   {
     "key": "Key:ref:US-MA:mhc",
