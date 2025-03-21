@@ -1620,6 +1620,12 @@
     "rank": "normal"
   },
   {
+    "key": "Key:ref:FR:FINESS",
+    "url": "https://finess.esante.gouv.fr/fininter/jsp/actionDetailEtablissement.do?noFiness=$1",
+    "source": "wikidata:P1630",
+    "rank": "preferred"
+  },
+  {
     "key": "Key:ref:FR:INPN",
     "url": "https://inpn.mnhn.fr/espace/protege/$1",
     "source": "wikidata:P1630",
@@ -1981,12 +1987,6 @@
   },
   {
     "key": "Key:ref:isil",
-    "url": "http://id.ndl.go.jp/vocab/isil/$1",
-    "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:ref:isil",
     "url": "http://isil.kansalliskirjasto.fi/api/query?isil=$1",
     "source": "wikidata:P1630",
     "rank": "normal"
@@ -2097,6 +2097,12 @@
     "key": "Key:ref:mav",
     "url": "https://utas.hu/stop/mav_$1",
     "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:metropoliaztm",
+    "url": "https://rj.metropoliaztm.pl/rozklady/przystanek/$1/",
+    "source": "osmwiki:P8",
     "rank": "normal"
   },
   {
@@ -2301,6 +2307,12 @@
     "key": "Key:ref:US:NLD",
     "url": "https://levees.sec.usace.army.mil/levees/$1",
     "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:vatin",
+    "url": "http://www.vat-lookup.co.uk/verify/vat_check.php/VATNumber/$1",
+    "source": "wikidata:P3303",
     "rank": "normal"
   },
   {
