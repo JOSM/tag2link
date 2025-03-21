@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20250221T080000Z",
+  "data_updated": "20250321T080000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -1090,6 +1090,10 @@
       "description": "https://messes.info/lieu/$1"
     },
     {
+      "key": "ref:FR:FINESS",
+      "description": "https://finess.esante.gouv.fr/fininter/jsp/actionDetailEtablissement.do?noFiness=$1"
+    },
+    {
       "key": "ref:FR:INPN",
       "description": "https://inpn.mnhn.fr/espace/protege/$1"
     },
@@ -1331,10 +1335,6 @@
     },
     {
       "key": "ref:isil",
-      "description": "http://id.ndl.go.jp/vocab/isil/$1"
-    },
-    {
-      "key": "ref:isil",
       "description": "http://isil.kansalliskirjasto.fi/api/query?isil=$1"
     },
     {
@@ -1408,6 +1408,10 @@
     {
       "key": "ref:mav",
       "description": "https://utas.hu/stop/mav_$1"
+    },
+    {
+      "key": "ref:metropoliaztm",
+      "description": "https://rj.metropoliaztm.pl/rozklady/przystanek/$1/"
     },
     {
       "key": "ref:mhs",
@@ -1544,6 +1548,10 @@
     {
       "key": "ref:US:NLD",
       "description": "https://levees.sec.usace.army.mil/levees/$1"
+    },
+    {
+      "key": "ref:vatin",
+      "description": "http://www.vat-lookup.co.uk/verify/vat_check.php/VATNumber/$1"
     },
     {
       "key": "ref:vatin",
