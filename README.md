@@ -24,7 +24,7 @@ You may want to obtain the package from npm: https://www.npmjs.com/package/tag2l
 
 ## Updating
 
-Run `npm build` which will update `index.json`.
+Run `python3 ./osm_wikidata.py && npm run build` which will update `index.json`.
 
 ## Taginfo
 
