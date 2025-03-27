@@ -5,6 +5,10 @@ on:
   workflow_call:
   workflow_dispatch:
 
+env:
+  PYTHON_VERSION: '3.12'
+  NODE_VERSION: 20
+
 jobs:
   build:
     name: build
@@ -15,11 +19,12 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
+          python-version: $PYTHON_VERSION
           cache: 'pip'
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
-      - run: pip install rdflib requests
+          node-version: $NODE_VERSION
+      - run: pip install -r requirements.txt
       - run: python3 osm_wikidata.py
       - run: npm install
       - run: npm run build
@@ -38,7 +43,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: $NODE_VERSION
           registry-url: 'https://registry.npmjs.org'
       - run: npm publish --provenance
         env:
@@ -55,7 +60,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: $NODE_VERSION
           registry-url: 'https://npm.pkg.github.com'
       - run: npm publish
         env:
@@ -69,4 +74,3 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: curl "https://www.webjars.org/deploy?webJarType=npm&nameOrUrlish=tag2link&version=$(jq -r '.version' package.json)"
-
