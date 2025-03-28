@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import os
 import json
-from requests import get
+import os
 from gzip import decompress
+
 from rdflib import Graph, URIRef, Literal, Namespace
+from requests import get
 
 g = Graph()
 if os.path.isfile("wikibase-rdf.ttl"):
