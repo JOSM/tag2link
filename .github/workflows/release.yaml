@@ -3,6 +3,10 @@ on:
   release:
     types: [created]
   workflow_call:
+    inputs:
+      ref:
+        required: false
+        type: string
   workflow_dispatch:
 
 env:
@@ -15,8 +19,17 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
+    outputs:
+      ref: ${{ steps.ref_finder.outputs.ref }}
     steps:
+      - name: Find ref to build/publish
+        id: ref_finder
+        run: |
+          if [[ ! -z "${{ inputs.ref }} ]]; then echo "ref=${{ inputs.ref }}" >> $GITHUB_OUTPUT
+          else echo "ref=${{ github.sha }}" >> $GITHUB_OUTPUT
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ steps.ref_finder.outputs.ref }}
       - uses: actions/setup-python@v5
         with:
           python-version: $PYTHON_VERSION
@@ -41,6 +54,8 @@ jobs:
       id-token: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.build.outputs.ref }}
       - uses: actions/setup-node@v4
         with:
           node-version: $NODE_VERSION
@@ -58,6 +73,8 @@ jobs:
       packages: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.build.outputs.ref }}
       - uses: actions/setup-node@v4
         with:
           node-version: $NODE_VERSION
@@ -73,4 +90,6 @@ jobs:
       contents: read
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.build.outputs.ref }}
       - run: curl "https://www.webjars.org/deploy?webJarType=npm&nameOrUrlish=tag2link&version=$(jq -r '.version' package.json)"

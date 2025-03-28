@@ -38,6 +38,7 @@ jobs:
           if [ $(git diff --name-only | wc -l) -gt 0 ]; then
             tag=$(jq -r '.version' package.json)
             # The GH api only allows for single file commits right now
+            # https://docs.github.com/en/rest/repos/contents?apiVersion=2022-11-28#create-or-update-file-contents
             for file in $(git diff --name-only); do
               gh api --method PUT -H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-11-28" \
                 "/repos/${{ github.repository }}/contents/$file" \
@@ -60,6 +61,7 @@ jobs:
       GH_TOKEN: ${{ github.token }}
     outputs:
       release_needed: ${{ steps.tag.outputs.release_needed }}
+      tag: ${{ steps.tag.outputs.tag }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -94,6 +96,7 @@ jobs:
               --field "sha=${object}"
             gh release create ${tag} --generate-notes
             echo "release_needed=true" >> "$GITHUB_OUTPUT"
+            echo "tag=${tag}" >> $GITHUB_OUTPUT
           else
             echo "release_needed=false" >> "$GITHUB_OUTPUT"
           fi
@@ -102,6 +105,8 @@ jobs:
     if: needs.tag.outputs.release_needed
     uses: ./.github/workflows/release.yaml
     secrets: inherit
+    with:
+      ref: ${{ needs.tag.outputs.tag }}
     permissions:
       attestations: write
       contents: read
