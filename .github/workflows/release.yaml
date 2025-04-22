@@ -21,7 +21,7 @@ jobs:
       - name: Find ref to build/publish
         id: ref_finder
         run: |
-          if [[ ! -z "${{ inputs.ref }} ]]; then echo "ref=${{ inputs.ref }}" >> $GITHUB_OUTPUT
+          if [[ ! -z "${{ inputs.ref }}" ]]; then echo "ref=${{ inputs.ref }}" >> $GITHUB_OUTPUT
           else echo "ref=${{ github.sha }}" >> $GITHUB_OUTPUT
       - uses: actions/checkout@v4
         with:
