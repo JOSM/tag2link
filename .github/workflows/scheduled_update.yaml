@@ -69,7 +69,7 @@ jobs:
           sha=${{ needs.update.outputs.sha }}
           if [ -z "${sha}" ]; then sha="HEAD"; fi
           for file in $(git diff ${tag}..${sha} --name-only); do
-            if [ $file == "taginfo.json" ] || [ $file == "index.json" ] || [ $file == "package.json"] ; then
+            if [ $file == "taginfo.json" ] || [ $file == "index.json" ] || [ $file == "package.json" ] ; then
               release_needed="true"
               break
             fi
