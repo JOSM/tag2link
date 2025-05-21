@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20250321T080000Z",
+  "data_updated": "20250521T080000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -364,6 +364,14 @@
     {
       "key": "de:amtlicher_gemeindeschluessel",
       "description": "https://www.statistik.bayern.de/mam/produkte/statistik_kommunal/2018/$1.pdf"
+    },
+    {
+      "key": "de:amtlicher_gemeindeschluessel",
+      "description": "https://www.statistikportal.de/de/gemeindeverzeichnis/$1"
+    },
+    {
+      "key": "de:amtlicher_gemeindeschluessel",
+      "description": "https://www.statistikportal.de/en/gemeindeverzeichnis/$1"
     },
     {
       "key": "destination:ref:wikidata",
@@ -900,6 +908,14 @@
     {
       "key": "parish:wikipedia",
       "description": "https://wikipedia.org/wiki/$1"
+    },
+    {
+      "key": "payment:app:android",
+      "description": "https://play.google.com/store/apps/details?id=$1"
+    },
+    {
+      "key": "payment:app:ios",
+      "description": "https://itunes.apple.com/app/id$1"
     },
     {
       "key": "payment:website",
@@ -1660,6 +1676,10 @@
     {
       "key": "royal_cypher:wikidata",
       "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "seamark:light:reference",
+      "description": "https://list.lighting/$1"
     },
     {
       "key": "seamark:radio_station:mmsi",
