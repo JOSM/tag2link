@@ -534,6 +534,18 @@
     "rank": "normal"
   },
   {
+    "key": "Key:de:amtlicher_gemeindeschluessel",
+    "url": "https://www.statistikportal.de/de/gemeindeverzeichnis/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:de:amtlicher_gemeindeschluessel",
+    "url": "https://www.statistikportal.de/en/gemeindeverzeichnis/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
     "key": "Key:destination:ref:wikidata",
     "url": "https://www.wikidata.org/entity/$1",
     "source": "osmwiki:P8",
@@ -1334,6 +1346,18 @@
   {
     "key": "Key:parish:wikipedia",
     "url": "https://wikipedia.org/wiki/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:payment:app:android",
+    "url": "https://play.google.com/store/apps/details?id=$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:payment:app:ios",
+    "url": "https://itunes.apple.com/app/id$1",
     "source": "osmwiki:P8",
     "rank": "normal"
   },
@@ -2474,6 +2498,12 @@
   {
     "key": "Key:royal_cypher:wikidata",
     "url": "https://www.wikidata.org/entity/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:seamark:light:reference",
+    "url": "https://list.lighting/$1",
     "source": "osmwiki:P8",
     "rank": "normal"
   },
