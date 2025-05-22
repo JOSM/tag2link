@@ -23,6 +23,7 @@ jobs:
         run: |
           if [[ ! -z "${{ inputs.ref }}" ]]; then echo "ref=${{ inputs.ref }}" >> $GITHUB_OUTPUT
           else echo "ref=${{ github.sha }}" >> $GITHUB_OUTPUT
+          fi
       - uses: actions/checkout@v4
         with:
           ref: ${{ steps.ref_finder.outputs.ref }}
