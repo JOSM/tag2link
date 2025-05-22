@@ -58,28 +58,6 @@ jobs:
       - run: npm publish --provenance
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-  publish-npm-registry-github:
-    needs: build
-    runs-on: ubuntu-latest
-    permissions:
-      attestations: write
-      contents: read
-      id-token: write
-      packages: write
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: ${{ needs.build.outputs.ref }}
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          registry-url: 'https://npm.pkg.github.com'
-          scope: ${{ github.repository_owner }}
-      - run: |
-          sed -i 's+"name": ".*+"name": "@${{ github.repository }}",+gI' ./package.json
-          npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   publish-webjar:
     needs: publish-npm-registry-npmjs
