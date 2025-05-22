@@ -37,7 +37,6 @@ jobs:
       - run: python3 osm_wikidata.py
       - run: npm install
       - run: npm run build
-      - run: git describe --all
       - run: git diff
       - run: exit $(git diff --numstat | wc -l)
 
