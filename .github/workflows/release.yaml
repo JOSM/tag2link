@@ -75,7 +75,7 @@ jobs:
           node-version: 20
           registry-url: 'https://npm.pkg.github.com'
       - run: |
-          sed -i 's+"name": ".*+"name": "@npm.pkg.github.com",+gI' ./package.json
+          sed -i 's+"name": ".*+"name": "@${{ github.repository }}",+gI' ./package.json
           npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
