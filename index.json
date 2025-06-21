@@ -138,6 +138,12 @@
     "rank": "normal"
   },
   {
+    "key": "Key:contact:booking",
+    "url": "https://www.booking.com/hotel/$1.html",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
     "key": "Key:contact:facebook",
     "url": "https://www.facebook.com/$1",
     "source": "wikidata:P1630",
@@ -193,14 +199,14 @@
   },
   {
     "key": "Key:contact:instagram",
-    "url": "https://www.threads.com/$1",
-    "source": "osmwiki:P8",
+    "url": "https://www.threads.com/@$1",
+    "source": "wikidata:P1630",
     "rank": "normal"
   },
   {
     "key": "Key:contact:instagram",
-    "url": "https://www.threads.net/@$1",
-    "source": "wikidata:P1630",
+    "url": "https://www.threads.com/$1",
+    "source": "osmwiki:P8",
     "rank": "normal"
   },
   {
@@ -334,12 +340,6 @@
     "url": "https://www.tiktok.com/@$1",
     "source": "wikidata:P1630",
     "rank": "preferred"
-  },
-  {
-    "key": "Key:contact:tiktok",
-    "url": "https://proxitok.pabloferreiro.es/@$1",
-    "source": "wikidata:P3303",
-    "rank": "normal"
   },
   {
     "key": "Key:contact:tiktok",
@@ -1848,6 +1848,12 @@
     "rank": "normal"
   },
   {
+    "key": "Key:ref:hjartstartarregistret.se",
+    "url": "https://www.hjartstartarregistret.se/#/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
     "key": "Key:ref:hmdb",
     "url": "https://www.hmdb.org/m.asp?m=$1",
     "source": "wikidata:P1630",
@@ -2509,6 +2515,12 @@
   },
   {
     "key": "Key:seamark:radio_station:mmsi",
+    "url": "https://www.aisfriends.com/embed?mmsi=$1&zoom=6&vessel_track=true&vessels_layer=false&menu=false",
+    "source": "wikidata:P1630",
+    "rank": "preferred"
+  },
+  {
+    "key": "Key:seamark:radio_station:mmsi",
     "url": "https://www.vesselfinder.com/vessels/details/$1",
     "source": "wikidata:P1630",
     "rank": "preferred"
@@ -2530,6 +2542,12 @@
     "url": "https://www.marinetraffic.com/en/ais/details/ships/mmsi:$1/",
     "source": "wikidata:P1630",
     "rank": "normal"
+  },
+  {
+    "key": "Key:seamark:virtual_aton:mmsi",
+    "url": "https://www.aisfriends.com/embed?mmsi=$1&zoom=6&vessel_track=true&vessels_layer=false&menu=false",
+    "source": "wikidata:P1630",
+    "rank": "preferred"
   },
   {
     "key": "Key:seamark:virtual_aton:mmsi",
@@ -2719,6 +2737,12 @@
   },
   {
     "key": "Key:uic_ref",
+    "url": "https://meine.oebb.at/abfahrtankunft/departure?static=true&evaNr=$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:uic_ref",
     "url": "https://www.cd.cz/stanice/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
@@ -2746,6 +2770,12 @@
     "url": "https://wikipedia.org/wiki/$1",
     "source": "osmwiki:P8",
     "rank": "normal"
+  },
+  {
+    "key": "Key:vessel:mmsi",
+    "url": "https://www.aisfriends.com/embed?mmsi=$1&zoom=6&vessel_track=true&vessels_layer=false&menu=false",
+    "source": "wikidata:P1630",
+    "rank": "preferred"
   },
   {
     "key": "Key:vessel:mmsi",
