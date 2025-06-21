@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20250521T080000Z",
+  "data_updated": "20250621T080000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -102,6 +102,10 @@
       "description": "$1"
     },
     {
+      "key": "contact:booking",
+      "description": "https://www.booking.com/hotel/$1.html"
+    },
+    {
       "key": "contact:facebook",
       "description": "https://www.facebook.com/$1"
     },
@@ -139,11 +143,11 @@
     },
     {
       "key": "contact:instagram",
-      "description": "https://www.threads.com/$1"
+      "description": "https://www.threads.com/@$1"
     },
     {
       "key": "contact:instagram",
-      "description": "https://www.threads.net/@$1"
+      "description": "https://www.threads.com/$1"
     },
     {
       "key": "contact:mastodon",
@@ -232,10 +236,6 @@
     {
       "key": "contact:tiktok",
       "description": "https://www.tiktok.com/@$1"
-    },
-    {
-      "key": "contact:tiktok",
-      "description": "https://proxitok.pabloferreiro.es/@$1"
     },
     {
       "key": "contact:tiktok",
@@ -1242,6 +1242,10 @@
       "description": "https://statistics.data.gov.uk/atlas/resource?uri=http://statistics.data.gov.uk/id/statistical-geography/$1"
     },
     {
+      "key": "ref:hjartstartarregistret.se",
+      "description": "https://www.hjartstartarregistret.se/#/$1"
+    },
+    {
       "key": "ref:hmdb",
       "description": "https://www.hmdb.org/m.asp?m=$1"
     },
@@ -1683,6 +1687,10 @@
     },
     {
       "key": "seamark:radio_station:mmsi",
+      "description": "https://www.aisfriends.com/embed?mmsi=$1&zoom=6&vessel_track=true&vessels_layer=false&menu=false"
+    },
+    {
+      "key": "seamark:radio_station:mmsi",
       "description": "https://www.vesselfinder.com/vessels/details/$1"
     },
     {
@@ -1696,6 +1704,10 @@
     {
       "key": "seamark:radio_station:mmsi",
       "description": "https://www.marinetraffic.com/en/ais/details/ships/mmsi:$1/"
+    },
+    {
+      "key": "seamark:virtual_aton:mmsi",
+      "description": "https://www.aisfriends.com/embed?mmsi=$1&zoom=6&vessel_track=true&vessels_layer=false&menu=false"
     },
     {
       "key": "seamark:virtual_aton:mmsi",
@@ -1823,6 +1835,10 @@
     },
     {
       "key": "uic_ref",
+      "description": "https://meine.oebb.at/abfahrtankunft/departure?static=true&evaNr=$1"
+    },
+    {
+      "key": "uic_ref",
       "description": "https://www.cd.cz/stanice/$1"
     },
     {
@@ -1840,6 +1856,10 @@
     {
       "key": "vehicle:wikipedia",
       "description": "https://wikipedia.org/wiki/$1"
+    },
+    {
+      "key": "vessel:mmsi",
+      "description": "https://www.aisfriends.com/embed?mmsi=$1&zoom=6&vessel_track=true&vessels_layer=false&menu=false"
     },
     {
       "key": "vessel:mmsi",
