@@ -60,7 +60,7 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
   publish-webjar:
-    needs: publish-npm-registry-npmjs
+    needs: [build, publish-npm-registry-npmjs]
     runs-on: ubuntu-latest
     permissions:
       contents: read
