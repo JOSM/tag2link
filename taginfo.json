@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20250621T080000Z",
+  "data_updated": "20250721T080000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -131,7 +131,7 @@
     },
     {
       "key": "contact:instagram",
-      "description": "https://www.instagram.com/$1"
+      "description": "https://www.instagram.com/$1/"
     },
     {
       "key": "contact:instagram",
@@ -140,10 +140,6 @@
     {
       "key": "contact:instagram",
       "description": "https://imginn.com/$1"
-    },
-    {
-      "key": "contact:instagram",
-      "description": "https://www.threads.com/@$1"
     },
     {
       "key": "contact:instagram",
@@ -427,7 +423,7 @@
     },
     {
       "key": "fhrs:id",
-      "description": "https://ratings.food.gov.uk/business/en-GB/$1"
+      "description": "https://ratings.food.gov.uk/business/$1"
     },
     {
       "key": "fixme:wikipedia",
@@ -483,6 +479,10 @@
     },
     {
       "key": "gnis:feature_id",
+      "description": "https://edits.nationalmap.gov/apps/gaz-antarctica/public/summary/$1"
+    },
+    {
+      "key": "gnis:feature_id",
       "description": "https://www.wikidata.org/w/index.php?search=haswbstatement%3A%22P590%3D$1%22&ns0=1&ns120=1"
     },
     {
@@ -520,6 +520,10 @@
     {
       "key": "hashtags",
       "description": "https://giphy.com/explore/$1"
+    },
+    {
+      "key": "hashtags",
+      "description": "https://github.com/topics/$1"
     },
     {
       "key": "hashtags",
@@ -1123,7 +1127,7 @@
     },
     {
       "key": "ref:FR:MemorialGenWeb",
-      "description": "http://www.memorialgenweb.org/memorial3/html/fr/resultcommune.php?idsource=$1"
+      "description": "https://www.memorialgenweb.org/memorial3/html/fr/resultcommune.php?idsource=$1"
     },
     {
       "key": "ref:FR:MemorialGenWeb",
@@ -1135,7 +1139,7 @@
     },
     {
       "key": "ref:FR:museofile",
-      "description": "https://www.pop.culture.gouv.fr/notice/museo/$1"
+      "description": "https://pop.culture.gouv.fr/notice/museo/$1"
     },
     {
       "key": "ref:FR:NAF",
@@ -1252,6 +1256,14 @@
     {
       "key": "ref:hr:uzkb",
       "description": "https://registar.kulturnadobra.hr/#/details/$1"
+    },
+    {
+      "key": "ref:HU:company",
+      "description": "https://nemzeticegtar.hu/nemzeticegtar/cegadat/$1/wd"
+    },
+    {
+      "key": "ref:HU:company",
+      "description": "https://wikidata-externalid-url.toolforge.org/?url=https%3A%2F%2Fwww.e-cegjegyzek.hu%2F%3Fcegadatlap%2F%251%252%253&exp=%28%5Cd%7B2%7D%29-%28%5Cd%7B2%7D%29-%28%5Cd%7B6%7D%29&id=$1"
     },
     {
       "key": "ref:ibnr",
@@ -1420,6 +1432,22 @@
     {
       "key": "ref:lfd",
       "description": "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=$1"
+    },
+    {
+      "key": "ref:linz:address_id",
+      "description": "https://osm-nz.github.io/?address_id=$1"
+    },
+    {
+      "key": "ref:linz:building_id",
+      "description": "https://osm-nz.github.io/?building_id=$1"
+    },
+    {
+      "key": "ref:linz:napalis_id",
+      "description": "https://osm-nz.github.io/?napalis_id=$1"
+    },
+    {
+      "key": "ref:linz:pastoral_lease_id",
+      "description": "https://osm-nz.github.io/?pastoral_lease_id=$1"
     },
     {
       "key": "ref:linz:place_id",
@@ -1687,10 +1715,6 @@
     },
     {
       "key": "seamark:radio_station:mmsi",
-      "description": "https://www.aisfriends.com/embed?mmsi=$1&zoom=6&vessel_track=true&vessels_layer=false&menu=false"
-    },
-    {
-      "key": "seamark:radio_station:mmsi",
       "description": "https://www.vesselfinder.com/vessels/details/$1"
     },
     {
@@ -1700,6 +1724,10 @@
     {
       "key": "seamark:radio_station:mmsi",
       "description": "https://sd.ic.gc.ca/pls/frndoc_anon/mmsi_search.Ship_Search?inMMSI=$1&inVesName=&inName=&inCallsign=&inVesId="
+    },
+    {
+      "key": "seamark:radio_station:mmsi",
+      "description": "https://www.aisfriends.com/embed?mmsi=$1&zoom=6&vessel_track=true&vessels_layer=false&menu=false"
     },
     {
       "key": "seamark:radio_station:mmsi",
@@ -1707,10 +1735,6 @@
     },
     {
       "key": "seamark:virtual_aton:mmsi",
-      "description": "https://www.aisfriends.com/embed?mmsi=$1&zoom=6&vessel_track=true&vessels_layer=false&menu=false"
-    },
-    {
-      "key": "seamark:virtual_aton:mmsi",
       "description": "https://www.vesselfinder.com/vessels/details/$1"
     },
     {
@@ -1720,6 +1744,10 @@
     {
       "key": "seamark:virtual_aton:mmsi",
       "description": "https://sd.ic.gc.ca/pls/frndoc_anon/mmsi_search.Ship_Search?inMMSI=$1&inVesName=&inName=&inCallsign=&inVesId="
+    },
+    {
+      "key": "seamark:virtual_aton:mmsi",
+      "description": "https://www.aisfriends.com/embed?mmsi=$1&zoom=6&vessel_track=true&vessels_layer=false&menu=false"
     },
     {
       "key": "seamark:virtual_aton:mmsi",
@@ -1859,10 +1887,6 @@
     },
     {
       "key": "vessel:mmsi",
-      "description": "https://www.aisfriends.com/embed?mmsi=$1&zoom=6&vessel_track=true&vessels_layer=false&menu=false"
-    },
-    {
-      "key": "vessel:mmsi",
       "description": "https://www.vesselfinder.com/vessels/details/$1"
     },
     {
@@ -1872,6 +1896,10 @@
     {
       "key": "vessel:mmsi",
       "description": "https://sd.ic.gc.ca/pls/frndoc_anon/mmsi_search.Ship_Search?inMMSI=$1&inVesName=&inName=&inCallsign=&inVesId="
+    },
+    {
+      "key": "vessel:mmsi",
+      "description": "https://www.aisfriends.com/embed?mmsi=$1&zoom=6&vessel_track=true&vessels_layer=false&menu=false"
     },
     {
       "key": "vessel:mmsi",
@@ -1943,6 +1971,10 @@
     },
     {
       "key": "website:regulation",
+      "description": "$1"
+    },
+    {
+      "key": "website:reservation",
       "description": "$1"
     },
     {
