@@ -181,7 +181,7 @@
   },
   {
     "key": "Key:contact:instagram",
-    "url": "https://www.instagram.com/$1",
+    "url": "https://www.instagram.com/$1/",
     "source": "osmwiki:P8",
     "rank": "preferred"
   },
@@ -195,12 +195,6 @@
     "key": "Key:contact:instagram",
     "url": "https://imginn.com/$1",
     "source": "wikidata:P3303",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:contact:instagram",
-    "url": "https://www.threads.com/@$1",
-    "source": "wikidata:P1630",
     "rank": "normal"
   },
   {
@@ -620,13 +614,13 @@
   {
     "key": "Key:fhrs:id",
     "url": "https://ratings.food.gov.uk/business/$1",
-    "source": "wikidata:P1630",
+    "source": "osmwiki:P8",
     "rank": "normal"
   },
   {
     "key": "Key:fhrs:id",
-    "url": "https://ratings.food.gov.uk/business/en-GB/$1",
-    "source": "osmwiki:P8",
+    "url": "https://ratings.food.gov.uk/business/$1",
+    "source": "wikidata:P1630",
     "rank": "normal"
   },
   {
@@ -709,6 +703,12 @@
   },
   {
     "key": "Key:gnis:feature_id",
+    "url": "https://edits.nationalmap.gov/apps/gaz-antarctica/public/summary/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:gnis:feature_id",
     "url": "https://www.wikidata.org/w/index.php?search=haswbstatement%3A%22P590%3D$1%22&ns0=1&ns120=1",
     "source": "osmwiki:P8",
     "rank": "normal"
@@ -764,6 +764,12 @@
   {
     "key": "Key:hashtags",
     "url": "https://giphy.com/explore/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:hashtags",
+    "url": "https://github.com/topics/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
   },
@@ -1669,13 +1675,19 @@
   },
   {
     "key": "Key:ref:FR:MemorialGenWeb",
-    "url": "http://www.memorialgenweb.org/memorial3/html/fr/resultcommune.php?idsource=$1",
-    "source": "wikidata:P1630",
+    "url": "https://www.memorialgenweb.org/memorial3/html/fr/resultcommune.php?idsource=$1",
+    "source": "osmwiki:P8",
     "rank": "normal"
   },
   {
     "key": "Key:ref:FR:MemorialGenWeb",
     "url": "https://www.memorialgenweb.org/memorial3/html/fr/resultcommune.php?idsource=$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:FR:museofile",
+    "url": "https://pop.culture.gouv.fr/notice/museo/$1",
     "source": "osmwiki:P8",
     "rank": "normal"
   },
@@ -1683,12 +1695,6 @@
     "key": "Key:ref:FR:museofile",
     "url": "https://pop.culture.gouv.fr/notice/museo/$1",
     "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:ref:FR:museofile",
-    "url": "https://www.pop.culture.gouv.fr/notice/museo/$1",
-    "source": "osmwiki:P8",
     "rank": "normal"
   },
   {
@@ -1863,6 +1869,18 @@
     "key": "Key:ref:hr:uzkb",
     "url": "https://registar.kulturnadobra.hr/#/details/$1",
     "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:HU:company",
+    "url": "https://nemzeticegtar.hu/nemzeticegtar/cegadat/$1/wd",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:HU:company",
+    "url": "https://wikidata-externalid-url.toolforge.org/?url=https%3A%2F%2Fwww.e-cegjegyzek.hu%2F%3Fcegadatlap%2F%251%252%253&exp=%28%5Cd%7B2%7D%29-%28%5Cd%7B2%7D%29-%28%5Cd%7B6%7D%29&id=$1",
+    "source": "wikidata:P1630",
     "rank": "normal"
   },
   {
@@ -2115,6 +2133,30 @@
     "key": "Key:ref:lfd",
     "url": "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=$1",
     "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:linz:address_id",
+    "url": "https://osm-nz.github.io/?address_id=$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:linz:building_id",
+    "url": "https://osm-nz.github.io/?building_id=$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:linz:napalis_id",
+    "url": "https://osm-nz.github.io/?napalis_id=$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:linz:pastoral_lease_id",
+    "url": "https://osm-nz.github.io/?pastoral_lease_id=$1",
+    "source": "osmwiki:P8",
     "rank": "normal"
   },
   {
@@ -2515,12 +2557,6 @@
   },
   {
     "key": "Key:seamark:radio_station:mmsi",
-    "url": "https://www.aisfriends.com/embed?mmsi=$1&zoom=6&vessel_track=true&vessels_layer=false&menu=false",
-    "source": "wikidata:P1630",
-    "rank": "preferred"
-  },
-  {
-    "key": "Key:seamark:radio_station:mmsi",
     "url": "https://www.vesselfinder.com/vessels/details/$1",
     "source": "wikidata:P1630",
     "rank": "preferred"
@@ -2534,6 +2570,12 @@
   {
     "key": "Key:seamark:radio_station:mmsi",
     "url": "https://sd.ic.gc.ca/pls/frndoc_anon/mmsi_search.Ship_Search?inMMSI=$1&inVesName=&inName=&inCallsign=&inVesId=",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:seamark:radio_station:mmsi",
+    "url": "https://www.aisfriends.com/embed?mmsi=$1&zoom=6&vessel_track=true&vessels_layer=false&menu=false",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
@@ -2545,12 +2587,6 @@
   },
   {
     "key": "Key:seamark:virtual_aton:mmsi",
-    "url": "https://www.aisfriends.com/embed?mmsi=$1&zoom=6&vessel_track=true&vessels_layer=false&menu=false",
-    "source": "wikidata:P1630",
-    "rank": "preferred"
-  },
-  {
-    "key": "Key:seamark:virtual_aton:mmsi",
     "url": "https://www.vesselfinder.com/vessels/details/$1",
     "source": "wikidata:P1630",
     "rank": "preferred"
@@ -2564,6 +2600,12 @@
   {
     "key": "Key:seamark:virtual_aton:mmsi",
     "url": "https://sd.ic.gc.ca/pls/frndoc_anon/mmsi_search.Ship_Search?inMMSI=$1&inVesName=&inName=&inCallsign=&inVesId=",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:seamark:virtual_aton:mmsi",
+    "url": "https://www.aisfriends.com/embed?mmsi=$1&zoom=6&vessel_track=true&vessels_layer=false&menu=false",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
@@ -2773,12 +2815,6 @@
   },
   {
     "key": "Key:vessel:mmsi",
-    "url": "https://www.aisfriends.com/embed?mmsi=$1&zoom=6&vessel_track=true&vessels_layer=false&menu=false",
-    "source": "wikidata:P1630",
-    "rank": "preferred"
-  },
-  {
-    "key": "Key:vessel:mmsi",
     "url": "https://www.vesselfinder.com/vessels/details/$1",
     "source": "wikidata:P1630",
     "rank": "preferred"
@@ -2792,6 +2828,12 @@
   {
     "key": "Key:vessel:mmsi",
     "url": "https://sd.ic.gc.ca/pls/frndoc_anon/mmsi_search.Ship_Search?inMMSI=$1&inVesName=&inName=&inCallsign=&inVesId=",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:vessel:mmsi",
+    "url": "https://www.aisfriends.com/embed?mmsi=$1&zoom=6&vessel_track=true&vessels_layer=false&menu=false",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
@@ -2899,6 +2941,12 @@
   },
   {
     "key": "Key:website:regulation",
+    "url": "$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:website:reservation",
     "url": "$1",
     "source": "osmwiki:P8",
     "rank": "normal"
