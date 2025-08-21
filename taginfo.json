@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20250721T080000Z",
+  "data_updated": "20250821T080000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -92,6 +92,10 @@
     {
       "key": "buried:wikipedia",
       "description": "https://wikipedia.org/wiki/$1"
+    },
+    {
+      "key": "closed:note",
+      "description": "https://www.openstreetmap.org/note/$1"
     },
     {
       "key": "commemorates:wikidata",
@@ -1146,6 +1150,10 @@
       "description": "https://www.insee.fr/fr/metadonnees/nafr2?q=$1"
     },
     {
+      "key": "ref:FR:Paris:plaque",
+      "description": "https://opendata.paris.fr/explore/dataset/plaques_commemoratives/table/?q=index_plaque%3D$1"
+    },
+    {
       "key": "ref:FR:prix-carburants",
       "description": "https://www.prix-carburants.gouv.fr/itineraire/print/pdv/$1"
     },
@@ -1200,6 +1208,10 @@
     {
       "key": "ref:FR:SIRET",
       "description": "https://www.sirene.fr/sirene/public/recherche?recherche.sirenSiret=$1"
+    },
+    {
+      "key": "ref:FR:STIF",
+      "description": "https://jungle-bus.github.io/unroll/load.html?ref:FR:STIF=$1"
     },
     {
       "key": "ref:GB:nhle",
@@ -1454,6 +1466,10 @@
       "description": "https://gazetteer.linz.govt.nz/place/$1"
     },
     {
+      "key": "ref:LOCODE",
+      "description": "https://www.vesselfinder.com/ports/$1"
+    },
+    {
       "key": "ref:mav",
       "description": "https://utas.hu/stop/mav_$1"
     },
@@ -1498,10 +1514,6 @@
       "description": "https://www.heritage.org.nz/list-details/$1/$1"
     },
     {
-      "key": "ref:nz:heritage",
-      "description": "https://www.heritage.org.nz/the-list/details/$1"
-    },
-    {
       "key": "ref:OnroerendErfgoed",
       "description": "https://id.erfgoed.net/erfgoedobjecten/$1"
     },
@@ -1520,6 +1532,10 @@
     {
       "key": "ref:refuges.info",
       "description": "https://www.refuges.info/point/$1"
+    },
+    {
+      "key": "ref:relais_colis",
+      "description": "https://relaiscolis.com/relais/detail?codeRelais=$1"
     },
     {
       "key": "ref:ruian",
@@ -1560,6 +1576,10 @@
     {
       "key": "ref:UAI",
       "description": "https://data.education.gouv.fr/explore/dataset/fr-en-annuaire-education/map/?q=$1"
+    },
+    {
+      "key": "ref:UAI",
+      "description": "https://data.education.gouv.fr/pages/fiche-etablissement/?code_etab=$1"
     },
     {
       "key": "ref:US-MA:mhc",
@@ -1612,6 +1632,10 @@
     {
       "key": "ref:vatin",
       "description": "https://www.fatturatoitalia.it/cerca.php?cerca=$1"
+    },
+    {
+      "key": "ref:vinted_go",
+      "description": "website=https://vintedgo.com/fr/carrier-locations?selected_point=$1"
     },
     {
       "key": "ref:WDPA",
