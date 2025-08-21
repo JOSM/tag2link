@@ -126,6 +126,12 @@
     "rank": "normal"
   },
   {
+    "key": "Key:closed:note",
+    "url": "https://www.openstreetmap.org/note/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
     "key": "Key:commemorates:wikidata",
     "url": "https://www.wikidata.org/entity/$1",
     "source": "osmwiki:P8",
@@ -1704,6 +1710,12 @@
     "rank": "preferred"
   },
   {
+    "key": "Key:ref:FR:Paris:plaque",
+    "url": "https://opendata.paris.fr/explore/dataset/plaques_commemoratives/table/?q=index_plaque%3D$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
     "key": "Key:ref:FR:prix-carburants",
     "url": "https://www.prix-carburants.gouv.fr/itineraire/print/pdv/$1",
     "source": "osmwiki:P8",
@@ -1785,6 +1797,12 @@
     "key": "Key:ref:FR:SIRET",
     "url": "https://www.sirene.fr/sirene/public/recherche?recherche.sirenSiret=$1",
     "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:FR:STIF",
+    "url": "https://jungle-bus.github.io/unroll/load.html?ref:FR:STIF=$1",
+    "source": "osmwiki:P8",
     "rank": "normal"
   },
   {
@@ -2166,6 +2184,12 @@
     "rank": "normal"
   },
   {
+    "key": "Key:ref:LOCODE",
+    "url": "https://www.vesselfinder.com/ports/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
     "key": "Key:ref:mav",
     "url": "https://utas.hu/stop/mav_$1",
     "source": "wikidata:P1630",
@@ -2232,12 +2256,6 @@
     "rank": "preferred"
   },
   {
-    "key": "Key:ref:nz:heritage",
-    "url": "https://www.heritage.org.nz/the-list/details/$1",
-    "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
     "key": "Key:ref:OnroerendErfgoed",
     "url": "https://id.erfgoed.net/erfgoedobjecten/$1",
     "source": "wikidata:P1630",
@@ -2265,6 +2283,12 @@
     "key": "Key:ref:refuges.info",
     "url": "https://www.refuges.info/point/$1",
     "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:relais_colis",
+    "url": "https://relaiscolis.com/relais/detail?codeRelais=$1",
+    "source": "osmwiki:P8",
     "rank": "normal"
   },
   {
@@ -2326,6 +2350,12 @@
     "url": "https://data.education.gouv.fr/explore/dataset/fr-en-annuaire-education/map/?q=$1",
     "source": "wikidata:P3303",
     "rank": "preferred"
+  },
+  {
+    "key": "Key:ref:UAI",
+    "url": "https://data.education.gouv.fr/pages/fiche-etablissement/?code_etab=$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
   },
   {
     "key": "Key:ref:US-MA:mhc",
@@ -2403,6 +2433,12 @@
     "key": "Key:ref:vatin",
     "url": "https://www.fatturatoitalia.it/cerca.php?cerca=$1",
     "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:vinted_go",
+    "url": "website=https://vintedgo.com/fr/carrier-locations?selected_point=$1",
+    "source": "osmwiki:P8",
     "rank": "normal"
   },
   {
