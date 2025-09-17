@@ -1,6 +1,7 @@
 SELECT ?OSM_key ?formatter_URL ?rank ?source WHERE {
-  { ?item wdt:P1282 ?OSM_key. }
-  FILTER(STRSTARTS(?OSM_key, 'Key:')) .
+  { ?item wdt:P13786 ?raw_OSM_key. } .
+
+  BIND(CONCAT("Key:", STR( ?raw_OSM_key )) AS ?OSM_key)
 
   {
     { ?item p:P1630 [ps:P1630 ?formatter_URL; wikibase:rank ?rank;]. BIND("wikidata:P1630" AS ?source ). }

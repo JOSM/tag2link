@@ -2,7 +2,7 @@
 
 This repository contains formatter URLs for OpenStreetMap keys. The data is obtained from:
 
-- Wikidata items which have [OSM tag or key (P1282)](https://www.wikidata.org/wiki/Property:P1282) and [formatter URL (P1630)](https://www.wikidata.org/wiki/Property:P1630) defined
+- Wikidata items which have [OSM key (P13786)](https://www.wikidata.org/wiki/Property:P13786) and [formatter URL (P1630)](https://www.wikidata.org/wiki/Property:P1630) defined
 - OSM Wiki Wikibase via the OSM Sophox Service which have [formatter URL (P8)](https://wiki.openstreetmap.org/wiki/Property:P8)
 
 ## Contributing
