@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20250821T080000Z",
+  "data_updated": "20250921T080000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -414,6 +414,18 @@
       "description": "https://nfdc.faa.gov/nfdcApps/services/ajv5/airportDisplay.jsp?airportId=$1"
     },
     {
+      "key": "facebook",
+      "description": "https://www.facebook.com/$1"
+    },
+    {
+      "key": "facebook",
+      "description": "https://unavatar.now.sh/facebook/$1"
+    },
+    {
+      "key": "facebook",
+      "description": "https://www.messenger.com/t/$1"
+    },
+    {
       "key": "fax",
       "description": "tel:$1"
     },
@@ -464,6 +476,26 @@
     {
       "key": "genus:wikipedia",
       "description": "https://wikipedia.org/wiki/$1"
+    },
+    {
+      "key": "geonames:id",
+      "description": "http://data.cervantesvirtual.com/location/$1"
+    },
+    {
+      "key": "geonames:id",
+      "description": "https://openweathermap.org/city/$1"
+    },
+    {
+      "key": "geonames:id",
+      "description": "https://www.bbc.co.uk/weather/$1"
+    },
+    {
+      "key": "geonames:id",
+      "description": "https://www.geonames.org/$1"
+    },
+    {
+      "key": "geonames:id",
+      "description": "https://www.timeanddate.com/worldclock/@$1"
     },
     {
       "key": "gnis:feature_id",
@@ -770,6 +802,14 @@
       "description": "https://www.radarbox.com/data/airports/$1"
     },
     {
+      "key": "instagram",
+      "description": "https://www.instagram.com/$1/"
+    },
+    {
+      "key": "instagram",
+      "description": "https://imginn.com/$1"
+    },
+    {
       "key": "internet_access:operator:wikidata",
       "description": "https://www.wikidata.org/entity/$1"
     },
@@ -784,6 +824,10 @@
     {
       "key": "koes_id",
       "description": "https://samlingen.koes.dk/vaerker-i-det-offentlige-rum/$1"
+    },
+    {
+      "key": "locale",
+      "description": "https://r12a.github.io/app-subtags/index?lookup=$1"
     },
     {
       "key": "manufacturer:wikidata",
@@ -1010,6 +1054,10 @@
       "description": "https://www.camptocamp.org/waypoints/$1"
     },
     {
+      "key": "ref:cin",
+      "description": "https://api-bdsr.ministeroturismo.gov.it/ui/user/strutturecin/$1"
+    },
+    {
       "key": "ref:clochers.org",
       "description": "https://www.clochers.org/Fichiers_HTML/Accueil/Accueil_clochers/$1.htm"
     },
@@ -1052,6 +1100,10 @@
     {
       "key": "ref:edubase",
       "description": "https://www.get-information-schools.service.gov.uk/Establishments/Establishment/Details/$1"
+    },
+    {
+      "key": "ref:edubase:group",
+      "description": "https://www.get-information-schools.service.gov.uk/Groups/Group/Details/$1"
     },
     {
       "key": "ref:ef",
@@ -1174,6 +1226,10 @@
       "description": "https://www.journal-officiel.gouv.fr/association/index.php?ACTION=Rechercher&JTY_WALDEC=$1"
     },
     {
+      "key": "ref:FR:RTE",
+      "description": "https://explore.data.gouv.fr/fr/datasets/5f2cd1de7f9793e46858be28/?Code%20poste__contains=$1#/resources/6ae890b8-383d-4ef3-b301-5af089c401a8"
+    },
+    {
       "key": "ref:FR:SIREN",
       "description": "https://annuaire-entreprises.data.gouv.fr/entreprise/$1"
     },
@@ -1226,6 +1282,14 @@
       "description": "https://www.heritagegateway.org.uk/Gateway/Results_Single.aspx?uid=$1&resourceID=5"
     },
     {
+      "key": "ref:GB:nhs_ods",
+      "description": "https://directory.spineservices.nhs.uk/ORD/2-0-0/organisations/$1"
+    },
+    {
+      "key": "ref:GB:nhs_ods",
+      "description": "https://www.odsdatasearchandexport.nhs.uk/?search=generalorg&query=$1"
+    },
+    {
       "key": "ref:GB:uprn",
       "description": "https://uprn.uk/$1"
     },
@@ -1252,6 +1316,10 @@
     {
       "key": "ref:gemeentecode",
       "description": "https://identifier.overheid.nl/tooi/id/gemeente/gm$1"
+    },
+    {
+      "key": "ref:gnbc",
+      "description": "https://geonames.nrcan.gc.ca/search-place-names/unique/$1"
     },
     {
       "key": "ref:gss",
@@ -1576,6 +1644,10 @@
     {
       "key": "ref:UAI",
       "description": "https://data.education.gouv.fr/explore/dataset/fr-en-annuaire-education/map/?q=$1"
+    },
+    {
+      "key": "ref:UAI",
+      "description": "https://data.education.gouv.fr/pages/fiche-etablissement/?code_etab=$1"
     },
     {
       "key": "ref:UAI",
