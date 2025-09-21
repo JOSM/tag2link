@@ -606,6 +606,24 @@
     "rank": "normal"
   },
   {
+    "key": "Key:facebook",
+    "url": "https://www.facebook.com/$1",
+    "source": "wikidata:P1630",
+    "rank": "preferred"
+  },
+  {
+    "key": "Key:facebook",
+    "url": "https://unavatar.now.sh/facebook/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:facebook",
+    "url": "https://www.messenger.com/t/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
     "key": "Key:fax",
     "url": "tel:$1",
     "source": "wikidata:P1630",
@@ -681,6 +699,36 @@
     "key": "Key:genus:wikipedia",
     "url": "https://wikipedia.org/wiki/$1",
     "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:geonames:id",
+    "url": "http://data.cervantesvirtual.com/location/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:geonames:id",
+    "url": "https://openweathermap.org/city/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:geonames:id",
+    "url": "https://www.bbc.co.uk/weather/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:geonames:id",
+    "url": "https://www.geonames.org/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:geonames:id",
+    "url": "https://www.timeanddate.com/worldclock/@$1",
+    "source": "wikidata:P3303",
     "rank": "normal"
   },
   {
@@ -1140,6 +1188,18 @@
     "rank": "normal"
   },
   {
+    "key": "Key:instagram",
+    "url": "https://www.instagram.com/$1/",
+    "source": "wikidata:P1630",
+    "rank": "preferred"
+  },
+  {
+    "key": "Key:instagram",
+    "url": "https://imginn.com/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
     "key": "Key:internet_access:operator:wikidata",
     "url": "https://www.wikidata.org/entity/$1",
     "source": "osmwiki:P8",
@@ -1160,6 +1220,12 @@
   {
     "key": "Key:koes_id",
     "url": "https://samlingen.koes.dk/vaerker-i-det-offentlige-rum/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:locale",
+    "url": "https://r12a.github.io/app-subtags/index?lookup=$1",
     "source": "osmwiki:P8",
     "rank": "normal"
   },
@@ -1500,6 +1566,12 @@
     "rank": "normal"
   },
   {
+    "key": "Key:ref:cin",
+    "url": "https://api-bdsr.ministeroturismo.gov.it/ui/user/strutturecin/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
     "key": "Key:ref:clochers.org",
     "url": "https://www.clochers.org/Fichiers_HTML/Accueil/Accueil_clochers/$1.htm",
     "source": "wikidata:P1630",
@@ -1562,6 +1634,12 @@
   {
     "key": "Key:ref:edubase",
     "url": "https://www.get-information-schools.service.gov.uk/Establishments/Establishment/Details/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:edubase:group",
+    "url": "https://www.get-information-schools.service.gov.uk/Groups/Group/Details/$1",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
@@ -1746,6 +1824,12 @@
     "rank": "normal"
   },
   {
+    "key": "Key:ref:FR:RTE",
+    "url": "https://explore.data.gouv.fr/fr/datasets/5f2cd1de7f9793e46858be28/?Code%20poste__contains=$1#/resources/6ae890b8-383d-4ef3-b301-5af089c401a8",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
     "key": "Key:ref:FR:SIREN",
     "url": "https://annuaire-entreprises.data.gouv.fr/entreprise/$1",
     "source": "wikidata:P1630",
@@ -1824,6 +1908,18 @@
     "rank": "normal"
   },
   {
+    "key": "Key:ref:GB:nhs_ods",
+    "url": "https://directory.spineservices.nhs.uk/ORD/2-0-0/organisations/$1",
+    "source": "wikidata:P1630",
+    "rank": "preferred"
+  },
+  {
+    "key": "Key:ref:GB:nhs_ods",
+    "url": "https://www.odsdatasearchandexport.nhs.uk/?search=generalorg&query=$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
     "key": "Key:ref:GB:uprn",
     "url": "https://uprn.uk/$1",
     "source": "wikidata:P1630",
@@ -1863,6 +1959,12 @@
     "key": "Key:ref:gemeentecode",
     "url": "https://identifier.overheid.nl/tooi/id/gemeente/gm$1",
     "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:gnbc",
+    "url": "https://geonames.nrcan.gc.ca/search-place-names/unique/$1",
+    "source": "wikidata:P1630",
     "rank": "normal"
   },
   {
@@ -2350,6 +2452,12 @@
     "url": "https://data.education.gouv.fr/explore/dataset/fr-en-annuaire-education/map/?q=$1",
     "source": "wikidata:P3303",
     "rank": "preferred"
+  },
+  {
+    "key": "Key:ref:UAI",
+    "url": "https://data.education.gouv.fr/pages/fiche-etablissement/?code_etab=$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
   },
   {
     "key": "Key:ref:UAI",
