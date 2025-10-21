@@ -1003,6 +1003,12 @@
   },
   {
     "key": "Key:hashtags",
+    "url": "https://www.trustcafe.io/en/wt/$1",
+    "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:hashtags",
     "url": "https://www.tumblr.com/tagged/$1",
     "source": "wikidata:P3303",
     "rank": "normal"
@@ -1243,14 +1249,14 @@
   },
   {
     "key": "Key:mapillary",
-    "url": "https://www.mapillary.com/app/?pKey=$1",
-    "source": "osmwiki:P8",
+    "url": "https://www.mapillary.com/app/?focus=photo&pKey=$1",
+    "source": "wikidata:P1630",
     "rank": "normal"
   },
   {
     "key": "Key:mapillary",
     "url": "https://www.mapillary.com/app/?pKey=$1",
-    "source": "wikidata:P1630",
+    "source": "osmwiki:P8",
     "rank": "normal"
   },
   {
@@ -2083,6 +2089,12 @@
   },
   {
     "key": "Key:ref:IFOPT",
+    "url": "https://bahnland-bayern.de/de/moby/efa/app/departureMonitor?departureMonitor=type%3Dstop&formik=origin%3D$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:IFOPT",
     "url": "https://transmodel-ids.toolforge.org/ifopt/$1",
     "source": "wikidata:P1630",
     "rank": "normal"
@@ -2352,6 +2364,12 @@
     "rank": "normal"
   },
   {
+    "key": "Key:ref:NVRID",
+    "url": "https://skyddadnatur.naturvardsverket.se/sknat/?nvrid=$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
     "key": "Key:ref:nz:heritage",
     "url": "https://www.heritage.org.nz/list-details/$1/$1",
     "source": "wikidata:P1630",
@@ -2361,12 +2379,6 @@
     "key": "Key:ref:OnroerendErfgoed",
     "url": "https://id.erfgoed.net/erfgoedobjecten/$1",
     "source": "wikidata:P1630",
-    "rank": "normal"
-  },
-  {
-    "key": "Key:ref:raa",
-    "url": "https://kulturarvsdata.se/raa/fmi/html/$1",
-    "source": "osmwiki:P8",
     "rank": "normal"
   },
   {
@@ -2442,6 +2454,12 @@
     "rank": "normal"
   },
   {
+    "key": "Key:ref:SE:raa",
+    "url": "https://kulturarvsdata.se/raa/fmi/html/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
     "key": "Key:ref:sipca",
     "url": "http://www.sipca.es/censo/$1/.html",
     "source": "wikidata:P1630",
@@ -2479,20 +2497,20 @@
   },
   {
     "key": "Key:ref:US:EIA",
-    "url": "https://www.datacommons.org/browser/eia/pp/$1",
+    "url": "https://www.eia.gov/electricity/data/browser/#/plant/$1",
     "source": "wikidata:P1630",
     "rank": "preferred"
   },
   {
     "key": "Key:ref:US:EIA",
-    "url": "https://www.eia.gov/electricity/data/browser/#/plant/$1",
-    "source": "osmwiki:P8",
+    "url": "https://www.datacommons.org/browser/eia/pp/$1",
+    "source": "wikidata:P1630",
     "rank": "normal"
   },
   {
     "key": "Key:ref:US:EIA",
     "url": "https://www.eia.gov/electricity/data/browser/#/plant/$1",
-    "source": "wikidata:P1630",
+    "source": "osmwiki:P8",
     "rank": "normal"
   },
   {
@@ -2684,6 +2702,12 @@
   {
     "key": "Key:removed:wikipedia",
     "url": "https://wikipedia.org/wiki/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:revert:id",
+    "url": "https://www.openstreetmap.org/changeset/$1",
     "source": "osmwiki:P8",
     "rank": "normal"
   },
