@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20250921T080000Z",
+  "data_updated": "20251021T080000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -679,6 +679,10 @@
     },
     {
       "key": "hashtags",
+      "description": "https://www.trustcafe.io/en/wt/$1"
+    },
+    {
+      "key": "hashtags",
       "description": "https://www.tumblr.com/tagged/$1"
     },
     {
@@ -839,7 +843,7 @@
     },
     {
       "key": "mapillary",
-      "description": "https://www.mapillary.com/app/?pKey=$1"
+      "description": "https://www.mapillary.com/app/?focus=photo&pKey=$1"
     },
     {
       "key": "mapillary",
@@ -1399,6 +1403,10 @@
     },
     {
       "key": "ref:IFOPT",
+      "description": "https://bahnland-bayern.de/de/moby/efa/app/departureMonitor?departureMonitor=type%3Dstop&formik=origin%3D$1"
+    },
+    {
+      "key": "ref:IFOPT",
       "description": "https://transmodel-ids.toolforge.org/ifopt/$1"
     },
     {
@@ -1578,16 +1586,16 @@
       "description": "https://npgallery.nps.gov/AssetDetail/NRIS/$1"
     },
     {
+      "key": "ref:NVRID",
+      "description": "https://skyddadnatur.naturvardsverket.se/sknat/?nvrid=$1"
+    },
+    {
       "key": "ref:nz:heritage",
       "description": "https://www.heritage.org.nz/list-details/$1/$1"
     },
     {
       "key": "ref:OnroerendErfgoed",
       "description": "https://id.erfgoed.net/erfgoedobjecten/$1"
-    },
-    {
-      "key": "ref:raa",
-      "description": "https://kulturarvsdata.se/raa/fmi/html/$1"
     },
     {
       "key": "ref:rce",
@@ -1638,6 +1646,10 @@
       "description": "https://id.eaufrance.fr/SysTraitementEauxUsees/$1"
     },
     {
+      "key": "ref:SE:raa",
+      "description": "https://kulturarvsdata.se/raa/fmi/html/$1"
+    },
+    {
       "key": "ref:sipca",
       "description": "http://www.sipca.es/censo/$1/.html"
     },
@@ -1663,11 +1675,11 @@
     },
     {
       "key": "ref:US:EIA",
-      "description": "https://www.datacommons.org/browser/eia/pp/$1"
+      "description": "https://www.eia.gov/electricity/data/browser/#/plant/$1"
     },
     {
       "key": "ref:US:EIA",
-      "description": "https://www.eia.gov/electricity/data/browser/#/plant/$1"
+      "description": "https://www.datacommons.org/browser/eia/pp/$1"
     },
     {
       "key": "ref:US:EIA",
@@ -1800,6 +1812,10 @@
     {
       "key": "removed:wikipedia",
       "description": "https://wikipedia.org/wiki/$1"
+    },
+    {
+      "key": "revert:id",
+      "description": "https://www.openstreetmap.org/changeset/$1"
     },
     {
       "key": "royal_cypher:wikidata",
