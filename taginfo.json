@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20251021T080000Z",
+  "data_updated": "20251121T080000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -470,6 +470,10 @@
       "description": "https://www.wikidata.org/entity/$1"
     },
     {
+      "key": "fvst:navnelbnr",
+      "description": "https://findsmiley.dk/$1"
+    },
+    {
       "key": "genus:wikidata",
       "description": "https://www.wikidata.org/entity/$1"
     },
@@ -604,6 +608,10 @@
     {
       "key": "hashtags",
       "description": "https://pixelfed.fr/discover/tags/$1"
+    },
+    {
+      "key": "hashtags",
+      "description": "https://resultmaps.neis-one.org/osm-changesets?comment=$1"
     },
     {
       "key": "hashtags",
@@ -806,6 +814,14 @@
       "description": "https://www.radarbox.com/data/airports/$1"
     },
     {
+      "key": "INEGI:cve_loc",
+      "description": "https://www.inegi.org.mx/app/areasgeograficas/?ag=$1"
+    },
+    {
+      "key": "INEGI:MUNID",
+      "description": "https://www.inegi.org.mx/app/areasgeograficas/?ag=$1"
+    },
+    {
       "key": "instagram",
       "description": "https://www.instagram.com/$1/"
     },
@@ -826,12 +842,12 @@
       "description": "https://keskkonnaportaal.ee/register?kkr_kood=$1"
     },
     {
-      "key": "koes_id",
-      "description": "https://samlingen.koes.dk/vaerker-i-det-offentlige-rum/$1"
-    },
-    {
       "key": "locale",
       "description": "https://r12a.github.io/app-subtags/index?lookup=$1"
+    },
+    {
+      "key": "maaamet:ETAK",
+      "description": "https://geoportaal.maaamet.ee/index.php?page_id=872&etak_id=$1"
     },
     {
       "key": "manufacturer:wikidata",
@@ -1002,6 +1018,10 @@
       "description": "http://listoflights.org/site/search?q=$1"
     },
     {
+      "key": "ref:afdc",
+      "description": "https://afdc.energy.gov/stations#/station/$1"
+    },
+    {
       "key": "ref:AQ:apa",
       "description": "https://www.ats.aq/devph/en/apa-database/$1"
     },
@@ -1092,6 +1112,14 @@
     {
       "key": "ref:crs",
       "description": "https://www.railwaydata.co.uk/stations/overview/?TLC=$1"
+    },
+    {
+      "key": "ref:DK:cvr",
+      "description": "https://datacvr.virk.dk/enhed/virksomhed/$1"
+    },
+    {
+      "key": "ref:DK:cvr:pnummer",
+      "description": "https://datacvr.virk.dk/enhed/produktionsenhed/$1"
     },
     {
       "key": "ref:doc",
@@ -1395,7 +1423,7 @@
     },
     {
       "key": "ref:IE:niah",
-      "description": "https://maps.archaeology.ie/historicenvironment/?REG_NO=$1"
+      "description": "https://heritagedata.maps.arcgis.com/apps/webappviewer/index.html?id=0c9eb9575b544081b0d296436d8f60f8&query=18a4bc9c428-layer-10%2CREG_NO%2C$1"
     },
     {
       "key": "ref:IE:smr",
@@ -1506,6 +1534,10 @@
       "description": "https://heritage.toolforge.org/api/api.php?action=search&format=html&srcountry=ch&srid=$1"
     },
     {
+      "key": "ref:kmr",
+      "description": "https://register.muinas.ee/public.php?menuID=monument&action=view&id=$1"
+    },
+    {
       "key": "ref:kons",
       "description": "http://aplikacija.kons.gov.ba/kons/public/nacionalnispomenici/show/$1"
     },
@@ -1540,6 +1572,10 @@
     {
       "key": "ref:linz:place_id",
       "description": "https://gazetteer.linz.govt.nz/place/$1"
+    },
+    {
+      "key": "ref:LOCODE",
+      "description": "https://unlocode.info/$1"
     },
     {
       "key": "ref:LOCODE",
@@ -1719,7 +1755,7 @@
     },
     {
       "key": "ref:vinted_go",
-      "description": "website=https://vintedgo.com/fr/carrier-locations?selected_point=$1"
+      "description": "https://vintedgo.com/fr/carrier-locations?selected_point=$1"
     },
     {
       "key": "ref:WDPA",
@@ -1772,6 +1808,10 @@
     {
       "key": "ref:wigos",
       "description": "https://oscar.wmo.int/surface/#/search/station/stationReportDetails/$1"
+    },
+    {
+      "key": "ref:wikimaginot",
+      "description": "wikimaginot.eu/V70_construction_detail.php?id="
     },
     {
       "key": "ref:woonplaatscode",
@@ -2112,62 +2152,6 @@
     {
       "key": "wikidata",
       "description": "https://www.wikidata.org/entity/$1"
-    },
-    {
-      "key": "wikidata",
-      "description": "https://autodesc.toolforge.org/?q=$1&links=wikipedia&lang=en&mode=long&format=html&redlinks=reasonator"
-    },
-    {
-      "key": "wikidata",
-      "description": "https://bionomia.net/$1"
-    },
-    {
-      "key": "wikidata",
-      "description": "https://hub.toolforge.org/$1"
-    },
-    {
-      "key": "wikidata",
-      "description": "https://inventaire.io/entity/wd:$1"
-    },
-    {
-      "key": "wikidata",
-      "description": "https://osm.wikidata.link/$1"
-    },
-    {
-      "key": "wikidata",
-      "description": "https://portal.toolforge.org/$1"
-    },
-    {
-      "key": "wikidata",
-      "description": "https://reasonator.toolforge.org/?q=$1"
-    },
-    {
-      "key": "wikidata",
-      "description": "https://scholia.toolforge.org/$1"
-    },
-    {
-      "key": "wikidata",
-      "description": "https://sqid.toolforge.org/#/view?id=$1"
-    },
-    {
-      "key": "wikidata",
-      "description": "https://taginfo.openstreetmap.org/tags/wikidata=$1"
-    },
-    {
-      "key": "wikidata",
-      "description": "https://viaf.org/processed/WKP|$1"
-    },
-    {
-      "key": "wikidata",
-      "description": "https://www.wikidata.org/w/index.php?title=Special:CiteThisPage&page=$1"
-    },
-    {
-      "key": "wikidata",
-      "description": "https://www.wikidata.org/wiki/$1"
-    },
-    {
-      "key": "wikidata",
-      "description": "https://www.wikidata.org/wiki/Special:Nearby#/page/$1"
     },
     {
       "key": "wikimedia_commons",
