@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20251221T080000Z",
+  "data_updated": "20260121T080000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -26,6 +26,10 @@
       "description": "https://wikipedia.org/wiki/$1"
     },
     {
+      "key": "architect:ref:CH:hls-dhs",
+      "description": "https://hls-dhs-dss.ch/fr/articles/$1/"
+    },
+    {
       "key": "architect:wikidata",
       "description": "https://www.wikidata.org/entity/$1"
     },
@@ -36,6 +40,18 @@
     {
       "key": "artist_name:wikipedia",
       "description": "https://wikipedia.org/wiki/$1"
+    },
+    {
+      "key": "artist:ref:CH-GE:icono",
+      "description": "https://www.bge-geneve.ch/iconographie/personne/$1"
+    },
+    {
+      "key": "artist:ref:CH:hls-dhs",
+      "description": "https://hls-dhs-dss.ch/fr/articles/$1/"
+    },
+    {
+      "key": "artist:ref:sikart",
+      "description": "https://recherche.sik-isea.ch/sik:person-$1"
     },
     {
       "key": "artist:website",
@@ -96,6 +112,10 @@
     {
       "key": "closed:note",
       "description": "https://www.openstreetmap.org/note/$1"
+    },
+    {
+      "key": "coat_of_arms",
+      "description": "https://commons.wikimedia.org/wiki/$1"
     },
     {
       "key": "commemorates:wikidata",
@@ -354,6 +374,10 @@
       "description": "https://webcache.googleusercontent.com/search?q=cache:$1"
     },
     {
+      "key": "contact:wechat",
+      "description": "https://open.weixin.qq.com/qr/code?username=$1"
+    },
+    {
       "key": "contact:whatsapp",
       "description": "whatsapp://send?phone=$1"
     },
@@ -364,6 +388,26 @@
     {
       "key": "contact:yelp",
       "description": "https://www.yelp.com/biz/$1"
+    },
+    {
+      "key": "contact:youtube",
+      "description": "https://www.youtube.com/user/$1"
+    },
+    {
+      "key": "country",
+      "description": "https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#$1"
+    },
+    {
+      "key": "country",
+      "description": "https://www.iso.org/obp/ui/#iso:code:3166:$1"
+    },
+    {
+      "key": "country_code_iso3166_1_alpha_2",
+      "description": "https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#$1"
+    },
+    {
+      "key": "country_code_iso3166_1_alpha_2",
+      "description": "https://www.iso.org/obp/ui/#iso:code:3166:$1"
     },
     {
       "key": "de:amtlicher_gemeindeschluessel",
@@ -460,10 +504,6 @@
     {
       "key": "fhrs:id",
       "description": "https://ratings.food.gov.uk/business/$1"
-    },
-    {
-      "key": "fixme:wikipedia",
-      "description": "https://wikipedia.org/wiki/$1"
     },
     {
       "key": "flag:wikidata",
@@ -858,12 +898,44 @@
       "description": "https://www.wikidata.org/entity/$1"
     },
     {
+      "key": "ISO3166-1",
+      "description": "https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#$1"
+    },
+    {
+      "key": "ISO3166-1",
+      "description": "https://www.iso.org/obp/ui/#iso:code:3166:$1"
+    },
+    {
+      "key": "ISO3166-1:alpha2",
+      "description": "https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#$1"
+    },
+    {
+      "key": "ISO3166-1:alpha2",
+      "description": "https://www.iso.org/obp/ui/#iso:code:3166:$1"
+    },
+    {
+      "key": "ISO3166-1:alpha3",
+      "description": "https://op.europa.eu/en/web/eu-vocabularies/concept/-/resource?uri=http://publications.europa.eu/resource/authority/country/$1"
+    },
+    {
+      "key": "ISO3166-1:numeric",
+      "description": "https://vocabs.cbs.nl/cbs_geo/en/page/?uri=https%3A%2F%2Fvocabs.cbs.nl%2Fgeo%2Fdef%2FISO-3166-1%2F$1"
+    },
+    {
       "key": "kartaview",
       "description": "https://kartaview.org/details/$1/track-info"
     },
     {
       "key": "KKR:code",
       "description": "https://keskkonnaportaal.ee/register?kkr_kood=$1"
+    },
+    {
+      "key": "kons:decision_number",
+      "description": "http://aplikacija.kons.gov.ba/"
+    },
+    {
+      "key": "kons:inscription_date",
+      "description": "http://aplikacija.kons.gov.ba/"
     },
     {
       "key": "locale",
@@ -916,6 +988,10 @@
     {
       "key": "MOE:id",
       "description": "https://www.educationcounts.govt.nz/find-school/school/profile?school=$1"
+    },
+    {
+      "key": "name:etymology:ref:CH:hls-dhs",
+      "description": "https://hls-dhs-dss.ch/fr/articles/$1/"
     },
     {
       "key": "name:etymology:wikidata",
@@ -974,6 +1050,10 @@
       "description": "https://openbenches.org/bench/$1"
     },
     {
+      "key": "opening_hours",
+      "description": "https://projets.pavie.info/yohours/?oh=$1"
+    },
+    {
       "key": "opening_hours:url",
       "description": "$1"
     },
@@ -984,6 +1064,14 @@
     {
       "key": "openplaques:id",
       "description": "https://openplaques.org/plaques/$1"
+    },
+    {
+      "key": "operator:ref:CH:UID",
+      "description": "https://www.uid.admin.ch/Detail.aspx?uid_id=$1"
+    },
+    {
+      "key": "operator:ref:FR:SIREN",
+      "description": "https://annuaire-entreprises.data.gouv.fr/entreprise/$1"
     },
     {
       "key": "operator:website",
@@ -998,11 +1086,27 @@
       "description": "https://wikipedia.org/wiki/$1"
     },
     {
+      "key": "owner:wikidata",
+      "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
       "key": "owner:wikipedia",
       "description": "https://wikipedia.org/wiki/$1"
     },
     {
       "key": "panoramax",
+      "description": "https://api.panoramax.xyz/#focus=pic&pic=$1"
+    },
+    {
+      "key": "panoramax:0",
+      "description": "https://api.panoramax.xyz/#focus=pic&pic=$1"
+    },
+    {
+      "key": "panoramax:1",
+      "description": "https://api.panoramax.xyz/#focus=pic&pic=$1"
+    },
+    {
+      "key": "panoramax:2",
       "description": "https://api.panoramax.xyz/#focus=pic&pic=$1"
     },
     {
@@ -1095,7 +1199,7 @@
     },
     {
       "key": "ref:bag",
-      "description": "https://bagviewer.kadaster.nl/lvbag/bag-viewer/index.html#?searchQuery=$1"
+      "description": "https://bagviewer.kadaster.nl/?objectId=$1"
     },
     {
       "key": "ref:bic",
@@ -1108,6 +1212,50 @@
     {
       "key": "ref:camptocamp",
       "description": "https://www.camptocamp.org/waypoints/$1"
+    },
+    {
+      "key": "ref:caribischopenbaarlichaamcode",
+      "description": "https://identifier.overheid.nl/tooi/id/col/col$1"
+    },
+    {
+      "key": "ref:CH-GE:archi",
+      "description": "https://geneve-archi.ch/$1"
+    },
+    {
+      "key": "ref:CH-GE:fcac",
+      "description": "https://collection.fcac.ch/fr/collection/item/$1/"
+    },
+    {
+      "key": "ref:CH-GE:fmac",
+      "description": "https://collections.geneve.ch/fmac/?id=$1&page=detail&collections=&table=libre"
+    },
+    {
+      "key": "ref:CH-GE:fmac-public",
+      "description": "https://artpublic-fmac.ch/oeuvres/$1"
+    },
+    {
+      "key": "ref:CH-GE:icono",
+      "description": "https://www.bge-geneve.ch/iconographie/personne/$1"
+    },
+    {
+      "key": "ref:CH-GE:icono-lieu",
+      "description": "https://www.bge-geneve.ch/iconographie/recherche?f%5B0%5D=lieux_representes%3A$1"
+    },
+    {
+      "key": "ref:CH-GE:noms",
+      "description": "https://noms-geographiques.app.ge.ch/$1"
+    },
+    {
+      "key": "ref:CH-GE:REG",
+      "description": "https://reg.app.ge.ch/#/etablissement/$1"
+    },
+    {
+      "key": "ref:CH:hls-dhs",
+      "description": "https://hls-dhs-dss.ch/fr/articles/$1/"
+    },
+    {
+      "key": "ref:CH:UID",
+      "description": "https://www.uid.admin.ch/Detail.aspx?uid_id=$1"
     },
     {
       "key": "ref:cin",
@@ -1178,6 +1326,10 @@
       "description": "https://api.geo.admin.ch/rest/services/ech/MapServer/ch.bfs.gebaeude_wohnungs_register/$1_0/extendedHtmlPopup"
     },
     {
+      "key": "ref:EGID",
+      "description": "https://api3.geo.admin.ch/rest/services/ech/MapServer/ch.bfs.gebaeude_wohnungs_register/$1_0/extendedHtmlPopup?lang=en"
+    },
+    {
       "key": "ref:EU:bwid",
       "description": "https://badplatsen.havochvatten.se/badplatsen/api/detail/$1"
     },
@@ -1230,6 +1382,14 @@
       "description": "https://messes.info/lieu/$1"
     },
     {
+      "key": "ref:FR:FFT",
+      "description": "https://tenup.fft.fr/club/$1"
+    },
+    {
+      "key": "ref:FR:FFTT",
+      "description": "https://carte.fftt.com/club/$1"
+    },
+    {
       "key": "ref:FR:FINESS",
       "description": "https://finess.esante.gouv.fr/fininter/jsp/actionDetailEtablissement.do?noFiness=$1"
     },
@@ -1271,7 +1431,7 @@
     },
     {
       "key": "ref:FR:prix-carburants",
-      "description": "https://www.prix-carburants.gouv.fr/itineraire/print/pdv/$1"
+      "description": "https://www.prix-carburants.gouv.fr/station/$1"
     },
     {
       "key": "ref:FR:RNA",
@@ -1374,6 +1534,18 @@
       "description": "https://identifier.overheid.nl/tooi/id/gemeente/gm$1"
     },
     {
+      "key": "ref:gemeentecode",
+      "description": "https://vocabs.cbs.nl/geo/def/gemeenten/GM$1"
+    },
+    {
+      "key": "ref:gemeentecode",
+      "description": "https://www.gemeentegeschiedenis.nl/cbscode/$1"
+    },
+    {
+      "key": "ref:gnbc",
+      "description": "https://geonames.nrcan.gc.ca/search-place-names/unique?id=$1"
+    },
+    {
       "key": "ref:gnbc",
       "description": "https://geonames.nrcan.gc.ca/search-place-names/unique/$1"
     },
@@ -1388,6 +1560,10 @@
     {
       "key": "ref:hmdb",
       "description": "https://www.hmdb.org/m.asp?m=$1"
+    },
+    {
+      "key": "ref:HR:e-matica",
+      "description": "https://data.gov.hr/ckan/api/3/action/datastore_search?resource_id=srednje-skole&filters=%7B%22%C5%A0ifra%22%3A%22$1%22%7D&limit=1"
     },
     {
       "key": "ref:hr:uzkb",
@@ -1451,6 +1627,10 @@
     },
     {
       "key": "ref:IE:smr",
+      "description": "https://heritagedata.maps.arcgis.com/apps/webappviewer/index.html?id=0c9eb9575b544081b0d296436d8f60f8&query=18a4b61b268-layer-9%2CSMRS%2C$1"
+    },
+    {
+      "key": "ref:IE:smr",
       "description": "https://maps.archaeology.ie/HistoricEnvironment/?query=NationalMonuments_7120,SMRS,$1"
     },
     {
@@ -1496,6 +1676,10 @@
     {
       "key": "ref:INSEE",
       "description": "https://www.insee.fr/fr/statistiques/2011101?geo=COM-$1"
+    },
+    {
+      "key": "ref:ipac",
+      "description": "card/$1"
     },
     {
       "key": "ref:isil",
@@ -1578,6 +1762,10 @@
       "description": "https://www.kozterkep.hu/$1"
     },
     {
+      "key": "ref:landsdeelcode",
+      "description": "https://vocabs.cbs.nl/geo/def/landsdelen/LD$1"
+    },
+    {
       "key": "ref:lfd",
       "description": "https://denkmalliste.denkmalpflege.sachsen.de/CardoMap/Denkmalliste_Report.aspx?HIDA_Nr=$1"
     },
@@ -1650,6 +1838,22 @@
       "description": "https://npgallery.nps.gov/AssetDetail/NRIS/$1"
     },
     {
+      "key": "ref:nuts",
+      "description": "https://op.europa.eu/en/web/eu-vocabularies/concept/-/resource?uri=http://data.europa.eu/nuts/code/$1"
+    },
+    {
+      "key": "ref:nuts:1",
+      "description": "https://op.europa.eu/en/web/eu-vocabularies/concept/-/resource?uri=http://data.europa.eu/nuts/code/$1"
+    },
+    {
+      "key": "ref:nuts:2",
+      "description": "https://op.europa.eu/en/web/eu-vocabularies/concept/-/resource?uri=http://data.europa.eu/nuts/code/$1"
+    },
+    {
+      "key": "ref:nuts:3",
+      "description": "https://op.europa.eu/en/web/eu-vocabularies/concept/-/resource?uri=http://data.europa.eu/nuts/code/$1"
+    },
+    {
       "key": "ref:NVRID",
       "description": "https://skyddadnatur.naturvardsverket.se/sknat/?nvrid=$1"
     },
@@ -1660,6 +1864,14 @@
     {
       "key": "ref:OnroerendErfgoed",
       "description": "https://id.erfgoed.net/erfgoedobjecten/$1"
+    },
+    {
+      "key": "ref:provinciecode",
+      "description": "https://identifier.overheid.nl/tooi/id/provincie/pv$1"
+    },
+    {
+      "key": "ref:provinciecode",
+      "description": "https://vocabs.cbs.nl/geo/def/provincies/PV$1"
     },
     {
       "key": "ref:rce",
@@ -1786,6 +1998,10 @@
       "description": "https://vintedgo.com/fr/carrier-locations?selected_point=$1"
     },
     {
+      "key": "ref:waterschapscode",
+      "description": "https://identifier.overheid.nl/tooi/id/waterschap/ws$1"
+    },
+    {
       "key": "ref:WDPA",
       "description": "https://eunis.eea.europa.eu/sites/$1"
     },
@@ -1851,7 +2067,7 @@
     },
     {
       "key": "ref:woonplaatscode",
-      "description": "https://bag.basisregistraties.overheid.nl/bag/id/woonplaats/$1"
+      "description": "https://bagviewer.kadaster.nl/?objectId=$1"
     },
     {
       "key": "ref:woonplaatscode",
@@ -1954,12 +2170,32 @@
       "description": "https://wikipedia.org/wiki/$1"
     },
     {
+      "key": "subject:ref:CH-GE:icono",
+      "description": "https://www.bge-geneve.ch/iconographie/personne/$1"
+    },
+    {
+      "key": "subject:ref:CH:hls-dhs",
+      "description": "https://hls-dhs-dss.ch/fr/articles/$1/"
+    },
+    {
       "key": "subject:wikidata",
       "description": "https://www.wikidata.org/entity/$1"
     },
     {
+      "key": "subject:wikimedia_commons",
+      "description": "https://commons.wikimedia.org/wiki/$1"
+    },
+    {
       "key": "subject:wikipedia",
       "description": "https://wikipedia.org/wiki/$1"
+    },
+    {
+      "key": "swisstopo:KANTONSNUM",
+      "description": "https://wiki.openstreetmap.org/wiki/Key:swisstopo:KANTONSNUM#$1"
+    },
+    {
+      "key": "taxon:wikidata",
+      "description": "https://www.wikidata.org/entity/$1"
     },
     {
       "key": "taxon:wikipedia",
@@ -1999,6 +2235,10 @@
     },
     {
       "key": "url:bathing_water",
+      "description": "$1"
+    },
+    {
+      "key": "url:spaceapi",
       "description": "$1"
     },
     {
