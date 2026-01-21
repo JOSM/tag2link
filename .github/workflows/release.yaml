@@ -15,6 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
+      id-token: write # See https://docs.npmjs.com/trusted-publishers
     outputs:
       ref: ${{ steps.ref_finder.outputs.ref }}
     steps:
