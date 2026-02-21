@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20260121T080000Z",
+  "data_updated": "20260221T080000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -1258,6 +1258,10 @@
       "description": "https://www.uid.admin.ch/Detail.aspx?uid_id=$1"
     },
     {
+      "key": "ref:CH:vbs-inventario",
+      "description": "https://api3.geo.admin.ch/featureattachments/ch.vbs.armee-kriegsdenkmaeler/objekte/$1.pdf"
+    },
+    {
       "key": "ref:cin",
       "description": "https://api-bdsr.ministeroturismo.gov.it/ui/user/strutturecin/$1"
     },
@@ -1364,6 +1368,10 @@
     {
       "key": "ref:EU:ENTSOE_EIC",
       "description": "https://transparency.ontotext.com/resource/eic/$1"
+    },
+    {
+      "key": "ref:fagm",
+      "description": "https://www.findagrave.com/memorial/$1"
     },
     {
       "key": "ref:FR:Allocine",
@@ -1540,6 +1548,10 @@
     {
       "key": "ref:gemeentecode",
       "description": "https://www.gemeentegeschiedenis.nl/cbscode/$1"
+    },
+    {
+      "key": "ref:geneanet:cim-v",
+      "description": "https://www.geneanet.org/cimetieres/view/$1"
     },
     {
       "key": "ref:gnbc",
@@ -1858,6 +1870,10 @@
       "description": "https://skyddadnatur.naturvardsverket.se/sknat/?nvrid=$1"
     },
     {
+      "key": "ref:NVRID",
+      "description": "https://skyddadnatur.naturvardsverket.se/sknat/?nvrid=$1"
+    },
+    {
       "key": "ref:nz:heritage",
       "description": "https://www.heritage.org.nz/list-details/$1/$1"
     },
@@ -1983,7 +1999,7 @@
     },
     {
       "key": "ref:vatin",
-      "description": "https://adisreg.mfcr.cz/adistc/adis/irs/irep_dph/dphInputForm.faces?form:dt:0:inputDic=$1"
+      "description": "https://adisreg.mfcr.cz/adistc/DphReg?id=1&pocet=1&fu=&OK=+Search+&ZPRAC=RDPHI1&dic=$1"
     },
     {
       "key": "ref:vatin",
