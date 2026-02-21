@@ -1872,6 +1872,12 @@
     "rank": "normal"
   },
   {
+    "key": "Key:ref:CH:vbs-inventario",
+    "url": "https://api3.geo.admin.ch/featureattachments/ch.vbs.armee-kriegsdenkmaeler/objekte/$1.pdf",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
     "key": "Key:ref:cin",
     "url": "https://api-bdsr.ministeroturismo.gov.it/ui/user/strutturecin/$1",
     "source": "osmwiki:P8",
@@ -2031,6 +2037,12 @@
     "key": "Key:ref:EU:ENTSOE_EIC",
     "url": "https://transparency.ontotext.com/resource/eic/$1",
     "source": "wikidata:P3303",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:fagm",
+    "url": "https://www.findagrave.com/memorial/$1",
+    "source": "osmwiki:P8",
     "rank": "normal"
   },
   {
@@ -2283,7 +2295,7 @@
     "key": "Key:ref:gemeentecode",
     "url": "https://identifier.overheid.nl/tooi/id/gemeente/gm$1",
     "source": "osmwiki:P8",
-    "rank": "normal"
+    "rank": "preferred"
   },
   {
     "key": "Key:ref:gemeentecode",
@@ -2294,6 +2306,12 @@
   {
     "key": "Key:ref:gemeentecode",
     "url": "https://www.gemeentegeschiedenis.nl/cbscode/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:geneanet:cim-v",
+    "url": "https://www.geneanet.org/cimetieres/view/$1",
     "source": "osmwiki:P8",
     "rank": "normal"
   },
@@ -2768,6 +2786,12 @@
   {
     "key": "Key:ref:NVRID",
     "url": "https://skyddadnatur.naturvardsverket.se/sknat/?nvrid=$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:NVRID",
+    "url": "https://skyddadnatur.naturvardsverket.se/sknat/?nvrid=$1",
     "source": "wikidata:P1630",
     "rank": "normal"
   },
@@ -2787,7 +2811,7 @@
     "key": "Key:ref:provinciecode",
     "url": "https://identifier.overheid.nl/tooi/id/provincie/pv$1",
     "source": "osmwiki:P8",
-    "rank": "normal"
+    "rank": "preferred"
   },
   {
     "key": "Key:ref:provinciecode",
@@ -2959,7 +2983,7 @@
   },
   {
     "key": "Key:ref:vatin",
-    "url": "https://adisreg.mfcr.cz/adistc/adis/irs/irep_dph/dphInputForm.faces?form:dt:0:inputDic=$1",
+    "url": "https://adisreg.mfcr.cz/adistc/DphReg?id=1&pocet=1&fu=&OK=+Search+&ZPRAC=RDPHI1&dic=$1",
     "source": "wikidata:P3303",
     "rank": "normal"
   },
