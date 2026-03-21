@@ -174,12 +174,6 @@
     "rank": "normal"
   },
   {
-    "key": "Key:contact:booking",
-    "url": "https://www.booking.com/hotel/$1.html",
-    "source": "osmwiki:P8",
-    "rank": "normal"
-  },
-  {
     "key": "Key:contact:facebook",
     "url": "https://www.facebook.com/$1",
     "source": "wikidata:P1630",
@@ -1561,7 +1555,7 @@
   },
   {
     "key": "Key:opening_hours",
-    "url": "https://projets.pavie.info/yohours/?oh=$1",
+    "url": "https://openingh.openstreetmap.de/evaluation_tool/?EXP=$1",
     "source": "osmwiki:P8",
     "rank": "normal"
   },
@@ -2295,7 +2289,7 @@
     "key": "Key:ref:gemeentecode",
     "url": "https://identifier.overheid.nl/tooi/id/gemeente/gm$1",
     "source": "osmwiki:P8",
-    "rank": "preferred"
+    "rank": "normal"
   },
   {
     "key": "Key:ref:gemeentecode",
@@ -2700,6 +2694,12 @@
     "rank": "normal"
   },
   {
+    "key": "Key:ref:mastr",
+    "url": "https://www.marktstammdatenregister.de/MaStR/suche/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
     "key": "Key:ref:mav",
     "url": "https://utas.hu/stop/mav_$1",
     "source": "wikidata:P1630",
@@ -2708,6 +2708,12 @@
   {
     "key": "Key:ref:metropoliaztm",
     "url": "https://rj.metropoliaztm.pl/rozklady/przystanek/$1/",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:mhs",
+    "url": "https://pop.culture.gouv.fr/recherche?q=$1",
     "source": "osmwiki:P8",
     "rank": "normal"
   },
@@ -2811,7 +2817,7 @@
     "key": "Key:ref:provinciecode",
     "url": "https://identifier.overheid.nl/tooi/id/provincie/pv$1",
     "source": "osmwiki:P8",
-    "rank": "preferred"
+    "rank": "normal"
   },
   {
     "key": "Key:ref:provinciecode",
@@ -3445,6 +3451,12 @@
   },
   {
     "key": "Key:website:booking",
+    "url": "$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:website:catalogue",
     "url": "$1",
     "source": "osmwiki:P8",
     "rank": "normal"
