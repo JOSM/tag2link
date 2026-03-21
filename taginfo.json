@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20260221T080000Z",
+  "data_updated": "20260321T080000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -124,10 +124,6 @@
     {
       "key": "construction:website",
       "description": "$1"
-    },
-    {
-      "key": "contact:booking",
-      "description": "https://www.booking.com/hotel/$1.html"
     },
     {
       "key": "contact:facebook",
@@ -1051,7 +1047,7 @@
     },
     {
       "key": "opening_hours",
-      "description": "https://projets.pavie.info/yohours/?oh=$1"
+      "description": "https://openingh.openstreetmap.de/evaluation_tool/?EXP=$1"
     },
     {
       "key": "opening_hours:url",
@@ -1810,12 +1806,20 @@
       "description": "https://www.vesselfinder.com/ports/$1"
     },
     {
+      "key": "ref:mastr",
+      "description": "https://www.marktstammdatenregister.de/MaStR/suche/$1"
+    },
+    {
       "key": "ref:mav",
       "description": "https://utas.hu/stop/mav_$1"
     },
     {
       "key": "ref:metropoliaztm",
       "description": "https://rj.metropoliaztm.pl/rozklady/przystanek/$1/"
+    },
+    {
+      "key": "ref:mhs",
+      "description": "https://pop.culture.gouv.fr/recherche?q=$1"
     },
     {
       "key": "ref:mhs",
@@ -2307,6 +2311,10 @@
     },
     {
       "key": "website:booking",
+      "description": "$1"
+    },
+    {
+      "key": "website:catalogue",
       "description": "$1"
     },
     {
