@@ -38,11 +38,11 @@ interface IndexData {
 
 async function parse_osm_wikidata(): Promise<SparkQL> {
   const text = readFileSync("wikidata.json", "utf8");
-  const osm_wikidata = JSON.parse(text);
+  const osm_wikidata = JSON.parse(text) as Record<string, string>[];
   const bindings = osm_wikidata.map((x) =>
     Object.fromEntries(Object.entries(x).map(([k, v]) => [k, { value: v }])),
   );
-  return { head: [], results: { bindings: bindings } };
+  return { head: [], results: { bindings: bindings as SparkQL["results"]["bindings"] } };
 }
 
 async function writeWikidataSophoxRules(): Promise<
@@ -69,20 +69,20 @@ async function writeWikidataSophoxRules(): Promise<
           "http://wikiba.se/ontology#NormalRank": "normal",
           "http://wikiba.se/ontology#DeprecatedRank": "deprecated",
         }[i.rank.value],
-      }) as IndexData,
+      }) as IndexData
   );
 
   data.sort((link1, link2) => {
     const comparators = [
-      (x) => x.key,
-      (x) =>
+      (x: IndexData) => x.key,
+      (x: IndexData) =>
         ({
           preferred: "1",
           normal: "2",
           deprecated: "3",
         })[x.rank] || "9",
-      (x) => x.url,
-      (x) => x.source,
+      (x: IndexData) => x.url,
+      (x: IndexData) => x.source,
     ];
     return (
       comparators
