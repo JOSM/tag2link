@@ -22,7 +22,7 @@
   "author": "Simon Legner <Simon.Legner@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^18.11.9",
-    "ts-node": "^10.9.1"
+    "@types/node": "^24.3.1",
+    "ts-node": "^10.9.2"
   }
 }
