@@ -25,7 +25,7 @@ jobs:
           if [[ ! -z "${{ inputs.ref }}" ]]; then echo "ref=${{ inputs.ref }}" >> $GITHUB_OUTPUT
           else echo "ref=${{ github.sha }}" >> $GITHUB_OUTPUT
           fi
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           ref: ${{ steps.ref_finder.outputs.ref }}
       - uses: actions/setup-python@v5
@@ -49,7 +49,7 @@ jobs:
       contents: read
       id-token: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           ref: ${{ needs.build.outputs.ref }}
       - uses: actions/setup-node@v4
@@ -66,7 +66,7 @@ jobs:
     permissions:
       contents: read
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           ref: ${{ needs.build.outputs.ref }}
       - run: curl "https://www.webjars.org/deploy?webJarType=npm&nameOrUrlish=tag2link&version=$(jq -r '.version' package.json)"
