@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20260321T080000Z",
+  "data_updated": "20260506T190000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -159,11 +159,11 @@
     },
     {
       "key": "contact:instagram",
-      "description": "https://www.instagram.com/$1/"
+      "description": "https://imginn.com/$1"
     },
     {
       "key": "contact:instagram",
-      "description": "https://imginn.com/$1"
+      "description": "https://www.instagram.com/$1/"
     },
     {
       "key": "contact:instagram",
@@ -883,11 +883,11 @@
     },
     {
       "key": "instagram",
-      "description": "https://www.instagram.com/$1/"
+      "description": "https://imginn.com/$1"
     },
     {
       "key": "instagram",
-      "description": "https://imginn.com/$1"
+      "description": "https://www.instagram.com/$1/"
     },
     {
       "key": "internet_access:operator:wikidata",
@@ -1050,8 +1050,24 @@
       "description": "https://openingh.openstreetmap.de/evaluation_tool/?EXP=$1"
     },
     {
+      "key": "opening_hours:kitchen",
+      "description": "https://openingh.openstreetmap.de/evaluation_tool/?EXP=$1"
+    },
+    {
+      "key": "opening_hours:office",
+      "description": "https://openingh.openstreetmap.de/evaluation_tool/?EXP=$1"
+    },
+    {
+      "key": "opening_hours:reception",
+      "description": "https://openingh.openstreetmap.de/evaluation_tool/?EXP=$1"
+    },
+    {
       "key": "opening_hours:url",
       "description": "$1"
+    },
+    {
+      "key": "opening_hours:workshop",
+      "description": "https://openingh.openstreetmap.de/evaluation_tool/?EXP=$1"
     },
     {
       "key": "openplaques:id",
@@ -1080,6 +1096,10 @@
     {
       "key": "operator:wikipedia",
       "description": "https://wikipedia.org/wiki/$1"
+    },
+    {
+      "key": "owner:ref:CH:UID",
+      "description": "https://www.uid.admin.ch/Detail.aspx?uid_id=$1"
     },
     {
       "key": "owner:wikidata",
@@ -1246,8 +1266,16 @@
       "description": "https://reg.app.ge.ch/#/etablissement/$1"
     },
     {
+      "key": "ref:CH:bafu.vec25-seen",
+      "description": "https://api3.geo.admin.ch/rest/services/ech/MapServer/ch.bafu.vec25-seen/$1/extendedHtmlPopup?lang=en"
+    },
+    {
       "key": "ref:CH:hls-dhs",
       "description": "https://hls-dhs-dss.ch/fr/articles/$1/"
+    },
+    {
+      "key": "ref:CH:kantonsnum",
+      "description": "https://wiki.openstreetmap.org/wiki/Key:ref:CH:kantonsnum#$1"
     },
     {
       "key": "ref:CH:UID",
@@ -1454,6 +1482,10 @@
       "description": "https://www.journal-officiel.gouv.fr/association/index.php?ACTION=Rechercher&JTY_WALDEC=$1"
     },
     {
+      "key": "ref:FR:RNB",
+      "description": "https://rnb.beta.gouv.fr/carte?q=$1"
+    },
+    {
       "key": "ref:FR:RTE",
       "description": "https://explore.data.gouv.fr/fr/datasets/5f2cd1de7f9793e46858be28/?Code%20poste__contains=$1#/resources/6ae890b8-383d-4ef3-b301-5af089c401a8"
     },
@@ -1476,6 +1508,10 @@
     {
       "key": "ref:FR:SIREN",
       "description": "https://www.infogreffe.fr/entreprise/$1"
+    },
+    {
+      "key": "ref:FR:SIREN",
+      "description": "https://www.societe.com/societe/-$1.html"
     },
     {
       "key": "ref:FR:SIRET",
@@ -1556,6 +1592,10 @@
     {
       "key": "ref:gnbc",
       "description": "https://geonames.nrcan.gc.ca/search-place-names/unique/$1"
+    },
+    {
+      "key": "ref:grillplatser.nu",
+      "description": "https://grillplatser.nu/Grillplats/Visa/$1"
     },
     {
       "key": "ref:gss",
@@ -1648,6 +1688,10 @@
     {
       "key": "ref:IL:inature",
       "description": "https://www.inature.info/wiki/$1"
+    },
+    {
+      "key": "ref:inaturalist.org",
+      "description": "https://www.inaturalist.org/observations/$1"
     },
     {
       "key": "ref:ine",
@@ -1810,6 +1854,10 @@
       "description": "https://www.marktstammdatenregister.de/MaStR/suche/$1"
     },
     {
+      "key": "ref:mastr",
+      "description": "https://www.marktstammdatenregister.de/MaStR/suche/$1"
+    },
+    {
       "key": "ref:mav",
       "description": "https://utas.hu/stop/mav_$1"
     },
@@ -1840,6 +1888,10 @@
     {
       "key": "ref:natura2000",
       "description": "https://inpn.mnhn.fr/site/natura2000/$1"
+    },
+    {
+      "key": "ref:nces",
+      "description": "https://nces.ed.gov/ccd/schoolsearch/school_detail.asp?ID=$1"
     },
     {
       "key": "ref:nga",
@@ -1950,8 +2002,8 @@
       "description": "http://www.sipca.es/censo/$1/.html"
     },
     {
-      "key": "ref:UAI",
-      "description": "https://data.education.gouv.fr/explore/dataset/fr-en-annuaire-education/map/?q=$1"
+      "key": "ref:tesla",
+      "description": "https://www.tesla.com/findus/location/supercharger/$1"
     },
     {
       "key": "ref:UAI",
@@ -2211,7 +2263,7 @@
     },
     {
       "key": "swisstopo:KANTONSNUM",
-      "description": "https://wiki.openstreetmap.org/wiki/Key:swisstopo:KANTONSNUM#$1"
+      "description": "https://wiki.openstreetmap.org/wiki/Key:ref:CH:kantonsnum#$1"
     },
     {
       "key": "taxon:wikidata",
