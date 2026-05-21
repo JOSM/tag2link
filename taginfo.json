@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20260506T190000Z",
+  "data_updated": "20260521T110000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -140,6 +140,10 @@
     {
       "key": "contact:fax",
       "description": "tel:$1"
+    },
+    {
+      "key": "contact:foursquare",
+      "description": "https://app.foursquare.com/v/$1"
     },
     {
       "key": "contact:foursquare",
@@ -926,12 +930,20 @@
       "description": "https://keskkonnaportaal.ee/register?kkr_kood=$1"
     },
     {
+      "key": "kons:criteria",
+      "description": "http://aplikacija.kons.gov.ba/kons/public/nacionalnispomenici/show/$1"
+    },
+    {
       "key": "kons:decision_number",
       "description": "http://aplikacija.kons.gov.ba/"
     },
     {
       "key": "kons:inscription_date",
       "description": "http://aplikacija.kons.gov.ba/"
+    },
+    {
+      "key": "kons:official_name",
+      "description": "http://aplikacija.kons.gov.ba/kons/public/nacionalnispomenici/show/$1"
     },
     {
       "key": "locale",
@@ -992,6 +1004,10 @@
     {
       "key": "name:etymology:wikidata",
       "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "name:etymology:wikimedia_commons",
+      "description": "https://commons.wikimedia.org/wiki/$1"
     },
     {
       "key": "name:etymology:wikipedia",
@@ -1522,10 +1538,6 @@
       "description": "https://annuaire-entreprises.data.gouv.fr/etablissement/$1"
     },
     {
-      "key": "ref:FR:SIRET",
-      "description": "https://www.sirene.fr/sirene/public/recherche?recherche.sirenSiret=$1"
-    },
-    {
       "key": "ref:FR:STIF",
       "description": "https://jungle-bus.github.io/unroll/load.html?ref:FR:STIF=$1"
     },
@@ -1548,6 +1560,10 @@
     {
       "key": "ref:GB:nhs_ods",
       "description": "https://www.odsdatasearchandexport.nhs.uk/?search=generalorg&query=$1"
+    },
+    {
+      "key": "ref:GB:ukprn",
+      "description": "https://www.ukrlp.co.uk/ukrlp/ukrlp_provider.page_pls_provDetails?x=&pn_p_id=$1&pv_status=VERIFIED&pv_vis_code=L"
     },
     {
       "key": "ref:GB:uprn",
@@ -2180,6 +2196,10 @@
     {
       "key": "royal_cypher:wikidata",
       "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "school:CH-GE",
+      "description": "https://wiki.openstreetmap.org/wiki/Key:school:CH-GE#$1"
     },
     {
       "key": "seamark:light:reference",
