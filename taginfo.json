@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20260521T110000Z",
+  "data_updated": "20260621T110000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -90,6 +90,10 @@
       "description": "https://wikipedia.org/wiki/$1"
     },
     {
+      "key": "brand:wikipedia:de",
+      "description": "https://de.wikipedia.org/wiki/$1"
+    },
+    {
       "key": "bridge:wikipedia",
       "description": "https://wikipedia.org/wiki/$1"
     },
@@ -126,12 +130,20 @@
       "description": "$1"
     },
     {
+      "key": "contact:booking",
+      "description": "https://www.booking.com/hotel/$1.en-gb.html"
+    },
+    {
       "key": "contact:facebook",
       "description": "https://www.facebook.com/$1"
     },
     {
       "key": "contact:facebook",
       "description": "https://unavatar.now.sh/facebook/$1"
+    },
+    {
+      "key": "contact:facebook",
+      "description": "https://www.facebook.com/$1"
     },
     {
       "key": "contact:facebook",
@@ -180,6 +192,14 @@
     {
       "key": "contact:mastodon",
       "description": "https://fedirect.toolforge.org/?id=$1"
+    },
+    {
+      "key": "contact:mastodon",
+      "description": "https://fedirect.toolforge.org/?id=$1"
+    },
+    {
+      "key": "contact:mastodon",
+      "description": "https://wikidata-externalid-url.toolforge.org/?p=4033&id=$1"
     },
     {
       "key": "contact:mastodon",
@@ -391,7 +411,7 @@
     },
     {
       "key": "contact:youtube",
-      "description": "https://www.youtube.com/user/$1"
+      "description": "https://www.youtube.com/@$1"
     },
     {
       "key": "country",
@@ -1038,6 +1058,10 @@
       "description": "https://www.census.gov/quickfacts/table/PST045215/$1,00"
     },
     {
+      "key": "not:school:CH-GE",
+      "description": "https://wiki.openstreetmap.org/wiki/Key:school:CH-GE#$1"
+    },
+    {
       "key": "notable_tenant:wikidata",
       "description": "https://www.wikidata.org/entity/$1"
     },
@@ -1092,6 +1116,14 @@
     {
       "key": "openplaques:id",
       "description": "https://openplaques.org/plaques/$1"
+    },
+    {
+      "key": "operator:instagram",
+      "description": "https://www.instagram.com/$1/"
+    },
+    {
+      "key": "operator:instagram",
+      "description": "https://www.threads.com/$1"
     },
     {
       "key": "operator:ref:CH:UID",
@@ -1220,6 +1252,14 @@
     {
       "key": "ref:AU-NSW:mooring",
       "description": "https://mooringonline.onegov.nsw.gov.au/pwl/getstarted/$1"
+    },
+    {
+      "key": "ref:badkartan.se",
+      "description": "https://www.badkartan.se/$1"
+    },
+    {
+      "key": "ref:badkartan.se",
+      "description": "https://www.badkartan.se/$1"
     },
     {
       "key": "ref:bag",
@@ -1615,7 +1655,7 @@
     },
     {
       "key": "ref:gss",
-      "description": "https://statistics.data.gov.uk/atlas/resource?uri=http://statistics.data.gov.uk/id/statistical-geography/$1"
+      "description": "https://findthatpostcode.uk/areas/$1.html"
     },
     {
       "key": "ref:hjartstartarregistret.se",
@@ -2018,6 +2058,14 @@
       "description": "http://www.sipca.es/censo/$1/.html"
     },
     {
+      "key": "ref:stockholmarchipelagotrail",
+      "description": "https://map.stockholmarchipelagotrail.com/?$1"
+    },
+    {
+      "key": "ref:supercharge_info",
+      "description": "https://supercharge.info/map?siteID=$1"
+    },
+    {
       "key": "ref:tesla",
       "description": "https://www.tesla.com/findus/location/supercharger/$1"
     },
@@ -2382,10 +2430,6 @@
       "description": "https://webcache.googleusercontent.com/search?q=cache:$1"
     },
     {
-      "key": "website:booking",
-      "description": "$1"
-    },
-    {
       "key": "website:catalogue",
       "description": "$1"
     },
@@ -2430,10 +2474,6 @@
       "description": "$1"
     },
     {
-      "key": "website:reservation",
-      "description": "$1"
-    },
-    {
       "key": "website:ru",
       "description": "$1"
     },
@@ -2455,6 +2495,10 @@
     },
     {
       "key": "wikidata",
+      "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "wikidata_1",
       "description": "https://www.wikidata.org/entity/$1"
     },
     {
