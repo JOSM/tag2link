@@ -27,9 +27,6 @@ jobs:
       - uses: actions/checkout@v6
         with:
           ref: ${{ steps.ref_finder.outputs.ref }}
-      - uses: actions/setup-python@v6
-        with:
-          cache: 'pip'
       - uses: actions/setup-node@v6
         with:
           node-version: 24
