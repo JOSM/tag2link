@@ -20,9 +20,6 @@ jobs:
         with:
           cache: 'pip'
           python-version: '3.13'
-      - uses: actions/setup-node@v6
-        with:
-          node-version: 24
       - run: pip install rdflib requests
       - run: python3 osm_wikidata.py
       - run: npm install
