@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20260622T120000Z",
+  "data_updated": "20260623T070000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -1144,6 +1144,14 @@
     {
       "key": "operator:wikipedia",
       "description": "https://wikipedia.org/wiki/$1"
+    },
+    {
+      "key": "operator:wikipedia:de",
+      "description": "https://de.wikipedia.org/wiki/$1"
+    },
+    {
+      "key": "operator:wikipedia:es",
+      "description": "https://es.wikipedia.org/wiki/$1"
     },
     {
       "key": "owner:ref:CH:UID",
