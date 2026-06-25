@@ -62,18 +62,22 @@ jobs:
       - id: tag
         run: |
           gh repo sync
-          tag=$(git describe --tags --abbrev=0) || release_needed="true"
+          tag=$(git describe --tags --abbrev=0 2>/dev/null) || release_needed="true"
           sha=${{ needs.update.outputs.sha }}
-          if [ -z "${sha}" ]; then sha="HEAD"; fi
-          for file in $(git diff ${tag}..${sha} --name-only); do
-            if [ $file == "taginfo.json" ] || [ $file == "index.json" ] || [ $file == "package.json" ] ; then
-              release_needed="true"
-              break
-            fi
-          done
-          if [ $release_needed == "true" ]; then
+          if [ -z "${sha}" ]; then sha=$(git rev-parse HEAD); fi
+          if [ -z "${tag}" ]; then
+            release_needed="true"
+          else
+            for file in $(git diff ${tag}..${sha} --name-only); do
+              if [ "$file" == "taginfo.json" ] || [ "$file" == "index.json" ] || [ "$file" == "package.json" ] ; then
+                release_needed="true"
+                break
+              fi
+            done
+          fi
+          if [ "$release_needed" == "true" ]; then
             tag=$(jq -r '.version' package.json)
-            gh release create "${tag}" --target HEAD --title "${tag}" --generate-notes
+            gh release create "${tag}" --target "${sha}" --title "${tag}" --generate-notes
             echo "release_needed=true" >> "$GITHUB_OUTPUT"
             echo "tag=${tag}" >> $GITHUB_OUTPUT
           else
