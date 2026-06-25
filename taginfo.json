@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20260623T070000Z",
+  "data_updated": "20260625T040000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -131,7 +131,7 @@
     },
     {
       "key": "contact:booking",
-      "description": "https://www.booking.com/hotel/$1.en-gb.html"
+      "description": "$1"
     },
     {
       "key": "contact:facebook",
@@ -2068,6 +2068,14 @@
     {
       "key": "ref:stockholmarchipelagotrail",
       "description": "https://map.stockholmarchipelagotrail.com/?$1"
+    },
+    {
+      "key": "ref:stockholmarchipelagotrail",
+      "description": "https://map.stockholmarchipelagotrail.com/?id=$1"
+    },
+    {
+      "key": "ref:stockholmarchipelagotrail",
+      "description": "https://map.stockholmarchipelagotrail.com/api/objects/$1"
     },
     {
       "key": "ref:supercharge_info",
