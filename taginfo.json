@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20260626T050000Z",
+  "data_updated": "20260821T080000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -122,6 +122,10 @@
       "description": "https://commons.wikimedia.org/wiki/$1"
     },
     {
+      "key": "collection_times",
+      "description": "https://openingh.openstreetmap.de/evaluation_tool/?mode=2&EXP=$1"
+    },
+    {
       "key": "commemorates:wikidata",
       "description": "https://www.wikidata.org/entity/$1"
     },
@@ -155,7 +159,7 @@
     },
     {
       "key": "contact:foursquare",
-      "description": "https://app.foursquare.com/v/$1"
+      "description": "https://app.foursquare.com/share/venue/$1"
     },
     {
       "key": "contact:foursquare",
@@ -192,14 +196,6 @@
     {
       "key": "contact:mastodon",
       "description": "https://fedirect.toolforge.org/?id=$1"
-    },
-    {
-      "key": "contact:mastodon",
-      "description": "https://fedirect.toolforge.org/?id=$1"
-    },
-    {
-      "key": "contact:mastodon",
-      "description": "https://wikidata-externalid-url.toolforge.org/?p=4033&id=$1"
     },
     {
       "key": "contact:mastodon",
@@ -595,10 +591,6 @@
     },
     {
       "key": "gnis:feature_id",
-      "description": "http://gnis-ld.org/lod/gnis/feature/$1"
-    },
-    {
-      "key": "gnis:feature_id",
       "description": "https://edits.nationalmap.gov/apps/gaz-antarctica/public/summary/$1"
     },
     {
@@ -906,6 +898,10 @@
       "description": "https://www.inegi.org.mx/app/areasgeograficas/?ag=$1"
     },
     {
+      "key": "inscription:language",
+      "description": "https://wiki.openstreetmap.org/wiki/Tag:inscription:language%3D$1"
+    },
+    {
       "key": "instagram",
       "description": "https://imginn.com/$1"
     },
@@ -1016,6 +1012,10 @@
     {
       "key": "MOE:id",
       "description": "https://www.educationcounts.govt.nz/find-school/school/profile?school=$1"
+    },
+    {
+      "key": "name:etymology:ref:CH-GE:icono",
+      "description": "https://www.bge-geneve.ch/iconographie/personne/$1"
     },
     {
       "key": "name:etymology:ref:CH:hls-dhs",
@@ -1226,6 +1226,10 @@
       "description": "http://listoflights.org/site/search?q=$1"
     },
     {
+      "key": "ref:aerosteles.net",
+      "description": "https://www.aerosteles.net/stelefr-$1"
+    },
+    {
       "key": "ref:afdc",
       "description": "https://afdc.energy.gov/stations#/station/$1"
     },
@@ -1282,6 +1286,26 @@
       "description": "https://bagviewer.kadaster.nl/?objectId=$1"
     },
     {
+      "key": "ref:BG:eik",
+      "description": "https://portal.registryagency.bg/CR/Reports/ActiveConditionTabResult?uic=$1"
+    },
+    {
+      "key": "ref:BG:EIK",
+      "description": "https://portal.registryagency.bg/CR/Reports/ActiveConditionTabResult?uic=$1"
+    },
+    {
+      "key": "ref:BG:EIK",
+      "description": "https://opencorporates.com/companies/bg/$1"
+    },
+    {
+      "key": "ref:BG:EIK",
+      "description": "https://reports.bulstat.bg/bulstat-ireports/frameset?__report=https%3A%2F%2Freports.bulstat.bg%2Fbulstat-ireports%2Fv_rpt1.rptdesign&uic=$1"
+    },
+    {
+      "key": "ref:BG:rhm_sofia",
+      "description": "https://registersofia.bg/?option=com_monuments&view=monument&formdata[id]=$1"
+    },
+    {
       "key": "ref:bic",
       "description": "https://heritage.toolforge.org/api/api.php?action=search&srcountry=es&format=html&srid=$1"
     },
@@ -1292,6 +1316,10 @@
     {
       "key": "ref:camptocamp",
       "description": "https://www.camptocamp.org/waypoints/$1"
+    },
+    {
+      "key": "ref:canmore",
+      "description": "https://canmore.org.uk/site/$1"
     },
     {
       "key": "ref:caribischopenbaarlichaamcode",
@@ -1336,6 +1364,10 @@
     {
       "key": "ref:CH:hls-dhs",
       "description": "https://hls-dhs-dss.ch/fr/articles/$1/"
+    },
+    {
+      "key": "ref:CH:isos",
+      "description": "https://gisos.bak.admin.ch/sites/$1"
     },
     {
       "key": "ref:CH:kantonsnum",
@@ -1486,10 +1518,6 @@
       "description": "https://carte.fftt.com/club/$1"
     },
     {
-      "key": "ref:FR:FINESS",
-      "description": "https://finess.esante.gouv.fr/fininter/jsp/actionDetailEtablissement.do?noFiness=$1"
-    },
-    {
       "key": "ref:FR:INPN",
       "description": "https://inpn.mnhn.fr/espace/protege/$1"
     },
@@ -1520,6 +1548,14 @@
     {
       "key": "ref:FR:NAF",
       "description": "https://www.insee.fr/fr/metadonnees/nafr2?q=$1"
+    },
+    {
+      "key": "ref:FR:Paris:arbre",
+      "description": "https://opendata.paris.fr/explore/dataset/les-arbres/map/?q=idbase%3D$1"
+    },
+    {
+      "key": "ref:FR:Paris:arbre",
+      "description": "https://opendata.paris.fr/explore/dataset/arbresremarquablesparis/map/?q=arbres_idbase%3D$1"
     },
     {
       "key": "ref:FR:Paris:plaque",
@@ -1590,6 +1626,10 @@
       "description": "https://jungle-bus.github.io/unroll/load.html?ref:FR:STIF=$1"
     },
     {
+      "key": "ref:GB:cqc_location",
+      "description": "https://www.cqc.org.uk/location/$1"
+    },
+    {
       "key": "ref:GB:nhle",
       "description": "https://historicengland.org.uk/listing/the-list/list-entry/$1"
     },
@@ -1611,7 +1651,7 @@
     },
     {
       "key": "ref:GB:ukprn",
-      "description": "https://www.ukrlp.co.uk/ukrlp/ukrlp_provider.page_pls_provDetails?x=&pn_p_id=$1&pv_status=VERIFIED&pv_vis_code=L"
+      "description": "https://ukrlp.education.gov.uk/search/provider/$1"
     },
     {
       "key": "ref:GB:uprn",
@@ -1656,6 +1696,10 @@
     {
       "key": "ref:gnbc",
       "description": "https://geonames.nrcan.gc.ca/search-place-names/unique/$1"
+    },
+    {
+      "key": "ref:grillplatser.nu",
+      "description": "https://grillplatser.nu/Grillplats/Visa/$1"
     },
     {
       "key": "ref:grillplatser.nu",
@@ -1734,6 +1778,10 @@
       "description": "https://www.dbbahnpark.de/content/fahrplanauskunft/bahnpark/pdf/$1.pdf"
     },
     {
+      "key": "ref:idescat",
+      "description": "https://www.idescat.cat/emex/?id=$1"
+    },
+    {
       "key": "ref:IE:niah",
       "description": "https://heritagedata.maps.arcgis.com/apps/webappviewer/index.html?id=0c9eb9575b544081b0d296436d8f60f8&query=18a4bc9c428-layer-10%2CREG_NO%2C$1"
     },
@@ -1744,10 +1792,6 @@
     {
       "key": "ref:IE:smr",
       "description": "https://maps.archaeology.ie/HistoricEnvironment/?query=NationalMonuments_7120,SMRS,$1"
-    },
-    {
-      "key": "ref:IFOPT",
-      "description": "https://transmodel-ids.toolforge.org/ifopt/$1"
     },
     {
       "key": "ref:IL:inature",
@@ -1911,7 +1955,19 @@
     },
     {
       "key": "ref:LOCODE",
+      "description": "https://incodocs.com/ports/gb/sea-port/$1"
+    },
+    {
+      "key": "ref:LOCODE",
       "description": "https://www.vesselfinder.com/ports/$1"
+    },
+    {
+      "key": "ref:LOCODE",
+      "description": "https://www.vesselfinder.com/ports/$1"
+    },
+    {
+      "key": "ref:LV:vkpai",
+      "description": "https://mantojums.lv/cultural-objects/$1"
     },
     {
       "key": "ref:mastr",
@@ -1936,6 +1992,14 @@
     {
       "key": "ref:mhs",
       "description": "https://www.pop.culture.gouv.fr/notice/merimee/$1"
+    },
+    {
+      "key": "ref:monuments-aux-morts.fr",
+      "description": "https://monuments-aux-morts.fr/monuments?detail=$1"
+    },
+    {
+      "key": "ref:monuments-aux-morts.fr",
+      "description": "https://monuments-aux-morts.fr/monuments?detail=$1"
     },
     {
       "key": "ref:natura2000",
@@ -2002,12 +2066,20 @@
       "description": "https://id.erfgoed.net/erfgoedobjecten/$1"
     },
     {
+      "key": "ref:plugshare",
+      "description": "https://www.plugshare.com/location/$1"
+    },
+    {
       "key": "ref:provinciecode",
       "description": "https://identifier.overheid.nl/tooi/id/provincie/pv$1"
     },
     {
       "key": "ref:provinciecode",
       "description": "https://vocabs.cbs.nl/geo/def/provincies/PV$1"
+    },
+    {
+      "key": "ref:pss-archi",
+      "description": "https://www.pss-archi.eu/immeubles/"
     },
     {
       "key": "ref:rce",
@@ -2310,8 +2382,20 @@
       "description": "https://www.marinetraffic.com/en/ais/details/ships/mmsi:$1/"
     },
     {
+      "key": "service_times",
+      "description": "https://openingh.openstreetmap.de/evaluation_tool/?mode=2&EXP=$1"
+    },
+    {
       "key": "snowplowing:operator:wikidata",
       "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "source:license",
+      "description": "https://spdx.org/licenses/$1.html"
+    },
+    {
+      "key": "source:license",
+      "description": "https://spdx.org/licenses/$1"
     },
     {
       "key": "source:website",
@@ -2328,6 +2412,10 @@
     {
       "key": "subject:ref:CH-GE:icono",
       "description": "https://www.bge-geneve.ch/iconographie/personne/$1"
+    },
+    {
+      "key": "subject:ref:CH:bdelis",
+      "description": "https://elitessuisses.unil.ch/p/$1"
     },
     {
       "key": "subject:ref:CH:hls-dhs",
