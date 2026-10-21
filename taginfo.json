@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20260921T150000Z",
+  "data_updated": "20261021T130000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -163,7 +163,15 @@
     },
     {
       "key": "contact:foursquare",
+      "description": "https://business.foursquare.com/places/$1"
+    },
+    {
+      "key": "contact:foursquare",
       "description": "https://foursquare.com/mapaction?id=$1&action=view"
+    },
+    {
+      "key": "contact:foursquare",
+      "description": "https://foursquare.com/placemakers/review-place/$1"
     },
     {
       "key": "contact:foursquare",
@@ -376,18 +384,6 @@
     {
       "key": "contact:website",
       "description": "$1"
-    },
-    {
-      "key": "contact:website",
-      "description": "$1"
-    },
-    {
-      "key": "contact:website",
-      "description": "https://web.archive.org/web/*/$1/"
-    },
-    {
-      "key": "contact:website",
-      "description": "https://webcache.googleusercontent.com/search?q=cache:$1"
     },
     {
       "key": "contact:wechat",
@@ -890,6 +886,10 @@
       "description": "https://www.radarbox.com/data/airports/$1"
     },
     {
+      "key": "image",
+      "description": "https://commons.wikimedia.org/wiki/$1"
+    },
+    {
       "key": "imagery_used",
       "description": "https://osmlab.github.io/editor-layer-index/#$1"
     },
@@ -1184,6 +1184,10 @@
     {
       "key": "panoramax:2",
       "description": "https://api.panoramax.xyz/#focus=pic&pic=$1"
+    },
+    {
+      "key": "panoramax:annotation",
+      "description": "https://explore.panoramax.fr/?annot=$1"
     },
     {
       "key": "panoramax:view",
@@ -1502,6 +1506,10 @@
       "description": "https://www.findagrave.com/memorial/$1"
     },
     {
+      "key": "ref:foursquare",
+      "description": "https://business.foursquare.com/places/$1"
+    },
+    {
       "key": "ref:FR:Allocine",
       "description": "https://www.allocine.fr/seance/salle_gen_csalle=$1.html"
     },
@@ -1544,10 +1552,6 @@
     {
       "key": "ref:FR:MemorialGenWeb",
       "description": "https://www.memorialgenweb.org/monument/$1"
-    },
-    {
-      "key": "ref:FR:MemorialGenWeb",
-      "description": "https://www.memorialgenweb.org/memorial3/html/fr/resultcommune.php?idsource=$1"
     },
     {
       "key": "ref:FR:MemorialGenWeb",
@@ -2090,6 +2094,10 @@
       "description": "https://www.heritage.org.nz/list-details/$1/$1"
     },
     {
+      "key": "ref:ocm",
+      "description": "https://openchargemap.org/site/poi/details/$1"
+    },
+    {
       "key": "ref:OnroerendErfgoed",
       "description": "https://id.erfgoed.net/erfgoedobjecten/$1"
     },
@@ -2478,10 +2486,6 @@
       "description": "https://wikipedia.org/wiki/$1"
     },
     {
-      "key": "traffic_sign",
-      "description": "https://wiki.openstreetmap.org/wiki/Tag:traffic_sign%253D$1"
-    },
-    {
       "key": "tunnel:wikipedia",
       "description": "https://wiki.openstreetmap.org/wiki/Item:Q15509"
     },
@@ -2559,15 +2563,7 @@
     },
     {
       "key": "website",
-      "description": "$1"
-    },
-    {
-      "key": "website",
       "description": "https://web.archive.org/web/*/$1/"
-    },
-    {
-      "key": "website",
-      "description": "https://webcache.googleusercontent.com/search?q=cache:$1"
     },
     {
       "key": "website:catalogue",
