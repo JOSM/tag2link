@@ -1,6 +1,6 @@
 {
   "data_format": 1,
-  "data_updated": "20261021T130000Z",
+  "data_updated": "20261121T160000Z",
   "project": {
     "name": "tag2link",
     "description": "Formatter URLs for OpenStreetMap tags",
@@ -450,6 +450,10 @@
       "description": "https://www.statistikportal.de/en/gemeindeverzeichnis/$1"
     },
     {
+      "key": "delivery:partner:wikidata",
+      "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
       "key": "destination:ref:wikidata",
       "description": "https://www.wikidata.org/entity/$1"
     },
@@ -459,7 +463,7 @@
     },
     {
       "key": "destination:wikidata",
-      "description": "https://www.wikidata.org/wiki/$1"
+      "description": "https://www.wikidata.org/entity/$1"
     },
     {
       "key": "dhm_id",
@@ -1060,6 +1064,14 @@
     {
       "key": "nist:fips_code",
       "description": "https://www.census.gov/quickfacts/table/PST045215/$1,00"
+    },
+    {
+      "key": "not:brand:wikidata",
+      "description": "https://www.wikidata.org/entity/$1"
+    },
+    {
+      "key": "not:name:etymology:wikidata",
+      "description": "https://www.wikidata.org/entity/$1"
     },
     {
       "key": "not:school:CH-GE",
@@ -2070,6 +2082,10 @@
       "description": "https://op.europa.eu/en/web/eu-vocabularies/concept/-/resource?uri=http://data.europa.eu/nuts/code/$1"
     },
     {
+      "key": "ref:nuts:0",
+      "description": "https://op.europa.eu/en/web/eu-vocabularies/concept/-/resource?uri=http://data.europa.eu/nuts/code/$1"
+    },
+    {
       "key": "ref:nuts:1",
       "description": "https://op.europa.eu/en/web/eu-vocabularies/concept/-/resource?uri=http://data.europa.eu/nuts/code/$1"
     },
@@ -2095,7 +2111,11 @@
     },
     {
       "key": "ref:ocm",
-      "description": "https://openchargemap.org/site/poi/details/$1"
+      "description": "https://openchargemap.org/poi/details/$1"
+    },
+    {
+      "key": "ref:ocm",
+      "description": "https://map.openchargemap.io/?id=$1"
     },
     {
       "key": "ref:OnroerendErfgoed",
@@ -2194,8 +2214,40 @@
       "description": "https://supercharge.info/map?siteID=$1"
     },
     {
+      "key": "ref:swetrails",
+      "description": "https://swetrails.com/sv/route/$1"
+    },
+    {
+      "key": "ref:swetrails",
+      "description": "https://swetrails.com/en/route/$1"
+    },
+    {
+      "key": "ref:swetrails",
+      "description": "https://swetrails.com/sv/map/$1"
+    },
+    {
+      "key": "ref:swetrails",
+      "description": "https://swetrails.com/sv/poi/$1"
+    },
+    {
       "key": "ref:tesla",
       "description": "https://www.tesla.com/findus/location/supercharger/$1"
+    },
+    {
+      "key": "ref:tesla",
+      "description": "https://www.tesla.com/findus/location/bodyshop/$1"
+    },
+    {
+      "key": "ref:tesla",
+      "description": "https://www.tesla.com/findus/location/charger/$1"
+    },
+    {
+      "key": "ref:tesla",
+      "description": "https://www.tesla.com/findus/location/service/$1"
+    },
+    {
+      "key": "ref:tesla",
+      "description": "https://www.tesla.com/findus/location/store/$1"
     },
     {
       "key": "ref:UAI",

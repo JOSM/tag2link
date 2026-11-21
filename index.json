@@ -660,6 +660,12 @@
     "rank": "normal"
   },
   {
+    "key": "Key:delivery:partner:wikidata",
+    "url": "https://www.wikidata.org/entity/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
     "key": "Key:destination:ref:wikidata",
     "url": "https://www.wikidata.org/entity/$1",
     "source": "osmwiki:P8",
@@ -673,7 +679,7 @@
   },
   {
     "key": "Key:destination:wikidata",
-    "url": "https://www.wikidata.org/wiki/$1",
+    "url": "https://www.wikidata.org/entity/$1",
     "source": "osmwiki:P8",
     "rank": "normal"
   },
@@ -1575,6 +1581,18 @@
     "key": "Key:nist:fips_code",
     "url": "https://www.census.gov/quickfacts/table/PST045215/$1,00",
     "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:not:brand:wikidata",
+    "url": "https://www.wikidata.org/entity/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:not:name:etymology:wikidata",
+    "url": "https://www.wikidata.org/entity/$1",
+    "source": "osmwiki:P8",
     "rank": "normal"
   },
   {
@@ -3090,6 +3108,12 @@
     "rank": "normal"
   },
   {
+    "key": "Key:ref:nuts:0",
+    "url": "https://op.europa.eu/en/web/eu-vocabularies/concept/-/resource?uri=http://data.europa.eu/nuts/code/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
     "key": "Key:ref:nuts:1",
     "url": "https://op.europa.eu/en/web/eu-vocabularies/concept/-/resource?uri=http://data.europa.eu/nuts/code/$1",
     "source": "osmwiki:P8",
@@ -3127,7 +3151,13 @@
   },
   {
     "key": "Key:ref:ocm",
-    "url": "https://openchargemap.org/site/poi/details/$1",
+    "url": "https://openchargemap.org/poi/details/$1",
+    "source": "osmwiki:P8",
+    "rank": "preferred"
+  },
+  {
+    "key": "Key:ref:ocm",
+    "url": "https://map.openchargemap.io/?id=$1",
     "source": "osmwiki:P8",
     "rank": "normal"
   },
@@ -3276,8 +3306,56 @@
     "rank": "normal"
   },
   {
+    "key": "Key:ref:swetrails",
+    "url": "https://swetrails.com/sv/route/$1",
+    "source": "wikidata:P1630",
+    "rank": "preferred"
+  },
+  {
+    "key": "Key:ref:swetrails",
+    "url": "https://swetrails.com/en/route/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:swetrails",
+    "url": "https://swetrails.com/sv/map/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:swetrails",
+    "url": "https://swetrails.com/sv/poi/$1",
+    "source": "wikidata:P1630",
+    "rank": "normal"
+  },
+  {
     "key": "Key:ref:tesla",
     "url": "https://www.tesla.com/findus/location/supercharger/$1",
+    "source": "osmwiki:P8",
+    "rank": "preferred"
+  },
+  {
+    "key": "Key:ref:tesla",
+    "url": "https://www.tesla.com/findus/location/bodyshop/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:tesla",
+    "url": "https://www.tesla.com/findus/location/charger/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:tesla",
+    "url": "https://www.tesla.com/findus/location/service/$1",
+    "source": "osmwiki:P8",
+    "rank": "normal"
+  },
+  {
+    "key": "Key:ref:tesla",
+    "url": "https://www.tesla.com/findus/location/store/$1",
     "source": "osmwiki:P8",
     "rank": "normal"
   },
